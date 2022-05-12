@@ -12,3 +12,14 @@ Y88b  d88P 888    888  d8888888888   888   888   Y8888 Y88b  d88P
 # CHAINS
 
 Software research for hardening the software supply chain. Funded by the [Swedish Foundation for Strategic research (SSF)](https://strategiska.se/pressmeddelande/de-fick-bidragen-i-future-software-systems/)
+
+# Team
+
+- [Musard Baliu](https://people.kth.se/~musard/)
+- [Benoit Baudry](https://softwarediversity.eu/)
+- [Mathias Ekstedt](https://www.kth.se/profile/mekstedt/)
+- [Martin Monperrus](https://www.monperrus.net/martin/)
+- [César Soto-Valero](https://www.cesarsotovalero.net/)
+- [Liu Yuxin](https://www.kth.se/profile/yuxinli)
+
+You are a Master student who likes to work on hard software technology problem, as part of a vibrant scientific team, get in touch! We are recruiting PhD students and software engineers!
