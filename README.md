@@ -19,7 +19,10 @@ Software research for hardening the software supply chain. Funded by the [Swedis
 - [Benoit Baudry](https://softwarediversity.eu/)
 - [Mathias Ekstedt](https://www.kth.se/profile/mekstedt/)
 - [Martin Monperrus](https://www.monperrus.net/martin/)
+- [Javier Ron](https://www.kth.se/profile/javierro)
+- [Aman Sharma](https://www.kth.se/profile/amansha)
 - [César Soto-Valero](https://www.cesarsotovalero.net/)
 - [Liu Yuxin](https://www.kth.se/profile/yuxinli)
+- [Long Zhang](https://www.gluckzhang.com/)
 
 You are a Master student who likes to work on hard software technology problem, as part of a vibrant scientific team, get in touch! We are recruiting PhD students and software engineers!
