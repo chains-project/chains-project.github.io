@@ -13,6 +13,10 @@ Y88b  d88P 888    888  d8888888888   888   888   Y8888 Y88b  d88P
 
 Software research for hardening the software supply chain. Funded by the [Swedish Foundation for Strategic research (SSF)](https://strategiska.se/pressmeddelande/de-fick-bidragen-i-future-software-systems/)
 
+You like to work on hard software technology problems, as part of a vibrant scientific team? Get in touch! 
+
+We are recruiting PhD students and software engineers!
+
 # Team
 
 - [Musard Baliu](https://people.kth.se/~musard/)
@@ -25,4 +29,4 @@ Software research for hardening the software supply chain. Funded by the [Swedis
 - [Liu Yuxin](https://www.kth.se/profile/yuxinli)
 - [Long Zhang](https://www.gluckzhang.com/)
 
-You are a Master student who likes to work on hard software technology problem, as part of a vibrant scientific team, get in touch! We are recruiting PhD students and software engineers!
+
