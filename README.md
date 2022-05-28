@@ -9,7 +9,7 @@ Y88b  d88P 888    888  d8888888888   888   888   Y8888 Y88b  d88P
  "Y8888P"  888    888 d88P     888 8888888 888    Y888  "Y8888P"  
 ```
 
-# CHAINS
+# Consistent Hardening and Analysis of Software Supply Chains
 
 Software research for hardening the software supply chain. Funded by the [Swedish Foundation for Strategic research (SSF)](https://strategiska.se/pressmeddelande/de-fick-bidragen-i-future-software-systems/)
 
@@ -17,7 +17,7 @@ You like to work on hard software technology problems, as part of a vibrant scie
 
 We are recruiting PhD students and software engineers!
 
-# Team
+## Team
 
 - [Musard Baliu](https://people.kth.se/~musard/)
 - [Benoit Baudry](https://softwarediversity.eu/)
@@ -29,4 +29,6 @@ We are recruiting PhD students and software engineers!
 - [Liu Yuxin](https://www.kth.se/profile/yuxinli)
 - [Long Zhang](https://www.gluckzhang.com/)
 
+## Repositories
 
+- [Open science data of "The Multi-Billion Dollar Software Supply Chain of Ethereum", IEEE Computer, 2022](https://github.com/chains-project/ethereum-ssc)
