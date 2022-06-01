@@ -24,6 +24,7 @@ We are recruiting PhD students and software engineers!
 - [Mathias Ekstedt](https://www.kth.se/profile/mekstedt/)
 - [Martin Monperrus](https://www.monperrus.net/martin/)
 - [Javier Ron](https://www.kth.se/profile/javierro)
+- [Mikhail Shcherbakov](https://www.kth.se/profile/mshc)
 - [Aman Sharma](https://www.kth.se/profile/amansha)
 - [César Soto-Valero](https://www.cesarsotovalero.net/)
 - [Liu Yuxin](https://www.kth.se/profile/yuxinli)
