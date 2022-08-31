@@ -1,5 +1,7 @@
 # 1st Workshop on the Software Supply Chain @ KTH
 
+Location: KTH Royal Institute of Technology, [Fantum room, Lindstedtsvägen 24](https://www.kth.se/places/room/id/c9ec01ab-b536-4be6-b82a-0d52ddadb2e6)
+
 14.00 :: 15.15
 - [Rhys Arkins](https://www.linkedin.com/in/rhys-arkins-5a643a/), [Mend](https://www.mend.io/)
 - The Multibillion Dollar Software Supply Chain of Ethereum. [César Soto-Valero](https://www.cesarsotovalero.net/), [KTH](https://www.kth.se/)
