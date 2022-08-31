@@ -1,4 +1,4 @@
-# Kickoff
+# 1st Workshop on the Software Supply Chain @ KTH
 
 14.00 :: 15.15
 - [Rhys Arkins](https://www.linkedin.com/in/rhys-arkins-5a643a/), [Mend](https://www.mend.io/)
