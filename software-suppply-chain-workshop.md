@@ -11,4 +11,4 @@ Location: KTH Royal Institute of Technology, [Fantum room, Lindstedtsvägen 24](
 
 15.45 :: 17.00
 - [Tomas Gustavsson](https://www.linkedin.com/in/tgustavsson/), [Keyfactor](https://www.keyfactor.com/)
-- [Mikhail Shcherbakov](), [KTH](https://www.kth.se/)
+- [Mikhail Shcherbakov](https://www.kth.se/profile/mshc/), [KTH](https://www.kth.se/)
