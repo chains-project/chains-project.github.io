@@ -20,9 +20,9 @@ We are recruiting PhD students and software engineers!
 ## Team
 
 - [Musard Balliu](https://people.kth.se/~musard/)
-- [Benoit Baudry](https://softwarediversity.eu/)
+- [Benoit Baudry](https://softwarediversity.eu/) @baudry
 - [Mathias Ekstedt](https://www.kth.se/profile/mekstedt/)
-- [Martin Monperrus](https://www.monperrus.net/martin/)
+- [Martin Monperrus](https://www.monperrus.net/martin/) @monperrus
 - [Javier Ron](https://www.kth.se/profile/javierro)
 - [Aman Sharma](https://www.kth.se/profile/amansha)
 - [Mikhail Shcherbakov](https://www.kth.se/profile/mshc)
