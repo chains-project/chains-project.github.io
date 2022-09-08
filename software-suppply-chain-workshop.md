@@ -10,5 +10,5 @@ Location: KTH Royal Institute of Technology, [Fantum room, Lindstedtsvägen 24](
 - Break && Software Supply Chain conversations
 
 15.45 :: 17.00
-- [Tomas Gustavsson](https://www.linkedin.com/in/tgustavsson/), [Keyfactor](https://www.keyfactor.com/)
+- Code signing, the silver bullet of software supply chain security? [Tomas Gustavsson](https://www.linkedin.com/in/tgustavsson/), [Keyfactor](https://www.keyfactor.com/)
 - Gadgets in Node.js: How Prototype Pollution Leads to Remote Code Execution. [Mikhail Shcherbakov](https://www.kth.se/profile/mshc/), [KTH](https://www.kth.se/)
