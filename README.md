@@ -29,7 +29,7 @@ We are recruiting PhD students and software engineers!
 - [César Soto-Valero](https://www.cesarsotovalero.net/)
 - [Liu Yuxin](https://www.kth.se/profile/yuxinli)
 - [Long Zhang](https://www.gluckzhang.com/)
-- [Gabriel Skoglund](https://www.kth.se/profile/gabsko)
+- [Gabriel Skoglund](https://www.kth.se/profile/gabsko) @gabrielskoglund
 
 ## Repositories
 
