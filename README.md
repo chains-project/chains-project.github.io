@@ -17,6 +17,11 @@ You like to work on hard software technology problems, as part of a vibrant scie
 
 We are recruiting PhD students and software engineers!
 
+## Papers
+
+- ["The Multi-Billion Dollar Software Supply Chain of Ethereum", IEEE Computer, 2022](http://arxiv.org/pdf/2202.07029)
+- ["Silent Spring: Prototype Pollution Leads to Remote Code Execution in Node.js", Usenix Security 2023](https://arxiv.org/pdf/2207.11171)
+
 ## Team
 
 - [Musard Balliu](https://people.kth.se/~musard/)
