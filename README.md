@@ -39,5 +39,6 @@ We are recruiting PhD students and software engineers!
 
 ## Repositories
 
-- [Open science data of "The Multi-Billion Dollar Software Supply Chain of Ethereum", IEEE Computer, 2022](https://github.com/chains-project/ethereum-ssc)
-- [SerialDetector: A tool for detection and exploitation Object Injection Vulnerabilities, NDSS, 2021](https://github.com/yuske/SerialDetector)
+- [Analysis of the Software Supply Chain of Ethereum (Besu and Teku)](https://github.com/chains-project/ethereum-ssc)
+- [Bitcoin software supply chain](https://github.com/chains-project/btc-supply-chain)
+- [SerialDetector](https://github.com/yuske/SerialDetector)
