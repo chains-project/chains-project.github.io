@@ -30,6 +30,7 @@ We are recruiting PhD students and software engineers!
 - [Liu Yuxin](https://www.kth.se/profile/yuxinli)
 - [Long Zhang](https://www.gluckzhang.com/) @gluckzhang
 - [Gabriel Skoglund](https://www.kth.se/profile/gabsko) @gabrielskoglund
+- [Arvid Siberov](https://siberov.se) @siberov
 
 ## Repositories
 
