@@ -11,11 +11,26 @@ Y88b  d88P 888    888  d8888888888   888   888   Y8888 Y88b  d88P
 
 # Consistent Hardening and Analysis of Software Supply Chains
 
-Software research for hardening the software supply chain. Funded by the [Swedish Foundation for Strategic research (SSF)](https://strategiska.se/pressmeddelande/de-fick-bidragen-i-future-software-systems/)
+Software research for hardening the software supply chain. Funded by the [Swedish Foundation for Strategic research (SSF)](https://strategiska.se/pressmeddelande/de-fick-bidragen-i-future-software-systems/) We are recruiting PhD students and software engineers! You'd like to work on hard software technology problems, as part of a vibrant scientific team? Get in touch! 
 
-You like to work on hard software technology problems, as part of a vibrant scientific team? Get in touch! 
+```xml
+    <dependency>
+      <groupId>com.martiansoftware</groupId>
+      <artifactId>jsap</artifactId>
+      <version>2.1</version>
+    </dependency>
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-api</artifactId>
+      <version>1.7.36</version>
+    </dependency>
+      <dependency>
+      <groupId>commons-io</groupId>
+      <artifactId>commons-io</artifactId>
+      <version>2.11.0</version>
+    </dependency>
+```    
 
-We are recruiting PhD students and software engineers!
 
 ## Papers
 
