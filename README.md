@@ -57,3 +57,7 @@ Software research for hardening the software supply chain. Funded by the [Swedis
 - [Analysis of the Software Supply Chain of Ethereum (Besu and Teku)](https://github.com/chains-project/ethereum-ssc)
 - [Bitcoin software supply chain](https://github.com/chains-project/btc-supply-chain)
 - [SerialDetector](https://github.com/yuske/SerialDetector)
+
+## Events
+
+- [1st Workshop on the Software Supply Chain @ KTH](https://chains.proj.kth.se/software-suppply-chain-workshop)
