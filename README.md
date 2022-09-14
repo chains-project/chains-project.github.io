@@ -41,6 +41,7 @@ Software research for hardening the software supply chain. Funded by the [Swedis
 
 - [Musard Balliu](https://people.kth.se/~musard/)
 - [Benoit Baudry](https://softwarediversity.eu/) @baudry
+- [Sofia Bobadilla](https://www.kth.se/profile/sofbob?l=en) @Sofi1410 
 - [Mathias Ekstedt](https://www.kth.se/profile/mekstedt/)
 - [Martin Monperrus](https://www.monperrus.net/martin/) @monperrus
 - [Javier Ron](https://www.kth.se/profile/javierro)
@@ -51,6 +52,7 @@ Software research for hardening the software supply chain. Funded by the [Swedis
 - [Long Zhang](https://www.gluckzhang.com/) @gluckzhang
 - [Gabriel Skoglund](https://www.kth.se/profile/gabsko) @gabrielskoglund
 - [Arvid Siberov](https://siberov.se) @siberov
+- [Linus Östlund](https://www.kth.se/profile/linusost/)
 
 ## Repositories
 
