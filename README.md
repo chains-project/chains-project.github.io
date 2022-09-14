@@ -44,7 +44,7 @@ Software research for hardening the software supply chain. Funded by the [Swedis
 - [Sofia Bobadilla](https://www.kth.se/profile/sofbob?l=en) @Sofi1410 
 - [Mathias Ekstedt](https://www.kth.se/profile/mekstedt/)
 - [Martin Monperrus](https://www.monperrus.net/martin/) @monperrus
-- [Javier Ron](https://www.kth.se/profile/javierro)
+- [Javier Ron](https://www.kth.se/profile/javierro) @javierron
 - [Aman Sharma](https://www.kth.se/profile/amansha)
 - [Mikhail Shcherbakov](https://www.kth.se/profile/mshc)
 - [César Soto-Valero](https://www.cesarsotovalero.net/)
