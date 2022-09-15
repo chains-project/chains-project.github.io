@@ -12,7 +12,7 @@ Location: KTH Royal Institute of Technology, [Fantum room, Lindstedtsvägen 24](
 - 12.00 :: 13.30 lunch @ [syster o bror](https://www.wired.com/story/biggest-hacker-rickroll-high-school-prank/)
 - 14.00 :: 17.00 [1st Workshop on the Software Supply Chain @ KTH](https://chains.proj.kth.se/software-suppply-chain-workshop)
 
-
+<span style="color:white">some *white* text</span>
 
 
 ```
