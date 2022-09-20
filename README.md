@@ -63,3 +63,7 @@ Software research for hardening the software supply chain. Funded by the [Swedis
 ## Events
 
 - [1st Workshop on the Software Supply Chain @ KTH](https://chains.proj.kth.se/software-suppply-chain-workshop)
+
+## Invited talks
+
+- Sep 20 2022: Open-source security analysis @SAP, Henrik Plate, Serena Elisa Ponta
