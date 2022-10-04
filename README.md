@@ -34,7 +34,7 @@ Software research for hardening the software supply chain. Funded by the [Swedis
 
 ## Papers
 
-- ["The Multi-Billion Dollar Software Supply Chain of Ethereum", IEEE Computer, 2022](http://arxiv.org/pdf/2202.07029)
+- ["The Multibillion Dollar Software Supply Chain of Ethereum", IEEE Computer, 2022](http://arxiv.org/pdf/2202.07029)
 - ["Silent Spring: Prototype Pollution Leads to Remote Code Execution in Node.js", Usenix Security 2023](https://arxiv.org/pdf/2207.11171)
 
 ## Team
@@ -63,4 +63,4 @@ Software research for hardening the software supply chain. Funded by the [Swedis
 ## Events
 
 - Sep 30 2022: [1st Workshop on the Software Supply Chain @ KTH](https://chains.proj.kth.se/software-suppply-chain-workshop)
-- Sep 20 2022: [Open-source security analysis @SAP](https://www.meetup.com/fr-FR/kth-software-research-meetup/events/288225155/), [Henrik Plate](https://www.linkedin.com/in/henrikplate/), [Serena Elisa Ponta](https://scholar.google.it/citations?user=DFVwF6sAAAAJ&hl=en)
+- Sep 20 2022: [Open-source security analysis @SAP](https://www.meetup.com/fr-FR/kth-software-research-meetup/events/288225155/). Speakers: [Henrik Plate](https://www.linkedin.com/in/henrikplate/), [Serena Elisa Ponta](https://scholar.google.it/citations?user=DFVwF6sAAAAJ&hl=en)
