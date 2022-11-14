@@ -60,6 +60,9 @@ Software research for hardening the software supply chain. Funded by the [Swedis
 - [Bitcoin software supply chain](https://github.com/chains-project/btc-supply-chain)
 - [SerialDetector](https://github.com/yuske/SerialDetector)
 
+## Blog
+- [NixCon 2022 summary](nixcon-2022.md)
+
 ## Events
 
 - Dec 08 2022: [Software bloat in PyPI](https://www.meetup.com/kth-software-research-meetup/events/288920697/). Speaker: [Georgios Drosos](https://www.linkedin.com/in/georgios-petros-drosos-498063173/) (Athens University of Economics and Business)
