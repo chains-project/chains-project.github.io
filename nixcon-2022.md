@@ -26,7 +26,20 @@ Nix is not a one-trick pony. Besides being a package manager, it has a
 Linux-based operating system called NixOS built on top of it. Nix also comes
 with its own programming language, the Nix expression language. It is a far cry
 from declarative configuration languages such as YAML. To my novice eyes, it
-appears to be a mix of ML and JSON. The high complexity of the Nix ecosystem can
+appears to be a mix of ML and JSON.
+
+As an example, the following snippet will create a Python 3.9 environment with
+the packages `numpy` and `pandas` installed:
+
+```nix
+{ pkgs ? import <nixpkgs> {} }:
+pkgs.python3.withPackages (ps: with ps; [ numpy pandas ])
+```
+
+To run it, save it in a file called `shell.nix` and run `nix-shell`. This will
+start a shell session with the requisite packages installed.
+
+The high complexity of the Nix ecosystem can
 make getting into Nix a daunting task. But Nix is growing, rapidly. As Eelco
 Dolstra explained in his inaugural talk, half of the stars on Nix’s Github has
 been accrued in the past year. For a nearly two decades old project, that is
@@ -102,6 +115,14 @@ seen [here](https://github.com/tomberek/slsa-demo). (Check out the Makefile to
 see how different Nix commands can be used to fulfil SLSA requirements.)
 
 But Nix is no panacea. There are many moving parts in every software supply chain, and package management forms only a part of it. Nix brings a lot of good ideas to the table, and I like the confidence of the community, but I am not sure that it is the silver bullet that some claim it to be. I am looking forward to seeing how the Nix community will continue to grow and mature.
+
+## Key takeaways
+
+- Nix is old, but it is suddenly growing rapidly.
+- Nix enables reproducibility of software and its runtime environment.
+- Nix provides hashes of all dependencies, which can be used to verify the integrity of a build.
+- Nix is not a one-trick pony. It is a package manager, a Linux distribution, and a programming language.
+- The Nix community is convinced that Nix will take over the world, but the onboarding experience must improve before it becomes mainstream.
 
 
 -- Arvid Siberov
