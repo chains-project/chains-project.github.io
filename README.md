@@ -24,7 +24,7 @@ Software research for hardening the software supply chain. Funded by the [Swedis
       <artifactId>slf4j-api</artifactId>
       <version>1.7.36</version>
     </dependency>
-      <dependency>
+    <dependency>
       <groupId>commons-io</groupId>
       <artifactId>commons-io</artifactId>
       <version>2.11.0</version>
