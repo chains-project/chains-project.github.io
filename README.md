@@ -24,7 +24,7 @@ Software research for hardening the software supply chain. Funded by the [Swedis
       <artifactId>slf4j-api</artifactId>
       <version>1.7.36</version>
     </dependency>
-      <dependency>
+    <dependency>
       <groupId>commons-io</groupId>
       <artifactId>commons-io</artifactId>
       <version>2.11.0</version>
@@ -59,6 +59,9 @@ Software research for hardening the software supply chain. Funded by the [Swedis
 - [Analysis of the Software Supply Chain of Ethereum (Besu and Teku)](https://github.com/chains-project/ethereum-ssc)
 - [Bitcoin software supply chain](https://github.com/chains-project/btc-supply-chain)
 - [SerialDetector](https://github.com/yuske/SerialDetector)
+
+## Blog
+- [NixCon 2022 summary](nixcon-2022.md)
 
 ## Events
 
