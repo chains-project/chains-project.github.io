@@ -15,6 +15,10 @@ Authors: Martin Monperrus \& the [CHAINS team](https://chains.proj.kth.se/)
 
 The NPM account of DyDx was compromised: <https://www.mend.io/resources/blog/popular-cryptocurrency-exchange-dydx-has-had-its-npm-account-hacked/>
 
+## Sushiswap attack
+
+"On Friday, September 17 2021, Miso suffered a supply chain exploit, whereupon the fund wallet address was fixed"
+<https://blog.sonatype.com/3-million-cryptocurrency-heist-malicious-github-commit?hsLang=en-us>
 
 ## Onus attack through Log4J
 
