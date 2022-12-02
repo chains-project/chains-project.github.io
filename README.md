@@ -37,6 +37,10 @@ Software research for hardening the software supply chain. Funded by the [Swedis
 - ["The Multibillion Dollar Software Supply Chain of Ethereum", IEEE Computer, 2022](http://arxiv.org/pdf/2202.07029)
 - ["Silent Spring: Prototype Pollution Leads to Remote Code Execution in Node.js", Usenix Security 2023](https://arxiv.org/pdf/2207.11171)
 
+## Posts
+- [Software supply chain attacks on crypto infrastructure](software-supply-chain-attacks-crypto.md)
+- [NixCon 2022 summary](nixcon-2022.md)
+
 ## Team
 
 - [Musard Balliu](https://people.kth.se/~musard/)
@@ -60,8 +64,6 @@ Software research for hardening the software supply chain. Funded by the [Swedis
 - [Bitcoin software supply chain](https://github.com/chains-project/btc-supply-chain)
 - [SerialDetector](https://github.com/yuske/SerialDetector)
 
-## Blog
-- [NixCon 2022 summary](nixcon-2022.md)
 
 ## Events
 
