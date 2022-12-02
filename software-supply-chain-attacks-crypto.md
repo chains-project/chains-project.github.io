@@ -41,7 +41,7 @@ The NPM account of DyDx was compromised: <https://www.mend.io/resources/blog/pop
 
 Typosquatting to monitor the clipboard for crypto addresses.
 
-A malicious package that was slipped into Pypi. "Called “Colourama,” the package looked similar to Colorama, which is one of the top-20 most-downloaded legitimate modules in the Python repository. The doppelgänger Colourama package contained most of the legitimate functions of the legitimate module, with one significant difference: Colourama added code that, when run on Windows servers, installed a Visual Basic script to constantly monitors the server’s clipboard for signs a user is about to make a cryptocurrency payment."
+"A malicious package was slipped into Pypi. "Called “Colourama,” the package looked similar to Colorama, which is one of the top-20 most-downloaded legitimate modules in the Python repository. The doppelgänger Colourama package contained most of the legitimate functions of the legitimate module, with one significant difference: Colourama added code that, when run on Windows servers, installed a Visual Basic script to constantly monitors the server’s clipboard for signs a user is about to make a cryptocurrency payment."
 <https://arstechnica.com/information-technology/2018/10/two-new-supply-chain-attacks-come-to-light-in-less-than-a-week/>
 
 ## Copay attack through event-streamm
