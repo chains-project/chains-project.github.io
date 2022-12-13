@@ -44,10 +44,14 @@ Typosquatting to monitor the clipboard for crypto addresses.
 "A malicious package was slipped into Pypi. "Called “Colourama,” the package looked similar to Colorama, which is one of the top-20 most-downloaded legitimate modules in the Python repository. The doppelgänger Colourama package contained most of the legitimate functions of the legitimate module, with one significant difference: Colourama added code that, when run on Windows servers, installed a Visual Basic script to constantly monitors the server’s clipboard for signs a user is about to make a cryptocurrency payment."
 <https://arstechnica.com/information-technology/2018/10/two-new-supply-chain-attacks-come-to-light-in-less-than-a-week/>
 
-## Copay attack through event-streamm
+## Copay attack through event-stream
 
 "The flatmap-stream library was modified to leak private keys (basically, cryptowallet passwords) from applications relying both on event-stream and copay-dash libraries."
 [A bad link in the cryptochain](https://www.kaspersky.com/blog/copay-supply-chain-attack/24786/)
 [Widely used open source software contained bitcoin-stealing backdoor](https://arstechnica.com/information-technology/2018/11/hacker-backdoors-widely-used-open-source-software-to-steal-bitcoin/)
 
 
+## Hardware wallets
+
+"If you buy a hardware wallet, you are trusting a number of actors that were involved in producing it - the company that designed the wallet, the factory that produced it, and everyone involved in shipping it who could have replaced it with a fake. Hardware wallets are potentially a magnet for such attacks: the ratio of funds stolen to number of devices compromised is very high."
+Vitalik Buterin, <https://vitalik.ca/general/2021/01/11/recovery.html>
