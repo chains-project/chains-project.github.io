@@ -11,6 +11,14 @@ Authors: Martin Monperrus \& the [CHAINS team](https://chains.proj.kth.se/)
 
 (Work in progress)
 
+### Attack via Maintainer change
+
+`event-stream` npm package by Dominic Tarr was compromised because of a maintainer change.
+Dominic Tarr stopped maintaing the repository long before the attack. The bad actor reached out
+to the developer in 2018 to help him out. However, he added **malicious code to steal bitcoins**
+from application and then released the malicious `event-stream` on npm. See
+https://github.com/dominictarr/event-stream/issues/116 for more details.
+
 ### DyDx attack through NPM
 
 The NPM account of DyDx was compromised: <https://www.mend.io/resources/blog/popular-cryptocurrency-exchange-dydx-has-had-its-npm-account-hacked/>
