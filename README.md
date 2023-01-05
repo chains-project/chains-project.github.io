@@ -70,6 +70,10 @@ Software research for hardening the software supply chain. Funded by the [Swedis
 - Sep 30 2022: [1st Workshop on the Software Supply Chain @ KTH](https://chains.proj.kth.se/software-suppply-chain-workshop)
 - Sep 20 2022: [Open-source security analysis @SAP](https://www.meetup.com/fr-FR/kth-software-research-meetup/events/288225155/). Speakers: [Henrik Plate](https://www.linkedin.com/in/henrikplate/) (SAP), [Serena Elisa Ponta](https://scholar.google.it/citations?user=DFVwF6sAAAAJ&hl=en) (SAP)
 
+## Press
+
+- June 17 2022: [Framtidens Forskning](https://framtidensforskning.se/2022/06/17/forsorjningskedjan-for-programvaror-avgorande-for-sakerheten/) (In Swedish)
+
 ## Master's theses
 
 See <https://www.kth.se/profile/musard/page/master-thesis-in-security-and-privacy?l=en>, <https://softwarediversity.eu/topics/>, <https://www.monperrus.net/martin/topics>.
