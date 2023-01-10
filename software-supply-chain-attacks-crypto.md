@@ -35,8 +35,9 @@ The NPM account of DyDx was compromised: <https://www.mend.io/resources/blog/pop
 ## Cryptomining attack (compromised docker images)
 
 "The Sysdig Threat Research Team (TRT) ... surfaced more than 1,600 malicious Docker images containing cryptominers, backdoors, and other nasty malware disguised as legitimate popular software."
-<https://www.darkreading.com/attacks-breaches/container-supply-chain-attacks-cashing-in-on-cryptojacking>
-[Detecting cryptomining attacks “in the wild”](https://sysdig.com/blog/detecting-cryptomining-attacks-in-the-wild/)
+
+* [Container Supply Chain Attacks Cash In on Cryptojacking](https://www.darkreading.com/attacks-breaches/container-supply-chain-attacks-cashing-in-on-cryptojacking)
+* [Detecting cryptomining attacks “in the wild”](https://sysdig.com/blog/detecting-cryptomining-attacks-in-the-wild/)
 
 ## Ledger NaNoX
 
