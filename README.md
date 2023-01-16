@@ -44,19 +44,20 @@ Software research for hardening the software supply chain. Funded by the [Swedis
 ## Team
 
 - [Musard Balliu](https://people.kth.se/~musard/)
-- [Benoit Baudry](https://softwarediversity.eu/) @baudry
-- [Sofia Bobadilla](https://www.kth.se/profile/sofbob?l=en) @Sofi1410 
+- [Benoit Baudry](https://softwarediversity.eu/) 
+- [Sofia Bobadilla](https://www.kth.se/profile/sofbob?l=en) 
 - [Mathias Ekstedt](https://www.kth.se/profile/mekstedt/)
-- [Martin Monperrus](https://www.monperrus.net/martin/) @monperrus
-- [Javier Ron](https://www.kth.se/profile/javierro) @javierron
-- [Aman Sharma](https://www.kth.se/profile/amansha) @algomaster99
+- [Martin Monperrus](https://www.monperrus.net/martin/)
+- [Javier Ron](https://www.kth.se/profile/javierro) 
+- [Aman Sharma](https://www.kth.se/profile/amansha) 
 - [Mikhail Shcherbakov](https://www.kth.se/profile/mshc)
 - [César Soto-Valero](https://www.cesarsotovalero.net/)
 - [Liu Yuxin](https://www.kth.se/profile/yuxinli)
-- [Long Zhang](https://www.gluckzhang.com/) @gluckzhang
-- [Gabriel Skoglund](https://www.kth.se/profile/gabsko) @gabrielskoglund
-- [Arvid Siberov](https://siberov.se) @siberov
+- [Long Zhang](https://www.gluckzhang.com/) 
+- [Gabriel Skoglund](https://www.kth.se/profile/gabsko) 
+- [Arvid Siberov](https://siberov.se)
 - [Linus Östlund](https://www.kth.se/profile/linusost/)
+- [Martin Wittlinger](https://github.com/MartinWitt/)
 
 ## Repositories
 
