@@ -1,4 +1,4 @@
-# Software supply chain attacks on crypto infrastructure
+# Software supply chain attacks on crypto
 
 In this article, we discus attacks on cryptocurrency and digital asset infrastructures.
 We focus on software supply chain attacks.
@@ -63,3 +63,11 @@ End-user transaction attack through Pypi typosquatting by monitoring the clipboa
 
 "If you buy a hardware wallet, you are trusting a number of actors that were involved in producing it - the company that designed the wallet, the factory that produced it, and everyone involved in shipping it who could have replaced it with a fake. Hardware wallets are potentially a magnet for such attacks: the ratio of funds stolen to number of devices compromised is very high."
 Vitalik Buterin, <https://vitalik.ca/general/2021/01/11/recovery.html>
+
+## Crypto Wallet Address Replacement Attacks
+"At around 17:49 UTC on 9 February 2023, Phylum’s automated risk detection platform began alerting us to a long series of suspicious publications which appear to be a revived attempt to deliver the same crypto wallet clipboard replacing malware. This time, however, the attacker changed the obfuscation technique and radically increased the volume of attacks."
+<https://blog.phylum.io/phylum-discovers-revived-crypto-wallet-address-replacement-attack>
+
+
+
+
