@@ -32,10 +32,11 @@ Software research for hardening the software supply chain. Funded by the [Swedis
 ```    
 
 
-## Papers
+## Papers and Theses
 
-- ["The Multibillion Dollar Software Supply Chain of Ethereum", IEEE Computer, 2022](http://arxiv.org/pdf/2202.07029)
-- ["Silent Spring: Prototype Pollution Leads to Remote Code Execution in Node.js", Usenix Security 2023](https://arxiv.org/pdf/2207.11171)
+- [Diverse Double-Compiling to Harden Cryptocurrency Software](http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-323901), Master's thesis Niklas Rosencrantz, 2023
+- [The Multibillion Dollar Software Supply Chain of Ethereum](http://arxiv.org/pdf/2202.07029), IEEE Computer, 2022
+- [Silent Spring: Prototype Pollution Leads to Remote Code Execution in Node.js](https://arxiv.org/pdf/2207.11171), Usenix Security 2023
 
 ## Posts
 - [Software supply chain attacks on crypto infrastructure](software-supply-chain-attacks-crypto.md)
@@ -78,7 +79,7 @@ Software research for hardening the software supply chain. Funded by the [Swedis
 
 - June 17 2022: [Framtidens Forskning](https://framtidensforskning.se/2022/06/17/forsorjningskedjan-for-programvaror-avgorande-for-sakerheten/) (In Swedish)
 
-## Master's theses
+## Master / Internship topics
 
 * <https://www.kth.se/profile/musard/page/master-thesis-in-security-and-privacy?l=en>
 * <https://softwarediversity.eu/topics/>
