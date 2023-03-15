@@ -69,7 +69,7 @@ Software research for hardening the software supply chain, incl. reproducible, b
 
 ## Events & Talks
 
-- Mar 08 2023: [SBOM for Alpine Linux](). Speaker: [Hans Thorsen Lamm](https://www.linkedin.com/in/hans-thorsen-b76411244/?originalSubdomain=se).
+- Mar 08 2023: [SBOM for Alpine Linux](https://www.meetup.com/fr-FR/kth-software-research-meetup/events/291758976/). Speaker: [Hans Thorsen Lamm](https://www.linkedin.com/in/hans-thorsen-b76411244/?originalSubdomain=se).
 - Jan 19 2023: [Talk: The software supply chain of crypto](https://www.meetup.com/decentralized-camp/events/290035869/) Decentralization meetup Stockholm, Speaker: Martin Monperrus
 - Dec 08 2022: [Software bloat in PyPI](https://www.meetup.com/kth-software-research-meetup/events/288920697/). Speaker: [Georgios Drosos](https://www.linkedin.com/in/georgios-petros-drosos-498063173/) (Athens University of Economics and Business)
 - Nov 15 2022: [Building Robust Software Supply Chains](https://docs.google.com/presentation/d/1CvrbdWn4qndZE1x6-VManWwL5mZXdJGZ-N0n6PPOXvU/edit#slide=id.g18d8483ced4_2_54) at [STEW'22](https://www.swedsoft.se/2022/08/29/program-biljettslapp-stew-2022/). Speaker: Benoit Baudry
