@@ -4,7 +4,7 @@ Location: KTH Royal Institute of Technology,
 
 April 21, 2023
 
-Keynot speakers
+Keynote speakers
 
 - [Christian Collberg](http://collberg.cs.arizona.edu/)
 - [Stefano Zacchiroli](https://upsilon.cc/~zack/)
