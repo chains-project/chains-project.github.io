@@ -61,12 +61,6 @@ Software research for hardening the software supply chain, incl. reproducible, b
 - [Martin Wittlinger](https://github.com/MartinWitt/)
 - [Frank Reyes](https://www.kth.se/profile/frankrg/?l=en)
 
-## Repositories
-
-- [Analysis of the Software Supply Chain of Ethereum (Besu and Teku)](https://github.com/chains-project/ethereum-ssc)
-- [Bitcoin software supply chain](https://github.com/chains-project/btc-supply-chain)
-- [SerialDetector](https://github.com/yuske/SerialDetector)
-
 ## Events & Talks
 
 - Mar 08 2023: [SBOM for Alpine Linux](https://www.meetup.com/fr-FR/kth-software-research-meetup/events/291758976/). Speaker: [Hans Thorsen Lamm](https://www.linkedin.com/in/hans-thorsen-b76411244/?originalSubdomain=se).
@@ -80,6 +74,10 @@ Software research for hardening the software supply chain, incl. reproducible, b
 ## Press
 
 - June 17 2022: [Framtidens Forskning](https://framtidensforskning.se/2022/06/17/forsorjningskedjan-for-programvaror-avgorande-for-sakerheten/) (In Swedish)
+
+## Repositories
+
+See [https://github.com/chains-project/](https://github.com/orgs/chains-project/repositories?type=source)
 
 ## Master / Internship topics
 
