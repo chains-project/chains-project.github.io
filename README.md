@@ -67,7 +67,7 @@ Software research for hardening the software supply chain, incl. reproducible, b
 - Jan 19 2023: [Talk: The software supply chain of crypto](https://www.meetup.com/decentralized-camp/events/290035869/) Decentralization meetup Stockholm, Speaker: Martin Monperrus
 - Dec 08 2022: [Software bloat in PyPI](https://www.meetup.com/kth-software-research-meetup/events/288920697/). Speaker: [Georgios Drosos](https://www.linkedin.com/in/georgios-petros-drosos-498063173/) (Athens University of Economics and Business)
 - Nov 15 2022: [Building Robust Software Supply Chains](https://docs.google.com/presentation/d/1CvrbdWn4qndZE1x6-VManWwL5mZXdJGZ-N0n6PPOXvU/edit#slide=id.g18d8483ced4_2_54) at [STEW'22](https://www.swedsoft.se/2022/08/29/program-biljettslapp-stew-2022/). Speaker: Benoit Baudry
-- Sep 30 2022: [1st Workshop on the Software Supply Chain @ KTH](https://chains.proj.kth.se/software-suppply-chain-workshop)
+- Sep 30 2022: [1st Workshop on the Software Supply Chain @ KTH](https://chains.proj.kth.se/software-suppply-chain-workshop-1)
 - Sep 20 2022: [Open-source security analysis @SAP](https://www.meetup.com/fr-FR/kth-software-research-meetup/events/288225155/). Speakers: [Henrik Plate](https://www.linkedin.com/in/henrikplate/) (SAP), [Serena Elisa Ponta](https://scholar.google.it/citations?user=DFVwF6sAAAAJ&hl=en) (SAP)
 - Jun 14 2022: [Building Robust Software Supply Chains](https://www.dropbox.com/s/lkf6v6k3fngpke2/software-supply-chain-baudry-xp2022.pdf?dl=0) at [XP'22](https://www.agilealliance.org/xp2022/). Speaker: Benoit Baudry
 
