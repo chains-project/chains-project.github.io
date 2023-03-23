@@ -23,6 +23,6 @@ Program:
 - Lunch
 - Invited talk: [Stefano Zacchiroli](https://upsilon.cc/~zack/) 45+15
 - Fika
-- Industry TBA
+- Mark Strande (Klarna), TBA 25+5
 - M Monperrus - Software Supply Chain of Crypto (KTH) 25+5
     
