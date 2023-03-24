@@ -5,7 +5,7 @@ Welcome to the 2nd KTH Workshop on the Software Supply Chain. This workshop is o
 
 Location: KTH Royal Institute of Technology, room to be announced  
 Date: April 21, 2023  
-Registration form: XXXXXX
+Registration is free and compulsory: [Registration form](https://www.kth.se/form/641b0b4cba29878959f79037)
 
 ## Keynote speakers
 
@@ -69,8 +69,8 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
     <td class="tg-c3ow tg-span-column" colspan="2">Fika</td>
   </tr>
   <tr>
-    <td class="tg-c3ow">Industry TBA</td>
-    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow">Talk by Mark Strande (Klarna)</td>
+    <td class="tg-c3ow">25 + 5</td>
   </tr>
   <tr>
     <td class="tg-c3ow">
