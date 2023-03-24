@@ -5,7 +5,7 @@ Welcome to the 2nd KTH Workshop on the Software Supply Chain. This workshop is o
 
 Location: KTH Royal Institute of Technology, room to be announced  
 Date: April 21, 2023  
-Registration form: XXXXXX
+Registration is free and compulsory: [Registration form](https://www.kth.se/form/641b0b4cba29878959f79037)
 
 Keynote speakers
 
