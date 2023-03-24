@@ -25,7 +25,7 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
 
 <br>
 
-## Program:
+## Program
 
 <table class="tg">
 <thead>
