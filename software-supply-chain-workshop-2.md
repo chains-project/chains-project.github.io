@@ -31,55 +31,62 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
 <table class="tg">
 <thead>
   <tr>
+    <th class="tg-c3ow">Time</th>
     <th class="tg-c3ow">Event</th>
-    <th class="tg-c3ow">Time/Duration</th>
   </tr>
 </thead>
 <tbody>
   <tr>
-    <td class="tg-c3ow">Introduction</td>
     <td class="tg-c3ow">0900</td>
+    <td class="tg-c3ow">Introduction</td>
   </tr>
   <tr>
+    <td class="tg-c3ow">0930</td>
     <td class="tg-c3ow">Keynote by <a href="http://collberg.cs.arizona.edu/">Christian Collberg</a></td>
-    <td class="tg-c3ow">45 + 15</td>
   </tr>
   <tr>
-    <td class="tg-c3ow tg-span-column" colspan="2">Break</td>
+    <td class="tg-c3ow">1030</td>
+    <td class="tg-c3ow">Break</td>
   </tr>
   <tr>
+    <td class="tg-c3ow">1100</td>
     <td class="tg-c3ow">Talk by <a href="https://www.linkedin.com/in/matsolajonsson/">Mats Jonnson</a> (SEB)</td>
-    <td class="tg-c3ow">25 + 5</td>
   </tr>
   <tr>
+    <td class="tg-c3ow">1130</td>
     <td class="tg-c3ow">
       Talk by <a href="https://www.kth.se/profile/amansha">Aman Sharma</a> et al (KTH)
         <br>
         <a href="https://arxiv.org/abs/2303.1110">Challenges of Producing Software Bill Of Materials for Java</a>
     </td>
-    <td class="tg-c3ow">25 + 5</td>
   </tr>
   <tr>
-    <td class="tg-c3ow tg-span-column" colspan="2">Lunch</td>
+    <td class="tg-c3ow">1200</td>
+    <td class="tg-c3ow">Lunch</td>
   </tr>
   <tr>
+    <td class="tg-c3ow">1400</td>
     <td class="tg-c3ow">Keynote by <a href="https://upsilon.cc/~zack/">Stefano Zacchiroli</a></td>
-    <td class="tg-c3ow">45 + 15</td>
   </tr>
   <tr>
-    <td class="tg-c3ow tg-span-column" colspan="2">Fika</td>
+    <td class="tg-c3ow">1500</td>
+    <td class="tg-c3ow">Fika</td>
   </tr>
   <tr>
+    <td class="tg-c3ow">1530</td>
     <td class="tg-c3ow">Talk by <a href="https://www.linkedin.com/in/markstrande/">Mark Strande</a> (Klarna)</td>
-    <td class="tg-c3ow">25 + 5</td>
   </tr>
   <tr>
+    <td class="tg-c3ow">1600</td>
     <td class="tg-c3ow">
       Talk by <a href="https://www.monperrus.net/martin/">Martin Monperrus</a>  (KTH)
         <br />
         The Software Supply Chain of Crypto
     </td>
-    <td class="tg-c3ow">25 + 5</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">1630</td>
+    <td class="tg-c3ow">Closing</td>
   </tr>
 </tbody>
 </table>
