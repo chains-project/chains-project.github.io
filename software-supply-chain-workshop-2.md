@@ -8,62 +8,6 @@ Welcome to the 2nd KTH Workshop on the Software Supply Chain. This workshop is o
 * Time: 9h-17h  
 * Registration is free and compulsory for sake of lunch/fika planning: [Registration form](https://www.kth.se/form/641b0b4cba29878959f79037)
 
-## Keynote speakers
-
-### [Stefano Zacchiroli](https://upsilon.cc/~zack/)
-
-<img src="workshop_2_assets/stefano_zacchiroli.jpg" alt="stefano zacchiroli" width=100px />
-
-**Building Blocks for a Safe(r) Open Source Software Supply Chain:Reproducible Builds and Software Heritage**
-
-<ins>Abstract</ins>
-
-Securing the software supply chain, in particular when it comes to its
-free/open source software (FOSS) components, is all the rage now.
-Applied researchers, industry consortia, and practitioners alike are
-trying out a variety of approaches looking for the ones that will
-stick. In this talk we will review two building blocks for a safe(r)
-FOSS supply chain that are seeing significant adoption.
-
-On the one hand Reproducible Builds [\[1\]](https://reproducible-builds.org/) enables
-downstream users of FOSS products, whose source code they trust, to establish trust in
-binary versions of the same products built by untrusted 3rd parties.
-On the other hand Software Heritage [\[2\]](https://www.softwareheritage.org/) has
-assembled the largest public archive of software source code a version control system
-information, providing traceability at the scale of public source code
-with strong integrity guarantees.
-
-[1] [https://reproducible-builds.org/](https://reproducible-builds.org/)
-
-[2] [https://www.softwareheritage.org/](https://www.softwareheritage.org/)
-
-<ins>Speaker Bio</ins>
-
-Stefano Zacchiroli is full professor of computer science at Télécom
-Paris, Polytechnic Institute of Paris. His current research interests
-span digital commons, open source software engineering, computer
-security, and the software supply chain. He is co-founder and CTO of
-Software Heritage, the largest public archive of software source code.
-He is a Debian developer since 2001, where he served as Debian project
-leader from 2010 to 2013, and a member of the Reproducible Builds
-steering committee. He is a former board director of the Open Source
-Initiative (OSI) and recipient of the 2015 O’Reilly Open Source Award.
-
-### [Christian Collberg](http://collberg.cs.arizona.edu/)
-
-<img src="workshop_2_assets/christian_collberg.jpg" alt="christian collberg" width=100px />
-
-**TBA**
-
-<ins>Abstract</ins>
-
-TBA
-
-<ins>Speaker Bio</ins>
-
-TBA
-
-
 ## Program
 
 <table class="tg">
@@ -128,3 +72,58 @@ TBA
   </tr>
 </tbody>
 </table>
+
+## Keynote speakers
+
+### [Stefano Zacchiroli](https://upsilon.cc/~zack/)
+
+<img src="workshop_2_assets/stefano_zacchiroli.jpg" alt="stefano zacchiroli" width=100px />
+
+**Building Blocks for a Safe(r) Open Source Software Supply Chain:Reproducible Builds and Software Heritage**
+
+<ins>Abstract</ins>
+
+Securing the software supply chain, in particular when it comes to its
+free/open source software (FOSS) components, is all the rage now.
+Applied researchers, industry consortia, and practitioners alike are
+trying out a variety of approaches looking for the ones that will
+stick. In this talk we will review two building blocks for a safe(r)
+FOSS supply chain that are seeing significant adoption.
+
+On the one hand Reproducible Builds [\[1\]](https://reproducible-builds.org/) enables
+downstream users of FOSS products, whose source code they trust, to establish trust in
+binary versions of the same products built by untrusted 3rd parties.
+On the other hand Software Heritage [\[2\]](https://www.softwareheritage.org/) has
+assembled the largest public archive of software source code a version control system
+information, providing traceability at the scale of public source code
+with strong integrity guarantees.
+
+[1] [https://reproducible-builds.org/](https://reproducible-builds.org/)
+
+[2] [https://www.softwareheritage.org/](https://www.softwareheritage.org/)
+
+<ins>Speaker Bio</ins>
+
+Stefano Zacchiroli is full professor of computer science at Télécom
+Paris, Polytechnic Institute of Paris. His current research interests
+span digital commons, open source software engineering, computer
+security, and the software supply chain. He is co-founder and CTO of
+Software Heritage, the largest public archive of software source code.
+He is a Debian developer since 2001, where he served as Debian project
+leader from 2010 to 2013, and a member of the Reproducible Builds
+steering committee. He is a former board director of the Open Source
+Initiative (OSI) and recipient of the 2015 O’Reilly Open Source Award.
+
+### [Christian Collberg](http://collberg.cs.arizona.edu/)
+
+<img src="workshop_2_assets/christian_collberg.jpg" alt="christian collberg" width=100px />
+
+**TBA**
+
+<ins>Abstract</ins>
+
+TBA
+
+<ins>Speaker Bio</ins>
+
+TBA
