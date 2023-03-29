@@ -33,9 +33,9 @@ assembled the largest public archive of software source code a version control s
 information, providing traceability at the scale of public source code
 with strong integrity guarantees.
 
-[1] https://reproducible-builds.org/
+[1] [https://reproducible-builds.org/](https://reproducible-builds.org/)
 
-[2] https://www.softwareheritage.org/
+[2] [https://www.softwareheritage.org/](https://www.softwareheritage.org/)
 
 <ins>Speaker Bio</ins>
 
@@ -63,7 +63,6 @@ TBA
 
 TBA
 
-<br>
 
 ## Program
 
