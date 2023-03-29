@@ -1,11 +1,12 @@
 # 2nd KTH Workshop on the Software Supply Chain
 
-Welcome to the 2nd KTH Workshop on the Software Supply Chain. This workshop is organized in the context of the [CHAINS](https://chains.proj.kth.se/) project.
+Welcome to the 2nd KTH Workshop on the Software Supply Chain. This workshop is organized in the context of the [CHAINS](https://chains.proj.kth.se/) research project.
 
 
-Location: KTH Royal Institute of Technology, room to be announced  
-Date: April 21, 2023  
-Registration is free and compulsory: [Registration form](https://www.kth.se/form/641b0b4cba29878959f79037)
+* Location: KTH Royal Institute of Technology, room to be announced  
+* Date: April 21, 2023  
+* Time: 9h-17h  
+* Registration is free and compulsory for sake of lunch/fika planning: [Registration form](https://www.kth.se/form/641b0b4cba29878959f79037)
 
 ## Keynote speakers
 
@@ -52,7 +53,7 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
   </tr>
   <tr>
     <td class="tg-c3ow">
-      Talk by <a href="https://www.kth.se/profile/amansha">Aman Sharma</a> et al
+      Talk by <a href="https://www.kth.se/profile/amansha">Aman Sharma</a> et al (KTH)
         <br>
         <a href="https://arxiv.org/abs/2303.1110">Challenges of Producing Software Bill Of Materials for Java</a>
     </td>
@@ -74,7 +75,7 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
   </tr>
   <tr>
     <td class="tg-c3ow">
-      Talk by <a href="https://www.monperrus.net/martin/">Martin Monperrus</a>
+      Talk by <a href="https://www.monperrus.net/martin/">Martin Monperrus</a>  (KTH)
         <br />
         The Software Supply Chain of Crypto
     </td>
