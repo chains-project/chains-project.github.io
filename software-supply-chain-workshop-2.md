@@ -3,7 +3,7 @@
 Welcome to the 2nd KTH Workshop on the Software Supply Chain. This workshop is organized in the context of the [CHAINS](https://chains.proj.kth.se/) research project.
 
 
-* Location: KTH Royal Institute of Technology, room to be announced  
+* Location: [Gradängsalen](https://www.kth.se/places/room/id/ce5c438b-b36a-44dd-ad70-4dd01f6ffde5), KTH Royal Institute of Technology (Main campus)
 * Date: April 21, 2023  
 * Time: 9h-17h  
 * Registration is free and compulsory for sake of lunch/fika planning: [Registration form](https://www.kth.se/form/641b0b4cba29878959f79037)
