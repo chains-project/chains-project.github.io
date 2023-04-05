@@ -40,7 +40,7 @@ Software research for hardening the software supply chain, incl. reproducible, b
 
 ## Posts
 - [Software supply chain attacks on crypto infrastructure](software-supply-chain-attacks-crypto.md)
-- [NixCon 2022 summary](nixcon-2022.md)
+- [NIX and the supply chain, debrief of NixCon 2022](nixcon-2022.md)
 
 ## Team
 
