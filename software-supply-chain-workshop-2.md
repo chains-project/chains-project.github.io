@@ -122,8 +122,8 @@ Initiative (OSI) and recipient of the 2015 O’Reilly Open Source Award.
 
 <ins>Abstract</ins>
 
-TBA
+In this talk, we will discuss supply chain attacks that occur at two particular points of the chain. First, we will consider attacks by compromised build tools (i.e. perpetrated by the tool author), and second, attacks that occur at the end of the chain, i.e perpetrated by application end-users. We will then consider Software Protection algorithms that can mitigate such attacks, including diversification, watermarking, tamperproofing, and obfuscation. Finally, we will discuss the design and use of the Tigress software protection tool.
 
 <ins>Speaker Bio</ins>
 
-TBA
+Christian Collberg is a Professor and Interim Head of Department in the Department of Computer Science at the University of Arizona. His main research interest is computer security, in particular the so-called Man-At-The-End Attack which occurs in settings where an adversary has physical access to a device and compromises it by tampering with its hardware or software. He received his PhD from Lund University, Sweden, and, prior to moving to Arizona, taught for 5 years at the University of Auckland, New Zealand. He is the author of the first comprehensive textbook on software protection, "Surreptitious Software: Obfuscation, Watermarking, and Tamperproofing for Software Protection" and the premier open software protection tool, "Tigress" (https://tigress.wtf).
