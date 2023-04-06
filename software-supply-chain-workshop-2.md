@@ -118,7 +118,7 @@ Initiative (OSI) and recipient of the 2015 O’Reilly Open Source Award.
 
 <img src="workshop_2_assets/christian_collberg.jpg" alt="christian collberg" width=100px />
 
-**TBA**
+**End User Supply Chain Attacks and Defenses**
 
 <ins>Abstract</ins>
 
@@ -126,4 +126,4 @@ In this talk, we will discuss supply chain attacks that occur at two particular 
 
 <ins>Speaker Bio</ins>
 
-Christian Collberg is a Professor and Interim Head of Department in the Department of Computer Science at the University of Arizona. His main research interest is computer security, in particular the so-called Man-At-The-End Attack which occurs in settings where an adversary has physical access to a device and compromises it by tampering with its hardware or software. He received his PhD from Lund University, Sweden, and, prior to moving to Arizona, taught for 5 years at the University of Auckland, New Zealand. He is the author of the first comprehensive textbook on software protection, "Surreptitious Software: Obfuscation, Watermarking, and Tamperproofing for Software Protection" and the premier open software protection tool, "Tigress" (https://tigress.wtf).
+Christian Collberg is a Professor and Interim Head of Department in the Department of Computer Science at the University of Arizona. His main research interest is computer security, in particular the so-called Man-At-The-End Attack which occurs in settings where an adversary has physical access to a device and compromises it by tampering with its hardware or software. He received his PhD from Lund University, Sweden, and, prior to moving to Arizona, taught for 5 years at the University of Auckland, New Zealand. He is the author of the first comprehensive textbook on software protection, "Surreptitious Software: Obfuscation, Watermarking, and Tamperproofing for Software Protection" and the premier open software protection tool, "Tigress" ([https://tigress.wtf](https://tigress.wtf)).
