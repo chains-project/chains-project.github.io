@@ -64,6 +64,7 @@ Software research for hardening the software supply chain, incl. reproducible, b
 ## Events & Talks
 
 - Apr 21 2023: [2nd Workshop on the Software Supply Chain @ KTH](https://chains.proj.kth.se/software-supply-chain-workshop-2). Keynote Speakers: [Christian Collberg](http://collberg.cs.arizona.edu/), [Stefano Zacchiroli](https://upsilon.cc/~zack/)
+- Apr 18 2023: [Highly Available Blockchain Nodes With N-Version Design](https://www.meetup.com/kth-software-research-meetup/events/292824632/). Speaker: Javier Ron
 - Mar 08 2023: [SBOM for Alpine Linux](https://www.meetup.com/fr-FR/kth-software-research-meetup/events/291758976/). Speaker: [Hans Thorsen Lamm](https://www.linkedin.com/in/hans-thorsen-b76411244/?originalSubdomain=se).
 - Jan 19 2023: [Talk: The software supply chain of crypto](https://www.meetup.com/decentralized-camp/events/290035869/) Decentralization meetup Stockholm, Speaker: Martin Monperrus
 - Dec 08 2022: [Software bloat in PyPI](https://www.meetup.com/kth-software-research-meetup/events/288920697/). Speaker: [Georgios Drosos](https://www.linkedin.com/in/georgios-petros-drosos-498063173/) (Athens University of Economics and Business)
