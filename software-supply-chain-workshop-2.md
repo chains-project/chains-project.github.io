@@ -6,7 +6,7 @@ Welcome to the 2nd KTH Workshop on the Software Supply Chain. This workshop is o
 * Location: [U51, Brinellvägen 26](https://www.kth.se/places/room/id/d7857e8e-4729-481f-8aba-9f2c167d1937?l=en), KTH Royal Institute of Technology (Main campus)
 * Date: April 21, 2023  
 * Time: 9h-17h  
-* Registration is free and compulsory for sake of lunch/fika planning: [Registration form](https://www.kth.se/form/641b0b4cba29878959f79037)
+* Registration is free and compulsory for sake of lunch/fika planning: [Registration form](https://www.kth.se/form/641b0b4cba29878959f79037) (CLOSED)
 
 ## Program
 
@@ -32,7 +32,7 @@ Welcome to the 2nd KTH Workshop on the Software Supply Chain. This workshop is o
   </tr>
   <tr>
     <td class="tg-c3ow">1100</td>
-    <td class="tg-c3ow">Talk by <a href="https://www.linkedin.com/in/matsolajonsson/">Mats Jonnson</a> (SEB)</td>
+    <td class="tg-c3ow">Talk by <a href="https://www.linkedin.com/in/matsolajonsson/">Mats Jonsson</a> (SEB)</td>
   </tr>
   <tr>
     <td class="tg-c3ow">1130</td>
