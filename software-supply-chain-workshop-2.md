@@ -56,15 +56,15 @@ Welcome to the 2nd KTH Workshop on the Software Supply Chain. This workshop is o
   </tr>
   <tr>
     <td class="tg-c3ow">1530</td>
-    <td class="tg-c3ow">Talk by <a href="https://www.linkedin.com/in/markstrande/">Mark Strande</a> (Klarna)</td>
-  </tr>
-  <tr>
-    <td class="tg-c3ow">1600</td>
     <td class="tg-c3ow">
       Talk by <a href="https://www.monperrus.net/martin/">Martin Monperrus</a>  (KTH)
         <br />
         The Software Supply Chain of Crypto
     </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">1600</td>
+    <td class="tg-c3ow">Talk by <a href="https://www.linkedin.com/in/markstrande/">Mark Strande</a> (Klarna)</td>
   </tr>
   <tr>
     <td class="tg-c3ow">1630</td>
