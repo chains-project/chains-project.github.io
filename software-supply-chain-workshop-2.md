@@ -24,7 +24,7 @@ Welcome to the 2nd KTH Workshop on the Software Supply Chain. This workshop is o
   </tr>
   <tr>
     <td class="tg-c3ow">0930</td>
-    <td class="tg-c3ow">Keynote by <a href="http://collberg.cs.arizona.edu/">Christian Collberg</a></td>
+    <td class="tg-c3ow">Keynote "End User Supply Chain Attacks and Defenses", by <a href="http://collberg.cs.arizona.edu/">Christian Collberg</a></td>
   </tr>
   <tr>
     <td class="tg-c3ow">1030</td>
@@ -32,14 +32,13 @@ Welcome to the 2nd KTH Workshop on the Software Supply Chain. This workshop is o
   </tr>
   <tr>
     <td class="tg-c3ow">1100</td>
-    <td class="tg-c3ow">Talk by <a href="https://www.linkedin.com/in/matsolajonsson/">Mats Jonsson</a> (SEB)</td>
+    <td class="tg-c3ow">"A (slightly) Wider View on Software Supply", <a href="https://www.linkedin.com/in/matsolajonsson/">Mats Jonsson</a> (SEB)</td>
   </tr>
   <tr>
     <td class="tg-c3ow">1130</td>
     <td class="tg-c3ow">
-      Talk by <a href="https://www.kth.se/profile/amansha">Aman Sharma</a> et al (KTH)
+        "<a href="https://arxiv.org/abs/2303.11102">Challenges of Producing Software Bill Of Materials for Java</a>" by <a href="https://www.kth.se/profile/amansha">Aman Sharma</a>, Martin Wittlinger, et al (KTH)
         <br>
-        <a href="https://arxiv.org/abs/2303.11102">Challenges of Producing Software Bill Of Materials for Java</a>
     </td>
   </tr>
   <tr>
@@ -48,7 +47,7 @@ Welcome to the 2nd KTH Workshop on the Software Supply Chain. This workshop is o
   </tr>
   <tr>
     <td class="tg-c3ow">1400</td>
-    <td class="tg-c3ow">Keynote by <a href="https://upsilon.cc/~zack/">Stefano Zacchiroli</a></td>
+    <td class="tg-c3ow">Keynote "Building Blocks for a Safe(r) Open Source Software Supply Chain: Reproducible Builds and Software Heritage", by <a href="https://upsilon.cc/~zack/">Stefano Zacchiroli</a></td>
   </tr>
   <tr>
     <td class="tg-c3ow">1500</td>
@@ -57,9 +56,9 @@ Welcome to the 2nd KTH Workshop on the Software Supply Chain. This workshop is o
   <tr>
     <td class="tg-c3ow">1530</td>
     <td class="tg-c3ow">
-      Talk by <a href="https://www.monperrus.net/martin/">Martin Monperrus</a>  (KTH)
+      "<a href="https://chains.proj.kth.se/software-supply-chain-attacks-crypto.html">The Software Supply Chain of Crypto</a>" by <a href="https://www.monperrus.net/martin/">Martin Monperrus</a>  (KTH)
         <br />
-        The Software Supply Chain of Crypto
+        
     </td>
   </tr>
   <tr>
