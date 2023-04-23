@@ -39,6 +39,7 @@ Software research for hardening the software supply chain, incl. reproducible, b
 - [Silent Spring: Prototype Pollution Leads to Remote Code Execution in Node.js](https://arxiv.org/pdf/2207.11171), Usenix Security 2023
 
 ## Posts
+- [Software supply chain art](software-supply-chain-art.md)
 - [Software supply chain attacks on crypto infrastructure](software-supply-chain-attacks-crypto.md)
 - [NIX and the supply chain, debrief of NixCon 2022](nixcon-2022.md)
 
