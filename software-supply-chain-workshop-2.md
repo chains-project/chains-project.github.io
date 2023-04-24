@@ -38,6 +38,7 @@ Welcome to the 2nd KTH Workshop on the Software Supply Chain. This workshop is o
     <td class="tg-c3ow">1130</td>
     <td class="tg-c3ow">
         "<a href="https://arxiv.org/abs/2303.11102">Challenges of Producing Software Bill Of Materials for Java</a>" by <a href="https://www.kth.se/profile/amansha">Aman Sharma</a>, Martin Wittlinger, et al (KTH)
+        (<a href="https://docs.google.com/presentation/d/1AyadF95Xdbz3mU7IWbAwGm0pgUtXe6j_Bc3Lo_kCeFc/edit?usp=sharing">slides</a>)
         <br>
     </td>
   </tr>
