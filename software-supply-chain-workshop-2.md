@@ -24,7 +24,7 @@ Welcome to the 2nd KTH Workshop on the Software Supply Chain. This workshop is o
   </tr>
   <tr>
     <td class="tg-c3ow">0930</td>
-    <td class="tg-c3ow">Keynote "End User Supply Chain Attacks and Defenses", by <a href="http://collberg.cs.arizona.edu/">Christian Collberg</a></td>
+    <td class="tg-c3ow">Keynote "End User Supply Chain Attacks and Defenses", by <a href="http://collberg.cs.arizona.edu/">Christian Collberg</a></td>(<a href="https://drive.google.com/file/d/1uH5YhnhbwfEoLEGZBHjsHrhxv_ixwqXK/view?usp=drive_web">slides</a>)
   </tr>
   <tr>
     <td class="tg-c3ow">1030</td>
@@ -47,7 +47,7 @@ Welcome to the 2nd KTH Workshop on the Software Supply Chain. This workshop is o
   </tr>
   <tr>
     <td class="tg-c3ow">1400</td>
-    <td class="tg-c3ow">Keynote "Building Blocks for a Safe(r) Open Source Software Supply Chain: Reproducible Builds and Software Heritage", by <a href="https://upsilon.cc/~zack/">Stefano Zacchiroli</a></td> (<a href="[https://www.kth.se/profile/amansha](https://upsilon.cc/~zack/talks/2023/2023-04-21-kth-chains.pdf)">slides</a>)
+    <td class="tg-c3ow">Keynote "Building Blocks for a Safe(r) Open Source Software Supply Chain: Reproducible Builds and Software Heritage", by <a href="https://upsilon.cc/~zack/">Stefano Zacchiroli</a></td> (<a href="https://upsilon.cc/~zack/talks/2023/2023-04-21-kth-chains.pdf">slides</a>)
   </tr>
   <tr>
     <td class="tg-c3ow">1500</td>
