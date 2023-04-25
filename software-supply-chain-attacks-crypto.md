@@ -10,7 +10,6 @@ Ref URL: <https://chains.proj.kth.se/software-supply-chain-attacks-crypto.html>
 
 ## Attacks
 
-
 ### event-stream attack (Maintainer change), 2018
 
 `event-stream` npm package by Dominic Tarr was compromised because of a maintainer change.
@@ -74,6 +73,7 @@ The hackers compromised a Windows installer and targeted a few, very specific co
 "If you buy a hardware wallet, you are trusting a number of actors that were involved in producing it - the company that designed the wallet, the factory that produced it, and everyone involved in shipping it who could have replaced it with a fake. Hardware wallets are potentially a magnet for such attacks: the ratio of funds stolen to number of devices compromised is very high."
 Vitalik Buterin, <https://vitalik.ca/general/2021/01/11/recovery.html>
 
+Shiftcrypto's BitBox02 mitigation:  [How we mitigate supply chain attacks](https://shiftcrypto.ch/blog/supply-chain-attacks/)
 
 
 
