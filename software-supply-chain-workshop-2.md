@@ -1,5 +1,7 @@
 # 2nd KTH Workshop on the Software Supply Chain
 
+<img src="workshop_2_assets/event.jpeg" alt="workshop cover image" width="500px"/>
+
 Welcome to the 2nd KTH Workshop on the Software Supply Chain. This workshop is organized in the context of the [CHAINS](https://chains.proj.kth.se/) research project.
 
 
