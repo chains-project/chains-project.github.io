@@ -28,7 +28,7 @@ Welcome to the 2nd KTH Workshop on the Software Supply Chain. This workshop is o
   </tr>
   <tr>
     <td class="tg-c3ow">0930</td>
-    <td class="tg-c3ow">Keynote "End User Supply Chain Attacks and Defenses", by <a href="http://collberg.cs.arizona.edu/">Christian Collberg</a> (<a href="https://drive.google.com/file/d/1uH5YhnhbwfEoLEGZBHjsHrhxv_ixwqXK/view?usp=drive_web">slides</a>)</td>
+    <td class="tg-c3ow">Keynote "End User Supply Chain Attacks and Defenses", by <a href="http://collberg.cs.arizona.edu/">Christian Collberg</a> (<a href="https://github.com/chains-project/chains-project.github.io/blob/main/workshop_2_assets/CHAINS-collberg.pdf">slides</a>)</td>
   </tr>
   <tr>
     <td class="tg-c3ow">1030</td>
