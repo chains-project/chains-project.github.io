@@ -57,7 +57,7 @@ Welcome to the 2nd KTH Workshop on the Software Supply Chain. This workshop is o
   <tr>
     <td class="tg-c3ow">1530</td>
     <td class="tg-c3ow">
-      "<a href="https://chains.proj.kth.se/software-supply-chain-attacks-crypto.html">The Software Supply Chain of Crypto</a>" by <a href="https://www.monperrus.net/martin/">Martin Monperrus</a>  (KTH)
+      "<a href="https://www.monperrus.net/martin/slides-supply-chain-crypto.pdf">The Software Supply Chain of Crypto and Decentralization</a>" by <a href="https://www.monperrus.net/martin/">Martin Monperrus</a>  (KTH)
         <br />
         
     </td>
