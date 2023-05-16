@@ -61,6 +61,7 @@ Software research for hardening the software supply chain, incl. reproducible, b
 - [Linus Östlund](https://www.kth.se/profile/linusost/)
 - [Martin Wittlinger](https://github.com/MartinWitt/)
 - [Frank Reyes](https://www.kth.se/profile/frankrg/?l=en)
+- [Yogya Gamage](https://www.kth.se/profile/yogya/?l=en)
 
 ## Events & Talks
 
