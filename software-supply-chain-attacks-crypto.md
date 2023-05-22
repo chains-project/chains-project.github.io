@@ -75,5 +75,7 @@ Vitalik Buterin, <https://vitalik.ca/general/2021/01/11/recovery.html>
 
 Shiftcrypto's BitBox02 mitigation:  [How we mitigate supply chain attacks](https://shiftcrypto.ch/blog/supply-chain-attacks/)
 
+Real hardware supply chain attack on Trezor wallets (2022): <https://www.kaspersky.com/blog/fake-trezor-hardware-crypto-wallet/48155/>
 
 
+[Edit this page](https://github.com/chains-project/chains-project.github.io/edit/main/software-supply-chain-attacks-crypto.md)
