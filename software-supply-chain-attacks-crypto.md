@@ -70,12 +70,14 @@ The hackers compromised a Windows installer and targeted a few, very specific co
 
 ### Hardware wallet attacks
 
-"If you buy a hardware wallet, you are trusting a number of actors that were involved in producing it - the company that designed the wallet, the factory that produced it, and everyone involved in shipping it who could have replaced it with a fake. Hardware wallets are potentially a magnet for such attacks: the ratio of funds stolen to number of devices compromised is very high."
-Vitalik Buterin, <https://vitalik.ca/general/2021/01/11/recovery.html>
+* Tamper with the device:
+  * who: an employee at the company that designed the wallet, the factory that produced it, and everyone involved in shipping it Ref! <https://vitalik.ca/general/2021/01/11/recovery.html>
+  * Real hardware supply chain attack on Trezor wallets (2022): <https://www.kaspersky.com/blog/fake-trezor-hardware-crypto-wallet/48155/>
 
-Shiftcrypto's BitBox02 mitigation:  [How we mitigate supply chain attacks](https://shiftcrypto.ch/blog/supply-chain-attacks/)
+* Mitigations:
+  * "To mitigate fake devices and evil-maid attacks, we sign a public key generated on the secure chip of each device during the factory setup using our own private key. The BitBoxApp verifies the challenge is signed by a certified attestation key When you connect the BitBox02 to the host device, the BitBoxApp automatically checks that it is connected to an authentic device produced and programmed by Shift Crypto with a challenge-response mechanism. The BitBoxApp sends the BitBox02 a challenge (random number) that needs to be signed by the attestation key on the device."  [How we mitigate supply chain attacks](https://shiftcrypto.ch/blog/supply-chain-attacks/)
+  * Use old hardware you already have at home, such as a GameBoy, see <https://blockworks.co/news/gameboy-cold-wallet>
 
-Real hardware supply chain attack on Trezor wallets (2022): <https://www.kaspersky.com/blog/fake-trezor-hardware-crypto-wallet/48155/>
 
 
 [Edit this page](https://github.com/chains-project/chains-project.github.io/edit/main/software-supply-chain-attacks-crypto.md)
