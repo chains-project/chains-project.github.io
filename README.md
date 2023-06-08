@@ -64,8 +64,8 @@ Software research for hardening the software supply chain, incl. reproducible, b
 - [Yogya Gamage](https://www.kth.se/profile/yogya/?l=en)
 
 ## Events & Talks
-- June 5 2023: Keynote "The Software Supply Chain" at the [French Conference for Software Research](https://gdrgpl2023.sciencesconf.org/program/graphic/date/2023-06-05). Speaker: Benoit Baudry
-- May 25 2023: Keynote [The Software Implications of the Software Supply Chain](https://youtu.be/EsUGeWnGZfg) at the [CDIS Spring Conference](https://www.kth.se/cdis/events/conferences). Speaker: Benoit Baudry
+- June 5 2023: "The Software Supply Chain". Keynote  at the [French Conference for Software Research](https://gdrgpl2023.sciencesconf.org/resource/page/id/4). Speaker: Benoit Baudry
+- May 25 2023: [The Security Implications of the Software Supply Chain](https://youtu.be/EsUGeWnGZfg). Keynote at the [CDIS Spring Conference](https://www.kth.se/cdis/events/conferences). Speaker: Benoit Baudry
 - Apr 21 2023: [2nd Workshop on the Software Supply Chain @ KTH](https://chains.proj.kth.se/software-supply-chain-workshop-2). Keynote Speakers: [Christian Collberg](http://collberg.cs.arizona.edu/), [Stefano Zacchiroli](https://upsilon.cc/~zack/)
 - Apr 18 2023: [Highly Available Blockchain Nodes With N-Version Design](https://www.meetup.com/kth-software-research-meetup/events/292824632/). Speaker: Javier Ron
 - Mar 08 2023: [SBOM for Alpine Linux](https://www.meetup.com/fr-FR/kth-software-research-meetup/events/291758976/). Speaker: [Hans Thorsen Lamm](https://www.linkedin.com/in/hans-thorsen-b76411244/?originalSubdomain=se).
