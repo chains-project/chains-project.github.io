@@ -64,6 +64,14 @@ The hackers compromised a Windows installer and targeted a few, very specific co
 * [The Massive 3CX Supply-Chain Hack Targeted Cryptocurrency Firms (Wired)](https://www.wired.com/story/3cx-supply-chain-attack-north-korea-cryptocurrency-targets/)
 * [Not just an infostealer: Gopuram backdoor deployed through 3CX supply chain attack (Kaspersky)](https://securelist.com/gopuram-backdoor-deployed-through-3cx-supply-chain-attack/109344/)
  
+### Minecraft mods attack (package manager compromised), June 2023
+
+"Participants posting in the forum said the malware used in the attack, dubbed Fracturiser, runs on Windows and Linux systems. It’s delivered in stages that are initiated by Stage 0, which begins once someone runs one of the infected mods. Each stage downloads files from a command-and-control server and then calls for the next stage. Stage 3, believed to be the final stage in the sequence, creates folders and scripts, makes changes to the system registry, and goes on to perform the following:
+Propagate itself to all JAR (Java archive) files on the filesystem, Steal cookies and login information for multiple Web browsers, Replace cryptocurrency addresses in the clipboard with alternate ones, Steal Discord credentials, Steal Microsoft and Minecraft credentials"
+
+Reference: [Dozens of popular Minecraft mods found infected with Fracturiser malware (arstechnica.com)](https://arstechnica.com/information-technology/2023/06/dozens-of-popular-minecraft-mods-found-infected-with-fracturiser-malware/)
+
+
 ## Discussion
 
 ### Hardware wallet attacks
