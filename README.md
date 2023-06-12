@@ -32,13 +32,14 @@ Software research for hardening the software supply chain, incl. reproducible, b
 ```    
 
 
-## Papers and Theses
+## Papers (in progress)
+
 - [Challenges of Producing Software Bill Of Materials for Java](https://arxiv.org/abs/2303.11102), arXiv March 2023
 - [Diverse Double-Compiling to Harden Cryptocurrency Software](http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-323901), Master's thesis Niklas Rosencrantz, 2023
 - [The Multibillion Dollar Software Supply Chain of Ethereum](http://arxiv.org/pdf/2202.07029), IEEE Computer, 2022
 - [Silent Spring: Prototype Pollution Leads to Remote Code Execution in Node.js](https://arxiv.org/pdf/2207.11171), Usenix Security 2023
 
-## Posts
+Posts:
 - [Software supply chain art](software-supply-chain-art.md)
 - [Software supply chain attacks on crypto infrastructure](software-supply-chain-attacks-crypto.md)
 - [NIX and the supply chain, debrief of NixCon 2022](nixcon-2022.md)
