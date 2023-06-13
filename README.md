@@ -43,7 +43,7 @@ Posts:
 - [Software supply chain art](software-supply-chain-art.md)
 - [Software supply chain attacks on crypto infrastructure](software-supply-chain-attacks-crypto.md)
 - [NIX and the supply chain, debrief of NixCon 2022](nixcon-2022.md)
-- [SBOMs for you GitHub Releases](sbom-github.md)
+- [SBOMs for your GitHub Releases](sbom-github.md)
 
 ## Team
 
