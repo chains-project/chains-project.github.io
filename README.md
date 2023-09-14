@@ -65,6 +65,7 @@ Posts:
 - [Martin Wittlinger](https://github.com/MartinWitt/)
 - [Frank Reyes](https://www.kth.se/profile/frankrg/?l=en)
 - [Yogya Gamage](https://www.kth.se/profile/yogya/?l=en)
+- [Yekatierina Churakova](https://www.kth.se/profile/yekchu?l=en)
 
 ## Events & Talks
 - June 5 2023: "The Software Supply Chain". Keynote  at the [French Conference for Software Research](https://gdrgpl2023.sciencesconf.org/resource/page/id/4). Speaker: Benoit Baudry
