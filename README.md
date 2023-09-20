@@ -32,13 +32,16 @@ Software research for hardening the software supply chain, incl. reproducible, b
 ```    
 
 
-## Papers (in progress)
+## Papers & Theses
 
-- [Challenges of Producing Software Bill Of Materials for Java](https://arxiv.org/abs/2303.11102), arXiv March 2023
+(chronological order)
+
 - [Diverse Double-Compiling to Harden Cryptocurrency Software](http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-323901), Master's thesis Niklas Rosencrantz, 2023
 - [The Multibillion Dollar Software Supply Chain of Ethereum](http://arxiv.org/pdf/2202.07029), IEEE Computer, 2022
 - [Silent Spring: Prototype Pollution Leads to Remote Code Execution in Node.js](https://arxiv.org/pdf/2207.11171), Usenix Security 2023
+- [Challenges of Producing Software Bill Of Materials for Java](https://arxiv.org/abs/2303.11102), IEEE Security & Privacy, 2023
 - [Highly Available Blockchain Nodes With N-Version Design](https://arxiv.org/abs/2303.14438), arXiv March 2023
+- [GitBark: A Rule-Based Framework for Maintaining Integrity in Source Code Repositories](), Master's thesis Elias Bonnici, 2023
 
 Posts:
 - [Software supply chain art](software-supply-chain-art.md)
