@@ -71,6 +71,7 @@ Posts:
 - [Yekatierina Churakova](https://www.kth.se/profile/yekchu?l=en)
 
 ## Events & Talks
+- October 2023: A Runtime Integrity Tool for Java Dependencies. Poster at [SecDev 2023](https://secdev.ieee.org/2023/accepted-posters/)
 - August 18 2023: The Software Supply Chain and its Security Implications. Invited speaker at [CTF Midnight sun](https://conf.midnightsunctf.com/speakers/benoit-bauldry)
 - June 5 2023: "The Software Supply Chain". Keynote  at the [French Conference for Software Research](https://gdrgpl2023.sciencesconf.org/resource/page/id/4). Speaker: Benoit Baudry
 - May 25 2023: [The Security Implications of the Software Supply Chain](https://youtu.be/EsUGeWnGZfg). Keynote at the [CDIS Spring Conference](https://www.kth.se/cdis/events/conferences). Speaker: Benoit Baudry
