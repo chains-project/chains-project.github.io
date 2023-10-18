@@ -71,6 +71,7 @@ Posts:
 - [Yekatierina Churakova](https://www.kth.se/profile/yekchu?l=en)
 
 ## Events & Talks
+- August 18 2023: The Software Supply Chain and its Security Implications. Invited speaker at [CTF Midnight sun](https://conf.midnightsunctf.com/speakers/benoit-bauldry)
 - June 5 2023: "The Software Supply Chain". Keynote  at the [French Conference for Software Research](https://gdrgpl2023.sciencesconf.org/resource/page/id/4). Speaker: Benoit Baudry
 - May 25 2023: [The Security Implications of the Software Supply Chain](https://youtu.be/EsUGeWnGZfg). Keynote at the [CDIS Spring Conference](https://www.kth.se/cdis/events/conferences). Speaker: Benoit Baudry
 - Apr 21 2023: [2nd Workshop on the Software Supply Chain @ KTH](https://chains.proj.kth.se/software-supply-chain-workshop-2). Keynote Speakers: [Christian Collberg](http://collberg.cs.arizona.edu/), [Stefano Zacchiroli](https://upsilon.cc/~zack/)
