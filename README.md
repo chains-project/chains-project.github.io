@@ -53,7 +53,8 @@ Posts:
 
 - [Musard Balliu](https://people.kth.se/~musard/)
 - [Benoit Baudry](https://softwarediversity.eu/) 
-- [Sofia Bobadilla](https://www.kth.se/profile/sofbob?l=en) 
+- [Sofia Bobadilla](https://www.kth.se/profile/sofbob?l=en)
+- [Eric Cornelissen](https://ericcornelissen.dev/)
 - [Mathias Ekstedt](https://www.kth.se/profile/mekstedt/)
 - [Martin Monperrus](https://www.monperrus.net/martin/)
 - [Javier Ron](https://www.kth.se/profile/javierro) 
