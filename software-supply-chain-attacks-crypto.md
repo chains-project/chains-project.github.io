@@ -71,6 +71,12 @@ Propagate itself to all JAR (Java archive) files on the filesystem, Steal cookie
 
 Reference: [Dozens of popular Minecraft mods found infected with Fracturiser malware (arstechnica.com)](https://arstechnica.com/information-technology/2023/06/dozens-of-popular-minecraft-mods-found-infected-with-fracturiser-malware/)
 
+### Fake ledger attack, 2023
+
+Microsoft’s official App Store served up a Fake Ledger App on Microsoft App Store.
+
+Reference: <https://decrypt.co/204506/fake-ledger-app-microsoft-app-store-zachxbt>
+
 
 ## Discussion
 
