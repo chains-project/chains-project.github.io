@@ -199,5 +199,4 @@ to avoid unreproducible builds.
 
 --Aman
 
-<centre>~Fin~</centre>
-
+<p align="center">~~Fin~~</p>
