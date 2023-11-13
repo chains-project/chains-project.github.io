@@ -1,7 +1,7 @@
 # Reproducible Builds Summit 2023
  
 Reproducible Builds 2023 was held in Hamburg, Germany this year.
-I attended the summit with to understand the state of the art in reproducible
+I attended the summit with understand the state-of-the-art in reproducible
 software builds, and to meet with other researchers and engineers working on
 it.
 
@@ -16,7 +16,7 @@ Reference: https://reproducible-builds.org/docs/definition/
 For example, let's consider maven artifact `fr.inria.gforge.spoon:spoon-core:10.4.2`.
 The arficat is hosted on [maven central](https://repo1.maven.org/maven2/fr/inria/gforge/spoon/spoon-core/10.4.2/).
 The source code of this artifact is available on
-[GitHub](https://github.com/INRIA/spoon/)/
+[GitHub](https://github.com/INRIA/spoon/).
 
 If we can prove that the artifacts hosted on maven central are bit-by-bit
 identical to the artifacts we build from the source code, then we can be sure
@@ -28,12 +28,14 @@ checks exactly that and it indeed reports that the artifacts are reproducible.
 
 ## Why does it matter?
 
-Free software source code is availeble for anyone to read. However, most
-software is distributed as binaries. Ensuring that the binaries are
-*actually* built from the source code is an important problem as it is
-possible that the compilation process could have introduced some backdoors or
-other malicious code. Reproducible builds are a way to ensure that the binaries
-are built from the source code and there are no deviations from the trusted
+Free software source code is available for anyone to read.
+However, most
+software is distributed as binaries. We implicty trust the binary if we trust
+the source code.
+Ensuring that the binaries are *actually* built from the source code is, thus, an
+important problem as it is possible that the compilation process could have
+introduced some backdoors or other malicious code. Reproducible builds are a
+way to ensure that the binaries are built with no deviations from the trusted
 source code.
 
 Reference: https://reproducible-builds.org/
@@ -89,7 +91,7 @@ with decided to reverse engineer
 We saw that it downloaded the source and the binary from https://go.dev/dl/
 and then stripped the signature from the binary and then compared the checksum.
 **Indeed, the unsigned binaries were reproducible atleast on MacOS**.
-The person pushed all artifacts to a [GitHub repo](https://github.com/kommendorkapten/reprogo).
+My hands-on session partner pushed all artifacts to a [GitHub repo](https://github.com/kommendorkapten/reprogo).
 It has 4 artifacts:
 1. go-0: Locally built and signed
 2. go-1: Upstream binary, signed by google
@@ -136,12 +138,66 @@ The 8 step checklist is as follows:
 related to deployment. I have removed those steps here.
 
 The last meeting (Born Reproducible III) in this series was about seeing how
-this framework applies to Maven projects. We took
+this framework applies to Maven projects. We took inspiration from
 [Reproducible Central](https://github.com/jvm-repo-rebuild/reproducible-central)
-as an example and tried to see how it fits in the framework.
+to build concrete steps based on the above checklist.
 
+**Step 0:** Assumes GitHub action runner as clean environment.
 
+**Step 1:** Inputs:
+- Java source code
+- A minimal `pom.xml`. If it is from a boilerplate code, the developer must
+refine it.
 
+    Outputs:
+- Compare the all artifacts.
+> [`.buildspec`](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/fr/inria/gforge/spoon/spoon-core/spoon-core-10.4.2.buildspec)
+and
+[`.buildinfo`](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/fr/inria/gforge/spoon/spoon-core/spoon-pom-10.4.2.buildinfo)
+takes care of it in Reproducible Central.
 
+**Step 2:** It is not relevant for Java.
 
+**Step 3:** First build with `mvn package` can have network access, but the 
+second build should be done air-gapped.
+
+**Step 4:** Reproducible Central uses
+[`diffoscope`](https://diffoscope.org/).
+
+**Step 5:** It is not relevant for Java as JVM follows
+[Write Once Run Anywhere](https://en.wikipedia.org/wiki/Write_once,_run_anywhere).
+
+**Step 6:** There is no standardized way that a developer could provide so
+that the users could reproduce easily.
+Reproducible Central uses a 
+[self-written script](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/rebuild.sh).
+
+**Step 7:** It was not very relevant since maven central stores
+[detached signature](https://en.wikipedia.org/wiki/Detached_signature).
+
+**Step 8:** Again, no standard way to annouce reproducibility, but having
+README badges help. For example,
+![Reproducible Builds](https://img.shields.io/badge/Reproducible_Builds-ok-success?labelColor=1e5b96)
+in `spoon-core`.
+
+## Key takeaways
+
+From the activities above,
+- Good to know [so many different](#mapping-the-big-picture)
+projects are supporting reproducible builds.
+- Reproducing `go` was not straightforward. We could not do it manually and
+using a tool may have masked a lot of intricacies.
+- A good starting point for reproducibility is to have third-party builders
+to monitor reproducibility like Reproducible Central.
+
+From the overall summit,
+
+- Reproducible Builds is hard for packages and harder for complete operating systems.
+- [12 ways](https://reproducible-builds.org/events/hamburg2023/rb-commandments/)
+to avoid unreproducible builds.
+- Great event to meet people who love software supply chain!
+
+--Aman
+
+<centre>~Fin~</centre>
 
