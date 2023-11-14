@@ -58,7 +58,7 @@ Posts:
 - [Mathias Ekstedt](https://www.kth.se/profile/mekstedt/)
 - [Martin Monperrus](https://www.monperrus.net/martin/)
 - [Javier Ron](https://www.kth.se/profile/javierro) 
-- [Aman Sharma](https://www.kth.se/profile/amansha) 
+- [Aman Sharma](https://algomaster99.github.io/)
 - [Mikhail Shcherbakov](https://www.kth.se/profile/mshc)
 - [César Soto-Valero](https://www.cesarsotovalero.net/)
 - [Liu Yuxin](https://www.kth.se/profile/yuxinli)
