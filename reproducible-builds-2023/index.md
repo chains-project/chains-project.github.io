@@ -1,7 +1,7 @@
 # Reproducible Builds Summit 2023
  
 Reproducible Builds 2023 was held in Hamburg, Germany this year.
-I attended the summit with understand the state-of-the-art in reproducible
+Aman Sharma from Chains attended the summit to understand the state-of-the-art in reproducible
 software builds, and to meet with other researchers and engineers working on
 it.
 
@@ -9,9 +9,7 @@ it.
 
 A build is reproducible if given the same source code, build environment and
 build instructions, any party can recreate *bit-by-bit* identical copies of all
-specified artifacts.
-
-Reference: https://reproducible-builds.org/docs/definition/
+specified artifacts. Reference: <https://reproducible-builds.org/docs/definition/>
 
 For example, let's consider maven artifact `fr.inria.gforge.spoon:spoon-core:10.4.2`.
 The arficat is hosted on [maven central](https://repo1.maven.org/maven2/fr/inria/gforge/spoon/spoon-core/10.4.2/).
@@ -29,16 +27,13 @@ checks exactly that and it indeed reports that the artifacts are reproducible.
 ## Why does it matter?
 
 Free software source code is available for anyone to read.
-However, most
-software is distributed as binaries. We implicty trust the binary if we trust
+However, most software is distributed as binaries. We implicty trust the binary if we trust
 the source code.
 Ensuring that the binaries are *actually* built from the source code is, thus, an
 important problem as it is possible that the compilation process could have
 introduced some backdoors or other malicious code. Reproducible builds are a
 way to ensure that the binaries are built with no deviations from the trusted
-source code.
-
-Reference: https://reproducible-builds.org/
+source code. Reference: <https://reproducible-builds.org/>
 
 ## Activities at the summit
 
@@ -49,7 +44,7 @@ were summarized at the end of the day. All the notes are available
 with discussions, there were also hands-on sessions where participants engaged
 in coding activities.
 
-There were three activities that I was involved in and here is the summary of
+There were three activities that Aman was involved in and here is the summary of
 each of them:
 
 ### Mapping the big picture
@@ -79,18 +74,17 @@ The key takeaways from these post-it notes were:
 ### Reproducing GO toolchain
 
 The goal of this hands-on activity was to reproduce the GO toolchain as
-it is claimed [here](https://go.dev/blog/rebuild). I met someone there who
-also shared this interest, so we worked together on this.
+it is claimed [here](https://go.dev/blog/rebuild). Aman met someone there who
+also shared this interest, so worked together on this.
 
 We first tried to follow instructions to [build from source](https://go.dev/doc/install/source).
-However, we were not able to reproduce the binaries. Then the person I was working
-with decided to reverse engineer
+However, we were not able to reproduce the binaries. Then it was decided to reverse engineer
 [gorebuild](https://pkg.go.dev/golang.org/x/build/cmd/gorebuild)
 (tool to verify reproducibility of GO toolchain) to understand how it works.
 
 We saw that it downloaded the source and the binary from https://go.dev/dl/
 and then stripped the signature from the binary and then compared the checksum.
-**Indeed, the unsigned binaries were reproducible atleast on MacOS**.
+**Indeed, the unsigned binaries were reproducible at least on MacOS**.
 My hands-on session partner pushed all artifacts to a [GitHub repo](https://github.com/kommendorkapten/reprogo).
 It has 4 artifacts:
 1. go-0: Locally built and signed
