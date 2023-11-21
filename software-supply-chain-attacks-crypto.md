@@ -77,6 +77,15 @@ Microsoft’s official App Store served up a Fake Ledger App on Microsoft App St
 
 Reference: <https://decrypt.co/204506/fake-ledger-app-microsoft-app-store-zachxbt>
 
+### Math.random() used in BitcoinJS caused weak randomness until 2014, disclosed in 2023
+
+BitcoinJS was widely used in early 2010s and the use of Math.random() potentially affects millions of cryptocurrency wallets that were generated in the 2011-2015 timeframe.
+
+The main bug: the random number generator is seeded with Math.random() and the current time, granting at most ~40 bits of entropy. On-chain metadata discloses the creation time for any wallet hence all wallets created in the 2011-2015 time window on all major browsers, had problems.
+
+Reference
+*[Randstorm](https://www.unciphered.com/randstorm)
+*[Randstorm: You Can’t Patch a House of Cards](https://www.unciphered.com/blog/randstorm-you-cant-patch-a-house-of-cards)
 
 ## Discussion
 
