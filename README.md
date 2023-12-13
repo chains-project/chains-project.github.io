@@ -61,16 +61,13 @@ Posts:
 - [Javier Ron](https://www.kth.se/profile/javierro) 
 - [Aman Sharma](https://algomaster99.github.io/)
 - [Mikhail Shcherbakov](https://www.kth.se/profile/mshc)
-- [César Soto-Valero](https://www.cesarsotovalero.net/)
 - [Liu Yuxin](https://www.kth.se/profile/yuxinli)
-- [Long Zhang](https://www.gluckzhang.com/) 
-- [Gabriel Skoglund](https://www.kth.se/profile/gabsko) 
-- [Arvid Siberov](https://siberov.se)
-- [Linus Östlund](https://www.kth.se/profile/linusost/)
-- [Martin Wittlinger](https://github.com/MartinWitt/)
 - [Frank Reyes](https://www.kth.se/profile/frankrg/?l=en)
 - [Yogya Gamage](https://www.kth.se/profile/yogya/?l=en)
 - [Yekatierina Churakova](https://www.kth.se/profile/yekchu?l=en)
+
+Chains alumni: [Arvid Siberov](https://siberov.se), [Linus Östlund](https://www.kth.se/profile/linusost/), [Gabriel Skoglund](https://www.kth.se/profile/gabsko), [César Soto-Valero](https://www.cesarsotovalero.net/), [Martin Wittlinger](https://github.com/MartinWitt/)
+
 
 ## Events & Talks
 - October 2023: A Runtime Integrity Tool for Java Dependencies. Poster at [SecDev 2023](https://secdev.ieee.org/2023/accepted-posters/)
