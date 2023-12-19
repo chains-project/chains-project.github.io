@@ -71,13 +71,13 @@ Propagate itself to all JAR (Java archive) files on the filesystem, Steal cookie
 
 Reference: [Dozens of popular Minecraft mods found infected with Fracturiser malware (arstechnica.com)](https://arstechnica.com/information-technology/2023/06/dozens-of-popular-minecraft-mods-found-infected-with-fracturiser-malware/)
 
-### Fake ledger attack, 2023
+### Fake ledger attack (fake app on app store)  2023
 
 Microsoft’s official App Store served up a Fake Ledger App on Microsoft App Store.
 
 Reference: <https://decrypt.co/204506/fake-ledger-app-microsoft-app-store-zachxbt>
 
-### Math.random() used in BitcoinJS caused weak randomness until 2014, disclosed in 2023
+### Math.random() caused weak randomness until 2014 (prng issue) disclosed in 2023
 
 BitcoinJS was widely used in early 2010s and the use of Math.random() potentially affects millions of cryptocurrency wallets that were generated in the 2011-2015 timeframe.
 
@@ -86,6 +86,14 @@ The main bug: the random number generator is seeded with Math.random() and the c
 Reference
 *[Randstorm](https://www.unciphered.com/randstorm)
 *[Randstorm: You Can’t Patch a House of Cards](https://www.unciphered.com/blog/randstorm-you-cant-patch-a-house-of-cards)
+
+### Ledge NPM account compromised (package attack), 2023
+
+Ledger got their NPM account compromised. 
+A malicious version of a commonly used web3 connector `@ledgerhq/connect-kit` was pushed to NPM.
+Many client dapps pulled the malicious version due to the absence of pinning and exact version matching, resulting in fund draining.
+
+Ref: <https://techcrunch.com/2023/12/14/supply-chain-attack-targeting-ledger-crypto-wallet-leaves-users-hacked/>, <https://www.ledger.com/blog/a-letter-from-ledger-chairman-ceo-pascal-gauthier-regarding-ledger-connect-kit-exploit> 
 
 ## Discussion
 
