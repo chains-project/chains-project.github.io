@@ -11,7 +11,9 @@ Y88b  d88P 888    888  d8888888888   888   888   Y8888 Y88b  d88P
 
 # Consistent Hardening and Analysis of Software Supply Chains
 
-CHAINS is a research project at [KTH Royal Institute of Technology](https://kth.se), it is about hardening the software supply chain, incl. dependency engineering as well as reproducible, executable and verifiable builds and SBOMs. The project is funded by the [Swedish Foundation for Strategic research (SSF)](https://strategiska.se/pressmeddelande/de-fick-bidragen-i-future-software-systems/). We are recruiting PhD students, software engineers, postdocs, and interns, [get in touch!](mailto:baudry@kth.se,monperrus@kth.se,musard@kth.se,mekstedt@kth.se) 
+CHAINS is a research project at [KTH Royal Institute of Technology](https://kth.se), it is about hardening the software supply chain, incl. dependency engineering as well as reproducible, executable and verifiable builds and SBOMs. 
+We primarily look at Maven, NPM, and the software supply chain of crypto.
+The project is funded by the [Swedish Foundation for Strategic research (SSF)](https://strategiska.se/pressmeddelande/de-fick-bidragen-i-future-software-systems/). We are recruiting software engineers, postdocs, and interns, [get in touch!](mailto:baudry@kth.se,monperrus@kth.se,musard@kth.se,mekstedt@kth.se) 
 
 ```xml
     <dependency>
