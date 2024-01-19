@@ -42,8 +42,8 @@ The project is funded by the [Swedish Foundation for Strategic research (SSF)](h
 - [The Multibillion Dollar Software Supply Chain of Ethereum](http://arxiv.org/pdf/2202.07029), IEEE Computer, 2022
 - [Silent Spring: Prototype Pollution Leads to Remote Code Execution in Node.js](https://arxiv.org/pdf/2207.11171), Usenix Security 2023
 - [Challenges of Producing Software Bill Of Materials for Java](https://arxiv.org/abs/2303.11102), IEEE Security & Privacy, 2023
-- [Highly Available Blockchain Nodes With N-Version Design](https://arxiv.org/abs/2303.14438), arXiv March 2023
-- [GitBark: A Rule-Based Framework for Maintaining Integrity in Source Code Repositories](), Master's thesis Elias Bonnici, 2023
+- [Highly Available Blockchain Nodes With N-Version Design](https://arxiv.org/abs/2303.14438), IEEE Transactions on Dependable and Secure Computing, 2024
+- [GitBark: A Rule-Based Framework for Maintaining Integrity in Source Code Repositories](https://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-340648), Master's thesis Elias Bonnici, 2023
 
 Posts:
 - [An overview of Reproducible Builds Summit 2023](reproducible-builds-2023/index.md)
