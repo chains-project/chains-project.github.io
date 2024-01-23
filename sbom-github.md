@@ -22,7 +22,8 @@ By the end of this post, you will clearly understand how to add SBOMs to your so
 ## Steps
 
 1. Add a plugin to your pom.xml. If you have a different build system, you can find the appropriate plugin here: https://cyclonedx.org/docs/bom-tools/
-```XML
+ 
+```xml
  <build>
     <plugins>
       <plugin>
@@ -51,6 +52,7 @@ files:
     - path: target/bom.xml
     - path: target/bom.json
 ```
+
 This adds the bom.xml and bom.json to the release assets.  
 
 3. Make a release  :)
