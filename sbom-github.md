@@ -45,6 +45,7 @@ By the end of this post, you will clearly understand how to add SBOMs to your so
 This will generate a bom.xml file in the target directory. We use the `makeAggregateBom` goal to have a single sbom for all the modules of our project.
 2. Add the bom.xml and bom.json to your release script.
 If you have the JReleaser YAML file, you can add the bom.xml to the files section of the release section.
+
 ```yaml
 files:
   Active: ALWAYS
