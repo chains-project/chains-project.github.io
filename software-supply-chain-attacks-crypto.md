@@ -95,6 +95,12 @@ Many client dapps pulled the malicious version due to the absence of pinning and
 
 Ref: <https://techcrunch.com/2023/12/14/supply-chain-attack-targeting-ledger-crypto-wallet-leaves-users-hacked/>, <https://www.ledger.com/blog/a-letter-from-ledger-chairman-ceo-pascal-gauthier-regarding-ledger-connect-kit-exploit> 
 
+### Trust Wallet accounts drained (supply chain misuse), Jan 2024
+
+Secbit has been discovered that Trust Wallet did correctly use a dpendency (trezor-crypto), resulting in low entropy seed phrase generation.
+
+Ref: <https://secbit.io/blog/en/2024/01/19/trust-wallets-fomo3d-summer-vuln/>
+
 ## Discussion
 
 ### Hardware wallet attacks
