@@ -46,6 +46,7 @@ The project is funded by the [Swedish Foundation for Strategic research (SSF)](h
 - [GitBark: A Rule-Based Framework for Maintaining Integrity in Source Code Repositories](https://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-340648), Master's thesis Elias Bonnici, 2023
 
 Posts:
+- [Build Resolution in Different Ecosystems](build-resolution/index.md)
 - [CHAINS recommendations](recommendations-chains.md)
 - [An overview of Reproducible Builds Summit 2023](reproducible-builds-2023/index.md)
 - [Software supply chain art](software-supply-chain-art.md)
