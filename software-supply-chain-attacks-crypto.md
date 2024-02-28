@@ -31,7 +31,9 @@ End-user transaction attack through Pypi typosquatting by monitoring the clipboa
 
 ### Hardware wallet Ledger NaNoX, 2020
 
-"A single connection controlled by the non-secure processor allows it to reset the display. Hence, malicious code running on the non-secure processor can turn off the display even while it’s running on battery only. This might be leveraged as part of an elaborate social engineering attack where the infected Ledger Nano X shuts off its display while malware on a computer convinces the user to press a series of buttons to approve a malicious transaction (e.g., “Your Ledger Nano X stopped responding, please hold both buttons to restart the device”). Ref:  ***<https://blog.kraken.com/post/5590/kraken-security-labs-supply-chain-attacks-against-ledger-nano-x/>
+"A single connection controlled by the non-secure processor allows it to reset the display. Hence, malicious code running on the non-secure processor can turn off the display even while it’s running on battery only. This might be leveraged as part of an elaborate social engineering attack where the infected Ledger Nano X shuts off its display while malware on a computer convinces the user to press a series of buttons to approve a malicious transaction (e.g., “Your Ledger Nano X stopped responding, please hold both buttons to restart the device”). 
+
+* <https://blog.kraken.com/post/5590/kraken-security-labs-supply-chain-attacks-against-ledger-nano-x/>
 
 ### Sushiswap attack (weakly protected repo), 2021
 
@@ -41,7 +43,8 @@ End-user transaction attack through Pypi typosquatting by monitoring the clipboa
 ### Onus attack (through Log4J), 2021
 
 "The attackers were able to make off with the data before an update patching the Log4j vulnerability was available and demanded $5 million in ransom for the stolen information. [...] The attackers waited until 25 December 2021 for payment from ONUS, and when they did not receive the ransom, the attackers put the information of close to 2 million customers up for sale"
-*[Vietnamese Crypto Trading Platform Hit with Log4j](https://redskyalliance.org/xindustry/vietnamese-crypto-trading-platform-hit-with-log4j)
+
+* [Vietnamese Crypto Trading Platform Hit with Log4j](https://redskyalliance.org/xindustry/vietnamese-crypto-trading-platform-hit-with-log4j)
 
 ### Cryptomining attack (compromised docker images), 2022
 
@@ -87,9 +90,9 @@ BitcoinJS was widely used in early 2010s and the use of Math.random() potentiall
 
 The main bug: the random number generator is seeded with Math.random() and the current time, granting at most ~40 bits of entropy. On-chain metadata discloses the creation time for any wallet hence all wallets created in the 2011-2015 time window on all major browsers, had problems.
 
-Reference
-*[Randstorm](https://www.unciphered.com/randstorm)
-*[Randstorm: You Can’t Patch a House of Cards](https://www.unciphered.com/blog/randstorm-you-cant-patch-a-house-of-cards)
+Reference:
+* [Randstorm](https://www.unciphered.com/randstorm)
+* [Randstorm: You Can’t Patch a House of Cards](https://www.unciphered.com/blog/randstorm-you-cant-patch-a-house-of-cards)
 
 ### Ledge NPM account compromised (package attack), 2023
 
