@@ -5,7 +5,8 @@ Welcome to the 3rd KTH Workshop on the Software Supply Chain. This workshop is o
 
 * Location: 
 * Date: April 26, 2024
-* Time: 9h-17h  
+* Time: 9h-17h
+* Registration is free and compulsory for sake of lunch/fika planning: [Registration form](https://www.kth.se/form/65df0be2785f1239a4a89fee)  
 
 ## Program
 
