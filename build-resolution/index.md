@@ -29,27 +29,7 @@ Note that the tree is ordered.
 `D1`, `D2`, `D3`, and `D4` are declared in an order and the tree reflects it
 by showing it left to right.
 
-```mermaid
-graph TD
-;
-    Project ~~~ |depth=0| Project;
-    D4 ~~~ |depth=1| D4;
-    Project --> D1;
-    
-    D1 --> D11
-    D11 --> Dx1["Dx v1.0.0"]
-    Project --> D2;
-    D2 --> Dx2["Dx v1.2.0"]
-    Project --> D3;
-    D3 --> D31;
-    D31 --> D311;
-    D311 ~~~ |depth=3| D311
-    D311 --> Dx3["Dx v1.3.0"]
-    Dx3 ~~~ |depth=4| Dx3
-    Project --> D4;
-    Dx4 ~~~ |depth=2| Dx4
-    D4 --> Dx4["Dx v1.5.0"]
-```
+<img src="dependency-graph.svg">
 
 First, we find out the minimum depth of `Dx`.
 It is `2` in the branch of `D2` and `D4`.
