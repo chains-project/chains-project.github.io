@@ -1,7 +1,6 @@
 # Build Resolution in Different Ecosystems
 
-The post discusses ways different ecosystems resolve dependencies while building
-project.
+The post discusses how different package managers resolve dependencies while for building.
 
 ## Maven
 
@@ -60,3 +59,6 @@ Then, we select the first sibling.
 Based on this tree, it is `Dx v1.2.0` because it appears first in the tree
 if we scan the tree left to right.
 Thus, `Dx` is resolved to `v1.2.0`.
+
+## Go
+
