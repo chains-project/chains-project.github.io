@@ -1,4 +1,4 @@
-# Build Resolution in Different Ecosystems
+# Dependency Resolution in Different Ecosystems
 
 The post discusses how different package managers resolve dependencies while for building.
 
