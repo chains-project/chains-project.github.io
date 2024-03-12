@@ -42,3 +42,18 @@ Thus, `Dx` is resolved to `v1.2.0`.
 
 ## Go
 
+To manage dependencies, Go uses _Modules_.
+In Go, a module is identified by its _module path_ and a _version_.
+A module used as a dependency is recorded in the `go.mod` file.
+For instance `github.com/BurntSushi/toml v1.3.2`, where `github.com/BurntSushi/toml` is the module path, and `v1.3.2` is the version (semver).
+
+To resolve the modules which are to be included in a build, it uses an algorithm called [Minimal Version Selection (MVS)](https://research.swtch.com/vgo-mvs) to generate a _build list_. 
+
+Consider the following example: Module `A v1.0.0` requires `B v1.1.0` and `C v1.0.0`. Additionally, `B v1.1.0` requires `D v1.1.0`; and `C v1.0.0` requires `D v1.2.0`.
+
+To determine which modules make the build list, it looks into the `go.mod` files of both the main module and its dependencies, and traverses the graph of all reachable modules/versions.
+During this traversal, a _rough list_ is created. The rough list will contain all reached modules. In our example: \[`A v1.0.0`, `B v1.1.0`, `C v1.0.0`, `D v1.1.0`, `D v1.2.0`\].
+
+The rough list is then simplified, by keeping only the newest version of any listed module.
+
+By following this algorithm, the build list is guaranteed to include the oldest module versions available that meet the requirements, thus achieving reproducible behavior.
