@@ -1,6 +1,7 @@
 # 3rd KTH Workshop on the Software Supply Chain
 
-Welcome to the 3rd KTH Workshop on the Software Supply Chain. This workshop is organized in the context of the [CHAINS](https://chains.proj.kth.se/) research project.
+Welcome to the 3rd KTH Workshop on the Software Supply Chain.
+This workshop is organized in the context of the [CHAINS](https://chains.proj.kth.se/) research project.
 
 
 * Location: 
@@ -66,3 +67,8 @@ Welcome to the 3rd KTH Workshop on the Software Supply Chain. This workshop is o
 </table>
 
 ## Keynote speakers
+
+## Previous editions
+
+- [2nd KTH Workshop on the Software Supply Chain](/software-supply-chain-workshop-2.md)
+- [1st KTH Workshop on the Software Supply Chain](/software-suppply-chain-workshop-1.md)
