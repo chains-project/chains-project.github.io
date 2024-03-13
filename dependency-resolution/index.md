@@ -47,7 +47,8 @@ In Go, a module is identified by its _module path_ and a _version_.
 A module used as a dependency is recorded in the `go.mod` file.
 For instance `github.com/BurntSushi/toml v1.3.2`, where `github.com/BurntSushi/toml` is the module path, and `v1.3.2` is the version (semver).
 
-To resolve the modules which are to be included in a build, it uses an algorithm called [Minimal Version Selection (MVS)](https://research.swtch.com/vgo-mvs) to generate a _build list_. 
+To resolve the modules which are to be included in a build, it uses an algorithm called [Minimal Version Selection (MVS)](https://research.swtch.com/vgo-mvs) to generate a _build list_.
+For dependency resolution, we only need to understand the first step in this algorithm i.e. - [Construct Build List](https://research.swtch.com/vgo-mvs#algorithm_1)
 
 Consider the following example: Module `A v1.0.0` requires `B v1.1.0` and `C v1.0.0`. Additionally, `B v1.1.0` requires `D v1.1.0`; and `C v1.0.0` requires `D v1.2.0`.
 
