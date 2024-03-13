@@ -59,3 +59,25 @@ The rough list is then simplified, by keeping only the newest version of any lis
 Hence, `Dx` which has the highest `semver` version is selected and that is `Dx v1.5.0`.
 
 By following this algorithm, the build list is guaranteed to include the oldest module versions available that meet the requirements, thus achieving reproducible behavior.
+
+## Node.js + npm
+
+[npm](https://docs.npmjs.com/about-npm) is a package manager for [Node.js](https://nodejs.org/en), it facilitates the installation of dependencies for use by Node.js.
+To understand what dependency is used at runtime we need to understand both npm and Node.js work.
+
+As a runtime for an interpreted language, Node.js resolves dependencies at runtime.
+To do this it starts to look for a folder structure matching the dependency name inside a `node_modules/` directory in the directory of the file importing the dependency.
+If it is not found it will repeat this process in the parent folder. This is repeated until, depending on the configuration, some kind of root directory is reached.
+Importantly, this is also how transitive dependencies are resolved.
+
+As a package manager for Node.js, npm installs dependencies by downloading them from the internet (a package registry or source repository) and putting them in the `node_modules/` directory.
+For re-used dependencies two things may happen.
+If a common version is supported by multiple dependencies, npm will try to put the common version directly in the `node_modules/` directory of the parent project, where it can be shared.
+If a transitive version of a dependency is not supported by other dependencies, it will instead by installed in the `node_modules/` directory of its parent dependency, where it cannot be shared.
+
+npm's dependency version resolution algorithm is roughly as follows. When installing a new dependency npm will try to use the latest available version of each dependency such that it can be reused the most. This may result in downgrading of previously installed dependencies or installing dependencies multiple times if no common version is available (e.g. two different major versions).
+Further control over the resolution is possible through commands such as `npm upgrade` and `npm dedupe` which can upgrade dependencies on a specific path and try to reduce unnecessary dependency duplication respectively.
+
+Consider the above dependency graph as an example. If the version constraint of `Dx` for all parent dependencies is something like `^1.0.0` (i.e. any version at or above 1.0.0 but below 2.0.0) it will be installed only once, say as `1.6.0`, at `node_modules/Dx`. If instead `D11` depends on exactly `1.0.0` and all others depend on `^1.0.0` it will still be installed only once at `node_modules/Dx` but as `1.0.0`. If instead `D11` depends on exactly `1.0.0` and all other depends on `^1.2.0`, `Dx` will be installed twice: once as `1.6.0` at `node_modules/Dx` and once as `1.0.0` at `node_modules/D11/node_modules/Dx`.
+
+If a lockfile is used by the parent project, the contents of the `node_modules/` directory are, and by extension Node.js' dependency resolution is, entirely reproducible (ignoring installation scripts).
