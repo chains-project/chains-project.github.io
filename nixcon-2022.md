@@ -65,7 +65,7 @@ He tackled the problem of reproducibly building cryptographically signed
 executables. Cryptographic signatures of executables are used for providing
 trust in the source of a program. If the executable has been signed by a party
 that you trust, you can run it with confidence. But this confidence is based on
-the fact that only the trusted part has access to the signing keys. Since the
+the fact that only the trusted party has access to the signing keys. Since the
 signature is embedded into the resulting artifact, it is not reproducible by
 anyone but the signer, which defeats the main purpose of reproducible builds;
 third parties need to be able to reproduce the build in order to attest to its

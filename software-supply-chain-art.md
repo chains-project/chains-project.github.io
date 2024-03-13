@@ -1,6 +1,6 @@
 # Software supply chains inspires art 
 
-[CHAINS](https://chains-project.github.io/) explores the depths of software supply chains of Java and Javacript projects to map and contribute to the state of the art of software hardening. Through these explorations we develop tools, collect data and execute software. These novel insights about the sublimity of the software supply chain inspire artists and developers who operate in the area of software art.
+[CHAINS](https://chains-project.github.io/) explores the depths of software supply chains of Java and JavaScript projects to map and contribute to the state of the art of software hardening. Through these explorations we develop tools, collect data and execute software. These novel insights about the sublimity of the software supply chain inspire artists and developers who operate in the area of software art.
 
 ## Software art
 
