@@ -44,6 +44,7 @@ The project is funded by the [Swedish Foundation for Strategic research (SSF)](h
 - [Challenges of Producing Software Bill Of Materials for Java](https://arxiv.org/abs/2303.11102), IEEE Security & Privacy, 2023
 - [Highly Available Blockchain Nodes With N-Version Design](https://arxiv.org/abs/2303.14438), IEEE Transactions on Dependable and Secure Computing, 2024
 - [GitBark: A Rule-Based Framework for Maintaining Integrity in Source Code Repositories](https://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-340648), Master's thesis Elias Bonnici, 2023
+- [BUMP: A Benchmark of Reproducible Breaking Dependency Updates](http://arxiv.org/pdf/2401.09906) (SANER 2024)
 
 Posts:
 - [Dependency Resolution in Different Ecosystems](dependency-resolution/index.md)
