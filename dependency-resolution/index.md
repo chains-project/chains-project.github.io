@@ -88,7 +88,7 @@ $HOME/.node_modules
 
 As a package manager for Node.js, npm installs dependencies by downloading them from the internet (a package registry or source repository) and putting them in the `node_modules/` directory.
 For re-used dependencies two things may happen.
-If a common version is supported by multiple dependencies, npm will try to put the common version directly in the `node_modules/` directory of the parent project, where it can be shared.
+If a common version is supported by multiple dependencies, npm will try to put the common version directly in the `node_modules/` directory of the root project, where it can be shared.
 If a transitive version of a dependency is not supported by other dependencies according to [SemVer](https://semver.org/) rules, it will instead by installed in the `node_modules/` directory of the dependency that needs it, where it isn't shared.
 
 npm's dependency version resolution algorithm is roughly as follows.
