@@ -1,6 +1,10 @@
-# The CHAINS recommendations (WIP)
+# The CHAINS software supply chain recommendations
 
-## Strongly
+Based on our readings and research, we came to the following conclusions.
+
+-- The Chains team
+
+## Strongly recommends
 
 * CHAINS strongly recommends checking and enforcing reproducible builds
 * CHAINS strongly recommends the usage of dependency pinning. In Maven, this mean strict versions in the pom + Maven lockfile.
