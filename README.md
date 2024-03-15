@@ -48,7 +48,7 @@ The project is funded by the [Swedish Foundation for Strategic research (SSF)](h
 
 Posts:
 - [Dependency Resolution in Different Ecosystems](dependency-resolution/index.md)
-- [CHAINS recommendations](recommendations-chains.md)
+- [The CHAINS software supply chain recommendations](recommendations-chains.md)
 - [An overview of Reproducible Builds Summit 2023](reproducible-builds-2023/index.md)
 - [Software supply chain art](software-supply-chain-art.md)
 - [Software supply chain attacks on crypto infrastructure](software-supply-chain-attacks-crypto.md)
