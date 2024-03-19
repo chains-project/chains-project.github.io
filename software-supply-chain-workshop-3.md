@@ -33,7 +33,7 @@ This workshop is organized in the context of the [CHAINS](https://chains.proj.kt
   </tr>
   <tr>
     <td class="tg-c3ow">1100</td>
-    <td class="tg-c3ow">Talk TBD</td>
+    <td class="tg-c3ow">Understanding and Preventing Open-Source Software Supply Chain Attacks (Piergiorgio Ladisa)</td>
   </tr>
   <tr>
     <td class="tg-c3ow">1130</td>
@@ -66,7 +66,17 @@ This workshop is organized in the context of the [CHAINS](https://chains.proj.kt
 </tbody>
 </table>
 
-## Keynote speakers
+## Speakers
+
+### Piergiorgio Ladisa
+
+Bio: Piergiorgio Ladisa is currently an Application Security Engineer at ING. Before this role, he has been a Security Researcher PhD Student at SAP Security Research and Université de Rennes, where he was a member of the DiverSE INRIA research team. His primary research areas revolve around software supply chain security, open-source security, and malicious code detection. During his doctoral studies, he outlined a comprehensive taxonomy of open-source software supply chain attacks and he is the the main author of the “Risk Explorer for Software Supply Chains” open source tool.
+Before his PhD, he achieved a MEng double diploma in Computer Engineering from Polytech de Nice Sophia Antipolis and Politecnico di Bari in 2018. 
+
+Title: Understanding and Preventing Open-Source Software Supply Chain Attacks
+
+Abstract: In this talk, we explore open-source supply chain attacks, aiming to understand and prevent them. We present a comprehensive, technology-agnostic taxonomy of these attacks and the mapping of existing safeguards that mitigate them. We also detail how third-party dependencies gain execution on downstream systems and suggest automated detection methods for malicious packages within open-source supply chain attacks. First, we present the evaluation of a machine learning-based approach for detecting malicious packages in JavaScript and Python. Then, we present the evaluation of a static approach to identify malicious packages in Java.
+
 
 ## Previous editions
 
