@@ -115,6 +115,7 @@ The resolution process is based on a separate package, [resolvelib](https://pyp
 
 Now, consider the above dependency graph as an example. 
 1. If the version constraint of `Dx` for all parent dependencies is `>= 0.0.9, <=1.6.0`, then the resolution will be `1.6.0`. If the version constraint of `Dx` for `D11` and `D2` is `>= 0.0.9` and for `D311` and `D4` is `>= 1.1.0, <=1.5.0`,  then the resolution will be `1.5.0`.
+
 2.If the version constraint of `Dx` for `D11 v3.0.0`, `D2 v1.4.0`, `D311 v9.6.0`  and `D4 v2.3.0` are all exactly required differently,  pip will find other old versions(e.g. `D11 v2.0.0`, `D2 v1.3.0`, `D311 v9.2.0`  and `D4 v2.0.0`)  that has compatible dependencies that  all depended on a compatible `Dx` version(e.g. `Dx v1.1.0`)and use it for installation.
 
 ref: [pip doc](https://pip.pypa.io/en/stable/topics/dependency-resolution/), [Pip 23.1 Released - Massive improvement to backtracking](https://www.reddit.com/r/Python/comments/12n5lai/pip_231_released_massive_improvement_to/), [blog](https://codingshower.com/pip-dependency-resolver-and-version-conflicts/)
