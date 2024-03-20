@@ -25,7 +25,7 @@ This workshop is organized in the context of the [CHAINS](https://chains.proj.kt
   </tr>
   <tr>
     <td class="tg-c3ow">0930</td>
-    <td class="tg-c3ow">Understanding and Preventing Open-Source Software Supply Chain Attacks (Piergiorgio Ladisa)</td>
+    <td class="tg-c3ow">Understanding and Preventing Open-Source Software Supply Chain Attacks by <a href="https://scholar.google.com/citations?hl=it&user=LMHpRBkAAAAJ">Piergiorgio Ladisa</a></td>
 
   </tr>
   <tr>
@@ -73,7 +73,9 @@ This workshop is organized in the context of the [CHAINS](https://chains.proj.kt
 
 ## Speakers
 
-### Piergiorgio Ladisa
+### [Piergiorgio Ladisa](https://scholar.google.com/citations?hl=it&user=LMHpRBkAAAAJ)
+
+<img src="workshop_3_assets/piergiorgio_ladisa.jpeg" alt="Piergiorgio Ladisa" width=100px />
 
 Bio: Piergiorgio Ladisa is currently an Application Security Engineer at ING. Before this role, he has been a Security Researcher PhD Student at SAP Security Research and Université de Rennes, where he was a member of the DiverSE INRIA research team. His primary research areas revolve around software supply chain security, open-source security, and malicious code detection. During his doctoral studies, he outlined a comprehensive taxonomy of open-source software supply chain attacks and he is the the main author of the “Risk Explorer for Software Supply Chains” open source tool.
 Before his PhD, he achieved a MEng double diploma in Computer Engineering from Polytech de Nice Sophia Antipolis and Politecnico di Bari in 2018. 
