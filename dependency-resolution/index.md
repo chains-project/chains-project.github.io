@@ -116,20 +116,35 @@ The resolution process is based on a separate package, [resolvelib](https://pyp
 Now, consider the above dependency graph as an example. 
 
 When
-- `D11` depends on version `Dx==1.1.0`, 
-- `D2` depends on version `Dx==1.2.0`, 
-- `D311` depends on version `Dx==1.3.0`, 
-- `D4` depends on version `Dx==1.5.0`, 
+- `D11==1.0.0` depends on version `Dx==1.1.0`, 
+- `D2==2.0.0` depends on version `Dx==1.2.0`, 
+- `D311==3.0.0` depends on version `Dx==1.3.0`, 
+- `D4==4.0.0` depends on version `Dx==1.5.0`, 
 
 You will get a `ResolutionImpossible` error since all four dependents requires exact version and the conflict couldn't be resolved.
 
-But if
-- `D11` depends on version `Dx>=1.1.0`, 
-- `D2` depends on version `Dx>=1.2.0`, 
-- `D311` depends on version `Dx>1.3.0`, 
-- `D4` depends on version `Dx==1.5.0`, 
+But if the dependency constraint is a bit loose:
+- `D11==1.0.0` depends on version `Dx>=1.1.0`, 
+- `D2==2.0.0` depends on version `Dx>=1.2.0`, 
+- `D311==3.0.0` depends on version `Dx>1.3.0`, 
+- `D4==4.0.0` depends on version `Dx==1.5.0`, 
 
 The resolved version for `Dx` will be `1.5.0`.
+
+or the dependt constraint is a bit loose
+- `D11>=1.0.0` depends on version `Dx==1.1.0`, 
+- `D2>=2.0.0` depends on version `Dx==1.2.0`, 
+- `D311<=3.0.0` depends on version `Dx==1.3.0`, 
+- `D4~=4.0.0` depends on version `Dx==1.5.0`, 
+
+pip will automatically find a version for dependent that can fullfill all the requirements. (e.g. if `D11 1.1.0`, `D2 v2.4.0`, `D311 v2.6.0`  and `D4 v4.0.3` all depended on `Dx 1.7.0`, then the esolved version for `Dx` would be`1.7.0`)
+
+
+
+## Go
+
+
+
 
 
 ref: [pip doc](https://pip.pypa.io/en/stable/topics/dependency-resolution/), [Pip 23.1 Released - Massive improvement to backtracking](https://www.reddit.com/r/Python/comments/12n5lai/pip_231_released_massive_improvement_to/), [blog](https://codingshower.com/pip-dependency-resolver-and-version-conflicts/), [backjumping update](https://github.com/sarugaku/resolvelib/commit/0ac13f141aa437e0ec1587855d3a67d46a6999b7)
