@@ -109,14 +109,28 @@ pip is the package installer for Python and included with modern versions of Pyt
 
 The process of package resolution in pip relies on three key pieces of information: `project name`, `release version` and `dependencies`. The first two pieces of information identify an individual “candidate” for installation, and the third one is used on “on demand” when backtracking algorithm starts to check that particular candidate.
 
-During runtime, when `pip install` is executed, pip first performs a dependency resolution process by analyzing all the dependencies of the requested packages to determine the most compatible version (according to [version specifiers](https://packaging.python.org/en/latest/glossary/#term-Version-Specifier) and the most recent version). The resolution process might involve backtracking to find the best combination that satisfies all dependency constraints. Only one version of a dependency will get installed.
+When `pip install` is executed, pip first performs a dependency resolution process by analyzing all the dependencies of the requested packages to determine the most compatible version (according to [version specifiers](https://packaging.python.org/en/latest/glossary/#term-Version-Specifier) and the most recent version). The resolution process might involve backtracking to find the best combination that satisfies all dependency constraints. Only one version of a dependency will get installed.
 
 The resolution process is based on a separate package, [resolvelib](https://pypi.org/project/resolvelib/) which implements an abstract backtracking resolution algorithm. resolvelib implement  [backjumping technique](https://en.wikipedia.org/wiki/Backjumping) in [1.0.0]((https://github.com/sarugaku/resolvelib/blob/main/CHANGELOG.rst)) version which was [vendored](https://pip.pypa.io/en/stable/news/#v23-1) from `pip 23.1`, it can find a set of packages that meet requirements and whose requirements themselves don't conflict.
 
 Now, consider the above dependency graph as an example. 
-1. If the version constraint of `Dx` for all parent dependencies is `>= 0.0.9, <=1.6.0`, then the resolution will be `1.6.0`. If the version constraint of `Dx` for `D11` and `D2` is `>= 0.0.9` and for `D311` and `D4` is `>= 1.1.0, <=1.5.0`,  then the resolution will be `1.5.0`.
 
-2. If encounters an incompatibility, for instance, the version constraint of `Dx` for `D11 v3.0.0`, `D2 v1.4.0`, `D311 v9.6.0`  and `D4 v2.3.0` are all exactly required differently,  pip will backtrack to find other old versions(e.g. `D11 v2.0.0`, `D2 v1.3.0`, `D311 v9.2.0`  and `D4 v2.0.0`)  that has compatible dependencies that  all depended on a compatible `Dx` version(e.g. `Dx v1.1.0`)and use it for installation.
+When
+- `D11` depends on version `Dx==1.1.0`, 
+- `D2` depends on version `Dx==1.2.0`, 
+- `D311` depends on version `Dx==1.3.0`, 
+- `D4` depends on version `Dx==1.5.0`, 
+
+You will get a `ResolutionImpossible` error since all four dependents requires exact version and the conflict couldn't be resolved.
+
+But if
+- `D11` depends on version `Dx>=1.1.0`, 
+- `D2` depends on version `Dx>=1.2.0`, 
+- `D311` depends on version `Dx>1.3.0`, 
+- `D4` depends on version `Dx==1.5.0`, 
+
+The resolved version for `Dx` will be `1.5.0`.
+
 
 ref: [pip doc](https://pip.pypa.io/en/stable/topics/dependency-resolution/), [Pip 23.1 Released - Massive improvement to backtracking](https://www.reddit.com/r/Python/comments/12n5lai/pip_231_released_massive_improvement_to/), [blog](https://codingshower.com/pip-dependency-resolver-and-version-conflicts/), [backjumping update](https://github.com/sarugaku/resolvelib/commit/0ac13f141aa437e0ec1587855d3a67d46a6999b7)
 
