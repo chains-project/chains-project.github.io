@@ -21,23 +21,24 @@ This workshop is organized in the context of the [CHAINS](https://chains.proj.kt
 <tbody>
   <tr>
     <td class="tg-c3ow">0900</td>
-    <td class="tg-c3ow">Introduction</td>
+    <td class="tg-c3ow">Introduction (Martin)</td>
   </tr>
   <tr>
     <td class="tg-c3ow">0930</td>
-    <td class="tg-c3ow">Keynote TBD</td>
+    <td class="tg-c3ow">Understanding and Preventing Open-Source Software Supply Chain Attacks (Piergiorgio Ladisa)</td>
+
   </tr>
   <tr>
     <td class="tg-c3ow">1030</td>
-    <td class="tg-c3ow">Break</td>
+    <td class="tg-c3ow">Break + Poster Session (Elias + Master students)</td>
   </tr>
   <tr>
-    <td class="tg-c3ow">1100</td>
-    <td class="tg-c3ow">Understanding and Preventing Open-Source Software Supply Chain Attacks (Piergiorgio Ladisa)</td>
+    <td class="tg-c3ow">1120</td>
+    <td class="tg-c3ow">SBOM.exe: Runtime Integrity for Java (Aman)</td>
   </tr>
   <tr>
-    <td class="tg-c3ow">1130</td>
-    <td class="tg-c3ow">Talk TBD</td>
+    <td class="tg-c3ow">1140</td>
+    <td class="tg-c3ow">SBOM2Sandbox: convenient sandboxing for Node.js (Eric Cornelissen)</td>
   </tr>
   <tr>
     <td class="tg-c3ow">1200</td>
@@ -53,10 +54,14 @@ This workshop is organized in the context of the [CHAINS](https://chains.proj.kt
   </tr>
   <tr>
     <td class="tg-c3ow">1530</td>
+    <td class="tg-c3ow">Capslock: Capability Analysis in Golang ecosystem (Carmine)</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">1550</td>
     <td class="tg-c3ow">Talk TBD</td>
   </tr>
   <tr>
-    <td class="tg-c3ow">1600</td>
+    <td class="tg-c3ow">1610</td>
     <td class="tg-c3ow">Talk TBD</td>
   </tr>
   <tr>
