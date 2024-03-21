@@ -123,7 +123,9 @@ When
 
 You will get a `ResolutionImpossible` error since all four dependents requires exact version and the conflict couldn't be resolved.
 
-But if the dependency constraint is a bit loose:
+There are two ways to avoid `ResolutionImpossible` error.
+
+**Dependency version specifier is flexible**
 - `D11==1.0.0` depends on version `Dx>=1.1.0`, 
 - `D2==2.0.0` depends on version `Dx>=1.2.0`, 
 - `D311==3.0.0` depends on version `Dx>1.3.0`, 
@@ -131,13 +133,14 @@ But if the dependency constraint is a bit loose:
 
 The resolved version for `Dx` will be `1.5.0`.
 
-or the dependt constraint is a bit loose
+**Parent version specifier is flexible**
+
 - `D11>=1.0.0` depends on version `Dx==1.1.0`, 
 - `D2>=2.0.0` depends on version `Dx==1.2.0`, 
 - `D311<=3.0.0` depends on version `Dx==1.3.0`, 
 - `D4~=4.0.0` depends on version `Dx==1.5.0`, 
 
-pip will automatically find a version for dependent that can fullfill all the requirements. (e.g. if `D11 1.1.0`, `D2 v2.4.0`, `D311 v2.6.0`  and `D4 v4.0.3` all depended on `Dx 1.7.0`, then the esolved version for `Dx` would be`1.7.0`)
+`pip` will automatically find a version for dependent that can fulfill all the requirements. (e.g. if `D11 v1.1.0`, `D2 v2.4.0`, `D311 v2.6.0`  and `D4 v4.0.3` are all dependent upon `Dx 1.3.0`, then the resolved version for `Dx` would be`1.3.0`)
 
 
 
