@@ -121,7 +121,7 @@ When
 - `D311==3.0.0` depends on version `Dx==1.3.0`, 
 - `D4==4.0.0` depends on version `Dx==1.5.0`, 
 
-You will get a `ResolutionImpossible` error since all four dependents requires exact version and the conflict couldn't be resolved.
+You will get a `ResolutionImpossible` [error](https://pip.pypa.io/en/stable/topics/dependency-resolution/#understanding-your-error-message) since all four dependents requires exact version and the conflict couldn't be resolved.
 
 There are two ways to avoid `ResolutionImpossible` error.
 
