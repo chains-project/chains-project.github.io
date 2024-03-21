@@ -140,7 +140,7 @@ The resolved version for `Dx` will be `1.5.0`.
 - `D311<=3.0.0` depends on version `Dx==1.3.0`, 
 - `D4~=4.0.0` depends on version `Dx==1.5.0`, 
 
-`pip` will automatically find a version for dependent that can fulfill all the requirements. (e.g. if `D11 v1.1.0`, `D2 v2.4.0`, `D311 v2.6.0`  and `D4 v4.0.3` are all dependent upon `Dx 1.3.0`, then the resolved version for `Dx` would be`1.3.0`)
+`pip` will automatically find a version for dependent that can fulfill all the requirements. For example, if `D11 v1.1.0`, `D2 v2.4.0`, `D311 v2.6.0`  and `D4 v4.0.3` are all dependent upon `Dx 1.3.0`, then the resolved version for `Dx` would be`1.3.0`.
 
 
 
