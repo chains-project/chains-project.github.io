@@ -102,3 +102,46 @@ If instead `D11` depends on exactly `1.0.0` and all others depend on `^1.0.0` it
 If instead `D11` depends on exactly `1.0.0` and all other depends on `^1.2.0`, `Dx` will be installed twice: once as `1.6.0` at `node_modules/Dx` and once as `1.0.0` at `node_modules/D11/node_modules/Dx`.
 
 If a lockfile is used by the parent project, the contents of the `node_modules/` directory are, and by extension Node.js' dependency resolution is, entirely reproducible (ignoring installation scripts).
+
+## Python
+### pip
+pip is the package installer for Python and included with modern versions of Python, it is used to find, download, and install packages from [PyPI](https://pypi.org/) and other Python package indexes.
+
+The process of package resolution in pip relies on three key pieces of information: `project name`, `release version` and `dependencies`. The first two pieces of information identify an individual “candidate” for installation, and the third one is used on “on demand” when backtracking algorithm starts to check that particular candidate.
+
+When `pip install` is executed, pip first performs a dependency resolution process by analyzing all the dependencies of the requested packages to determine the most compatible version (starts from latest version that satisfies the given constraints).
+The latest version is [determined using the version scheme](https://packaging.python.org/en/latest/specifications/version-specifiers/#id5). It is not based on dates. The resolution process might involve backtracking to find the best combination that satisfies all dependency constraints. Only one version of a dependency will get installed.
+
+The resolution process is based on a separate package, [`resolvelib`](https://pypi.org/project/resolvelib/) which implements an abstract backtracking resolution algorithm. `resolvelib` implements  [backjumping technique](https://en.wikipedia.org/wiki/Backjumping) in [1.0.0]((https://github.com/sarugaku/resolvelib/blob/main/CHANGELOG.rst)) version which was [vendored](https://pip.pypa.io/en/stable/news/#v23-1) from `pip 23.1`, it can find a set of packages that meet requirements and whose requirements themselves don't conflict.
+
+Now, consider the above dependency graph as an example. 
+
+When
+- `D11==1.0.0` depends on version `Dx==1.1.0`, 
+- `D2==2.0.0` depends on version `Dx==1.2.0`, 
+- `D311==3.0.0` depends on version `Dx==1.3.0`, 
+- `D4==4.0.0` depends on version `Dx==1.5.0`, 
+
+You will get a [`ResolutionImpossible` error](https://pip.pypa.io/en/stable/topics/dependency-resolution/#understanding-your-error-message) since all four dependents requires exact version and the conflict couldn't be resolved.
+
+There are two ways to avoid `ResolutionImpossible` error.
+
+**Dependency version specifier is flexible**
+- `D11==1.0.0` depends on version `Dx>=1.1.0`, 
+- `D2==2.0.0` depends on version `Dx>=1.2.0`, 
+- `D311==3.0.0` depends on version `Dx>1.3.0`, 
+- `D4==4.0.0` depends on version `Dx==1.5.0`, 
+
+The resolved version for `Dx` will be `1.5.0`.
+
+**Parent version specifier is flexible**
+
+- `D11>=1.0.0` depends on version `Dx==1.1.0`, 
+- `D2>=2.0.0` depends on version `Dx==1.2.0`, 
+- `D311<=3.0.0` depends on version `Dx==1.3.0`, 
+- `D4~=4.0.0` depends on version `Dx==1.5.0`, 
+
+`pip` will automatically find a version for dependent that can fulfill all the requirements. For example, if `D11 v1.1.0`, `D2 v2.4.0`, `D311 v2.6.0`  and `D4 v4.0.3` are all dependent upon `Dx 1.3.0`, then the resolved version for `Dx` would be`1.3.0`.
+
+
+
