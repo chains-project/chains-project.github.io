@@ -149,5 +149,4 @@ The resolved version for `Dx` will be `1.5.0`.
 
 
 
-ref: [pip doc](https://pip.pypa.io/en/stable/topics/dependency-resolution/), [Pip 23.1 Released - Massive improvement to backtracking](https://www.reddit.com/r/Python/comments/12n5lai/pip_231_released_massive_improvement_to/), [blog](https://codingshower.com/pip-dependency-resolver-and-version-conflicts/), [backjumping update](https://github.com/sarugaku/resolvelib/commit/0ac13f141aa437e0ec1587855d3a67d46a6999b7)
 
