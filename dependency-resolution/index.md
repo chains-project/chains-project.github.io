@@ -109,7 +109,7 @@ pip is the package installer for Python and included with modern versions of Pyt
 
 The process of package resolution in pip relies on three key pieces of information: `project name`, `release version` and `dependencies`. The first two pieces of information identify an individual “candidate” for installation, and the third one is used on “on demand” when backtracking algorithm starts to check that particular candidate.
 
-When `pip install` is executed, pip first performs a dependency resolution process by analyzing all the dependencies of the requested packages to determine the most compatible version (according to [version specifiers](https://packaging.python.org/en/latest/glossary/#term-Version-Specifier) and the most recent version). The resolution process might involve backtracking to find the best combination that satisfies all dependency constraints. Only one version of a dependency will get installed.
+When `pip install` is executed, pip first performs a dependency resolution process by analyzing all the dependencies of the requested packages to determine the most compatible version (starts from latest version that satisfies the given constraints). The resolution process might involve backtracking to find the best combination that satisfies all dependency constraints. Only one version of a dependency will get installed.
 
 The resolution process is based on a separate package, [`resolvelib`](https://pypi.org/project/resolvelib/) which implements an abstract backtracking resolution algorithm. `resolvelib` implements  [backjumping technique](https://en.wikipedia.org/wiki/Backjumping) in [1.0.0]((https://github.com/sarugaku/resolvelib/blob/main/CHANGELOG.rst)) version which was [vendored](https://pip.pypa.io/en/stable/news/#v23-1) from `pip 23.1`, it can find a set of packages that meet requirements and whose requirements themselves don't conflict.
 
@@ -141,12 +141,6 @@ The resolved version for `Dx` will be `1.5.0`.
 - `D4~=4.0.0` depends on version `Dx==1.5.0`, 
 
 `pip` will automatically find a version for dependent that can fulfill all the requirements. (e.g. if `D11 v1.1.0`, `D2 v2.4.0`, `D311 v2.6.0`  and `D4 v4.0.3` are all dependent upon `Dx 1.3.0`, then the resolved version for `Dx` would be`1.3.0`)
-
-
-
-
-
-
 
 
 
