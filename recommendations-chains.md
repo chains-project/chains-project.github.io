@@ -6,7 +6,7 @@ Based on our readings and research, we came to the following conclusions.
 
 ## Strongly recommends
 
-* CHAINS strongly recommends checking and enforcing reproducible builds
+* CHAINS strongly recommends designing, implementing and enforcing reproducible builds
 * CHAINS strongly recommends the usage of dependency pinning, via hashes.
   * In NPM, this mean using lockfiles.
   * In Maven, this mean strict versions in the pom + [Maven lockfile](https://github.com/chains-project/maven-lockfile/).
