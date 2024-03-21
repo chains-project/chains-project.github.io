@@ -45,6 +45,8 @@ The project is funded by the [Swedish Foundation for Strategic research (SSF)](h
 - [GitBark: A Rule-Based Framework for Maintaining Integrity in Source Code Repositories](https://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-340648), Master's thesis Elias Bonnici, 2023
 - [Highly Available Blockchain Nodes With N-Version Design](https://arxiv.org/abs/2303.14438), IEEE Transactions on Dependable and Secure Computing, 2024
 - [BUMP: A Benchmark of Reproducible Breaking Dependency Updates](http://arxiv.org/pdf/2401.09906), Proceedings of IEEE SANER, 2024
+- [Mitigating CI/CD threats through an extended access control model](TBA), Master's thesis Arvid Siberov, 2024
+
 
 Posts:
 - [Dependency Resolution in Different Ecosystems](dependency-resolution/index.md)
