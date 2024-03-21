@@ -111,7 +111,7 @@ The process of package resolution in pip relies on three key pieces of informati
 
 When `pip install` is executed, pip first performs a dependency resolution process by analyzing all the dependencies of the requested packages to determine the most compatible version (according to [version specifiers](https://packaging.python.org/en/latest/glossary/#term-Version-Specifier) and the most recent version). The resolution process might involve backtracking to find the best combination that satisfies all dependency constraints. Only one version of a dependency will get installed.
 
-The resolution process is based on a separate package, [resolvelib](https://pypi.org/project/resolvelib/) which implements an abstract backtracking resolution algorithm. resolvelib implement  [backjumping technique](https://en.wikipedia.org/wiki/Backjumping) in [1.0.0]((https://github.com/sarugaku/resolvelib/blob/main/CHANGELOG.rst)) version which was [vendored](https://pip.pypa.io/en/stable/news/#v23-1) from `pip 23.1`, it can find a set of packages that meet requirements and whose requirements themselves don't conflict.
+The resolution process is based on a separate package, [`resolvelib`](https://pypi.org/project/resolvelib/) which implements an abstract backtracking resolution algorithm. `resolvelib` implements  [backjumping technique](https://en.wikipedia.org/wiki/Backjumping) in [1.0.0]((https://github.com/sarugaku/resolvelib/blob/main/CHANGELOG.rst)) version which was [vendored](https://pip.pypa.io/en/stable/news/#v23-1) from `pip 23.1`, it can find a set of packages that meet requirements and whose requirements themselves don't conflict.
 
 Now, consider the above dependency graph as an example. 
 
