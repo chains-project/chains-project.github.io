@@ -58,7 +58,7 @@ This workshop is organized in the context of the [CHAINS](https://chains.proj.kt
   </tr>
   <tr>
     <td class="tg-c3ow">1550</td>
-    <td class="tg-c3ow">Talk TBD</td>
+    <td class="tg-c3ow"><a href="https://arxiv.org/abs/2401.09906">BUMP: A Benchmark of Reproducible Breaking Dependency Updates</a> (Frank Reyes)</td>
   </tr>
   <tr>
     <td class="tg-c3ow">1610</td>
