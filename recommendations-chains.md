@@ -1,4 +1,4 @@
-# The CHAINS software supply chain recommendations
+  # The CHAINS software supply chain recommendations
 
 Based on our readings and research, we came to the following conclusions.
 
@@ -7,7 +7,10 @@ Based on our readings and research, we came to the following conclusions.
 ## Strongly recommends
 
 * CHAINS strongly recommends checking and enforcing reproducible builds
-* CHAINS strongly recommends the usage of dependency pinning. In Maven, this mean strict versions in the pom + Maven lockfile.
+* CHAINS strongly recommends the usage of dependency pinning, via hashes.
+  * In NPM, this mean using lockfiles.
+  * In Maven, this mean strict versions in the pom + [Maven lockfile](https://github.com/chains-project/maven-lockfile/).
+* CHAINS strongly recommends the usage of automated dependency bots such as Renovate and Dependabot.
 
 ## Encourages
 
