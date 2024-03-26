@@ -21,7 +21,7 @@ This workshop is organized in the context of the [CHAINS](https://chains.proj.kt
 <tbody>
   <tr>
     <td class="tg-c3ow">0900</td>
-    <td class="tg-c3ow">Introduction (Martin)</td>
+    <td class="tg-c3ow">Introduction (Martin Monperrus)</td>
   </tr>
   <tr>
     <td class="tg-c3ow">0930</td>
@@ -54,7 +54,7 @@ This workshop is organized in the context of the [CHAINS](https://chains.proj.kt
   </tr>
   <tr>
     <td class="tg-c3ow">1530</td>
-    <td class="tg-c3ow">Capslock: Capability Analysis in Golang ecosystem (Carmine)</td>
+    <td class="tg-c3ow">Capslock: Capability Analysis in Golang ecosystem (Carmine Cesarano)</td>
   </tr>
   <tr>
     <td class="tg-c3ow">1550</td>
