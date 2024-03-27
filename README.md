@@ -46,6 +46,7 @@ The project is funded by the [Swedish Foundation for Strategic research (SSF)](h
 - [Highly Available Blockchain Nodes With N-Version Design](https://arxiv.org/abs/2303.14438), IEEE Transactions on Dependable and Secure Computing, 2024
 - [BUMP: A Benchmark of Reproducible Breaking Dependency Updates](http://arxiv.org/pdf/2401.09906), Proceedings of IEEE SANER, 2024
 - [Mitigating CI/CD threats through an extended access control model](TBA), Master's thesis Arvid Siberov, 2024
+- Unveiling the Invisible: Detection and Evaluation of Prototype Pollution Gadgets with Dynamic Taint Analysis. Proceedings of WWW, 2024.
 
 
 Posts:
