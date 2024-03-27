@@ -4,7 +4,7 @@ Welcome to the 3rd KTH Workshop on the Software Supply Chain.
 This workshop is organized in the context of the [CHAINS](https://chains.proj.kth.se/) research project.
 
 
-* Location: 
+* Location: [Salongen, Osquars backe 31, KTH Campus](https://www.kth.se/places/room/id/2ce773d5-3190-4588-8618-27ea2822000b)
 * Date: April 26, 2024
 * Time: 9h-17h
 * Registration is free and compulsory for sake of lunch/fika planning: [Registration form](https://www.kth.se/form/65df0be2785f1239a4a89fee)  
