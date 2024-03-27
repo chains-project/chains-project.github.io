@@ -62,7 +62,7 @@ This workshop is organized in the context of the [CHAINS](https://chains.proj.kt
   </tr>
   <tr>
     <td class="tg-c3ow">1610</td>
-    <td class="tg-c3ow">Talk TBD</td>
+    <td class="tg-c3ow"></td>VEX-generation for containers</tr></a> (Yekatierina Churakova)</td>
   </tr>
   <tr>
     <td class="tg-c3ow">1630</td>
