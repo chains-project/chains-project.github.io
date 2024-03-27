@@ -42,7 +42,7 @@ This workshop is organized in the context of the [CHAINS](https://chains.proj.kt
   </tr>
   <tr>
     <td class="tg-c3ow">1200</td>
-    <td class="tg-c3ow">Lunch at [Syster o Bror](https://systerobror.se/)</td>
+    <td class="tg-c3ow">Lunch at <a href="https://systerobror.se/" target="_blank">Syster o Bror</a></td>
   </tr>
   <tr>
     <td class="tg-c3ow">1400</td>
