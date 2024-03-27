@@ -69,6 +69,7 @@ Chains alumni: [Arvid Siberov](https://siberov.se), [Linus Östlund](https://www
 
 ## Events & Talks
 - April 26 2024: [3rd KTH Workshop on the Software Supply Chain](software-supply-chain-workshop-3.md)
+- Nov 26 2023: [The Chains SBOM orchestra at SCORED](https://github.com/chains-project/sbom-orchestra/), Chains Team, [SCORED 2023](https://scored.dev), Copenhagen
 - October 2023: A Runtime Integrity Tool for Java Dependencies (Aman Sharma et al.). Poster at [SecDev 2023](https://secdev.ieee.org/2023/accepted-posters/)
 - August 18 2023: The Software Supply Chain and its Security Implications. Benoit Baudry at [CTF Midnight sun](https://conf.midnightsunctf.com/speakers/benoit-bauldry)
 - June 5 2023: Keynote "The Software Supply Chain". Benoit Baudry at the [French Conference for Software Research](https://gdrgpl2023.sciencesconf.org/resource/page/id/4). Speaker: Benoit Baudry
