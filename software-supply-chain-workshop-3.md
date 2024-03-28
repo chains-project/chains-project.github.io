@@ -7,7 +7,7 @@ This workshop is organized in the context of the [CHAINS](https://chains.proj.kt
 * Location: [Salongen, Osquars backe 31, KTH Campus](https://www.kth.se/places/room/id/2ce773d5-3190-4588-8618-27ea2822000b)
 * Date: April 26, 2024
 * Time: 9h-17h
-* Registration is free and compulsory for sake of lunch/fika planning: [Registration form](https://www.kth.se/form/65df0be2785f1239a4a89fee).
+* The workshop is free of charge but registration is compulsory for the sake of lunch/fika planning: [Registration form](https://www.kth.se/form/65df0be2785f1239a4a89fee).
 Anyone who is curious about software engieering and security research is most welcome to attend. 😄 
 
 ## Program
