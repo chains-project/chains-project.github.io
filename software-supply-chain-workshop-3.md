@@ -85,6 +85,12 @@ Title: Understanding and Preventing Open-Source Software Supply Chain Attacks
 
 Abstract: In this talk, we explore open-source supply chain attacks, aiming to understand and prevent them. We present a comprehensive, technology-agnostic taxonomy of these attacks and the mapping of existing safeguards that mitigate them. We also detail how third-party dependencies gain execution on downstream systems and suggest automated detection methods for malicious packages within open-source supply chain attacks. First, we present the evaluation of a machine learning-based approach for detecting malicious packages in JavaScript and Python. Then, we present the evaluation of a static approach to identify malicious packages in Java.
 
+## Poster submission
+
+If you indicated "Yes" to present a poster, you are already accepted!
+Please email the PDF of the poster to amansha@kth.se with *title* and *abstract* and we will get it printed.
+The size of the poster should be *A1*.
+After the workshop, we will also host the posters on this website.
 
 ## Previous editions
 
