@@ -12,65 +12,20 @@ Anyone who is curious about software engieering and security research is most we
 
 ## Program
 
-<table class="tg">
-<thead>
-  <tr>
-    <th class="tg-c3ow">Time</th>
-    <th class="tg-c3ow">Event</th>
-  </tr>
-</thead>
-<tbody>
-  <tr>
-    <td class="tg-c3ow">0900</td>
-    <td class="tg-c3ow">Introduction (Martin Monperrus)</td>
-  </tr>
-  <tr>
-    <td class="tg-c3ow">0930</td>
-    <td class="tg-c3ow">Understanding and Preventing Open-Source Software Supply Chain Attacks by <a href="https://scholar.google.com/citations?hl=it&user=LMHpRBkAAAAJ">Piergiorgio Ladisa</a></td>
-
-  </tr>
-  <tr>
-    <td class="tg-c3ow">1030</td>
-    <td class="tg-c3ow">Break + Poster Session (Elias + Master students)</td>
-  </tr>
-  <tr>
-    <td class="tg-c3ow">1120</td>
-    <td class="tg-c3ow">SBOM.exe: Runtime Integrity for Java (Aman)</td>
-  </tr>
-  <tr>
-    <td class="tg-c3ow">1140</td>
-    <td class="tg-c3ow">SBOM2Sandbox: convenient sandboxing for Node.js (Eric Cornelissen)</td>
-  </tr>
-  <tr>
-    <td class="tg-c3ow">1200</td>
-    <td class="tg-c3ow">Lunch at <a href="https://systerobror.se/" target="_blank">Syster o Bror</a></td>
-  </tr>
-  <tr>
-    <td class="tg-c3ow">1400</td>
-    <td class="tg-c3ow">Keynote TBD</td> 
-  </tr>
-  <tr>
-    <td class="tg-c3ow">1500</td>
-    <td class="tg-c3ow">Fika</td>
-  </tr>
-  <tr>
-    <td class="tg-c3ow">1530</td>
-    <td class="tg-c3ow">Capslock: Capability Analysis in Golang ecosystem (Carmine Cesarano)</td>
-  </tr>
-  <tr>
-    <td class="tg-c3ow">1550</td>
-    <td class="tg-c3ow"><a href="https://arxiv.org/abs/2401.09906">BUMP: A Benchmark of Reproducible Breaking Dependency Updates</a> (Frank Reyes)</td>
-  </tr>
-  <tr>
-    <td class="tg-c3ow">1610</td>
-    <td class="tg-c3ow">VEX-generation for containers (Yekatierina Churakova)</td>
-  </tr>
-  <tr>
-    <td class="tg-c3ow">1630</td>
-    <td class="tg-c3ow">Closing</td>
-  </tr>
-</tbody>
-</table>
+| Time | Event |
+|------|-------|
+| 0900 | Introduction by [Martin Monperrus](https://www.monperrus.net/martin/) |
+| 0930 | Understanding and Preventing Open-Source Software Supply Chain Attacks by [Piergiorgio Ladisa](https://scholar.google.com/citations?hl=it&user=LMHpRBkAAAAJ) |
+| 1030 | Break + Poster Session (Elias + Master students) |
+| 1120 | SBOM.exe: Runtime Integrity for Java by [Aman Sharma](https://algomaster99.github.io/) |
+| 1140 | SBOM2Sandbox: convenient sandboxing for Node.js by [Eric Cornelissen](https://ericcornelissen.dev/) |
+| 1200 | Lunch at [Syster o Bror](https://systerobror.se/) |
+| 1400 | Keynote TBD |
+| 1500 | Fika |
+| 1530 | Capslock: Capability Analysis in Golang ecosystem by [Carmine Cesarano](https://carminecesarano.github.io/) |
+| 1550 | [BUMP: A Benchmark of Reproducible Breaking Dependency Updates](https://arxiv.org/abs/2401.09906) by [Frank Reyes-García](https://www.kth.se/profile/frankrg) |
+| 1610 | VEX-generation for containers by [Yekatierina Churakova](https://www.kth.se/profile/yekchu?l=en) |
+| 1630 | Closing |
 
 ## Speakers
 
