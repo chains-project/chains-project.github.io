@@ -20,7 +20,7 @@ Anyone who is curious about software engieering and security research is most we
 | 1120 | SBOM.exe: Runtime Integrity for Java by [Aman Sharma](https://algomaster99.github.io/) |
 | 1140 | SBOM2Sandbox: convenient sandboxing for Node.js by [Eric Cornelissen](https://ericcornelissen.dev/) |
 | 1200 | Lunch at [Syster o Bror](https://systerobror.se/) |
-| 1400 | Keynote TBD |
+| 1400 | Talk by [Jakub Hrozek](https://www.linkedin.com/in/jhrozek/?originalSubdomain=se) |
 | 1500 | Fika |
 | 1530 | Capslock: Capability Analysis in Golang ecosystem by [Carmine Cesarano](https://carminecesarano.github.io/) |
 | 1550 | [BUMP: A Benchmark of Reproducible Breaking Dependency Updates](https://arxiv.org/abs/2401.09906) by [Frank Reyes-García](https://www.kth.se/profile/frankrg) |
@@ -39,6 +39,13 @@ Before his PhD, he achieved a MEng double diploma in Computer Engineering from P
 Title: Understanding and Preventing Open-Source Software Supply Chain Attacks
 
 Abstract: In this talk, we explore open-source supply chain attacks, aiming to understand and prevent them. We present a comprehensive, technology-agnostic taxonomy of these attacks and the mapping of existing safeguards that mitigate them. We also detail how third-party dependencies gain execution on downstream systems and suggest automated detection methods for malicious packages within open-source supply chain attacks. First, we present the evaluation of a machine learning-based approach for detecting malicious packages in JavaScript and Python. Then, we present the evaluation of a static approach to identify malicious packages in Java.
+
+### Talk by [Jakub Hrozek](https://www.linkedin.com/in/jhrozek/?originalSubdomain=se)
+
+<img src="workshop_3_assets/jakub_hrozek.jpeg" alt="Jakub Hrozek" width=100px />
+
+Bio: I'm a programmer interested in the cloud-native world, identity management, security and Linux programming in general.
+I've been developing software for 15+ years, mainly in the Open Source world and have experience both as a individual contributor to OSS projects and as a maintainer. both on the upstream side and the downstream side of the project. Most of the OSS projects and work teams I've been involved in were fully remote and in my role I've been working fully remotely as a part of a team distributed across several time zones.
 
 ## Poster submission
 
