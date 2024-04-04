@@ -127,6 +127,9 @@ Old hardware, predating crypto, cannot contain a backdoor that that has been des
 
 Compromising one software component is hard, compromising many is much harder.
 It is a good idea to use [software diversity](https://arxiv.org/pdf/2005.11776.pdf) and hardware diversity to protect crypt funds.
+
+Casa is a company providing key protection, their architecture distributes multiple keys across different hardware devices. Ref: [Supply chain attacks: What you need to know to protect your assets](https://blog.keys.casa/supply-chain-attacks-what-you-should-know/)
+
 "To avoid fragility to malware, software bugs and hardware faults, a diversity of hardware and software should be relied upon within the sets of components that are redundantly performing the same functions. This applies to hardware wallets, software which runs on the hardware wallets, the networked devices and their operating systems." [Custody Protocols Using Bitcoin Vaults, Swambo et al. 2020](https://arxiv.org/pdf/2005.11776.pdf)
 
 
