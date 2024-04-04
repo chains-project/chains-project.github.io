@@ -54,7 +54,7 @@ I've been developing software for 15+ years, mainly in the Open Source world and
 ## Poster submission
 
 If you indicated "Yes" to present a poster, you are already accepted!
-Please email the PDF of the poster to amansha@kth.se with *title* and *abstract* and we will get it printed.
+Please email the PDF of the poster to amansha@kth.se by **15th April, 2024** with *title* and *abstract* and we will get it printed.
 The size of the poster should be *A1*.
 After the workshop, we will also host the posters on this website.
 
