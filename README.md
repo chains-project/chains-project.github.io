@@ -46,8 +46,7 @@ The project is funded by the [Swedish Foundation for Strategic research (SSF)](h
 - [Highly Available Blockchain Nodes With N-Version Design](https://arxiv.org/abs/2303.14438), IEEE Transactions on Dependable and Secure Computing, 2024
 - [BUMP: A Benchmark of Reproducible Breaking Dependency Updates](http://arxiv.org/pdf/2401.09906), Proceedings of IEEE SANER, 2024
 - [Mitigating CI/CD threats through an extended access control model](TBA), Master's thesis Arvid Siberov, 2024
-- Unveiling the Invisible: Detection and Evaluation of Prototype Pollution Gadgets with Dynamic Taint Analysis. Proceedings of WWW, 2024.
-
+- [Unveiling the Invisible: Detection and Evaluation of Prototype Pollution Gadgets with Dynamic Taint Analysis](Fix me). Proceedings of WWW, 2024.
 
 Posts:
 - [Dependency Resolution in Different Ecosystems](dependency-resolution/index.md)
@@ -63,7 +62,7 @@ Posts:
 * Principal Investigators: [Musard Balliu](https://people.kth.se/~musard/), [Benoit Baudry](https://softwarediversity.eu/), [Mathias Ekstedt](https://www.kth.se/profile/mekstedt/), [Martin Monperrus](https://www.monperrus.net/martin/)
 * PhD students: [Sofia Bobadilla](https://www.kth.se/profile/sofbob?l=en), [Eric Cornelissen](https://ericcornelissen.dev/), [Javier Ron](https://www.kth.se/profile/javierro), [Aman Sharma](https://algomaster99.github.io/), [Mikhail Shcherbakov](https://www.kth.se/profile/mshc), [Liu Yuxin](https://www.kth.se/profile/yuxinli), [Frank Reyes](https://www.kth.se/profile/frankrg/?l=en), [Yekatierina Churakova](https://www.kth.se/profile/yekchu?l=en)
 * Research engineers & assistants: [Yogya Gamage](https://www.kth.se/profile/yogya/?l=en), [Raphina Liu](), [Elias Lundell](https://www.kth.se/profile/ellundel/) 
-* Master's students: [Arvid Siberov](TODO), [Christofer Vikström](TODO), [Daniel Williams](TODO), [Felix Qvarfordt](TODO), [Vivi Andersson](TODO), [Oliver Schwalbe Lehtihet]()
+* Master's students: [Christofer Vikström](TODO), [Daniel Williams](TODO), [Felix Qvarfordt](TODO), [Vivi Andersson](TODO), [Oliver Schwalbe Lehtihet](), [Federico Bono]()
 
 Chains alumni: [Arvid Siberov](https://siberov.se), [Linus Östlund](https://www.kth.se/profile/linusost/), [Gabriel Skoglund](https://www.kth.se/profile/gabsko), [César Soto-Valero](https://www.cesarsotovalero.net/), [Martin Wittlinger](https://github.com/MartinWitt/)
 
