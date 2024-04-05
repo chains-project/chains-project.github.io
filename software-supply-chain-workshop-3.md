@@ -19,37 +19,33 @@ Anyone who is curious about software engineering and security research is most w
 | Time | Event |
 |------|-------|
 | 0900 | Introduction by [Martin Monperrus](https://www.monperrus.net/martin/) |
-| 0930 | **Keynote** Understanding and Preventing Open-Source Software Supply Chain Attacks by [Piergiorgio Ladisa](https://scholar.google.com/citations?hl=it&user=LMHpRBkAAAAJ) |
+| 0930 | Keynote: Understanding and Preventing Open-Source Software Supply Chain Attacks by [Piergiorgio Ladisa](https://scholar.google.com/citations?hl=it&user=LMHpRBkAAAAJ) |
 | 1030 | Break + Poster Session (Elias + Master students) |
 | 1120 | SBOM.exe: Runtime Integrity for Java by [Aman Sharma](https://algomaster99.github.io/) |
 | 1140 | SBOM2Sandbox: convenient sandboxing for Node.js by [Eric Cornelissen](https://ericcornelissen.dev/) |
 | 1200 | Lunch at [Syster o Bror](https://systerobror.se/) |
-| 1400 | **Talk** [Jakub Hrozek](https://www.linkedin.com/in/jhrozek/?originalSubdomain=se) |
+| 1400 | Applying consistent supply chain policies at scale with Minder and Trusty [Jakub Hrozek](https://www.linkedin.com/in/jhrozek/?originalSubdomain=se) |
 | 1500 | Fika |
 | 1530 | Capslock: Capability Analysis in Golang ecosystem by [Carmine Cesarano](https://carminecesarano.github.io/) |
 | 1550 | [BUMP: A Benchmark of Reproducible Breaking Dependency Updates](https://arxiv.org/abs/2401.09906) by [Frank Reyes-García](https://www.kth.se/profile/frankrg) |
 | 1610 | VEX-generation for containers by [Yekatierina Churakova](https://www.kth.se/profile/yekchu?l=en) |
 | 1630 | Closing |
 
-## Speakers
+## Talks
 
-### [Piergiorgio Ladisa](https://scholar.google.com/citations?hl=it&user=LMHpRBkAAAAJ)
+### Understanding and Preventing Open-Source Software Supply Chain Attacks,[Piergiorgio Ladisa](https://scholar.google.com/citations?hl=it&user=LMHpRBkAAAAJ)), ING
 
 <img src="workshop_3_assets/piergiorgio_ladisa.jpeg" alt="Piergiorgio Ladisa" width=100px />
 
-Bio: Piergiorgio Ladisa is currently an Application Security Engineer at ING. Before this role, he has been a Security Researcher PhD Student at SAP Security Research and Université de Rennes, where he was a member of the DiverSE INRIA research team. His primary research areas revolve around software supply chain security, open-source security, and malicious code detection. During his doctoral studies, he outlined a comprehensive taxonomy of open-source software supply chain attacks and he is the the main author of the “Risk Explorer for Software Supply Chains” open source tool.
-Before his PhD, he achieved a MEng double diploma in Computer Engineering from Polytech de Nice Sophia Antipolis and Politecnico di Bari in 2018. 
-
-Title: Understanding and Preventing Open-Source Software Supply Chain Attacks
-
 Abstract: In this talk, we explore open-source supply chain attacks, aiming to understand and prevent them. We present a comprehensive, technology-agnostic taxonomy of these attacks and the mapping of existing safeguards that mitigate them. We also detail how third-party dependencies gain execution on downstream systems and suggest automated detection methods for malicious packages within open-source supply chain attacks. First, we present the evaluation of a machine learning-based approach for detecting malicious packages in JavaScript and Python. Then, we present the evaluation of a static approach to identify malicious packages in Java.
 
-### [Jakub Hrozek](https://www.linkedin.com/in/jhrozek/?originalSubdomain=se)
+### Applying consistent supply chain policies at scale with Minder and Trusty, [Jakub Hrozek](https://www.linkedin.com/in/jhrozek/?originalSubdomain=se), Stacklok
 
 <img src="workshop_3_assets/jakub_hrozek.jpeg" alt="Jakub Hrozek" width=100px />
 
-Bio: I'm a programmer interested in the cloud-native world, identity management, security and Linux programming in general.
-I've been developing software for 15+ years, mainly in the Open Source world and have experience both as a individual contributor to OSS projects and as a maintainer. both on the upstream side and the downstream side of the project. Most of the OSS projects and work teams I've been involved in were fully remote and in my role I've been working fully remotely as a part of a team distributed across several time zones.
+Managing the security settings of a single repository can be done with a bit of scripting. But what do you do when your organisation has more repositories than developers and every developer team wants to apply their settings to meet their own definition of “secure”? In addition, how do you make sure that the dependencies your repositories are consuming are trustworthy and should be used as the foundation of your software?
+
+In this talk, we’ll demonstrate two tools we have been developing at Stacklok - Minder which addresses the repository sprawl and allows users to secure their repositories by using an extensible policy engine and Trusty which allows to assess the quality of a software package by going beyond metrics like CVEs and instead focusing on how “trusted” a dependency can be.
 
 ## Poster submission
 
