@@ -1,14 +1,14 @@
 # Software supply chain attacks on crypto
 
 In this article, we discus attacks on cryptocurrency and digital asset infrastructures and focus on software supply chain attacks.
-We first list high-profile attacks that have been made public and the discuss possible mitigations.
+We first list high-profile attacks that have been made public and we discuss possible mitigations.
 
 Authors: Martin Monperrus & the [CHAINS team](https://chains.proj.kth.se/)  
 Creation date: Nov 30 2022  
 Status: keeps being updated over time  
 Ref URL: <https://chains.proj.kth.se/software-supply-chain-attacks-crypto.html>  
 
-## Attacks
+## Software Attacks
 
 ### event-stream attack (Maintainer change), 2018
 
@@ -110,18 +110,27 @@ Secbit has been discovered that Trust Wallet did correctly use a dependency (`tr
 
 Ref: <https://secbit.io/blog/en/2024/01/19/trust-wallets-fomo3d-summer-vuln/>
 
-## Discussion
+## Hardware attacks
 
-### Hardware wallet attacks
+It is possible to tamper with hardware devices used in crypto, typically a hardware wallet. Who would do that: an employee at the company that designed the wallet, the factory that produced it, and everyone involved in shipping it. Ref: <https://vitalik.ca/general/2021/01/11/recovery.html>. Such a real hardware supply chain attack has happened on Trezor wallets (2022): <https://www.kaspersky.com/blog/fake-trezor-hardware-crypto-wallet/48155/>
 
-* Tamper with the device:
-  * who: an employee at the company that designed the wallet, the factory that produced it, and everyone involved in shipping it Ref! <https://vitalik.ca/general/2021/01/11/recovery.html>
-  * Real hardware supply chain attack on Trezor wallets (2022): <https://www.kaspersky.com/blog/fake-trezor-hardware-crypto-wallet/48155/>
+## Counter-measures
 
-* Mitigations:
+### Cryptography
   * "To mitigate fake devices and evil-maid attacks, we sign a public key generated on the secure chip of each device during the factory setup using our own private key. The BitBoxApp verifies the challenge is signed by a certified attestation key When you connect the BitBox02 to the host device, the BitBoxApp automatically checks that it is connected to an authentic device produced and programmed by Shift Crypto with a challenge-response mechanism. The BitBoxApp sends the BitBox02 a challenge (random number) that needs to be signed by the attestation key on the device."  [How we mitigate supply chain attacks](https://shiftcrypto.ch/blog/supply-chain-attacks/)
-  * Use old hardware you already have at home, such as a GameBoy, see <https://blockworks.co/news/gameboy-cold-wallet>
 
+### Old hardware
+
+Old hardware, predating crypto, cannot contain a backdoor that that has been designed for stealing crypto. Some suggest to use old hardware one already has at home, such as a GameBoy, see <https://blockworks.co/news/gameboy-cold-wallet>
+
+### Diversity
+
+Compromising one software component is hard, compromising many is much harder.
+It is a good idea to use [software diversity](https://arxiv.org/pdf/2005.11776.pdf) and hardware diversity to protect crypt funds.
+
+Casa is a company providing key protection, their architecture distributes multiple keys across different hardware devices. Ref: [Supply chain attacks: What you need to know to protect your assets](https://blog.keys.casa/supply-chain-attacks-what-you-should-know/)
+
+"To avoid fragility to malware, software bugs and hardware faults, a diversity of hardware and software should be relied upon within the sets of components that are redundantly performing the same functions. This applies to hardware wallets, software which runs on the hardware wallets, the networked devices and their operating systems." [Custody Protocols Using Bitcoin Vaults, Swambo et al. 2020](https://arxiv.org/pdf/2005.11776.pdf)
 
 
 [Edit this page](https://github.com/chains-project/chains-project.github.io/edit/main/software-supply-chain-attacks-crypto.md)
