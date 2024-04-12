@@ -54,6 +54,13 @@ Please email the PDF of the poster to amansha@kth.se with *title* and *abstract*
 The size of the poster should be *A1*.
 After the workshop, we will also host the posters on this website.
 
+## Sponsors
+
+<div style="display: flex; justify-content: center;">
+<img src="workshop_3_assets/ssf_logo.svg" alt="Imagen 2" style="width: 200; margin: auto;"/>
+  <img src="workshop_3_assets/df_logo.png" alt="Imagen 1" style="max-width: 30%; margin: auto;"/> 
+</div>
+
 ## Previous editions
 
 - [2nd KTH Workshop on the Software Supply Chain](/software-supply-chain-workshop-2.md)
