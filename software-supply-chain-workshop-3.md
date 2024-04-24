@@ -25,6 +25,7 @@ Anyone who is curious about software engineering and security research is most w
 | 1140 | SBOM2Sandbox: convenient sandboxing for Node.js by [Eric Cornelissen](https://ericcornelissen.dev/) |
 | 1200 | Lunch at [Syster o Bror](https://systerobror.se/) |
 | 1400 | Applying consistent supply chain policies at scale with Minder and Trusty [Jakub Hrozek](https://www.linkedin.com/in/jhrozek/?originalSubdomain=se) |
+| 1450 | Maven-lockfile: Lockfiles for Maven by [Yogya Gamage](https://www.kth.se/profile/yogya)|
 | 1500 | Fika |
 | 1530 | Capslock: Capability Analysis in Golang ecosystem by [Carmine Cesarano](https://carminecesarano.github.io/) |
 | 1550 | [BUMP: A Benchmark of Reproducible Breaking Dependency Updates](https://arxiv.org/abs/2401.09906) by [Frank Reyes-García](https://www.kth.se/profile/frankrg) |
