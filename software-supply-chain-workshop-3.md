@@ -21,7 +21,7 @@ Anyone who is curious about software engineering and security research is most w
 | 0900 | Introduction by [Martin Monperrus](https://www.monperrus.net/martin/) |
 | 0930 | Keynote: Understanding and Preventing Open-Source Software Supply Chain Attacks by [Piergiorgio Ladisa](https://scholar.google.com/citations?hl=it&user=LMHpRBkAAAAJ) |
 | 1030 | Break + Poster Session (Elias + Master students) |
-| 1120 | SBOM.exe: Runtime Integrity for Java by [Aman Sharma](https://algomaster99.github.io/) |
+| 1120 | SBOM.exe: Runtime Integrity for Java by [Aman Sharma](https://algomaster99.github.io/) ([slides](https://algomaster99.github.io/talks/3rd-chains-workshop/slides.pdf)) |
 | 1140 | SBOM2Sandbox: convenient sandboxing for Node.js by [Eric Cornelissen](https://ericcornelissen.dev/) |
 | 1200 | Lunch at [Syster o Bror](https://systerobror.se/) |
 | 1400 | Applying consistent supply chain policies at scale with Minder and Trusty [Jakub Hrozek](https://www.linkedin.com/in/jhrozek/?originalSubdomain=se) |
