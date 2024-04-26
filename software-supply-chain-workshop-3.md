@@ -3,6 +3,9 @@
 <meta property="og:image" content="https://avatars.githubusercontent.com/u/104410944?s=200&v=4">
 
 # 3rd KTH Workshop on the Software Supply Chain
+<p align="center">
+    <img src="workshop_3_assets/website-group-picture.jpeg" alt="workshop cover image" width="1000px" />
+</p>
 
 Welcome to the 3rd KTH Workshop on the Software Supply Chain.
 This workshop is organized in the context of the [CHAINS](https://chains.proj.kth.se/) research project.
