@@ -52,14 +52,14 @@ In this talk, we’ll demonstrate two tools we have been developing at Stacklok 
 ## Poster session
 
 List of posters:
-* "Secured ( defined ) or Compliant ( declared ) SBOM" by Hans Thorsen Lamm
-* "Implementing SBOM Attestations in an Enterprise Context: An Exploration of the Benefits and Challenges" by Christofer Vikström
-* "Strengthening the Go Ethereum Supply Chain" by Build Integrity by Vivi Andersson
-* "Embedding the Software Supply Chain in Java Class Files" by Daniel Williams
-* "Analysis of the software supply chain of cryptocurrency wallets" by Raphina Liu, Sofia Bobadilla
-* "Fracturiser: Attack on Minecraft Mods" by Elias Lundell
-* "An Evaluation of Air-gapped Software Builds" by Oliver Schwalbe Lehtihet
-* "Slowdown breaking dependency updates with Bumper" by Federico Bono
+* [Secured ( defined ) or Compliant ( declared ) SBOM](workshop_3_assets/posters/Secured%20(%20defined%20)%20or%20Compliant%20(%20declared%20)%20SBOM.pdf) by Hans Thorsen Lamm
+* [Implementing SBOM Attestations in an Enterprise Context: An Exploration of the Benefits and Challenges](workshop_3_assets/posters/Implementing%20SBOM%20Attestations%20in%20an%20Enterprise%20Context:%20An%20Exploration%20of%20the%20Benefits%20and%20Challenges.pdf) by Christofer Vikström
+* [Strengthening the Go Ethereum Supply Chain](workshop_3_assets/posters/Strengthening%20the%20Go%20Ethereum%20Supply%20Chain%20by%20Build%20Integrity.pdf) by Build Integrity by Vivi Andersson
+* [Embedding the Software Supply Chain in Java Class Files](workshop_3_assets/posters/Embedding%20the%20Software%20Supply%20Chain%20in%20Java%20Class%20Files.pdf) by Daniel Williams
+* [Analysis of the software supply chain of cryptocurrency wallets](workshop_3_assets/posters/Analysis%20of%20the%20software%20supply%20chain%20of%20cryptocurrency%20wallets.pdf) by Raphina Liu, Sofia Bobadilla
+* [Fracturiser: Attack on Minecraft Mods](workshop_3_assets/posters/Fracturiser:%20Attack%20on%20Minecraft%20Mods.pdf) by Elias Lundell
+* [An Evaluation of Air-gapped Software Builds](workshop_3_assets/posters/An%20Evaluation%20of%20Air-gapped%20Software%20Builds.pdf) by Oliver Schwalbe Lehtihet
+* [Slowdown breaking dependency updates with Bumper](workshop_3_assets/posters/Slowdown%20breaking%20dependency%20updates%20with%20Bumper.pdf) by Federico Bono
 
 ## Sponsors
 
