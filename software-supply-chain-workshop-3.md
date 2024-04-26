@@ -49,10 +49,14 @@ In this talk, we’ll demonstrate two tools we have been developing at Stacklok 
 ## Poster session
 
 List of posters:
-* 
-* 
-* 
-* 
+* "Secured ( defined ) or Compliant ( declared ) SBOM" by Hans Thorsen Lamm
+* "Implementing SBOM Attestations in an Enterprise Context: An Exploration of the Benefits and Challenges" by Christofer Vikström
+* "Strengthening the Go Ethereum Supply Chain" by Build Integrity by Vivi Andersson
+* "Embedding the Software Supply Chain in Java Class Files" by Daniel Williams
+* "Analysis of the software supply chain of cryptocurrency wallets" by Raphina Liu, Sofia Bobadilla
+* "Fracturiser: Attack on Minecraft Mods" by Elias Lundell
+* "An Evaluation of Air-gapped Software Builds" by Oliver Schwalbe Lehtihet
+* "Slowdown breaking dependency updates with Bumper" by Federico Bono
 
 ## Sponsors
 
