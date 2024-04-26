@@ -11,8 +11,6 @@ This workshop is organized in the context of the [CHAINS](https://chains.proj.kt
 * Location: [Salongen, Osquars backe 31, KTH Campus](https://www.kth.se/places/room/id/2ce773d5-3190-4588-8618-27ea2822000b)
 * Date: April 26, 2024
 * Time: 9h-17h
-* The workshop is free of charge but registration is compulsory for the sake of lunch/fika planning: [Registration form](https://www.kth.se/form/65df0be2785f1239a4a89fee).
-Anyone who is curious about software engineering and security research is most welcome to attend. 😄 
 
 ## Program
 
@@ -48,12 +46,13 @@ Managing the security settings of a single repository can be done with a bit of 
 
 In this talk, we’ll demonstrate two tools we have been developing at Stacklok - Minder which addresses the repository sprawl and allows users to secure their repositories by using an extensible policy engine and Trusty which allows to assess the quality of a software package by going beyond metrics like CVEs and instead focusing on how “trusted” a dependency can be.
 
-## Poster submission
+## Poster session
 
-If you indicated "Yes" to present a poster, you are already accepted!
-Please email the PDF of the poster to amansha@kth.se by **15th April, 2024** with *title* and *abstract* and we will get it printed.
-The size of the poster should be *A1*.
-After the workshop, we will also host the posters on this website.
+List of posters:
+* 
+* 
+* 
+* 
 
 ## Sponsors
 
