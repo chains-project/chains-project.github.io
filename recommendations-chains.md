@@ -6,6 +6,8 @@ Based on our readings and research, we came to the following conclusions.
 
 ## CHAINS Recommends
 
+CHAINS recommendations are meant to be directly applicable, with state of the art solutions.
+
 * CHAINS recommends designing, implementing and enforcing [reproducible builds](https://arxiv.org/pdf/2104.06020)
 * CHAINS recommends the usage of dependency pinning, via hashes.
   * In NPM, this means using [lockfiles](https://docs.npmjs.com/cli/v10/configuring-npm/package-lock-json).
@@ -15,7 +17,10 @@ Based on our readings and research, we came to the following conclusions.
   
 ## CHAINS Encourages
 
+These items are harder to achieve than the recommendations above, because of lack of maturity. 
+
 * CHAINS encourages transparency logs over releases/packages
-* CHAINS recommends using functional package managers in CI (Guix, NIX)
+* CHAINS encourages using functional package managers in CI (Guix, NIX)
 * CHAINS encourages automated publication of SBOMs as part the release process ([tutorial for Github release](https://chains.proj.kth.se/sbom-github.html))
+* CHAINS encourages source-based package registries, such as Go. This increases transparency and auditability, and reduces the attack surface of malicious tampering. 
 
