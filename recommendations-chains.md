@@ -14,6 +14,8 @@ CHAINS recommendations are meant to be directly applicable, with state of the ar
   * In Maven, this mean strict versions in the pom + [Maven lockfile](https://github.com/chains-project/maven-lockfile/).
 * CHAINS recommends the usage of automated dependency bots such as [Renovate]([url](https://github.com/apps/renovate)) and Dependabot.
 * CHAINS recommends the usage of static vulnerability scanners on all commits of the main branch. This contributes to protect against insider attacks (eg [xz](https://research.swtch.com/xz-timeline)).
+* CHAINS recommends disabling dynamic evaluation of code (aka eval) in production
+    * In NodeJS, this is `--disallow-code-generation-from-strings` [doc](https://nodejs.org/api/cli.html#--disallow-code-generation-from-strings)
   
 ## CHAINS Encourages
 
