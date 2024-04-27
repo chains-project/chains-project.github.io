@@ -23,7 +23,7 @@ This workshop is organized in the context of the [CHAINS](https://chains.proj.kt
 | 0930 | Keynote: Understanding and Preventing Open-Source Software Supply Chain Attacks by [Piergiorgio Ladisa](https://scholar.google.com/citations?hl=it&user=LMHpRBkAAAAJ) |
 | 1030 | Break + Poster Session (Elias + Master students) |
 | 1120 | SBOM.exe: Runtime Integrity for Java by [Aman Sharma](https://algomaster99.github.io/) ([slides](https://algomaster99.github.io/talks/3rd-chains-workshop/slides.pdf)) |
-| 1140 | SBOM2Sandbox: convenient sandboxing for Node.js by [Eric Cornelissen](https://ericcornelissen.dev/) |
+| 1140 | SBOM2Sandbox: convenient sandboxing for Node.js by [Eric Cornelissen](https://ericcornelissen.dev/) ([slides](workshop_3_assets/slides/sbom2sandbox.pdf)) |
 | 1200 | Lunch at [Syster o Bror](https://systerobror.se/) |
 | 1400 | Applying consistent supply chain policies at scale with Minder and Trusty [Jakub Hrozek](https://www.linkedin.com/in/jhrozek/?originalSubdomain=se) |
 | 1450 | Maven-lockfile: Lockfiles for Maven by [Yogya Gamage](https://www.kth.se/profile/yogya)|
@@ -35,7 +35,7 @@ This workshop is organized in the context of the [CHAINS](https://chains.proj.kt
 
 ## Talks
 
-### Understanding and Preventing Open-Source Software Supply Chain Attacks,[Piergiorgio Ladisa](https://scholar.google.com/citations?hl=it&user=LMHpRBkAAAAJ)), ING
+### Understanding and Preventing Open-Source Software Supply Chain Attacks, [Piergiorgio Ladisa](https://scholar.google.com/citations?hl=it&user=LMHpRBkAAAAJ)), ING
 
 <img src="workshop_3_assets/piergiorgio_ladisa.jpeg" alt="Piergiorgio Ladisa" width=100px />
 
