@@ -20,15 +20,15 @@ This workshop is organized in the context of the [CHAINS](https://chains.proj.kt
 | Time | Event |
 |------|-------|
 | 0900 | Introduction by [Martin Monperrus](https://www.monperrus.net/martin/) |
-| 0930 | Keynote: Understanding and Preventing Open-Source Software Supply Chain Attacks by [Piergiorgio Ladisa](https://scholar.google.com/citations?hl=it&user=LMHpRBkAAAAJ) |
+| 0930 | Keynote: Understanding and Preventing Open-Source Software Supply Chain Attacks by [Piergiorgio Ladisa](https://scholar.google.com/citations?hl=it&user=LMHpRBkAAAAJ) ([slides](workshop_3_assets/slides/Keynote:%20Understanding%20and%20Preventing%20Open-Source%20Software%20Supply%20Chain%20Attacks.pdf)) |
 | 1030 | Break + Poster Session (Elias + Master students) |
 | 1120 | SBOM.exe: Runtime Integrity for Java by [Aman Sharma](https://algomaster99.github.io/) ([slides](https://algomaster99.github.io/talks/3rd-chains-workshop/slides.pdf)) |
 | 1140 | SBOM2Sandbox: convenient sandboxing for Node.js by [Eric Cornelissen](https://ericcornelissen.dev/) ([slides](workshop_3_assets/slides/sbom2sandbox.pdf)) |
 | 1200 | Lunch at [Syster o Bror](https://systerobror.se/) |
-| 1400 | Applying consistent supply chain policies at scale with Minder and Trusty [Jakub Hrozek](https://www.linkedin.com/in/jhrozek/?originalSubdomain=se) |
+| 1400 | Applying consistent supply chain policies at scale with Minder and Trusty [Jakub Hrozek](https://www.linkedin.com/in/jhrozek/?originalSubdomain=se) ([slides](workshop_3_assets/slides/Supply%20Chain%20Security%20at%20Stacklok.pdf)) |
 | 1450 | Maven-lockfile: Lockfiles for Maven by [Yogya Gamage](https://www.kth.se/profile/yogya)|
 | 1500 | Fika |
-| 1530 | Capslock: Capability Analysis in Golang ecosystem by [Carmine Cesarano](https://carminecesarano.github.io/) |
+| 1530 | Capslock: Capability Analysis in Golang ecosystem by [Carmine Cesarano](https://carminecesarano.github.io/) ([slides](workshop_3_assets/slides/Capslock:%20Capability%20Analysis%20in%20Golang%20ecosystem.pdf)) |
 | 1550 | [BUMP: A Benchmark of Reproducible Breaking Dependency Updates](https://arxiv.org/abs/2401.09906) by [Frank Reyes-García](https://www.kth.se/profile/frankrg) |
 | 1610 | VEX-generation for containers by [Yekatierina Churakova](https://www.kth.se/profile/yekchu?l=en) |
 | 1630 | Closing |
