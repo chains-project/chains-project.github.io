@@ -29,7 +29,7 @@ This workshop is organized in the context of the [CHAINS](https://chains.proj.kt
 | 1450 | Maven-lockfile: Lockfiles for Maven by [Yogya Gamage](https://www.kth.se/profile/yogya) ([slides](workshop_3_assets/slides/Maven-lockfile.pdf))|
 | 1500 | Fika |
 | 1530 | Capslock: Capability Analysis in Golang ecosystem by [Carmine Cesarano](https://carminecesarano.github.io/) ([slides](workshop_3_assets/slides/Capslock:%20Capability%20Analysis%20in%20Golang%20ecosystem.pdf)) |
-| 1550 | [BUMP: A Benchmark of Reproducible Breaking Dependency Updates](https://arxiv.org/abs/2401.09906) by [Frank Reyes-García](https://www.kth.se/profile/frankrg) |
+| 1550 | [BUMP: A Benchmark of Reproducible Breaking Dependency Updates](https://arxiv.org/abs/2401.09906) by [Frank Reyes-García](https://www.kth.se/profile/frankrg) ([slides](workshop_3_assets/slides/BUMP:%20A%20Benchmark%20of%20Reproducible%20Breaking%20Dependency%20Updates.pdf)) |
 | 1610 | VEX-generation for containers by [Yekatierina Churakova](https://www.kth.se/profile/yekchu?l=en) |
 | 1630 | Closing |
 
