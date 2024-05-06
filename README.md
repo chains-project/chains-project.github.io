@@ -49,6 +49,7 @@ The project is funded by the [Swedish Foundation for Strategic research (SSF)](h
 - [Unveiling the Invisible: Detection and Evaluation of Prototype Pollution Gadgets with Dynamic Taint Analysis](https://arxiv.org/abs/2311.03919). Proceedings of WWW, 2024.
 
 Posts:
+- [CHAINS contributions to open-source](chains-opensource.md)
 - [Dependency Resolution in Different Ecosystems](dependency-resolution/index.md)
 - [The CHAINS software supply chain recommendations](recommendations-chains.md)
 - [An overview of Reproducible Builds Summit 2023](reproducible-builds-2023/index.md)
