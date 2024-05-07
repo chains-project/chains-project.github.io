@@ -1,4 +1,4 @@
-  # The CHAINS software supply chain recommendations
+# The CHAINS software supply chain recommendations
 
 Based on our readings and research, we came to the following conclusions.
 
@@ -8,21 +8,20 @@ Based on our readings and research, we came to the following conclusions.
 
 CHAINS recommendations are meant to be directly applicable, with state of the art solutions.
 
-* CHAINS recommends designing, implementing and enforcing [reproducible builds](https://arxiv.org/pdf/2104.06020)
-* CHAINS recommends the usage of dependency pinning, via hashes.
-  * In NPM, this means using [lockfiles](https://docs.npmjs.com/cli/v10/configuring-npm/package-lock-json).
-  * In Maven, this mean strict versions in the pom + [Maven lockfile](https://github.com/chains-project/maven-lockfile/).
-* CHAINS recommends the usage of automated dependency bots such as [Renovate]([url](https://github.com/apps/renovate)) and Dependabot.
-* CHAINS recommends the usage of static vulnerability scanners on all commits of the main branch. This contributes to protect against insider attacks (eg [xz](https://research.swtch.com/xz-timeline)).
-* CHAINS recommends disabling dynamic evaluation of code (aka eval) in production
-    * In NodeJS, this is `--disallow-code-generation-from-strings` [doc](https://nodejs.org/api/cli.html#--disallow-code-generation-from-strings)
-  
+- CHAINS recommends designing, implementing and enforcing [reproducible builds](https://arxiv.org/pdf/2104.06020)
+- CHAINS recommends the usage of dependency pinning, via hashes.
+  - In NPM, this means using [lockfiles](https://docs.npmjs.com/cli/v10/configuring-npm/package-lock-json).
+  - In Maven, this means strict versions in the pom + [Maven lockfile](https://github.com/chains-project/maven-lockfile/).
+- CHAINS recommends the usage of automated dependency bots such as [Renovate](<[url](https://github.com/apps/renovate)>) and Dependabot.
+- CHAINS recommends the usage of static vulnerability scanners on all commits of the main branch. This contributes to protecting against insider attacks (eg [xz](https://research.swtch.com/xz-timeline)).
+- CHAINS recommends disabling dynamic evaluation of code (aka eval) in production
+  - In NodeJS, this is `--disallow-code-generation-from-strings` [doc](https://nodejs.org/api/cli.html#--disallow-code-generation-from-strings)
+
 ## CHAINS Encourages
 
-These items are harder to achieve than the recommendations above, because of lack of maturity. 
+These items are harder to achieve than the recommendations above, because of lack of maturity.
 
-* CHAINS encourages transparency logs over releases/packages
-* CHAINS encourages using functional package managers in CI (Guix, NIX)
-* CHAINS encourages automated publication of SBOMs as part the release process ([tutorial for Github release](https://chains.proj.kth.se/sbom-github.html))
-* CHAINS encourages source-based package registries, such as Go. This increases transparency and auditability, and reduces the attack surface of malicious tampering. 
-
+- CHAINS encourages transparency logs over releases/packages
+- CHAINS encourages using functional package managers in CI (Guix, NIX)
+- CHAINS encourages automated publication of SBOMs as part of the release process ([tutorial for Github release](https://chains.proj.kth.se/sbom-github.html))
+- CHAINS encourages source-based package registries, such as Go. This increases transparency and auditability, and reduces the attack surface of malicious tampering.
