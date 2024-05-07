@@ -13,4 +13,5 @@ Our contributions to the infrastructure.
   * [outdated Github workflow template](https://github.com/actions/starter-workflows/pull/2347)
 * NPM
   * [link to attestestion in automated notification emails](https://github.com/orgs/community/discussions/122114)
-
+* Docker
+  * [Search docker images by checksums sha256](https://github.com/docker/roadmap/issues/663) 
