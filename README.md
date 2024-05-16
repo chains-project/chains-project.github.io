@@ -61,8 +61,8 @@ Posts:
 ## Team
 
 * Principal Investigators: [Musard Balliu](https://people.kth.se/~musard/), [Benoit Baudry](https://softwarediversity.eu/), [Mathias Ekstedt](https://www.kth.se/profile/mekstedt/), [Martin Monperrus](https://www.monperrus.net/martin/)
-* PhD students: [Sofia Bobadilla](https://www.kth.se/profile/sofbob?l=en), [Eric Cornelissen](https://ericcornelissen.dev/), [Javier Ron](https://www.kth.se/profile/javierro), [Aman Sharma](https://algomaster99.github.io/), [Mikhail Shcherbakov](https://www.kth.se/profile/mshc), [Liu Yuxin](https://www.kth.se/profile/yuxinli), [Frank Reyes](https://www.kth.se/profile/frankrg/?l=en), [Yekatierina Churakova](https://www.kth.se/profile/yekchu?l=en), [Carmine Cesarano (PhD student U. Naples)](https://carminecesarano.github.io/)
-* Research engineers & assistants: [Yogya Gamage](https://www.kth.se/profile/yogya/?l=en), [Raphina Liu](), [Elias Lundell](https://www.kth.se/profile/ellundel/) 
+* PhD students: [Sofia Bobadilla](https://www.kth.se/profile/sofbob?l=en), [Eric Cornelissen](https://ericcornelissen.dev/), [Javier Ron](https://www.kth.se/profile/javierro), [Aman Sharma](https://algomaster99.github.io/), [Mikhail Shcherbakov](https://www.kth.se/profile/mshc), [Liu Yuxin](https://www.kth.se/profile/yuxinli), [Frank Reyes](https://www.kth.se/profile/frankrg/?l=en), [Yekatierina Churakova](https://www.kth.se/profile/yekchu?l=en), [Carmine Cesarano (PhD student U. Naples)](https://carminecesarano.github.io/), [Yogya Gamage](https://www.kth.se/profile/yogya/?l=en) 
+* Research engineers & assistants: [Raphina Liu](), [Elias Lundell](https://www.kth.se/profile/ellundel/), [Monica Jin](https://www.kth.se/profile/mjin/)
 * Master's students: [Christofer Vikström](TODO), [Daniel Williams](TODO), [Felix Qvarfordt](TODO), [Vivi Andersson](TODO), [Oliver Schwalbe Lehtihet](), [Federico Bono]()
 
 Chains alumni: [Arvid Siberov](https://siberov.se), [Linus Östlund](https://www.kth.se/profile/linusost/), [Gabriel Skoglund](https://www.kth.se/profile/gabsko), [César Soto-Valero](https://www.cesarsotovalero.net/), [Martin Wittlinger](https://github.com/MartinWitt/)
