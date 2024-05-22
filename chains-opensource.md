@@ -13,9 +13,11 @@ Our contributions to the infrastructure.
 * Go
   * [Bug identified and reproduced related to the trimpath flag (issue 67011)](https://github.com/golang/go/issues/67011)
 * Github
-  * [outdated Github workflow template](https://github.com/actions/starter-workflows/pull/2347)
+  * [search on Github for all commits signed by a given GPG or SSH key](https://github.com/orgs/community/discussions/112411)
+  * [fix outdated Github workflow template](https://github.com/actions/starter-workflows/pull/2347)
   * [keep github action logs forever for transparency and auditability of published software packages](https://github.com/orgs/community/discussions/123969)
   * [link to attestation in NPM automated notification emails](https://github.com/orgs/community/discussions/122114)
+   
 * Docker
   * [Search docker images by checksums sha256](https://github.com/docker/roadmap/issues/663) 
 
