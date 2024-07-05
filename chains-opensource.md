@@ -2,11 +2,10 @@
 
 Our contributions to the infrastructure.
 
-* SBOM
-  * [Deterministic SBOM for build-info-go](https://github.com/jfrog/build-info-go/issues/135)
 * Maven
   * [maven-lockfile: build integrity in Maven with lockfiles](https://github.com/chains-project/maven-lockfile/)
   * [JSON output for mvn dependency:tree (PR)](https://github.com/apache/maven-dependency-plugin/pull/391) [issue](https://issues.apache.org/jira/browse/MDEP-799) 
+  * [Deterministic Maven SBOM for build-info-go](https://github.com/jfrog/build-info-go/issues/135)
   * [Expiration for deployment keys on Maven Central](https://community.sonatype.com/t/add-support-for-expiration-for-access-tokens-in-nexus/12501)
 * Pypi
   * [add verifiable cryptographic signature to email event in "security history" log](https://github.com/pypi/warehouse/issues/15974)
