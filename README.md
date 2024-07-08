@@ -88,6 +88,7 @@ Chains alumni: [Arvid Siberov](https://siberov.se), [Linus Östlund](https://www
 
 ## Press
 
+- June 12 2024: [Framtidens Forskning](https://framtidensforskning.se/2024/06/12/bygger-mer-robusta-programvarukedjor/) (In Swedish)
 - June 17 2022: [Framtidens Forskning](https://framtidensforskning.se/2022/06/17/forsorjningskedjan-for-programvaror-avgorande-for-sakerheten/) (In Swedish)
 
 ## Repositories
