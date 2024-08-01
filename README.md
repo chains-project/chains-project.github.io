@@ -48,6 +48,7 @@ The project is funded by the [Swedish Foundation for Strategic research (SSF)](h
 - [Mitigating CI/CD threats through an extended access control model](http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-346918), Master's thesis Arvid Siberov, 2024
 - [Unveiling the Invisible: Detection and Evaluation of Prototype Pollution Gadgets with Dynamic Taint Analysis](https://arxiv.org/abs/2311.03919). Proceedings of WWW, 2024.
 - [GHunter: Universal Prototype Pollution Gadgets in JavaScript Runtimes](https://arxiv.org/abs/2407.10812). Usenix Security 2024.
+- [Java-Class-Hijack: Software Supply Chain Attack for Java based on Maven Dependency Resolution and Java Classloading](https://arxiv.org/abs/2407.18760). arXiv 2024.
 
 Posts:
 - [CHAINS contributions to open-source](chains-opensource.md)
