@@ -18,7 +18,9 @@ Our contributions to the infrastructure.
   * [link to attestation in NPM automated notification emails](https://github.com/orgs/community/discussions/122114)
   * [Github SBOMs are not compatible with Grype](https://github.com/orgs/community/discussions/131104)   
 * Docker
-  * [Search docker images by checksums sha256](https://github.com/docker/roadmap/issues/663) 
+  * [Search docker images by checksums sha256](https://github.com/docker/roadmap/issues/663)
+* Diffoscope
+  * [Propose fix for disabling syntax highlighting in the diff](https://lists.reproducible-builds.org/pipermail/diffoscope/2024-August/002783.html)
 
 Applications:
 * Key contributions to make [go-ethereum / geth reproducible](https://github.com/ethereum/go-ethereum/issues/28987)
