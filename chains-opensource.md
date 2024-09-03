@@ -11,6 +11,10 @@ Our contributions to the infrastructure.
   * [add verifiable cryptographic signature to email event in "security history" log](https://github.com/pypi/warehouse/issues/15974)
 * Go
   * [Bug identified and reproduced related to the trimpath flag (issue 67011)](https://github.com/golang/go/issues/67011)
+* Geth
+  * [Unreproducible builds: Detached HEAD state](https://github.com/ethereum/go-ethereum/pull/30320)
+  * [Unreproducible builds: Travis CI bug](https://github.com/ethereum/go-ethereum/pull/30319)
+  * [Unreproducible builds: vcs.modified=true on downloadable artefacts](https://github.com/ethereum/go-ethereum/issues/30324)
 * Github
   * [search on Github for all commits signed by a given GPG or SSH key](https://github.com/orgs/community/discussions/112411)
   * [fix outdated Github workflow template](https://github.com/actions/starter-workflows/pull/2347)
