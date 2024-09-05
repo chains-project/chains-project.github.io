@@ -49,6 +49,8 @@ The project is funded by the [Swedish Foundation for Strategic research (SSF)](h
 - [Unveiling the Invisible: Detection and Evaluation of Prototype Pollution Gadgets with Dynamic Taint Analysis](https://arxiv.org/abs/2311.03919). Proceedings of WWW, 2024.
 - [GHunter: Universal Prototype Pollution Gadgets in JavaScript Runtimes](https://arxiv.org/abs/2407.10812). Usenix Security 2024.
 - [Java-Class-Hijack: Software Supply Chain Attack for Java based on Maven Dependency Resolution and Java Classloading](https://arxiv.org/abs/2407.18760). arXiv 2024.
+- [SBOM.EXE: Countering Dynamic Code Injection based on Software Bill of Materials in Java](https://arxiv.org/abs/2407.00246), arXiv  2024.
+- [Breaking-Good: Explaining Breaking Dependency Updates with Build Analysis](https://arxiv.org/abs/2407.03880), Proceedings of IEEE SCAM, 2024
 
 Posts:
 - [CHAINS contributions to open-source](chains-opensource.md)
