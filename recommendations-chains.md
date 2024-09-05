@@ -22,6 +22,7 @@ CHAINS recommendations are meant to be directly applicable, with state of the ar
 These items are harder to achieve than the recommendations above, because of lack of maturity.
 
 - CHAINS encourages transparency logs over releases/packages
+- CHAINS encourages pushing build attestations on high-integrity ledgers such Sigstore/Rekor
 - CHAINS encourages using functional package managers in CI (Guix, NIX)
 - CHAINS encourages automated publication of SBOMs as part of the release process ([tutorial for Github release](https://chains.proj.kth.se/sbom-github.html))
 - CHAINS encourages source-based package registries, such as Go. This increases transparency and auditability, and reduces the attack surface of malicious tampering.
