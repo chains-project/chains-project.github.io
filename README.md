@@ -52,6 +52,11 @@ The project is funded by the [Swedish Foundation for Strategic research (SSF)](h
 - [SBOM.EXE: Countering Dynamic Code Injection based on Software Bill of Materials in Java](https://arxiv.org/abs/2407.00246), arXiv  2024.
 - [Breaking-Good: Explaining Breaking Dependency Updates with Build Analysis](https://arxiv.org/abs/2407.03880), Proceedings of IEEE SCAM, 2024
 - [GoSurf: Identifying Software Supply Chain Attack Vectors in Go](http://arxiv.org/pdf/2407.04442), Proceedings of ACM Workshop on Software Supply Chain Offensive Research and Ecosystem Defenses (SCORED'24)
+- [Measuring the Vulnerability Lifecycle in the Software Supply Chain via SBOM Scans](TBD), Master's thesis Felix Qvarfordt, 2024
+- [The Embedding and Retrieval of Software Supply Chain Information in Java Applications](TBD), Master's thesis Daniel Williams, 2024
+- [From Blueprint to Reality: Evaluating the Feasibility of Air-gapped Maven Builds](TBD), Master's thesis Oliver Schwalbe Lehtihet, 2024
+- [Geth Rebuild: Strengthening Ethereum Client Integrity through Reproducible Builds](TBD), Master's thesis Vivi Andersson, 2024
+- [Investigation of the Software Supply Chain of JavaScript Cryptocurrency Wallets](TBD), Master's thesis Raphina Yi Liu, 2024
 
 Posts:
 - [CHAINS contributions to open-source](chains-opensource.md)
@@ -66,11 +71,11 @@ Posts:
 ## Team
 
 * Principal Investigators: [Musard Balliu](https://people.kth.se/~musard/), [Benoit Baudry](https://softwarediversity.eu/), [Mathias Ekstedt](https://www.kth.se/profile/mekstedt/), [Martin Monperrus](https://www.monperrus.net/martin/)
-* PhD students: [Sofia Bobadilla](https://www.kth.se/profile/sofbob?l=en), [Eric Cornelissen](https://ericcornelissen.dev/), [Javier Ron](https://www.kth.se/profile/javierro), [Aman Sharma](https://algomaster99.github.io/), [Mikhail Shcherbakov](https://www.kth.se/profile/mshc), [Liu Yuxin](https://www.kth.se/profile/yuxinli), [Frank Reyes](https://www.kth.se/profile/frankrg/?l=en), [Yekatierina Churakova](https://www.kth.se/profile/yekchu?l=en), [Carmine Cesarano (PhD student U. Naples)](https://carminecesarano.github.io/), [Yogya Gamage](https://www.kth.se/profile/yogya/?l=en) 
+* PhD students: [Sofia Bobadilla](https://www.kth.se/profile/sofbob?l=en), [Eric Cornelissen](https://ericcornelissen.dev/), [Javier Ron](https://www.kth.se/profile/javierro), [Aman Sharma](https://algomaster99.github.io/), [Mikhail Shcherbakov](https://www.kth.se/profile/mshc), [Yuxin Liu](https://www.kth.se/profile/yuxinli), [Frank Reyes](https://www.kth.se/profile/frankrg/?l=en), [Yekatierina Churakova](https://www.kth.se/profile/yekchu?l=en), [Carmine Cesarano](https://carminecesarano.github.io/), [Yogya Gamage](https://scholar.google.se/citations?user=m_67-NAAAAAJ), [Vivi Andersson](TODO)
 * Research engineers & assistants: [Raphina Liu](), [Elias Lundell](https://www.eliaslundell.se/), [Monica Jin](https://www.kth.se/profile/mjin/)
-* Master's students: [Christofer Vikström](TODO), [Daniel Williams](TODO), [Felix Qvarfordt](TODO), [Vivi Andersson](TODO), [Oliver Schwalbe Lehtihet](), [Federico Bono](), [Leonard Husmann]()
+* Master's students: [Christofer Vikström](TODO), [Leonard Husmann](TBD)
 
-Chains alumni: [Arvid Siberov](https://siberov.se), [Linus Östlund](https://www.kth.se/profile/linusost/), [Gabriel Skoglund](https://www.kth.se/profile/gabsko), [César Soto-Valero](https://www.cesarsotovalero.net/), [Martin Wittlinger](https://github.com/MartinWitt/)
+Chains alumni: [Arvid Siberov](https://siberov.se), [Linus Östlund](https://www.kth.se/profile/linusost/), [Gabriel Skoglund](https://www.kth.se/profile/gabsko), [César Soto-Valero](https://www.cesarsotovalero.net/), [Martin Wittlinger](https://github.com/MartinWitt/), [Felix Qvarfordt](https://www.linkedin.com/in/felix-qvarfordt-4b1196a3/), [Daniel Williams](https://www.linkedin.com/in/d-willi/), [Oliver Schwalbe Lehtihet](https://www.linkedin.com/in/oliver-schwalbe-lehtihet/), [Federico Bono](https://www.linkedin.com/in/federico-bono/)
 
 
 ## Events & Talks
