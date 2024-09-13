@@ -1,4 +1,4 @@
-# Master Thesis Topics
+# Master Thesis Topics in Project Chains
 
 1. [Reproducible Builds for non-compiled languages like JavaScript](#reproducible-builds-for-non-compiled-languages-like-javascript)
 2. [Detection and Mitigation of GitHub action smells](#detection-and-mitigation-of-github-action-smells)
