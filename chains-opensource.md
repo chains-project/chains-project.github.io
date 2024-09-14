@@ -4,8 +4,8 @@ Our contributions to the infrastructure.
 
 * Maven
   * [maven-lockfile: build integrity in Maven with lockfiles](https://github.com/chains-project/maven-lockfile/)
-  * [JSON output for mvn dependency:tree (PR)](https://github.com/apache/maven-dependency-plugin/pull/391) [issue](https://issues.apache.org/jira/browse/MDEP-799) 
-  * [Deterministic Maven SBOM for build-info-go](https://github.com/jfrog/build-info-go/issues/135)
+  * [JSON output for mvn dependency:tree (merged)](https://github.com/apache/maven-dependency-plugin/pull/391) [issue](https://issues.apache.org/jira/browse/MDEP-799) 
+  * [Deterministic Maven SBOM for build-info-go (merged)](https://github.com/jfrog/build-info-go/pull/258)
   * [Expiration for deployment keys on Maven Central](https://community.sonatype.com/t/add-support-for-expiration-for-access-tokens-in-nexus/12501)
 * Pypi
   * [add verifiable cryptographic signature to email event in "security history" log](https://github.com/pypi/warehouse/issues/15974)
@@ -22,8 +22,8 @@ Our contributions to the infrastructure.
 
 Applications:
 * Key contributions to make [go-ethereum / geth reproducible](https://github.com/ethereum/go-ethereum/issues/28987)
-  * [enabling reproducible builds: Detached HEAD state](https://github.com/ethereum/go-ethereum/pull/30320)
-  * [enabling reproducible builds: Travis CI bug](https://github.com/ethereum/go-ethereum/pull/30319)
+  * [enabling reproducible builds: Detached HEAD state (merged)](https://github.com/ethereum/go-ethereum/pull/30320)
+  * [enabling reproducible builds: Travis CI bug (merged)](https://github.com/ethereum/go-ethereum/pull/30319)
   * [enabling reproducible builds: vcs.modified=true on downloadable artefacts](https://github.com/ethereum/go-ethereum/issues/30324)
 * Diffoscope
   * [Propose fix for disabling syntax highlighting in the diff](https://lists.reproducible-builds.org/pipermail/diffoscope/2024-August/002783.html)
