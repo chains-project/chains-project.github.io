@@ -108,6 +108,7 @@ See [https://github.com/chains-project/](https://github.com/orgs/chains-project/
 
 ## Master / Internship topics
 
+* [CHAINS master's thesis topics](master-thesis.md)
 * <https://www.kth.se/profile/musard/page/master-thesis-in-security-and-privacy?l=en>
 * <https://softwarediversity.eu/topics/>
 * <https://www.monperrus.net/martin/topics>.
