@@ -1,6 +1,10 @@
 # Master Thesis Topics in Project Chains
 
+Project Chains hosts master's students for their theses, here are available topics. See [main page](/) for completed theses.
+
 ### Reproducible Builds for non-compiled languages like JavaScript
+
+Contact: Eric Cornelissen
 
 Reproducible builds can create trust in the build process of distributed software artifacts through independent verifiers.
 If multiple people are able to build the same artifact it is likely that the build has not been tampered with.
@@ -17,6 +21,8 @@ Related work:
 1. [Reproducible Central](https://github.com/jvm-repo-rebuild/reproducible-central)
 
 ### Detection and Mitigation of GitHub action smells
+
+Contact: Eric Cornelissen
 
 [GitHub Actions](https://docs.github.com/en/actions) is the continuous integration and continuous delivery (CI/CD) solution offered by GitHub.
 It supports "[expressions](https://docs.github.com/en/actions/writing-workflows/choosing-what-your-workflow-does/evaluate-expressions-in-workflows-and-actions)" which are parts of the workflow that are filled in at runtime.
@@ -51,6 +57,9 @@ Prototype:
 
 
 <h3 id="uid42">Empirical Study of Compilation Reproducibility in Solidity</h3>
+
+Contact: Aman Sharma
+
 <p>Description:
 The reproducibility of software builds is a critical aspect of secure software development This concept has been pushed forward in the context of Solidity, the programming language
 used for writing smart contracts on the Ethereum blockchain, with the notion of "verified contracts".
@@ -67,6 +76,9 @@ Solidity development.</p>
 </li></ol>
 
 <h3 id="uid46">Zero-knowledge software bills of materials</h3>
+
+Contact: Javier Ron
+
 <p>Description: Software bills of materials (SBOMs) are complete lists of software components [1], these can be helpful in tracing vulnerabilities, license compliance, etc. However, revealing an SBOM publicly also means revealing said vulnerabilities to malicious actors. Furthermore, some proprietary software developers advocate for access control for SBOM distribution [2].
 Zero-knowledge proofs allows a party to convey that a statement is true without disclosing any additional information. [3]
 You will design, develop, and evaluate a zero-knowledge SBOM system, which allows developers to disclose limited, but verifiable SBOM information to authorized users.</p>
@@ -103,6 +115,9 @@ Automatic Reproduction of Maven Artifacts</a></p>
 </li></ol>
 
 <h3 id="uid54">Diverse-double compilation for Java</h3>
+
+Contact: Martin Monperrus
+
 <p>Description:
 Java is a key programming language for enterprise applications. As such, the Java compiler is an ideal target for a trusting trust attack. This thesis aims to investigate the feasibility of diverse-double compilation (DDC) to mitigate this problem You will design, implement and evaluate DDC for Java.</p>
 <ol>
@@ -127,6 +142,9 @@ target for trusting trust attacks. This thesis aims to explore the systematic us
 </li></ol>
 
 <h3 id="uid62">Dynamic Integrity Verification &amp; Repair for Java Applications</h3>
+
+Contact: Martin Monperrus
+
 <p>Description:
 Attackers constantly try to tamper with the code of software applications in production.
 Chang and Attalah have proposed a technique to not only detect modifications and also repairing the code after attacks by a network of small security
@@ -148,6 +166,9 @@ Rigorous evaluation against various benchmarks will be one to assess its accurac
 performance, and usability.</p>
 
 <h3 id="uid67">Automatic Backporting of Java Libraries to Older Bytecode Versions</h3>
+
+Contact: Aman Sharma
+
 <p>Description:
 With the rapid evolution of Java, libraries often get updated to new bytecode versions. This causes compatibility issues and breakages for
 applications that are still running on older versions of Java. To address this, a possible solution is to automatically backport Java libraries to older bytecode
