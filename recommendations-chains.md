@@ -12,7 +12,7 @@ CHAINS recommendations are meant to be directly applicable, with state of the ar
 - CHAINS recommends the usage of dependency pinning, via hashes.
   - In NPM, this means using [lockfiles](https://docs.npmjs.com/cli/v10/configuring-npm/package-lock-json).
   - In Maven, this means strict versions in the pom + [Maven lockfile](https://github.com/chains-project/maven-lockfile/).
-- CHAINS recommends the usage of automated dependency bots such as [Renovate](<[url](https://github.com/apps/renovate)>) and Dependabot.
+- CHAINS recommends the usage of automated dependency bots such as [Renovate](<[url](https://github.com/apps/renovate)>) and Dependabot. Chains recommends activating auto-merge of dependency updates, together with a strong test suite.
 - CHAINS recommends the usage of static vulnerability scanners on all commits of the main branch. This contributes to protecting against insider attacks (eg [xz](https://research.swtch.com/xz-timeline)).
 - CHAINS recommends disabling dynamic evaluation of code (aka eval) in production
   - In NodeJS, this is `--disallow-code-generation-from-strings` [doc](https://nodejs.org/api/cli.html#--disallow-code-generation-from-strings)
