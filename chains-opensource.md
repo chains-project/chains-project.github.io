@@ -19,6 +19,8 @@ Our contributions to the infrastructure.
   * [Github SBOMs are not compatible with Grype](https://github.com/orgs/community/discussions/131104)   
 * Docker
   * [Search docker images by checksums sha256](https://github.com/docker/roadmap/issues/663)
+* npm
+  * [[RRFC] Locally computed integrity values in the lockfile](https://github.com/npm/rfcs/issues/757)
 
 Applications:
 * Key contributions to make [go-ethereum / geth reproducible](https://github.com/ethereum/go-ethereum/issues/28987)
