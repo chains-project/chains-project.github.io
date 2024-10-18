@@ -51,13 +51,15 @@ The project is funded by the [Swedish Foundation for Strategic research (SSF)](h
 - [Breaking-Good: Explaining Breaking Dependency Updates with Build Analysis](https://arxiv.org/abs/2407.03880), Proceedings of IEEE SCAM, 2024
 - [GoSurf: Identifying Software Supply Chain Attack Vectors in Go](http://arxiv.org/pdf/2407.04442), Proceedings of ACM Workshop on Software Supply Chain Offensive Research and Ecosystem Defenses (SCORED'24)
 - [Measuring the Vulnerability Lifecycle in the Software Supply Chain via SBOM Scans](TBD), Master's thesis Felix Qvarfordt, 2024
-- [The Embedding and Retrieval of Software Supply Chain Information in Java Applications](TBD), Master's thesis Daniel Williams, 2024
+- [The Embedding and Retrieval of Software Supply Chain Information in Java Applications](http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-354837), Master's thesis Daniel Williams, 2024
 - [From Blueprint to Reality: Evaluating the Feasibility of Air-gapped Maven Builds](TBD), Master's thesis Oliver Schwalbe Lehtihet, 2024
 - [Geth Rebuild: Strengthening Ethereum Client Integrity through Reproducible Builds](TBD), Master's thesis Vivi Andersson, 2024
 - [Investigation of the Software Supply Chain of JavaScript Cryptocurrency Wallets](TBD), Master's thesis Raphina Yi Liu, 2024
+- [Automatic Program Repair For Breaking Dependency Updates With Large Language Models](http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-354835), Master's thesis Federico Bonno, 2024
+
 
 Posts:
-- [CHAINS contributions to open-source](chains-opensource.md)
+- [CHAINS contributions to open-source](chains-opensource.Federico Bono, [Automatic Program Repair For Breaking Dependency Updates With Large Language Models](http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-354835) (2024))
 - [Dependency Resolution in Different Ecosystems](dependency-resolution/index.md)
 - [The CHAINS software supply chain recommendations](recommendations-chains.md)
 - [An overview of Reproducible Builds Summit 2023](reproducible-builds-2023/index.md)
