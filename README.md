@@ -50,7 +50,7 @@ The project is funded by the [Swedish Foundation for Strategic research (SSF)](h
 - [SBOM.EXE: Countering Dynamic Code Injection based on Software Bill of Materials in Java](https://arxiv.org/abs/2407.00246), arXiv  2024.
 - [Breaking-Good: Explaining Breaking Dependency Updates with Build Analysis](https://arxiv.org/abs/2407.03880), Proceedings of IEEE SCAM, 2024
 - [GoSurf: Identifying Software Supply Chain Attack Vectors in Go](http://arxiv.org/pdf/2407.04442), Proceedings of ACM Workshop on Software Supply Chain Offensive Research and Ecosystem Defenses (SCORED'24)
-- [Measuring the Vulnerability Lifecycle in the Software Supply Chain via SBOM Scans](TBD), Master's thesis Felix Qvarfordt, 2024
+- [Measuring the Vulnerability Lifecycle in the Software Supply Chain via SBOM Scans](http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-354504), Master's thesis Felix Qvarfordt, 2024
 - [The Embedding and Retrieval of Software Supply Chain Information in Java Applications](http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-354837), Master's thesis Daniel Williams, 2024
 - [From Blueprint to Reality: Evaluating the Feasibility of Air-gapped Maven Builds](TBD), Master's thesis Oliver Schwalbe Lehtihet, 2024
 - [Geth Rebuild: Strengthening Ethereum Client Integrity through Reproducible Builds](TBD), Master's thesis Vivi Andersson, 2024
