@@ -2,6 +2,21 @@
 
 Project Chains hosts master's students for their theses, here are available topics. See [main page](/) for completed theses.
 
+### Empirical study of vulnerability tracking processes in vulnerability reports
+
+Contact: Yekatierina Churakova
+
+Vulnerability scanning tools play a crucial role in the identification and collection of vulnerabilities across different systems and platforms. Having reliable and accurate report, which lists all associated vulnerabilities for the dependencies list, is crucial for supply-chain security. [SBOM](https://cyclonedx.org/capabilities/sbom/) and [VEX](https://cyclonedx.org/capabilities/vex/) productions tools (e.g. [Trivy](https://trivy.dev/), [Grype](https://github.com/anchore/grype), [DepScan](https://github.com/owasp-dep-scan/dep-scan) etc.) are used for this purpose. Every tool has a number of vulnerability database integrations to provide the most distinct report. However, vulnerability databases often use diverse naming conventions, IDs, and tracking systems, making it difficult to reveal information about a specific vulnerability. The inconsistency and fragmentation in vulnerability reporting is hapening, where different references to different vulnerability databases may use different identifiers for the same vulnerability, making it difficult to trace and assess risks consistently.
+
+In this project we will explore the area of vulnerability tracking and aims to address the vulnerability naming problems. The thesis will be focused on studying the approach for mapping various vulnerability identifiers across different databases to their corresponding Common Vulnerabilities and Exposures (CVE) IDs. The aim is to improve vulnerability tracking, propose a way to solve the naming problem, and enhance the accuracy of vulnerability reports.
+
+Related works:
+1. [Impacts of Software Bill of Materials (SBOM) Generation on Vulnerability Detection](https://www.cs.montana.edu/izurieta/pubs/SCORED2024.pdf)
+2. [Minimum Requirements for Vulnerability Exploitability eXchange (VEX) ](https://www.cisa.gov/sites/default/files/2023-04/minimum-requirements-for-vex-508c.pdf)
+3. [Enhancing the Container Image Scanning Tool - GRYPE](https://ieeexplore.ieee.org/document/10200828)
+4. [Understanding the Quality of Container Security Vulnerability Detection Tools](https://arxiv.org/pdf/2101.03844)
+
+
 ### Reproducible Builds for non-compiled languages like JavaScript
 
 Contact: Eric Cornelissen
