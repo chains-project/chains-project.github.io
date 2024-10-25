@@ -56,6 +56,7 @@ The project is funded by the [Swedish Foundation for Strategic research (SSF)](h
 - [Geth Rebuild: Strengthening Ethereum Client Integrity through Reproducible Builds](TBD), Master's thesis Vivi Andersson, 2024
 - [Investigation of the Software Supply Chain of JavaScript Cryptocurrency Wallets](TBD), Master's thesis Raphina Yi Liu, 2024
 - [Automatic Program Repair For Breaking Dependency Updates With Large Language Models](http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-354835), Master's thesis Federico Bonno, 2024
+- [Dirty-Waters: Detecting Software Supply Chain Smells](https://arxiv.org/abs/2410.16049), arXiv 2024.
 
 
 Posts:
