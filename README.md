@@ -53,7 +53,7 @@ The project is funded by the [Swedish Foundation for Strategic research (SSF)](h
 - [Measuring the Vulnerability Lifecycle in the Software Supply Chain via SBOM Scans](http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-354504), Master's thesis Felix Qvarfordt, 2024
 - [The Embedding and Retrieval of Software Supply Chain Information in Java Applications](http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-354837), Master's thesis Daniel Williams, 2024
 - [From Blueprint to Reality: Evaluating the Feasibility of Air-gapped Maven Builds](TBD), Master's thesis Oliver Schwalbe Lehtihet, 2024
-- [Geth Rebuild: Strengthening Ethereum Client Integrity through Reproducible Builds](TBD), Master's thesis Vivi Andersson, 2024
+- [Geth Rebuild: Strengthening Ethereum Client Integrity through Reproducible Builds](http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-355285), Master's thesis Vivi Andersson, 2024
 - [Investigation of the Software Supply Chain of JavaScript Cryptocurrency Wallets](TBD), Master's thesis Raphina Yi Liu, 2024
 - [Automatic Program Repair For Breaking Dependency Updates With Large Language Models](http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-354835), Master's thesis Federico Bonno, 2024
 - [Dirty-Waters: Detecting Software Supply Chain Smells](https://arxiv.org/abs/2410.16049), arXiv 2024.
