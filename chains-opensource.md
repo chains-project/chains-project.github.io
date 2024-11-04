@@ -29,3 +29,6 @@ Applications:
   * [enabling reproducible builds: vcs.modified=true on downloadable artefacts](https://github.com/ethereum/go-ethereum/issues/30324)
 * Diffoscope
   * [Propose fix for disabling syntax highlighting in the diff](https://lists.reproducible-builds.org/pipermail/diffoscope/2024-August/002783.html)
+
+Under our radar (not opened by us but relevant)
+* [sandboxed build scripts at rust](https://github.com/rust-lang/rust-project-goals/issues/108)
