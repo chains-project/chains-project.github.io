@@ -57,7 +57,7 @@ The project is funded by the [Swedish Foundation for Strategic research (SSF)](h
 - [Investigation of the Software Supply Chain of JavaScript Cryptocurrency Wallets](TBD), Master's thesis Raphina Yi Liu, 2024
 - [Automatic Program Repair For Breaking Dependency Updates With Large Language Models](http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-354835), Master's thesis Federico Bonno, 2024
 - [Dirty-Waters: Detecting Software Supply Chain Smells](https://arxiv.org/abs/2410.16049), arXiv 2024.
-
+- [Code-Reuse Attacks in Managed Programming Languages and Runtimes](https://www.diva-portal.org/smash/get/diva2:1905323/SUMMARY01.pdf), PhD Thesis Mikhail Shcherbakov, 2024
 
 Posts:
 - [CHAINS contributions to open-source](chains-opensource.md)
