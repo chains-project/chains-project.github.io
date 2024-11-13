@@ -72,7 +72,7 @@ Posts:
 ## Team
 
 * Principal Investigators: [Musard Balliu](https://people.kth.se/~musard/), [Benoit Baudry](https://softwarediversity.eu/), [Mathias Ekstedt](https://www.kth.se/profile/mekstedt/), [Martin Monperrus](https://www.monperrus.net/martin/)
-* PhD students: [Sofia Bobadilla](https://www.kth.se/profile/sofbob?l=en), [Eric Cornelissen](https://ericcornelissen.dev/), [Javier Ron](https://www.kth.se/profile/javierro), [Aman Sharma](https://algomaster99.github.io/), [Mikhail Shcherbakov](https://www.kth.se/profile/mshc), [Yuxin Liu](https://www.kth.se/profile/yuxinli), [Frank Reyes](https://www.kth.se/profile/frankrg/?l=en), [Yekatierina Churakova](https://www.kth.se/profile/yekchu?l=en), [Carmine Cesarano](https://carminecesarano.github.io/), [Yogya Gamage](https://scholar.google.se/citations?user=m_67-NAAAAAJ), [Vivi Andersson](TODO)
+* PhD students: [Sofia Bobadilla](https://www.kth.se/profile/sofbob?l=en), [Eric Cornelissen](https://ericcornelissen.dev/), [Javier Ron](https://www.kth.se/profile/javierro), [Aman Sharma](https://algomaster99.github.io/), [Mikhail Shcherbakov](https://www.kth.se/profile/mshc), [Yuxin Liu](https://www.kth.se/profile/yuxinli), [Frank Reyes](https://www.kth.se/profile/frankrg/?l=en), [Yekatierina Churakova](https://www.kth.se/profile/yekchu?l=en), [Carmine Cesarano](https://carminecesarano.github.io/) (visiting), [Yogya Gamage](https://scholar.google.se/citations?user=m_67-NAAAAAJ), [Vivi Andersson](TODO)
 * Research engineers & assistants: [Raphina Liu](), [Elias Lundell](https://www.eliaslundell.se/), [Monica Jin](https://www.kth.se/profile/mjin/), [Diogo Torres Correia](https://www.kth.se/profile/diogotc)
 * Master's students: [Christofer Vikström](TODO), [Leonard Husmann](TBD)
 
