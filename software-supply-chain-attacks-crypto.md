@@ -115,6 +115,12 @@ Secbit has discovered that Trust Wallet did not correctly use a dependency (`tre
 
 Ref: <https://secbit.io/blog/en/2024/01/19/trust-wallets-fomo3d-summer-vuln/>
 
+### Attack through AI generated code, Nov 2024
+
+@r_cky0 [reported](https://x.com/r_cky0/status/1859656430888026524) that ChatGPT generated code containing links to scamming website, incl. executable key exfiltration.
+
+Ref: <https://x.com/r_cky0/status/1859656430888026524>
+
 ## Hardware attacks
 
 It is possible to tamper with hardware devices used in crypto, typically a hardware wallet. Who would do that: an employee at the company that designed the wallet, the factory that produced it, and everyone involved in shipping it. Ref: <https://vitalik.ca/general/2021/01/11/recovery.html>. Such a real hardware supply chain attack has happened on Trezor wallets (2022): <https://www.kaspersky.com/blog/fake-trezor-hardware-crypto-wallet/48155/>
