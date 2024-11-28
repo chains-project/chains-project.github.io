@@ -82,6 +82,7 @@ Chains alumni: [Arvid Siberov](https://siberov.se), [Linus Östlund](https://www
 
 
 ## Events & Talks
+- April 25 2025: [4th KTH Workshop on the Software Supply Chain](software-supply-chain-workshop-4.md)
 - May 23 2024: [Chains talk at Dataföreningen](https://dfs.se/pa_gang/prata-eu-cyber-resilience-act-med-oss-16-2/)
 - April 26 2024: [3rd KTH Workshop on the Software Supply Chain](software-supply-chain-workshop-3.md)
 - Nov 26 2023: [The Chains SBOM orchestra at SCORED](https://github.com/chains-project/sbom-orchestra/), Chains Team, [SCORED 2023](https://scored.dev), Copenhagen
