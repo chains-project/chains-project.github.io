@@ -4,7 +4,7 @@
 
 # 4th KTH Workshop on the Software Supply Chain
 
-Welcome to the 3rd KTH Workshop on the Software Supply Chain.
+Welcome to the 4th KTH Workshop on the Software Supply Chain.
 This workshop is organized in the context of the [CHAINS](https://chains.proj.kth.se/) research project.
 
 
