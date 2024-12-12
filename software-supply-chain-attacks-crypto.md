@@ -121,7 +121,7 @@ Ref: <https://secbit.io/blog/en/2024/01/19/trust-wallets-fomo3d-summer-vuln/>
 
 Ref: <https://x.com/r_cky0/status/1859656430888026524>
 
-### @solana/web3.js attack (Dec 2024)
+### @solana/web3.js attack, Dec 2024
 
 The @solana/web3.js package, which averages over 350,000 weekly downloads on npm, has been compromised with a backdoor.
 The goal is to leak private keys to a remote server.
@@ -132,7 +132,7 @@ The root causes is social engineering/phishing attack targeting the maintainers 
 
 Ref: 
 * <https://www.mend.io/blog/the-solana-web3-js-incident-another-wake-up-call-for-supply-chain-security/>
-* <<https://x.com/blockaid_/status/1864069590147277261>
+* <https://x.com/blockaid_/status/1864069590147277261>
 
 
 ## Hardware attacks
