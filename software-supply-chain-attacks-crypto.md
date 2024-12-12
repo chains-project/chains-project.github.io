@@ -121,6 +121,20 @@ Ref: <https://secbit.io/blog/en/2024/01/19/trust-wallets-fomo3d-summer-vuln/>
 
 Ref: <https://x.com/r_cky0/status/1859656430888026524>
 
+### @solana/web3.js attack (Dec 2024)
+
+The @solana/web3.js package, which averages over 350,000 weekly downloads on npm, has been compromised with a backdoor.
+The goal is to leak private keys to a remote server.
+The root causes is social engineering/phishing attack targeting the maintainers of the library.
+
+> According to Mert Mumtaz, CEO of Helius Labs, the damage from this attack is roughly $130K.
+> A fast response and detection by the Solana team was really important in making the download window of those versions to a minimum of 5 hours.
+
+Ref: 
+* <https://www.mend.io/blog/the-solana-web3-js-incident-another-wake-up-call-for-supply-chain-security/>
+* <<https://x.com/blockaid_/status/1864069590147277261>
+
+
 ## Hardware attacks
 
 It is possible to tamper with hardware devices used in crypto, typically a hardware wallet. Who would do that: an employee at the company that designed the wallet, the factory that produced it, and everyone involved in shipping it. Ref: <https://vitalik.ca/general/2021/01/11/recovery.html>. Such a real hardware supply chain attack has happened on Trezor wallets (2022): <https://www.kaspersky.com/blog/fake-trezor-hardware-crypto-wallet/48155/>
