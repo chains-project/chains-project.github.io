@@ -1,26 +1,23 @@
-<meta name="og:description" content="KTH hosts the 4th CHAINS workshop where we have conversations about super cool research on software supply chain security and reliability. Check out our link to know more!">
+<meta name="og:description" content="KTH hosts the 4th CHAINS workshop where we have conversations about super cool research on software supply chain security and reliability.">
 <meta property="og:url" content="https://chains.proj.kth.se/software-supply-chain-workshop-4">
 <meta property="og:image" content="https://avatars.githubusercontent.com/u/104410944?s=200&v=4">
 
 # 4th KTH Workshop on the Software Supply Chain
 
-Welcome to the 4th KTH Workshop on the Software Supply Chain.
+Welcome to the 4th KTH Workshop on the Software Supply Chain in Stockholm, Sweden.
 This workshop is organized in the context of the [CHAINS](https://chains.proj.kth.se/) research project.
 
 
-* Location: TBD
-* Date: April 25, 2025
+* Location: KTH, Stockholm, Sweden
+* Date: Friday 25 April, 2025
 * Time: 9h-17h
 
 ## Program
 
-TBD
-
-## Keynotes
-
-### TBD
-
-### TBD
+* Keynote: Hervé Boutemy (Sonatype, Apache Software Foundation)
+*
+* Chains PhD talks
+*
 
 ## Sponsors
 
