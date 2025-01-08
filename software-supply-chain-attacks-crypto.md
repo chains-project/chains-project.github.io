@@ -134,7 +134,9 @@ Ref:
 * <https://www.mend.io/blog/the-solana-web3-js-incident-another-wake-up-call-for-supply-chain-security/>
 * <https://x.com/blockaid_/status/1864069590147277261>
 
-
+More fake and malicious solana packages:
+* solanacore, see <https://platform.safedep.io/community/malysis/01JGVKW3NNZFJMSX4F9JN40CNN>
+* walletcore-gen, see <https://twitter.com/npm_malware/status/1876328153880342680>
 ## Hardware attacks
 
 It is possible to tamper with hardware devices used in crypto, typically a hardware wallet. Who would do that: an employee at the company that designed the wallet, the factory that produced it, and everyone involved in shipping it. Ref: <https://vitalik.ca/general/2021/01/11/recovery.html>. Such a real hardware supply chain attack has happened on Trezor wallets (2022): <https://www.kaspersky.com/blog/fake-trezor-hardware-crypto-wallet/48155/>
