@@ -83,6 +83,7 @@ Chains alumni: [Arvid Siberov](https://siberov.se), [Linus Östlund](https://www
 
 ## Events & Talks
 - April 25 2025: [4th KTH Workshop on the Software Supply Chain](software-supply-chain-workshop-4.md)
+- Jan 8 2025, OSS Remediation Ops: From Project-Centric Strategies to Ecosystem-wide Analysis, [Lyuye Zhang](https://lyuyezhang.github.io/), Nanyang Technological University, Singapore
 - May 23 2024: [Chains talk at Dataföreningen](https://dfs.se/pa_gang/prata-eu-cyber-resilience-act-med-oss-16-2/)
 - April 26 2024: [3rd KTH Workshop on the Software Supply Chain](software-supply-chain-workshop-3.md)
 - Nov 26 2023: [The Chains SBOM orchestra at SCORED](https://github.com/chains-project/sbom-orchestra/), Chains Team, [SCORED 2023](https://scored.dev), Copenhagen
