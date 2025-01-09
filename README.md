@@ -64,7 +64,12 @@ To get notified about project news, subscribe to the [Chains mailing list](https
   - [Code-Reuse Attacks in Managed Programming Languages and Runtimes](https://www.diva-portal.org/smash/get/diva2:1905323/SUMMARY01.pdf), PhD Thesis Mikhail Shcherbakov, 2024
 * 2025
 
-Posts:
+## Repositories
+
+See [https://github.com/chains-project/](https://github.com/orgs/chains-project/repositories?type=source)
+
+## Posts
+
 - [CHAINS contributions to open-source](chains-opensource.md)
 - [Dependency Resolution in Different Ecosystems](dependency-resolution/index.md)
 - [The CHAINS software supply chain recommendations](recommendations-chains.md)
@@ -110,9 +115,6 @@ Chains alumni: [Arvid Siberov](https://siberov.se), [Linus Östlund](https://www
 - June 12 2024: [Framtidens Forskning](https://framtidensforskning.se/2024/06/12/bygger-mer-robusta-programvarukedjor/) (In Swedish)
 - June 17 2022: [Framtidens Forskning](https://framtidensforskning.se/2022/06/17/forsorjningskedjan-for-programvaror-avgorande-for-sakerheten/) (In Swedish)
 
-## Repositories
-
-See [https://github.com/chains-project/](https://github.com/orgs/chains-project/repositories?type=source)
 
 ## Master / Internship topics
 
