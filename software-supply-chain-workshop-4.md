@@ -14,11 +14,26 @@ This workshop is organized in the context of the [CHAINS](https://chains.proj.kt
 
 ## Program
 
-* Keynote: Hervé Boutemy (Sonatype, Apache Software Foundation)
-*
-* Chains PhD talks
-*
-
+* 8h30 Welcome coffee
+* 9h Opening
+* 9h15 Keynote: Hervé Boutemy (Sonatype, Apache Software Foundation)
+* 10h30 Break
+* 11h
+  * Talk 1 
+  * Talk 2
+  * Talk 3
+* 12h30 Lunch
+* 14h Tool session
+  * [maven-lockfile](https://github.com/chains-project/maven-lockfile/)
+  * x
+  * y
+* 15h Break
+* 15h30 
+  * Talk a
+  * Talk b
+  * Talk c
+* 16h45 closing
+  
 ## Sponsors
 
 <div style="display: flex; justify-content: center;">
