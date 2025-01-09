@@ -25,8 +25,8 @@ This workshop is organized in the context of the [CHAINS](https://chains.proj.kt
 * 12h30 Lunch
 * 14h Tool session
   * [maven-lockfile](https://github.com/chains-project/maven-lockfile/)
-  * x
-  * y
+  * [dirty-waters](https://github.com/chains-project/dirty-waters)
+  * [ghasum](https://github.com/chains-project/ghasum)
 * 15h Break
 * 15h30 
   * Talk a
