@@ -43,7 +43,8 @@ To get notified about project news, subscribe to the [Chains mailing list](https
 * 2023 
   - [Diverse Double-Compiling to Harden Cryptocurrency Software](http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-323901), Master's thesis Niklas Rosencrantz, 2023
   - [Silent Spring: Prototype Pollution Leads to Remote Code Execution in Node.js](https://arxiv.org/pdf/2207.11171), Usenix Security 2023
-  - [Challenges of Producing Software Bill Of Materials for Java](https://arxiv.org/abs/2303.11102), IEEE Security & Privacy,   - [GitBark: A Rule-Based Framework for Maintaining Integrity in Source Code Repositories](https://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-340648), Master's thesis Elias Bonnici, 2023
+  - [Challenges of Producing Software Bill Of Materials for Java](https://arxiv.org/abs/2303.11102), IEEE Security & Privacy,
+  - [GitBark: A Rule-Based Framework for Maintaining Integrity in Source Code Repositories](https://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-340648), Master's thesis Elias Bonnici, 2023
 * 2024
   - [Highly Available Blockchain Nodes With N-Version Design](https://arxiv.org/abs/2303.14438), IEEE Transactions on Dependable and Secure Computing, 2024
   - [BUMP: A Benchmark of Reproducible Breaking Dependency Updates](http://arxiv.org/pdf/2401.09906), Proceedings of IEEE SANER, 2024
