@@ -17,22 +17,19 @@ This workshop is organized in the context of the [CHAINS](https://chains.proj.kt
 
 * 8h30 Welcome coffee
 * 9h Opening
-* 9h15 Keynote: Hervé Boutemy (Sonatype, Apache Software Foundation)
+* 9h30 Keynote: Hervé Boutemy (Sonatype, Apache Software Foundation)
 * 10h30 Break
 * 11h
-  * Talk 1 
-  * Talk 2
-  * Talk 3
+  * Talk 1 TBD
+  * Talk 2 TBD
+  * Talk 3 TBD
 * 12h30 Lunch
-* 14h Tool session
+* 14h Keynote: Henrik Plate (Endor Labs)
+* 15h Break
+* 15h30 Tool session
   * [maven-lockfile](https://github.com/chains-project/maven-lockfile/)
   * [dirty-waters](https://github.com/chains-project/dirty-waters)
   * [ghasum](https://github.com/chains-project/ghasum)
-* 15h Break
-* 15h30 
-  * Talk a
-  * Talk b
-  * Talk c
 * 16h45 closing
   
 ## Sponsors
