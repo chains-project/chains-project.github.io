@@ -11,6 +11,7 @@ This workshop is organized in the context of the [CHAINS](https://chains.proj.kt
 * Location: KTH, Stockholm, Sweden
 * Date: Friday 25 April, 2025
 * Time: 9h-17h
+* Registration is free of charge but compulsory for the sake of lunch/fika planning. The form will be out soon 😄
 
 ## Program
 
