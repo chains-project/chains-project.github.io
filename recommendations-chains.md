@@ -26,3 +26,9 @@ These items are harder to achieve than the recommendations above, because of lac
 - CHAINS encourages using functional package managers in CI (Guix, NIX)
 - CHAINS encourages automated publication of SBOMs as part of the release process ([tutorial for Github release](https://chains.proj.kth.se/sbom-github.html))
 - CHAINS encourages source-based package registries, such as Go. This increases transparency and auditability, and reduces the attack surface of malicious tampering.
+
+## CHAINS says DONT
+
+- DOn't use caching in your builds, strictly forbidden in your release builds ([caching attack](https://adnanthekhan.com/2024/05/06/the-monsters-in-your-build-cache-github-actions-cache-poisoning/))
+
+
