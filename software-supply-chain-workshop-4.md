@@ -8,7 +8,7 @@ Welcome to the 4th KTH Workshop on the Software Supply Chain in Stockholm, Swede
 This workshop is organized in the context of the [CHAINS](https://chains.proj.kth.se/) research project.
 
 
-* Location: KTH, Stockholm, Sweden
+* Location: KTH, Stockholm, Sweden, [Salongen, KTH library](https://www.kth.se/places/room/id/2ce773d5-3190-4588-8618-27ea2822000b)
 * Date: Friday 25 April, 2025
 * Time: 9h-17h
 * Registration is free of charge but compulsory for the sake of lunch/fika planning. The form will be out soon 😄
@@ -17,13 +17,13 @@ This workshop is organized in the context of the [CHAINS](https://chains.proj.kt
 
 * 8h30 Welcome coffee
 * 9h Opening
-* 9h30 Keynote: Hervé Boutemy (Sonatype, Apache Software Foundation)
-* 10h30 Break
+* 9h15 Keynote: Hervé Boutemy (Sonatype, Apache Software Foundation)
+* 10h15 Break + Poster session
 * 11h
-  * Talk 1 TBD
+  * Talk 1: Aman Sharma, Build Integrity
   * Talk 2 TBD
   * Talk 3 TBD
-* 12h30 Lunch
+* 12h30 Lunch at Syster-o-bror
 * 14h Keynote: Henrik Plate (Endor Labs)
 * 15h Break
 * 15h30 Tool session
