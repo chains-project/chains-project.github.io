@@ -59,7 +59,7 @@ To get notified about project news, subscribe to the [Chains mailing list](https
   - [The Embedding and Retrieval of Software Supply Chain Information in Java Applications](http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-354837), Master's thesis Daniel Williams, 2024
   - [From Blueprint to Reality: Evaluating the Feasibility of Air-gapped Maven Builds](TBD), Master's thesis Oliver Schwalbe Lehtihet, 2024
   - [Geth Rebuild: Strengthening Ethereum Client Integrity through Reproducible Builds](http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-355285), Master's thesis Vivi Andersson, 2024
-  - [Investigation of the Software Supply Chain of JavaScript Cryptocurrency Wallets](TBD), Master's thesis Raphina Yi Liu, 2024
+  - [Investigation of the Software Supply Chain of JavaScript Cryptocurrency Wallets](https://daisy.dsv.su.se/divaexport/fil?id=282465), Master's thesis Raphina Yi Liu, 2024
   - [Automatic Program Repair For Breaking Dependency Updates With Large Language Models](http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-354835), Master's thesis Federico Bonno, 2024
   - [Dirty-Waters: Detecting Software Supply Chain Smells](https://arxiv.org/abs/2410.16049), arXiv 2024.
   - [Code-Reuse Attacks in Managed Programming Languages and Runtimes](https://www.diva-portal.org/smash/get/diva2:1905323/SUMMARY01.pdf), PhD Thesis Mikhail Shcherbakov, 2024
