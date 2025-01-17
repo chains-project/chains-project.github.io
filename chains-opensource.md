@@ -28,7 +28,9 @@ Applications:
   * [enabling reproducible builds: Travis CI bug (merged)](https://github.com/ethereum/go-ethereum/pull/30319)
   * [enabling reproducible builds: vcs.modified=true on downloadable artefacts](https://github.com/ethereum/go-ethereum/issues/30324)
 * Diffoscope
-  * [Propose fix for disabling syntax highlighting in the diff](https://lists.reproducible-builds.org/pipermail/diffoscope/2024-August/002783.html)
+  * [Bug Report: Different output of diffoscope on different operating system](https://lists.reproducible-builds.org/pipermail/diffoscope/2024-August/002788.html)
+  * [Bug Report: Propose fix for disabling syntax highlighting in the diff](https://lists.reproducible-builds.org/pipermail/diffoscope/2024-August/002783.html)
+  * [Bug Report: Propose fix for correctly identifying line endings difference in file](https://lists.reproducible-builds.org/pipermail/diffoscope/2025-January/002811.html)
 * Reproducible-Central
   * [Use HTTPS to clone in buildspec](https://github.com/jvm-repo-rebuild/reproducible-central/pull/768)
 
