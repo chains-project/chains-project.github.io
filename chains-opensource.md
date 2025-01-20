@@ -1,4 +1,6 @@
-# Improving the foundations of software supply chains -- one contribution at a time
+---
+title: Open-source contributions of the Chains project
+---
 
 Our contributions to the infrastructure.
 
