@@ -28,6 +28,7 @@ jobs:
           
       - name: Check frontmatter
         run: |
+          npm install gray-matter
           node -e '
           const fs = require("fs");
           const matter = require("gray-matter");
