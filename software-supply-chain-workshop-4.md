@@ -1,3 +1,7 @@
+---
+title: null
+---
+
 <meta name="og:description" content="KTH hosts the 4th CHAINS workshop where we have conversations about super cool research on software supply chain security and reliability.">
 <meta property="og:url" content="https://chains.proj.kth.se/software-supply-chain-workshop-4">
 <meta property="og:image" content="https://avatars.githubusercontent.com/u/104410944?s=200&v=4">
