@@ -1,4 +1,5 @@
 ---
+name: ""
 title: CHAINS Research Project at KTH
 ---
 
