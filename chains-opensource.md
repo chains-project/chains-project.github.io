@@ -2,6 +2,8 @@
 title: Open-source contributions of the Chains project
 ---
 
+# Open-source contributions of the Chains project
+
 Our contributions to the infrastructure.
 
 * Maven
