@@ -1,4 +1,9 @@
-# The CHAINS software supply chain recommendations
+---
+title: The official CHAINS software supply chain recommendations
+---
+
+
+# The official CHAINS software supply chain recommendations
 
 Based on our readings and research, we came to the following conclusions.
 

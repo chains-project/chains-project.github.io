@@ -1,3 +1,7 @@
+---
+title: 3rd KTH Workshop on the Software Supply Chain 2024
+---
+
 <meta name="og:description" content="KTH hosts the 3rd CHAINS workshop where we have conversations about super cool research on software supply chain security and reliability. Check out our link to know more!">
 <meta property="og:url" content="https://chains.proj.kth.se/software-supply-chain-workshop-3">
 <meta property="og:image" content="https://avatars.githubusercontent.com/u/104410944?s=200&v=4">

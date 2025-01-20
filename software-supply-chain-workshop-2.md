@@ -1,4 +1,8 @@
-# 2nd KTH Workshop on the Software Supply Chain
+---
+title: 2nd KTH Workshop on the Software Supply Chain 2023
+---
+
+# 2nd KTH Workshop on the Software Supply Chain 2023
 
 <p align="center">
     <img src="workshop_2_assets/event.jpeg" alt="workshop cover image" width="600px" />

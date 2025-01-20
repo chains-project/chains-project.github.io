@@ -1,3 +1,7 @@
+---
+title: CHAINS Research Project at KTH
+---
+
 ```
  .d8888b.  888    888        d8888 8888888 888b    888  .d8888b.  
 d88P  Y88b 888    888       d88888   888   8888b   888 d88P  Y88b 

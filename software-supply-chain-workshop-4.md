@@ -1,12 +1,12 @@
 ---
-title: 4th KTH Workshop on the Software Supply Chain
+title: 4th KTH Workshop on the Software Supply Chain 2025
 ---
 
 <meta name="og:description" content="KTH hosts the 4th CHAINS workshop where we have conversations about super cool research on software supply chain security and reliability.">
 <meta property="og:url" content="https://chains.proj.kth.se/software-supply-chain-workshop-4">
 <meta property="og:image" content="https://avatars.githubusercontent.com/u/104410944?s=200&v=4">
 
-# 4th KTH Workshop on the Software Supply Chain
+# 4th KTH Workshop on the Software Supply Chain 2025
 
 Welcome to the 4th KTH Workshop on the Software Supply Chain in Stockholm, Sweden.
 This workshop is organized in the context of the [CHAINS](https://chains.proj.kth.se/) research project.

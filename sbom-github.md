@@ -1,3 +1,8 @@
+---
+title: Adding SBOMs to your GitHub and Maven Central Releases with Jreleaser
+---
+
+
 # Adding SBOMs to your GitHub and Maven Central Releases with Jreleaser
 
 ## Motivation

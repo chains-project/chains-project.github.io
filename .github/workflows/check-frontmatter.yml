@@ -1,0 +1,75 @@
+name: Check Markdown Frontmatter
+
+on:
+  push:
+    paths:
+      - '**.md'
+  pull_request:
+    paths:
+      - '**.md'
+
+jobs:
+  check-frontmatter:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+        
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '16'
+          
+      - name: Install dependencies
+        run: |
+          npm init -y
+          npm install gray-matter
+          
+      - name: Check frontmatter
+        run: |
+          node -e '
+          const fs = require("fs");
+          const matter = require("gray-matter");
+          const path = require("path");
+          
+          function getAllMarkdownFiles(dir) {
+            let results = [];
+            const files = fs.readdirSync(dir);
+            
+            for (const file of files) {
+              const filePath = path.join(dir, file);
+              const stat = fs.statSync(filePath);
+              
+              if (stat.isDirectory() && !file.startsWith(".")) {
+                results = results.concat(getAllMarkdownFiles(filePath));
+              } else if (file.endsWith(".md")) {
+                results.push(filePath);
+              }
+            }
+            
+            return results;
+          }
+          
+          let hasError = false;
+          const mdFiles = getAllMarkdownFiles(".");
+          
+          for (const file of mdFiles) {
+            try {
+              const content = fs.readFileSync(file, "utf8");
+              const { data } = matter(content);
+              
+              if (!data.title) {
+                console.error(`Error: ${file} is missing title in frontmatter`);
+                hasError = true;
+              }
+            } catch (error) {
+              console.error(`Error processing ${file}: ${error.message}`);
+              hasError = true;
+            }
+          }
+          
+          if (hasError) {
+            process.exit(1);
+          }
+          '

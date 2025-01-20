@@ -1,4 +1,8 @@
-# 1st Workshop on the Software Supply Chain @ KTH
+---
+title: 1st KTH Workshop on the Software Supply Chain  2022
+---
+
+# 1st Workshop on the Software Supply Chain @ KTH 2022
 
 Location: KTH Royal Institute of Technology, [Fantum room, Lindstedtsvägen 24](https://www.kth.se/places/room/id/c9ec01ab-b536-4be6-b82a-0d52ddadb2e6)
 

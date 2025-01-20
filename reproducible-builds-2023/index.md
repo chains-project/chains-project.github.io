@@ -1,4 +1,9 @@
-# Reproducible Builds Summit 2023
+---
+title: A Brief Software Supply Chain Summary Reproducible Builds Summit 2023
+---
+
+
+# A Brief Software Supply Chain Summary Reproducible Builds Summit 2023
  
 Reproducible Builds 2023 was held in Hamburg, Germany this year.
 Aman Sharma from Chains attended the summit to understand the state-of-the-art in reproducible

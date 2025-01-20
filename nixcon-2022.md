@@ -1,4 +1,9 @@
-# NixCon 2022: A Brief Summary
+---
+title: A Brief Software Supply Chain Summary of NixCon 2022
+---
+
+
+# A Brief Software Supply Chain Summary of NixCon 2022
 
 [NixCon](https://2022.nixcon.org/), the yearly convention for all things Nix was
 held in Paris this year. I attended as a member of the [Consistent Hardening and

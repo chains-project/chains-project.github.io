@@ -1,3 +1,7 @@
+---
+title: Open Master Thesis Topics in Project Chains
+---
+
 # Master Thesis Topics in Project Chains
 
 Project Chains hosts master's students for their theses, here are available topics. See [main page](/) for completed theses.

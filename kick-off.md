@@ -1,4 +1,8 @@
-# [CHAINS project](https://github.com/chains-project) kick-off
+---
+title: Chains kickoff agenda
+---
+
+# Chains kickoff agenda
 
 September 30, 2022. Full day about software research for hardening the [software supply chain](https://ieeexplore.ieee.org/iel7/8013/9740698/09740718.pdf?casa_token=KSf4UwB5iDgAAAAA:7zZF3diR334b4239kTfgmFXBWnQNNApbJ4SM42QUjsW6oi11-Rtxw8WjL4NPOc7Ae2oxiPOkHUA).
 
