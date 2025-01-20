@@ -1,5 +1,5 @@
 ---
-title: null
+title: 4th KTH Workshop on the Software Supply Chain
 ---
 
 <meta name="og:description" content="KTH hosts the 4th CHAINS workshop where we have conversations about super cool research on software supply chain security and reliability.">
