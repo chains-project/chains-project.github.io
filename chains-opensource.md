@@ -4,7 +4,7 @@ title: Open-source contributions of the Chains project
 
 # Open-source contributions of the Chains project
 
-Our contributions to the open-source infrastructure.
+The project's contributions to the open-source infrastructure.
 
 * Maven
   * [maven-lockfile: build integrity in Maven with lockfiles](https://github.com/chains-project/maven-lockfile/)

@@ -39,7 +39,7 @@ jobs:
             const files = fs.readdirSync(dir);
             
             for (const file of files) {
-              if (file === 'node_modules') {
+              if (file === "node_modules") {
                continue;
               }
               const filePath = path.join(dir, file);
