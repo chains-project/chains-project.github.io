@@ -25,6 +25,7 @@ CHAINS recommendations are meant to be directly applicable, with state of the ar
   -  Do not use default "Allow all actions and reusable workflows"
   -  Do not use "Require approval for all external contributor" for CI workflows
   -  Do no use default "Read and write permissions" for token permissions
+  -  Tokens should all have expiration dates
 
 ## CHAINS Encourages
 
