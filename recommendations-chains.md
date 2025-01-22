@@ -21,6 +21,10 @@ CHAINS recommendations are meant to be directly applicable, with state of the ar
 - CHAINS recommends the usage of static vulnerability scanners on all commits of the main branch. This contributes to protecting against insider attacks (eg [xz](https://research.swtch.com/xz-timeline)).
 - CHAINS recommends disabling dynamic evaluation of code (aka eval) in production
   - In NodeJS, this is `--disallow-code-generation-from-strings` [doc](https://nodejs.org/api/cli.html#--disallow-code-generation-from-strings)
+- CHAINS recommends taking care of Github organization permissions:
+  -  Do not use default "Allow all actions and reusable workflows"
+  -  Do not use "Require approval for all external contributor" for CI workflows
+  -  Do no use default "Read and write permissions" for token permissions
 
 ## CHAINS Encourages
 
