@@ -35,8 +35,9 @@ Applications:
   * [Bug Report: Different output of diffoscope on different operating system](https://lists.reproducible-builds.org/pipermail/diffoscope/2024-August/002788.html)
   * [Bug Report: Propose fix for disabling syntax highlighting in the diff](https://lists.reproducible-builds.org/pipermail/diffoscope/2024-August/002783.html)
   * [Bug Report: Propose fix for correctly identifying line endings difference in file](https://lists.reproducible-builds.org/pipermail/diffoscope/2025-January/002811.html)
-* Reproducible-Central
-  * [Use HTTPS to clone in buildspec](https://github.com/jvm-repo-rebuild/reproducible-central/pull/768)
+* Others:
+  * Reproducible-Central: [Use HTTPS to clone in buildspec](https://github.com/jvm-repo-rebuild/reproducible-central/pull/768)
+  * Scorecard: [improve code review score](https://github.com/ossf/scorecard/issues/4500)
 
 Under our radar (not opened by us but relevant)
 * [sandboxed build scripts at rust](https://github.com/rust-lang/rust-project-goals/issues/108)
