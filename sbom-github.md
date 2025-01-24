@@ -34,7 +34,7 @@ By the end of this post, you will clearly understand how to add SBOMs to your so
        <plugin>
          <groupId>org.cyclonedx</groupId>
          <artifactId>cyclonedx-maven-plugin</artifactId>
-         <version>2.7.9</version>
+         <version>2.9.1</version>
          <executions>
            <execution>
              <goals>
