@@ -23,10 +23,12 @@ This workshop is organized in the context of the [CHAINS](https://chains.proj.kt
 * 9h Opening
 * 9h15 Keynote: Hervé Boutemy (Sonatype, Apache Software Foundation)
 * 10h15 Break + Poster session
-* 11h
+* 11h (order may change, duration TBD)
   * Talk 1: Aman Sharma, Build Integrity
-  * Talk 2 TBD
+  * Talk 2: Andreas Bielk ([sbom.observer](https://sbom.observer/)), Generating SBOMs for C/C++ 
   * Talk 3 TBD
+  * Talk 4 TBD
+  * Talk 5 TBD
 * 12h30 Lunch at Syster-o-bror
 * 14h Keynote: Henrik Plate (Endor Labs)
 * 15h Break
