@@ -31,6 +31,8 @@ Applications:
   * [enabling reproducible builds: Detached HEAD state (merged)](https://github.com/ethereum/go-ethereum/pull/30320)
   * [enabling reproducible builds: Travis CI bug (merged)](https://github.com/ethereum/go-ethereum/pull/30319)
   * [enabling reproducible builds: vcs.modified=true on downloadable artefacts](https://github.com/ethereum/go-ethereum/issues/30324)
+  * [reproducible builds: windows binary not being placed in artifact](https://lists.apache.org/thread/pqy75vx3zsd2qkq822qz8gb1ycss5f8d)
+  * [reproducible builds: find reason for missing directory in archive](https://github.com/apache/paimon/issues/5002)
 * Diffoscope
   * [Bug Report: Different output of diffoscope on different operating system](https://lists.reproducible-builds.org/pipermail/diffoscope/2024-August/002788.html)
   * [Bug Report: Propose fix for disabling syntax highlighting in the diff](https://lists.reproducible-builds.org/pipermail/diffoscope/2024-August/002783.html)
