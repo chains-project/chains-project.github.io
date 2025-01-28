@@ -25,7 +25,6 @@ This workshop is organized in the context of the [CHAINS](https://chains.proj.kt
 * 10h15 Break + Poster session
 * 11h (order may change, duration TBD)
   * Talk 1: Aman Sharma, Build Integrity
-  * Talk 2: Andreas Bielk ([sbom.observer](https://sbom.observer/)), Generating SBOMs for C/C++ 
   * Talk 3 TBD
   * Talk 4 TBD
   * Talk 5 TBD
@@ -34,6 +33,7 @@ This workshop is organized in the context of the [CHAINS](https://chains.proj.kt
 * 15h Break
 * 15h30 Tool session
   * [maven-lockfile](https://github.com/chains-project/maven-lockfile/)
+  * [sbom.observer](https://sbom.observer/), Andreas Bielk, Generating SBOMs for C/C++ 
   * [dirty-waters](https://github.com/chains-project/dirty-waters)
   * [ghasum](https://github.com/chains-project/ghasum)
 * 16h45 closing
