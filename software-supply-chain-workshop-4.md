@@ -25,9 +25,9 @@ This workshop is organized in the context of the [CHAINS](https://chains.proj.kt
 * 10h15 Break + Poster session
 * 11h (order may change, duration TBD)
   * Talk 1: Aman Sharma, Build Integrity
-  * Talk 3 TBD
-  * Talk 4 TBD
-  * Talk 5 TBD
+  * Talk 2: Julien Malka, [Does Functional Package Management Enable Reproducible Builds at Scale? Yes]([url](https://hal.science/hal-04913007))
+  * Talk 3: 
+  * Talk 4: TBD
 * 12h30 Lunch at Syster-o-bror
 * 14h Keynote: Henrik Plate (Endor Labs)
 * 15h Break
