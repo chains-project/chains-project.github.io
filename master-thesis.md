@@ -98,33 +98,6 @@ for non-reproducible builds of Maven packages.</p>
 Automatic Reproduction of Maven Artifacts</a></p>
 </li></ol>
 
-<h3 id="uid54">Diverse-double compilation for Java</h3>
-
-Contact: Martin Monperrus
-
-<p>Description:
-Java is a key programming language for enterprise applications. As such, the Java compiler is an ideal target for a trusting trust attack. This thesis aims to investigate the feasibility of diverse-double compilation (DDC) to mitigate this problem You will design, implement and evaluate DDC for Java.</p>
-<ol>
-<li id="uid55"><p><a href="https://dl.acm.org/doi/pdf/10.1145/358198.358210?trk=public_post_comment-text">Reflections on Trusting Trust</a></p>
-</li>
-<li id="uid56"><p><a href="http://ieeexplore.ieee.org/document/1565233/">Countering trusting trust through diverse double-compiling</a></p>
-</li>
-<li id="uid57"><p><a href="http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-323901">Diverse Double-Compiling to Harden Cryptocurrency Software (Master's thesis KTH 2023)</a></p>
-</li></ol>
-<p>(a related crazy idea is to do diverse-double compilation for a JIT compiler)</p>
-
-<h3 id="uid58">Diverse-double compilation in a CI/CD Pipeline</h3>
-<p>Description:
-C is a fundamental programming language for system-level software. Given its widespread use, the C compiler is a prime
-target for trusting trust attacks. This thesis aims to explore the systematic use of diverse-double compilation (DDC) in a modern Continuous Integration/Continuous Deployment (CI/CD) pipeline. You will design, implement and evaluate DDC in a CI/CD environment.</p>
-<ol>
-<li id="uid59"><p><a href="https://dl.acm.org/doi/pdf/10.1145/358198.358210?trk=public_post_comment-text">Reflections on Trusting Trust</a></p>
-</li>
-<li id="uid60"><p><a href="http://ieeexplore.ieee.org/document/1565233/">Countering trusting trust through diverse double-compiling</a></p>
-</li>
-<li id="uid61"><p><a href="http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-323901">Diverse Double-Compiling to Harden Cryptocurrency Software (Master's thesis KTH 2023)</a></p>
-</li></ol>
-
 <h3 id="uid62">Dynamic Integrity Verification &amp; Repair for Java Applications</h3>
 
 Contact: Martin Monperrus
