@@ -21,25 +21,6 @@ Related works:
 4. [Understanding the Quality of Container Security Vulnerability Detection Tools](https://arxiv.org/pdf/2101.03844)
 
 
-### Reproducible Builds for non-compiled languages like JavaScript
-
-Contact: Eric Cornelissen
-
-Reproducible builds can create trust in the build process of distributed software artifacts through independent verifiers.
-If multiple people are able to build the same artifact it is likely that the build has not been tampered with.
-The [reproducible builds](https://reproducible-builds.org/) project has made significant progress in the reproducibility of binary artifacts. But what about non-compiled languages such as JavaScript?
-In the world of JavaScript it is common to either bundle a codebase (e.g. using the popular [webpack](https://reproducible-builds.org/)) or transpile down from a related language (e.g. from [TypeScript](https://www.typescriptlang.org/)).
-These transformations are similar to compilation and may not be reproducible.
-Here too, an attack on the build system could be used to attack systems stealthily, and reproducible builds could aid in detection.
-
-In this project we will study the reproducibility of JavaScript build processes in one or more areas (npm packages, client-side bundling, transpiling, GitHub Actions, etc.) to understand the state of reproducibility in JavaScript and, depending on findings, propose fixes.
-
-Related work:
-1. [Reproducible Builds: Increasing the Integrity of Software Supply Chains](https://arxiv.org/abs/2104.06020)
-1. [Prototype of reproducing GitHub actions](https://github.com/ericcornelissen/reproducing-actions)
-1. [Reproducible Central](https://github.com/jvm-repo-rebuild/reproducible-central)
-
-
 <h3 id="uid42">Empirical Study of Compilation Reproducibility in Solidity</h3>
 
 Contact: Aman Sharma
