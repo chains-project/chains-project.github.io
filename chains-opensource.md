@@ -31,15 +31,21 @@ Applications:
   * [enabling reproducible builds: Detached HEAD state (merged)](https://github.com/ethereum/go-ethereum/pull/30320)
   * [enabling reproducible builds: Travis CI bug (merged)](https://github.com/ethereum/go-ethereum/pull/30319)
   * [enabling reproducible builds: vcs.modified=true on downloadable artefacts](https://github.com/ethereum/go-ethereum/issues/30324)
+* Maven artifacts reproducibility
   * [reproducible builds: windows binary not being placed in artifact](https://lists.apache.org/thread/pqy75vx3zsd2qkq822qz8gb1ycss5f8d)
   * [reproducible builds: find reason for missing directory in archive](https://github.com/apache/paimon/issues/5002)
+  * [reproducible builds: ldapchai bytecode difference](https://github.com/ldapchai/ldapchai/issues/32)
 * Diffoscope
   * [Bug Report: Different output of diffoscope on different operating system](https://lists.reproducible-builds.org/pipermail/diffoscope/2024-August/002788.html)
   * [Bug Report: Propose fix for disabling syntax highlighting in the diff](https://lists.reproducible-builds.org/pipermail/diffoscope/2024-August/002783.html)
   * [Bug Report: Propose fix for correctly identifying line endings difference in file](https://lists.reproducible-builds.org/pipermail/diffoscope/2025-January/002811.html)
-* Others:
-  * Reproducible-Central: [Use HTTPS to clone in buildspec](https://github.com/jvm-repo-rebuild/reproducible-central/pull/768)
-  * Scorecard: [improve code review score](https://github.com/ossf/scorecard/issues/4500)
+* oss-rebuild
+   * [feat: add stabilizer to preserve order of values](https://github.com/msuozzo/oss-rebuild/pull/2)
+* Reproducible-Central
+  * [Use HTTPS to clone in buildspec](https://github.com/jvm-repo-rebuild/reproducible-central/pull/768)
+  * [refactor: remove redunant build files from content/org/apache/maven/extensions/maven-buildcache-extension](https://github.com/jvm-repo-rebuild/reproducible-central/pull/1561)
+* Scorecard
+  * [improve code review score](https://github.com/ossf/scorecard/issues/4500)
 
 Under our radar (not opened by us but relevant)
 * [sandboxed build scripts at rust](https://github.com/rust-lang/rust-project-goals/issues/108)
