@@ -40,7 +40,7 @@ Applications:
   * [Bug Report: Propose fix for disabling syntax highlighting in the diff](https://lists.reproducible-builds.org/pipermail/diffoscope/2024-August/002783.html)
   * [Bug Report: Propose fix for correctly identifying line endings difference in file](https://lists.reproducible-builds.org/pipermail/diffoscope/2025-January/002811.html)
 * oss-rebuild
-   * [jar meta stabilizer](https://github.com/google/oss-rebuild/pull/324)
+   * [jar manifest stabilizer](https://github.com/google/oss-rebuild/pull/324)
 * Reproducible-Central
   * [Use HTTPS to clone in buildspec](https://github.com/jvm-repo-rebuild/reproducible-central/pull/768)
   * [refactor: remove redunant build files from content/org/apache/maven/extensions/maven-buildcache-extension](https://github.com/jvm-repo-rebuild/reproducible-central/pull/1561)
