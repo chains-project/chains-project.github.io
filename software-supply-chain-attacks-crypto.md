@@ -141,9 +141,24 @@ Ref:
 More fake and malicious solana packages:
 * solanacore, see <https://platform.safedep.io/community/malysis/01JGVKW3NNZFJMSX4F9JN40CNN>
 * walletcore-gen, see <https://twitter.com/npm_malware/status/1876328153880342680>
+
+### Malicious NPM package web3-parser Jan 2025
+
+Malicious infostealing package that exfiltrates secrets and data, package originally published in May of 2022, so has been around for almost 3 years! 
+
+References:
+* <https://sourcecodered.com/malicious-web3-parser-npm-package/>
+* <https://github.com/advisories/GHSA-66c6-q6m3-5pmx>
+* <https://security.snyk.io/vuln/SNYK-JS-WEB3PARSER-8660797>
+
+
+
+
+
 ## Hardware attacks
 
 It is possible to tamper with hardware devices used in crypto, typically a hardware wallet. Who would do that: an employee at the company that designed the wallet, the factory that produced it, and everyone involved in shipping it. Ref: <https://vitalik.ca/general/2021/01/11/recovery.html>. Such a real hardware supply chain attack has happened on Trezor wallets (2022): <https://www.kaspersky.com/blog/fake-trezor-hardware-crypto-wallet/48155/>
+
 
 ## Counter-measures
 
