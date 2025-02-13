@@ -27,7 +27,7 @@ This workshop is organized in the context of the [CHAINS](https://chains.proj.kt
   * Talk 1: Aman Sharma, Build Integrity
   * Talk 2: Julien Malka, [Does Functional Package Management Enable Reproducible Builds at Scale? Yes](https://hal.science/hal-04913007)
   * Talk 3: Tina Heidinger (Github), Fredrik Skogman (GitHub), Github Attestations 
-  * Talk 4: TBD
+  * Talk 4: Frank Reyes, Fixing Breaking Dependency Updates Using LLMs
 * 12h30 Lunch at Syster-o-bror
 * 14h Keynote: Henrik Plate (Endor Labs)
 * 15h Break
