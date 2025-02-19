@@ -32,11 +32,12 @@ Applications:
   * [enabling reproducible builds: Travis CI bug (merged)](https://github.com/ethereum/go-ethereum/pull/30319)
   * [enabling reproducible builds: vcs.modified=true on downloadable artefacts](https://github.com/ethereum/go-ethereum/issues/30324)
 * Maven artifacts reproducibility
-  * [reproducible builds: windows binary not being placed in artifact](https://lists.apache.org/thread/pqy75vx3zsd2qkq822qz8gb1ycss5f8d)
-  * [reproducible builds: find reason for missing directory in archive](https://github.com/apache/paimon/issues/5002)
-  * [reproducible builds: ldapchai bytecode difference](https://github.com/ldapchai/ldapchai/issues/32)
-  * [reproducible builds: Questions: why do submodules of v4.1.32 have SBOM of metrics-parent?](https://github.com/dropwizard/metrics/discussions/4703)
-  * [reproducible builds: Proposal to make output of git-commit-id-maven-plugin reproducible](https://github.com/git-commit-id/git-commit-id-maven-plugin/issues/825)
+  * [windows binary not being placed in artifact](https://lists.apache.org/thread/pqy75vx3zsd2qkq822qz8gb1ycss5f8d)
+  * [find reason for missing directory in archive](https://github.com/apache/paimon/issues/5002)
+  * [ldapchai bytecode difference](https://github.com/ldapchai/ldapchai/issues/32)
+  * [Questions: why do submodules of v4.1.32 have SBOM of metrics-parent?](https://github.com/dropwizard/metrics/discussions/4703)
+  * [Proposal to make output of git-commit-id-maven-plugin reproducible](https://github.com/git-commit-id/git-commit-id-maven-plugin/issues/825)
+  * [Help needed to reproduce 1.13.0](https://github.com/apache/shiro/issues/1999)
 * Diffoscope
   * [Bug Report: Different output of diffoscope on different operating system](https://lists.reproducible-builds.org/pipermail/diffoscope/2024-August/002788.html)
   * [Bug Report: Propose fix for disabling syntax highlighting in the diff](https://lists.reproducible-builds.org/pipermail/diffoscope/2024-August/002783.html)
