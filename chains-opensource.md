@@ -36,12 +36,14 @@ Applications:
   * [reproducible builds: find reason for missing directory in archive](https://github.com/apache/paimon/issues/5002)
   * [reproducible builds: ldapchai bytecode difference](https://github.com/ldapchai/ldapchai/issues/32)
   * [reproducible builds: Questions: why do submodules of v4.1.32 have SBOM of metrics-parent?](https://github.com/dropwizard/metrics/discussions/4703)
+  * [reproducible builds: Proposal to make output of git-commit-id-maven-plugin reproducible](https://github.com/git-commit-id/git-commit-id-maven-plugin/issues/825)
 * Diffoscope
   * [Bug Report: Different output of diffoscope on different operating system](https://lists.reproducible-builds.org/pipermail/diffoscope/2024-August/002788.html)
   * [Bug Report: Propose fix for disabling syntax highlighting in the diff](https://lists.reproducible-builds.org/pipermail/diffoscope/2024-August/002783.html)
   * [Bug Report: Propose fix for correctly identifying line endings difference in file](https://lists.reproducible-builds.org/pipermail/diffoscope/2025-January/002811.html)
+  * [Bug Report: Diffoscope falls back to xxd for two (seemingly) text files with identical content](https://lists.reproducible-builds.org/pipermail/diffoscope/2025-February/002822.html)
 * oss-rebuild
-   * [jar manifest stabilizer](https://github.com/google/oss-rebuild/pull/324)
+   * [jar manifest stabilizer](https://github.com/google/oss-rebuild/pull/339)
 * Reproducible-Central
   * [Use HTTPS to clone in buildspec](https://github.com/jvm-repo-rebuild/reproducible-central/pull/768)
   * [refactor: remove redunant build files from content/org/apache/maven/extensions/maven-buildcache-extension](https://github.com/jvm-repo-rebuild/reproducible-central/pull/1561)
