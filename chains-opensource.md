@@ -43,6 +43,7 @@ Applications:
   * [Bug Report: Propose fix for disabling syntax highlighting in the diff](https://lists.reproducible-builds.org/pipermail/diffoscope/2024-August/002783.html)
   * [Bug Report: Propose fix for correctly identifying line endings difference in file](https://lists.reproducible-builds.org/pipermail/diffoscope/2025-January/002811.html)
   * [Bug Report: Diffoscope falls back to xxd for two (seemingly) text files with identical content](https://lists.reproducible-builds.org/pipermail/diffoscope/2025-February/002822.html)
+  * [Bug Report: XXD diff between jar files even though diff is in an HTML file zipped inside](https://lists.reproducible-builds.org/pipermail/diffoscope/2025-February/002823.html)
 * oss-rebuild
    * [jar manifest stabilizer](https://github.com/google/oss-rebuild/pull/339)
 * Reproducible-Central
