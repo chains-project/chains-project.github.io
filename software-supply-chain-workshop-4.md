@@ -19,25 +19,41 @@ This workshop is organized in the context of the [CHAINS](https://chains.proj.kt
 
 ## Program
 
-* 8h30 Welcome coffee
-* 9h Opening
-* 9h15 Keynote: Hervé Boutemy (Sonatype, Apache Software Foundation)
-* 10h15 Break + Poster session
-* 11h (order may change, duration TBD)
-  * Talk 1: Aman Sharma, Build Integrity
-  * Talk 2: Julien Malka, [Does Functional Package Management Enable Reproducible Builds at Scale? Yes](https://hal.science/hal-04913007)
-  * Talk 3: Tina Heidinger (Github), Fredrik Skogman (GitHub), Github Attestations 
-  * Talk 4: Frank Reyes, Fixing Breaking Dependency Updates Using LLMs
-* 12h30 Lunch at Syster-o-bror
-* 14h Keynote: Henrik Plate (Endor Labs)
-* 15h Break
-* 15h30 Tool session
-  * [maven-lockfile](https://github.com/chains-project/maven-lockfile/)
-  * [sbom.observer](https://sbom.observer/), Andreas Bielk, Generating SBOMs for C/C++ 
-  * [dirty-waters](https://github.com/chains-project/dirty-waters)
-  * [ghasum](https://github.com/chains-project/ghasum)
-* 16h45 closing
+## Program
+
+| Time  | Event                                                                                       |
+|-------|---------------------------------------------------------------------------------------------|
+| 0830  | Welcome coffee                                                                              |
+| 0900    | Opening                                                                                     |
+| 0915  | Keynote: Hervé Boutemy (Sonatype, Apache Software Foundation)                               |
+| 1015 | Break + Poster session                                                                      |
+| 1100   | (order may change, duration TBD)                                                            |
+|       | * Talk 1: Aman Sharma, Build Integrity                                                      |
+|       | * Talk 2: Julien Malka, [Does Functional Package Management Enable Reproducible Builds at Scale? Yes](https://hal.science/hal-04913007) |
+|       | * Talk 3: Tina Heidinger (Github), Fredrik Skogman (GitHub), Github Attestations            |
+|       | * Talk 4: Frank Reyes, Fixing Breaking Dependency Updates Using LLMs                        |
+| 1230 | Lunch at Syster-o-bror                                                                      |
+| 1400   | Keynote: Henrik Plate (Endor Labs)                                                          |
+| 1500  | Break                                                                                       |
+| 1530 | Tool session                                                                                |
+|       | * [maven-lockfile](https://github.com/chains-project/maven-lockfile/)                       |
+|       | * [sbom.observer](https://sbom.observer/), Andreas Bielk, Generating SBOMs for C/C++        |
+|       | * [dirty-waters](https://github.com/chains-project/dirty-waters)                            |
+|       | * [ghasum](https://github.com/chains-project/ghasum)                                        |
+| 1645 | Closing                                                                                     |
   
+## Talks
+
+[Henrik Plate (Endor Labs)](linkedin.com/in/henrikplate) 
+
+<img src="workshop_4_assets/henrik_plate.jpeg" alt="Henrik Plateß" width=100px />
+
+
+<ins>Speaker Bio</ins>
+
+Henrik Plate is the principal security researcher at Endor Labs. He formerly worked for SAP Security Research, where he established and led the focus topic “Open Source Security” starting 2014. He co-authored several academic papers on this topic, presented at academic and industry conferences like the RSA, is the project lead and core-developer of Eclipse Steady (an open source solution using program analysis techniques to assess the exploitability of vulnerabilities), and contributes to the Risk Explorer for Software Supply Chains (an open source solution to understand supply chain threats and safeguards).
+He earned his PhD in 2024 from the University of Rennes, France, with a thesis titled “On the Security Risks of Open Source Consumption: Vulnerabilities and Supply Chain Attacks in the Era of Open-Source-Based Software Development”. He received his MSc in Computer Science and Business Administration in 1999 from the University of Mannheim, Germany, and holds a CISSP certification.
+
 ## Sponsors
 
 <div style="display: flex; justify-content: center;">
