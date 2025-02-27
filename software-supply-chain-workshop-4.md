@@ -27,7 +27,7 @@ This workshop is organized in the context of the [CHAINS](https://chains.proj.kt
 | 0900    | Opening                                                                                     |
 | 0915  | Keynote: Hervé Boutemy (Sonatype, Apache Software Foundation)                               |
 | 1015 | Break + Poster session                                                                      |
-| 1100   | (order may change, duration TBD)                                                            |
+| 1100   | (order may change, duration 20 minutes each)                                                            |
 |       | * Talk 1: Aman Sharma, Build Integrity                                                      |
 |       | * Talk 2: Julien Malka, [Does Functional Package Management Enable Reproducible Builds at Scale? Yes](https://hal.science/hal-04913007) |
 |       | * Talk 3: Tina Heidinger (Github), Fredrik Skogman (GitHub), Github Attestations            |
