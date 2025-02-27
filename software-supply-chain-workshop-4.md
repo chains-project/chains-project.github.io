@@ -44,6 +44,10 @@ This workshop is organized in the context of the [CHAINS](https://chains.proj.kt
   
 ## Talks
 
+Hervé Boutemy
+
+TBD
+
 [Henrik Plate (Endor Labs)](linkedin.com/in/henrikplate) 
 
 <img src="workshop_4_assets/henrik_plate.jpeg" alt="Henrik Plateß" width=100px />
