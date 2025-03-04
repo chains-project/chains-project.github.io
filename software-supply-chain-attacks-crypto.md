@@ -103,7 +103,7 @@ Reference:
 - [Randstorm](https://www.unciphered.com/randstorm)
 - [Randstorm: You Can’t Patch a House of Cards](https://www.unciphered.com/blog/randstorm-you-cant-patch-a-house-of-cards)
 
-### Ledge NPM account compromised (package attack), 2023
+### Ledger NPM account compromised (package attack), 2023
 
 Ledger got their NPM account compromised.
 A malicious version of a commonly used web3 connector `@ledgerhq/connect-kit` was pushed to NPM.
