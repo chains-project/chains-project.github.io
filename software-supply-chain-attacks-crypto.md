@@ -4,12 +4,13 @@ title: Software supply chain attacks on crypto
 
 # Software supply chain attacks on crypto
 
-In this article, we discus attacks on cryptocurrency and digital asset infrastructures and focus on software supply chain attacks.
-We first list high-profile attacks that have been made public and we discuss possible mitigations.
+In this article, we discus attacks on cryptocurrency and digital assets infrastructures that are based on software supply chain attacks.
+We first list all high-profile attacks that have been made public.
+We discuss possible mitigations.
 
 Authors: Martin Monperrus & the [CHAINS team](https://chains.proj.kth.se/)  
 Creation date: Nov 30 2022  
-Status: keeps being updated over time  
+Status: keeps being updated over time, last update 2025 
 Ref URL: <https://chains.proj.kth.se/software-supply-chain-attacks-crypto.html>
 
 ## Software Attacks
@@ -151,8 +152,21 @@ References:
 * <https://github.com/advisories/GHSA-66c6-q6m3-5pmx>
 * <https://security.snyk.io/vuln/SNYK-JS-WEB3PARSER-8660797>
 
+### Bybit attack / Safe Javascript compromised Feb 2025
 
+The AWS account of a Safe developer was compromiser, the attacked uploaded malicious Javascript targeting a single wallet. The multisig signers signed a compromised transaction involving an [exploit contract](https://etherscan.io/address/0xbdd077f651ebe7f7b3ce16fe5f2b025be2969516) called with DELEGATE_CALL. This resulted in a $1.5B (billion!) theft on the cold wallet of the Bybit crypto exchange.
 
+Notes:
+- This hack exploits a multisig cold wallet **without exploiting any smart contract vulnerability**. 
+- The attacker knew that the attacked would be discovered and remediated fast, so instead of targeting multiple small wallets, they target one of the largest ever, 
+- A few minutes after the attack, the attacked replaced the compromised JS file with the original one, in order to delete traces.
+- The Bybit operator did blind signing. Better UX is needed, readable/interpretable transactions is high priority.
+ 
+Overall, a perfectly executed attack.
+
+References:
+- (best wrap up): <https://research.checkpoint.com/2025/the-bybit-incident-when-research-meets-reality/>
+- (official) <https://www.bybit.com/en/press/post/bybit-confirms-security-integrity-amid-safe-wallet-incident-no-compromise-in-infrastructure-blt9986889e919da8d2>
 
 
 ## Hardware attacks
