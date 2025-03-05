@@ -70,6 +70,7 @@ To get notified about project news, subscribe to the [Chains mailing list](https
   - [Code-Reuse Attacks in Managed Programming Languages and Runtimes](https://www.diva-portal.org/smash/get/diva2:1905323/SUMMARY01.pdf), PhD Thesis Mikhail Shcherbakov, 2024
 * 2025
   - [Software Bills of Materials in Maven Central](https://arxiv.org/abs/2501.13832), arXiv 2025.
+  - [Implementing SBOM Attestations in an Enterprise Context](Christofer Vikström), Master's thesis Federico Bonno, 2024
 ## Repositories
 
 See [https://github.com/chains-project/](https://github.com/orgs/chains-project/repositories?type=source)
@@ -92,9 +93,9 @@ See [https://github.com/chains-project/](https://github.com/orgs/chains-project/
 * Post-doctoral researchers: [Deepika Tiwari](https://deee92.github.io/), [Mohammad M. Ahmadpanah](https://smahmadpanah.github.io/)
 * PhD students: [Sofia Bobadilla](https://www.kth.se/profile/sofbob?l=en), [Eric Cornelissen](https://ericcornelissen.dev/), [Javier Ron](https://www.kth.se/profile/javierro), [Aman Sharma](https://algomaster99.github.io/), [Mikhail Shcherbakov](https://www.kth.se/profile/mshc), [Yuxin Liu](https://www.kth.se/profile/yuxinli), [Frank Reyes](https://www.kth.se/profile/frankrg/?l=en), [Yekatierina Churakova](https://www.kth.se/profile/yekchu?l=en), [Carmine Cesarano](https://carminecesarano.github.io/) (visiting), [Yogya Gamage](https://scholar.google.se/citations?user=m_67-NAAAAAJ), [Vivi Andersson](TODO), [Serena Cofano](https://scholar.google.com/citations?user=Udd1jsMAAAAJ&hl=en) (visiting)
 * Research engineers & assistants: [Raphina Liu](https://scholar.google.se/citations?user=h1uxQNcAAAAJ), [Elias Lundell](https://www.eliaslundell.se/), [Monica Jin](https://www.kth.se/profile/mjin/), [Diogo Torres Correia](https://www.kth.se/profile/diogotc), [Tom Sorger](https://tomsorger.com/)
-* Master's students: [Christofer Vikström](TODO), [Leonard Husmann](TBD)
+* Master's students: [Leonard Husmann](TBD)
 
-Chains alumni: [Arvid Siberov](https://siberov.se), [Linus Östlund](https://www.kth.se/profile/linusost/), [Gabriel Skoglund](https://www.kth.se/profile/gabsko), [César Soto-Valero](https://www.cesarsotovalero.net/), [Martin Wittlinger](https://github.com/MartinWitt/), [Felix Qvarfordt](https://www.linkedin.com/in/felix-qvarfordt-4b1196a3/), [Daniel Williams](https://www.linkedin.com/in/d-willi/), [Oliver Schwalbe Lehtihet](https://www.linkedin.com/in/oliver-schwalbe-lehtihet/), [Federico Bono](https://www.linkedin.com/in/federico-bono/)
+Chains alumni: [Arvid Siberov](https://siberov.se), [Linus Östlund](https://www.kth.se/profile/linusost/), [Gabriel Skoglund](https://www.kth.se/profile/gabsko), [César Soto-Valero](https://www.cesarsotovalero.net/), [Martin Wittlinger](https://github.com/MartinWitt/), [Felix Qvarfordt](https://www.linkedin.com/in/felix-qvarfordt-4b1196a3/), [Daniel Williams](https://www.linkedin.com/in/d-willi/), [Oliver Schwalbe Lehtihet](https://www.linkedin.com/in/oliver-schwalbe-lehtihet/), [Federico Bono](https://www.linkedin.com/in/federico-bono/), [Christofer Vikström](TODO)
 
 
 ## Events & Talks
