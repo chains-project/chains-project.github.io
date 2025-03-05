@@ -70,7 +70,8 @@ To get notified about project news, subscribe to the [Chains mailing list](https
   - [Code-Reuse Attacks in Managed Programming Languages and Runtimes](https://www.diva-portal.org/smash/get/diva2:1905323/SUMMARY01.pdf), PhD Thesis Mikhail Shcherbakov, 2024
 * 2025
   - [Software Bills of Materials in Maven Central](https://arxiv.org/abs/2501.13832), arXiv 2025.
-  - [Implementing SBOM Attestations in an Enterprise Context](Christofer Vikström), Master's thesis Federico Bonno, 2024
+  - [Implementing SBOM Attestations in an Enterprise Context](todo), Master's thesis Christofer Vikström, 2025
+  - 
 ## Repositories
 
 See [https://github.com/chains-project/](https://github.com/orgs/chains-project/repositories?type=source)
