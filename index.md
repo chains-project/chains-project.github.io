@@ -71,7 +71,8 @@ To get notified about project news, subscribe to the [Chains mailing list](https
 * 2025
   - [Software Bills of Materials in Maven Central](https://arxiv.org/abs/2501.13832), arXiv 2025.
   - [Implementing SBOM Attestations in an Enterprise Context](todo), Master's thesis Christofer Vikström, 2025
-  - 
+
+
 ## Repositories
 
 See [https://github.com/chains-project/](https://github.com/orgs/chains-project/repositories?type=source)
