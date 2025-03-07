@@ -125,8 +125,8 @@ Chains alumni: [Arvid Siberov](https://siberov.se), [Linus Östlund](https://www
 
 ## Press
 
-- June 12 2024: [Framtidens Forskning](https://framtidensforskning.se/2024/06/12/bygger-mer-robusta-programvarukedjor/) (In Swedish)
-- June 17 2022: [Framtidens Forskning](https://framtidensforskning.se/2022/06/17/forsorjningskedjan-for-programvaror-avgorande-for-sakerheten/) (In Swedish)
+- [Bygger mer robusta programvarukedjorn ](https://framtidensforskning.se/2024/06/12/bygger-mer-robusta-programvarukedjor/), in Framtidens Forskning (June 12 2024, In Swedish)
+-[Försörjningskedjan för programvaror avgörande för säkerheten](https://framtidensforskning.se/2022/06/17/forsorjningskedjan-for-programvaror-avgorande-for-sakerheten/), in Framtidens Forskning (June 17 2022, In Swedish)
 
 
 ## Master / Internship topics
