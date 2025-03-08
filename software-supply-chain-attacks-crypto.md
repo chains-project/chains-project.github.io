@@ -5,12 +5,12 @@ title: Software supply chain attacks on crypto
 # Software supply chain attacks on crypto
 
 In this article, we discus attacks on cryptocurrency and digital assets infrastructures that are based on software supply chain attacks.
-We first list all high-profile attacks that have been made public.
+We aim to be the most comprehensive list, with all high-profile attacks that have been made public.
 We discuss possible mitigations.
 
 Authors: Martin Monperrus & the [CHAINS team](https://chains.proj.kth.se/)  
 Creation date: Nov 30 2022  
-Status: keeps being updated over time, last update 2025 
+Status: updated over time, last update 2025 
 Ref URL: <https://chains.proj.kth.se/software-supply-chain-attacks-crypto.html>
 
 ## Software Attacks
@@ -47,7 +47,7 @@ End-user transaction attack through Pypi typosquatting by monitoring the clipboa
 
 - [$3 million cryptocurrency heist stemmed from a malicious GitHub commit](https://blog.sonatype.com/3-million-cryptocurrency-heist-malicious-github-commit?hsLang=en-us)
 
-### Onus attack (through Log4J), 2021
+### Onus attack (through Log4shell), 2021
 
 "The attackers were able to make off with the data before an update patching the Log4j vulnerability was available and demanded $5 million in ransom for the stolen information. [...] The attackers waited until 25 December 2021 for payment from ONUS, and when they did not receive the ransom, the attackers put the information of close to 2 million customers up for sale"
 
@@ -169,28 +169,8 @@ References:
 - (official) <https://www.bybit.com/en/press/post/bybit-confirms-security-integrity-amid-safe-wallet-incident-no-compromise-in-infrastructure-blt9986889e919da8d2>
 
 
-## Hardware attacks
+## Hardware supply chain attacks
 
 It is possible to tamper with hardware devices used in crypto, typically a hardware wallet. Who would do that: an employee at the company that designed the wallet, the factory that produced it, and everyone involved in shipping it. Ref: <https://vitalik.ca/general/2021/01/11/recovery.html>. Such a real hardware supply chain attack has happened on Trezor wallets (2022): <https://www.kaspersky.com/blog/fake-trezor-hardware-crypto-wallet/48155/>
 
 
-## Counter-measures
-
-### Cryptography
-
-- "To mitigate fake devices and evil-maid attacks, we sign a public key generated on the secure chip of each device during the factory setup using our own private key. The BitBoxApp verifies the challenge is signed by a certified attestation key When you connect the BitBox02 to the host device, the BitBoxApp automatically checks that it is connected to an authentic device produced and programmed by Shift Crypto with a challenge-response mechanism. The BitBoxApp sends the BitBox02 a challenge (random number) that needs to be signed by the attestation key on the device." [How we mitigate supply chain attacks](https://shiftcrypto.ch/blog/supply-chain-attacks/)
-
-### Old hardware
-
-Old hardware, predating crypto, cannot contain a backdoor that has been designed for stealing crypto. Some suggest using old hardware one already has at home, such as a GameBoy, see <https://blockworks.co/news/gameboy-cold-wallet>
-
-### Diversity
-
-Compromising one software component is hard, compromising many is much harder.
-It is a good idea to use [software diversity](https://arxiv.org/pdf/2005.11776.pdf) and hardware diversity to protect crypt funds.
-
-Casa is a company providing key protection, their architecture distributes multiple keys across different hardware devices. Ref: [Supply chain attacks: What you need to know to protect your assets](https://blog.keys.casa/supply-chain-attacks-what-you-should-know/)
-
-"To avoid fragility to malware, software bugs, and hardware faults, a diversity of hardware and software should be relied upon within the sets of components that are redundantly performing the same functions. This applies to hardware wallets, software which runs on the hardware wallets, the networked devices, and their operating systems." [Custody Protocols Using Bitcoin Vaults, Swambo et al. 2020](https://arxiv.org/pdf/2005.11776.pdf)
-
-[Edit this page](https://github.com/chains-project/chains-project.github.io/edit/main/software-supply-chain-attacks-crypto.md)
