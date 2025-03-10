@@ -16,7 +16,7 @@ Why its matter:
 
 **Same-environment reproducibility**: Ensures that building the same source code with the same build environment produces identical binary outputs, byte-for-byte. 
 
-**Different-environment reproducibility**: Ensures that building the same source code within different build environment produces identical binary outputs, byte-for-byte. A classical example is changing the opearting sytem.
+**Different-environment reproducibility**: Ensures that building the same source code within different build environments produces identical binary outputs, byte-for-byte. A classical example is changing the operating system.
 
 **Package-registry reproducibility**: Ensures that it is possible to rebuild an artefact published on a package registry (say NPM or Maven Central) given only the package registry data as input.
 
