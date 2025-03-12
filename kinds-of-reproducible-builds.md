@@ -24,4 +24,6 @@ Why its matter:
 
 **Functional reproducibility**: Focuses on ensuring that builds produce binaries with identical functionality, even if there are minor, non-functional differences in the output files (like timestamps or build paths). Typically, verifiers apply some kind normalization / canonicalization on the build output to achieve this.
 
+**Compiler reproducibility**: Ensures that building the same source code with different compiler binares produces identical binary outputs, byte-for-byte. This is the essence of [diverse-double compiling](https://dwheeler.com/trusting-trust/).
+
 
