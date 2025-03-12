@@ -14,7 +14,7 @@ Location: KTH Royal Institute of Technology, [Fantum room, Lindstedtsvägen 24](
   - Benoit, Musard, Mathias and Martin introduce the project's motivations and scientific agenda 
   - Discuss research and technology opportunities
 - 12.00 :: 13.30 lunch @ [syster o bror](https://www.wired.com/story/biggest-hacker-rickroll-high-school-prank/)
-- 14.00 :: 17.00 [1st Workshop on the Software Supply Chain @ KTH](https://chains.proj.kth.se/software-suppply-chain-workshop)
+- 14.00 :: 17.00 [1st Workshop on the Software Supply Chain @ KTH](https://chains.proj.kth.se/software-suppply-chain-workshop-1)
 
 <span style="color:white">excerpt of the supply chain of node.js : https://github.com/nodejs/node/blob/5fad0b93667ffc6e4def52996b9529ac99b26319/deps/uv/docs/requirements.txt</span>
 
