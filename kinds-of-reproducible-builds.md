@@ -18,11 +18,10 @@ Why its matter:
 
 **Different-environment reproducibility**: Ensures that building the same source code within different build environments produces identical binary outputs, byte-for-byte. A classical example is changing the operating system.
 
-**Package-registry reproducibility**: Ensures that it is possible to rebuild an artefact published on a package registry (say NPM or Maven Central) given only the package registry data as input.
+**Package-registry reproducibility**: Ensures that it is possible to rebuild an artefact published on a package registry (say NPM or Maven Central) given only the package registry data as input. A weaker version of this is to take the package registry data and some additional information required to rebuild, this is what [reproducible-central](https://github.com/jvm-repo-rebuild/reproducible-central) does for Maven.
 
 **Time-travel reproducibility**: Ensures that building the source code of the past (possibly years before) is still possible, producing identical binary outputs. The challenge is that dependencies evolve over time, and disappear.
 
-**Functional reproducibility**: Focuses on ensuring that builds produce binaries with identical functionality, even if there are minor, non-functional differences in
-the output files (like timestamps or build paths). Typically, verifiers apply some kind normalization / canonicalization on the build output to achieve this.
+**Functional reproducibility**: Focuses on ensuring that builds produce binaries with identical functionality, even if there are minor, non-functional differences in the output files (like timestamps or build paths). Typically, verifiers apply some kind normalization / canonicalization on the build output to achieve this.
 
 
