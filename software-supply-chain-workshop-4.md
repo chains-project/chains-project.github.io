@@ -28,7 +28,7 @@ This workshop is organized in the context of the [CHAINS](https://chains.proj.kt
 | 0915  | Keynote: Hervé Boutemy (Sonatype, Apache Software Foundation)                               |
 | 1015 | Break + Poster session                                                                      |
 | 1100   | (order may change, duration 20 minutes each)                                                            |
-|       | * Talk 1: Aman Sharma, Build Integrity                                                      |
+|       | * Talk 1: Aman Sharma, Causes and Mitigations of Unreproducible Builds in Java                                                    |
 |       | * Talk 2: Julien Malka, [Does Functional Package Management Enable Reproducible Builds at Scale? Yes](https://hal.science/hal-04913007) |
 |       | * Talk 3: Tina Heidinger (Github), Fredrik Skogman (GitHub), Github Attestations            |
 |       | * Talk 4: Frank Reyes, Fixing Breaking Dependency Updates Using LLMs                        |
@@ -48,7 +48,7 @@ Hervé Boutemy
 
 TBD
 
-[Henrik Plate (Endor Labs)](linkedin.com/in/henrikplate) 
+[Henrik Plate (Endor Labs)](https://linkedin.com/in/henrikplate) 
 
 <img src="workshop_4_assets/henrik_plate.jpeg" alt="Henrik Plateß" width=100px />
 
