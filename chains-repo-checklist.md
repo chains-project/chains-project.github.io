@@ -11,7 +11,7 @@ Repo: ______________
 
 | Rule | Check ✅/❌|
 |----------|----------|
-| forbid unsigned git commits and tags |          |
+| forbid unsigned git commits and tags (impossible to do on Github)|          |
 | forbid transient dependencies in CI (no latest, SNAPSHOT, etc.) |          |
 | forbid coarse-grain version (v45), force most specific, immutable version (v45.0.1)   |          |
 | use dependency update bot (dependabot, renovate) |          |
@@ -23,6 +23,6 @@ Repo: ______________
 | automated creation of SBOMs for releases |          |
 | push build attestations for releases (rekor) |          |
 | have independent rebuilders (reproducible-central) |          |
-| use branch protection rules |          |
+| use branch, tag and CI protection rules |          |
 | verify dependency crypto signatures from a trusted source |          |
 | have 2FA enabled for all repo members |          |
