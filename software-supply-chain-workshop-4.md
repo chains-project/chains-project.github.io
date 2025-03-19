@@ -19,8 +19,6 @@ This workshop is organized in the context of the [CHAINS](https://chains.proj.kt
 
 ## Program
 
-## Program
-
 | Time  | Event                                                                                       |
 |-------|---------------------------------------------------------------------------------------------|
 | 0830  | Welcome coffee                                                                              |
@@ -44,16 +42,35 @@ This workshop is organized in the context of the [CHAINS](https://chains.proj.kt
   
 ## Talks
 
-Hervé Boutemy
+### Talk Title \<TBD\>
+
+
+
+<img src="workshop_4_assets/hervé_boutemy.jpg" alt="Henrik Plateß" width=100px />
+
+[Hervé Boutemy (Sonatype | Apache Software Foundation)](https://www.linkedin.com/in/hboutemy/?originalSubdomain=fr)
+
+<u>Abstract</u>
 
 TBD
 
-[Henrik Plate (Endor Labs)](https://linkedin.com/in/henrikplate) 
+<u>Speaker Bio</u>
+
+Hervé started with Java when it was in beta, built his first Java projects with Make (yes) then Ant: but life changed with Maven 1... Life changed even more when growing from OSS user during working day to becoming an active OSS contributor to Maven 2 during nights and week-ends.
+Today, Hervé works as Solutions Architect for Sonatype on next steps of the build journey, promoting best-practices around Software Supply Chains.
+On the OSS front, Hervé is an Apache Software Foundation member and Apache Maven PMC Chair. He's also involved in many advanced projects like CycloneDX, SPDX, sigstore, or Reproducible Builds, where he is learning new supply chain technologies by implementing them with Maven.
+
+### Talk Title \<TBD\>
 
 <img src="workshop_4_assets/henrik_plate.jpeg" alt="Henrik Plateß" width=100px />
 
+[Henrik Plate (Endor Labs)](https://linkedin.com/in/henrikplate) 
 
-<ins>Speaker Bio</ins>
+<u>Abstract</u>
+
+TBD
+
+<u>Speaker Bio</u>
 
 Henrik Plate is the principal security researcher at Endor Labs. He formerly worked for SAP Security Research, where he established and led the focus topic “Open Source Security” starting 2014. He co-authored several academic papers on this topic, presented at academic and industry conferences like the RSA, is the project lead and core-developer of Eclipse Steady (an open source solution using program analysis techniques to assess the exploitability of vulnerabilities), and contributes to the Risk Explorer for Software Supply Chains (an open source solution to understand supply chain threats and safeguards).
 He earned his PhD in 2024 from the University of Rennes, France, with a thesis titled “On the Security Risks of Open Source Consumption: Vulnerabilities and Supply Chain Attacks in the Era of Open-Source-Based Software Development”. He received his MSc in Computer Science and Business Administration in 1999 from the University of Mannheim, Germany, and holds a CISSP certification.
