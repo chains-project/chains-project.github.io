@@ -41,7 +41,7 @@ To get notified about project news, subscribe to the [Chains mailing list](https
 
 ## Papers & Theses
 
-(chronological order)
+(reverse chronological order, newest first)
 
 * 2025
   - [Implementing SBOM Attestations in an Enterprise Context](todo), Master's thesis Christofer Vikström, 2025
