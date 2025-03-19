@@ -45,14 +45,10 @@ This workshop is organized in the context of the [CHAINS](https://chains.proj.kt
 ### Talk Title \<TBD\>
 
 
-
 <img src="workshop_4_assets/hervé_boutemy.jpg" alt="Hervé Boutemy" width=100px />
 
 [Hervé Boutemy (Sonatype \| Apache Software Foundation)](https://www.linkedin.com/in/hboutemy/?originalSubdomain=fr)
 
-<u>Abstract</u>
-
-TBD
 
 <u>Speaker Bio</u>
 
@@ -65,10 +61,6 @@ On the OSS front, Hervé is an Apache Software Foundation member and Apache Mave
 <img src="workshop_4_assets/henrik_plate.jpeg" alt="Henrik Plateß" width=100px />
 
 [Henrik Plate (Endor Labs)](https://linkedin.com/in/henrikplate) 
-
-<u>Abstract</u>
-
-TBD
 
 <u>Speaker Bio</u>
 
