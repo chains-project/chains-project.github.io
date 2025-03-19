@@ -26,7 +26,8 @@ CHAINS recommendations are meant to be directly applicable, with state of the ar
   -  Do not use "Require approval for all external contributor" for CI workflows
   -  Do no use default "Read and write permissions" for token permissions
   -  Tokens should all have expiration dates
-
+- CHAINS recommends having Github tag rulesets to enforce immutable Git tags
+ 
 ## CHAINS Encourages
 
 These items are harder to achieve than the recommendations above, because of lack of maturity.
