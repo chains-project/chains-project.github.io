@@ -42,7 +42,7 @@ This workshop is organized in the context of the [CHAINS](https://chains.proj.kt
   
 ## Talks
 
-### Talk Title \<TBD\>
+### Trust in Software Supply Chain: Signature vs Attestations vs Reproducible Builds
 
 
 <img src="workshop_4_assets/hervé_boutemy.jpg" alt="Hervé Boutemy" width=100px />
