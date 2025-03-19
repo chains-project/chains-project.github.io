@@ -13,6 +13,7 @@ Repo: ______________
 |----------|----------|
 | forbid unsigned git commits and tags |          |
 | forbid transient dependencies in CI (no latest, SNAPSHOT, etc.) |          |
+| forbid coarse-grain version (v45), force most specific, immutable version (v45.0.1)   |          |
 | use dependency update bot (dependabot, renovate) |          |
 | push lockfile in repo (maven-lockfile) |          |
 | block bad dependencies in ci (dirty-waters) |          |
