@@ -46,7 +46,7 @@ This workshop is organized in the context of the [CHAINS](https://chains.proj.kt
 
 
 
-<img src="workshop_4_assets/hervé_boutemy.jpg" alt="Henrik Plateß" width=100px />
+<img src="workshop_4_assets/hervé_boutemy.jpg" alt="Hervé Boutemy" width=100px />
 
 [Hervé Boutemy (Sonatype \| Apache Software Foundation)](https://www.linkedin.com/in/hboutemy/?originalSubdomain=fr)
 
