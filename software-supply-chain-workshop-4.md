@@ -34,7 +34,7 @@ This workshop is organized in the context of the [CHAINS](https://chains.proj.kt
 | 1400   | Keynote: Henrik Plate (Endor Labs)                                                          |
 | 1500  | Break                                                                                       |
 | 1530 | Tool session                                                                                |
-|       | * [maven-lockfile](https://github.com/chains-project/maven-lockfile/)                       |
+|       | * [maven-lockfile](https://github.com/chains-project/maven-lockfile/), lockfiles for Java and Maven                       |
 |       | * [sbom.observer](https://sbom.observer/), Andreas Bielk, Generating SBOMs for C/C++        |
 |       | * [dirty-waters](https://github.com/chains-project/dirty-waters)                            |
 |       | * [ghasum](https://github.com/chains-project/ghasum)                                        |
