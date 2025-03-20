@@ -51,6 +51,8 @@ Applications:
   * [refactor: remove redunant build files from content/org/apache/maven/extensions/maven-buildcache-extension](https://github.com/jvm-repo-rebuild/reproducible-central/pull/1561)
 * Scorecard
   * [improve code review score](https://github.com/ossf/scorecard/issues/4500)
+* Renovate
+  * [add suport for dependency version pinning](https://github.com/renovatebot/renovate/discussions/34924) 
 
 Under our radar (not opened by us but relevant)
 * [sandboxed build scripts at rust](https://github.com/rust-lang/rust-project-goals/issues/108)
