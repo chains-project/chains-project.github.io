@@ -25,19 +25,19 @@ This workshop is organized in the context of the [CHAINS](https://chains.proj.kt
 | 0900    | Opening                                                                                     |
 | 0915  | Keynote: Hervé Boutemy (Sonatype, Apache Software Foundation)                               |
 | 1015 | Break + Poster session                                                                      |
-| 1100   | (order may change, duration 20 minutes each)                                                            |
-|       | * Talk 1: Aman Sharma, Causes and Mitigations of Unreproducible Builds in Java                                                    |
-|       | * Talk 2: Julien Malka, [Does Functional Package Management Enable Reproducible Builds at Scale? Yes](https://hal.science/hal-04913007) |
-|       | * Talk 3: Tina Heidinger (Github), Fredrik Skogman (GitHub), Github Attestations            |
-|       | * Talk 4: Frank Reyes, Fixing Breaking Dependency Updates Using LLMs                        |
+| 1100   | (duration 15+5 minutes each)                                                            |
+|       | * Julien Malka, [Does Functional Package Management Enable Reproducible Builds at Scale? Yes](https://hal.science/hal-04913007) |
+|       | * Aman Sharma, Causes and Mitigations of Unreproducible Builds in Java                                                    |
+|       | * Tina Heidinger (Github), Fredrik Skogman (GitHub), Github Attestations            |
+|       | * Frank Reyes, Fixing Breaking Dependency Updates Using LLMs                        |
 | 1230 | Lunch at Syster-o-bror                                                                      |
 | 1400   | Keynote: Henrik Plate (Endor Labs)                                                          |
 | 1500  | Break                                                                                       |
 | 1530 | Tool session                                                                                |
-|       | * [maven-lockfile](https://github.com/chains-project/maven-lockfile/), lockfiles for Java and Maven                       |
-|       | * [sbom.observer](https://sbom.observer/), Andreas Bielk, Generating SBOMs for C/C++        |
-|       | * [dirty-waters](https://github.com/chains-project/dirty-waters)                            |
-|       | * [ghasum](https://github.com/chains-project/ghasum)                                        |
+|       | * [maven-lockfile](https://github.com/chains-project/maven-lockfile/), lockfiles for Java and Maven (Elias Lundell)                      |
+|       | * [sbom.observer](https://sbom.observer/), Generating SBOMs for C/C++ (Andreas Bielk)        |
+|       | * [dirty-waters](https://github.com/chains-project/dirty-waters), transparency checks for SSC (Diogo Gaspar)                           |
+|       | * [ghasum](https://github.com/chains-project/ghasum), GitHub Action Integrity (Eric Cornelissen)                                        |
 | 1645 | Closing                                                                                     |
   
 ## Talks
