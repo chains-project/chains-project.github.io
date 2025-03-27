@@ -175,7 +175,7 @@ References:
 - (best wrap up): <https://research.checkpoint.com/2025/the-bybit-incident-when-research-meets-reality/>
 - (official) <https://www.bybit.com/en/press/post/bybit-confirms-security-integrity-amid-safe-wallet-incident-no-compromise-in-infrastructure-blt9986889e919da8d2>
 
-### set-utils attack on Pypi (March 2025)
+### 19. set-utils attack on Pypi (March 2025)
 
 The Socket Research Team identified a malicious PyPI package named 'set-utils' that targets Ethereum developers by stealing private keys. Masquerading as a utility for Python sets, it imitates popular libraries like 'python-utils' and 'utils' to deceive users into installation. Once integrated, 'set-utils' intercepts Ethereum account creation processes, exfiltrating private keys by embedding them within blockchain transactions via the Polygon RPC, making detection challenging. Since its release on January 29, 2025, the package has been downloaded over 1,000 times.
 
