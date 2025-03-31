@@ -56,7 +56,7 @@ Hervé started with Java when it was in beta, built his first Java projects with
 Today, Hervé works as Solutions Architect for Sonatype on next steps of the build journey, promoting best-practices around Software Supply Chains.
 On the OSS front, Hervé is an Apache Software Foundation member and Apache Maven PMC Chair. He's also involved in many advanced projects like CycloneDX, SPDX, sigstore, or Reproducible Builds, where he is learning new supply chain technologies by implementing them with Maven.
 
-### Talk Title \<TBD\>
+### Two Steps Forward, One Step Back: The Slow March of Software Supply Chain Security
 
 <img src="workshop_4_assets/henrik_plate.jpeg" alt="Henrik Plateß" width=100px />
 
