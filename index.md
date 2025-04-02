@@ -103,6 +103,7 @@ Chains alumni: [Arvid Siberov](https://siberov.se), [Linus Östlund](https://www
 
 ## Events & Talks
 - April 25 2025: [4th KTH Workshop on the Software Supply Chain](software-supply-chain-workshop-4.md)
+- April 27 2025: Talk: "Software supply chain attacks and defenses for Web3", Martin Monperrus, University of Zurich
 - Jan 30 2025 Consistent Hardening and Analysis of Software Supply Chains, Talk at Umeå University, Martin Monperrus
 - Jan 8 2025, OSS Remediation Ops: From Project-Centric Strategies to Ecosystem-wide Analysis, [Lyuye Zhang](https://lyuyezhang.github.io/), Nanyang Technological University, Singapore
 - Oct 18 2024 GoSurf: Identifying Software Supply Chain Attack Vectors in Go, Talk at SCORED, Carmine Cesarano and Vivi Andersson
