@@ -34,9 +34,9 @@ This workshop is organized in the context of the [CHAINS](https://chains.proj.kt
 | 1400   | Keynote: Henrik Plate (Endor Labs)                                                          |
 | 1500  | Break                                                                                       |
 | 1530 | Tool session                                                                                |
-|       | * [maven-lockfile](https://github.com/chains-project/maven-lockfile/), lockfiles for Java and Maven (Elias Lundell)                      |
+|       | * [maven-lockfile](https://github.com/chains-project/maven-lockfile/), Lockfiles for Java and Maven (Elias Lundell)                      |
 |       | * [sbom.observer](https://sbom.observer/), Generating SBOMs for C/C++ (Andreas Bielk)        |
-|       | * [dirty-waters](https://github.com/chains-project/dirty-waters), transparency checks for SSC (Diogo Gaspar)                           |
+|       | * [dirty-waters](https://github.com/chains-project/dirty-waters), Transparency checks for SSC (Raphina Liu)                           |
 |       | * [ghasum](https://github.com/chains-project/ghasum), GitHub Action Integrity (Eric Cornelissen)                                        |
 | 1645 | Closing                                                                                     |
   
