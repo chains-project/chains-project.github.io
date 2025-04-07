@@ -22,7 +22,7 @@ This workshop is organized in the context of the [CHAINS](https://chains.proj.kt
 | Time  | Event                                                                                       |
 |-------|---------------------------------------------------------------------------------------------|
 | 0830  | Welcome coffee                                                                              |
-| 0900    | Opening                                                                                     |
+| 0900    | Opening (Martin Monperrus)                                                                |
 | 0915  | Keynote: Hervé Boutemy (Sonatype, Apache Software Foundation)                               |
 | 1015 | Break + Poster session                                                                      |
 | 1100   | (duration 15+5 minutes each)                                                            |
