@@ -182,6 +182,14 @@ The Socket Research Team identified a malicious PyPI package named 'set-utils' t
 Sources: 
 - <https://socket.dev/blog/new-pypi-malware-exfiltrates-ethereum-private-keys>
 
+### 20. changed-files attack, suspected to target Coinbase
+
+On March 14, 2025, an attack on Github Action tj-actions/changed-files was detected by StepSecurity's researchers, who reported the incident to the maintainers of the tj-actions organization. Unit 42 collected evidence that Coinbase was the target, but the attack was not successful.
+
+Sources: 
+
+* <https://www.stepsecurity.io/blog/harden-runner-detection-tj-actions-changed-files-action-is-compromised>
+* <https://unit42.paloaltonetworks.com/github-actions-supply-chain-attack/>
 
 ## Hardware supply chain attacks
 
