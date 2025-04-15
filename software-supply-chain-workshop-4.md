@@ -35,7 +35,7 @@ This workshop is organized in the context of the [CHAINS](https://chains.proj.kt
 | 1500  | Break                                                                                       |
 | 1530 | Tool session                                                                                |
 |       | * [maven-lockfile](https://github.com/chains-project/maven-lockfile/), Lockfiles for Java and Maven (Elias Lundell)                      |
-|       | * [sbom.observer](https://sbom.observer/), Generating SBOMs for C/C++ (Andreas Bielk)        |
+|       | * [observer](https://github.com/sbom-observer/observer-cli), Generating SBOMs for C/C++ (Andreas Bielk)        |
 |       | * [dirty-waters](https://github.com/chains-project/dirty-waters), Transparency checks for SSC (Raphina Liu)                           |
 |       | * [ghasum](https://github.com/chains-project/ghasum), GitHub Action Integrity (Eric Cornelissen)                                        |
 | 1645 | Closing                                                                                     |
