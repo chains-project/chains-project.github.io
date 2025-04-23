@@ -33,7 +33,7 @@ This workshop is organized in the context of the [CHAINS](https://chains.proj.kt
 | 1230 | Lunch at Syster-o-bror                                                                      |
 | 1400   | Keynote: Henrik Plate (Endor Labs)                                                          |
 | 1500  | Break                                                                                       |
-| 1530 | Tool session                                                                                |
+| 1530 | Tool session (duration 10+5 minutes each)                                                         |
 |       | * [maven-lockfile](https://github.com/chains-project/maven-lockfile/), Lockfiles for Java and Maven (Elias Lundell)                      |
 |       | * [observer](https://github.com/sbom-observer/observer-cli), Generating SBOMs for C/C++ (Andreas Bielk)        |
 |       | * [dirty-waters](https://github.com/chains-project/dirty-waters), Transparency checks for SSC (Raphina Liu)                           |
