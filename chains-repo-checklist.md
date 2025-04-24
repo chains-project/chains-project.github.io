@@ -4,12 +4,10 @@ title: CHAINS Software Supply Chain Competition
 
 This is a competition based on a checklist for best practices in software supply chain security.
 
-At the 2025 workshop, a leaderboard will be announced and the participant with the highest score will score will receive a prize.
-
 Name: ______________  
 Repo: ______________
 
-| Rule | Check ✅/❌|
+| Rule | Check ✅|
 |----------|----------|
 | forbid unsigned git commits and tags (impossible to do on Github)|          |
 | forbid transient dependencies in CI (no latest, SNAPSHOT, etc.) |          |
@@ -23,6 +21,7 @@ Repo: ______________
 | automated creation of SBOMs for releases |          |
 | push build attestations for releases (rekor) |          |
 | have independent rebuilders (reproducible-central) |          |
-| use branch, tag and CI protection rules |          |
+| use branch / tag protection rules |          |
 | verify dependency crypto signatures from a trusted source |          |
-| have 2FA enabled for all repo members |          |
+| have 2FA enabled for all project members |          |
+| Total score  |          |
