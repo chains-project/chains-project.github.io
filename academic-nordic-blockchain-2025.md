@@ -1,8 +1,12 @@
+---
+title: 1st KTH Academic Nordic Blockchain Workshop 2025
+---
+
 <meta name="og:description" content="KTH hosts the Academic Nordic Blockchain Workshop side event for Nordic Blockchain Week. Check out our link to know more!">
 <meta property="og:url" content="https://chains.proj.kth.se/academic-nordic-blockchain-workshop-1">
 <meta property="og:image" content="https://avatars.githubusercontent.com/u/104410944?s=200&v=4">
 
-# The Academic Nordic Blockchain Workshop
+# The Academic Nordic Blockchain Workshop 2025
 
 Welcome to the KTH Academic Nordic Blockchain Workshop side event for [Nordic Blockchain Week](https://www.nordicblockchain.com/conference-2025).
 
