@@ -33,14 +33,14 @@ This workshop is organized in the context of the [CHAINS](https://chains.proj.kt
 | 1230 | Lunch at Syster-o-bror                                                                      |
 | 1400   | Keynote: Henrik Plate (Endor Labs)                                                          |
 | 1500  | Break                                                                                       |
-| 1530 | Tool session (duration 10+5 minutes each) 
+| 1530 | Tool session (duration 10+5 minutes each)
 |       | Chair: Frank Reyes
 |       | * [maven-lockfile](https://github.com/chains-project/maven-lockfile/), Lockfiles for Java and Maven (Elias Lundell) ([slides](workshop_4_assets/slides/maven-lockfile-presentation.pdf))     |
 |       | * [observer](https://github.com/sbom-observer/observer-cli), Generating SBOMs for C/C++ (Andreas Bielk) ([slides](workshop_4_assets/slides/high-quality-sboms-cpp.pdf))       |
 |       | * [dirty-waters](https://github.com/chains-project/dirty-waters), Transparency checks for SSC (Raphina Liu)                           |
-|       | * [ghasum](https://github.com/chains-project/ghasum), GitHub Action Integrity (Eric Cornelissen)                                        |
+|       | * [ghasum](https://github.com/chains-project/ghasum), GitHub Action Integrity (Eric Cornelissen) ([slides](workshop_4_assets/slides/ghasum-presentation.pdf))|
 | 1645 | Closing                                                                                     |
-  
+
 ## Talks
 
 ### Trust in Software Supply Chain: Signature vs Attestations vs Reproducible Builds
@@ -61,7 +61,7 @@ On the OSS front, Hervé is an Apache Software Foundation member and Apache Mave
 
 <img src="workshop_4_assets/henrik_plate.jpeg" alt="Henrik Plateß" width=100px />
 
-[Henrik Plate (Endor Labs)](https://linkedin.com/in/henrikplate) 
+[Henrik Plate (Endor Labs)](https://linkedin.com/in/henrikplate)
 
 <u>Speaker Bio</u>
 
@@ -72,11 +72,11 @@ He earned his PhD in 2024 from the University of Rennes, France, with a thesis t
 
 <div style="display: flex; justify-content: center;">
 <img src="workshop_4_assets/ssf_logo.svg" alt="SSF" style="width: 200; margin: auto;"/>
-  <img src="workshop_4_assets/df_logo.png" alt="Digital Futures" style="max-width: 30%; margin: auto;"/> 
+  <img src="workshop_4_assets/df_logo.png" alt="Digital Futures" style="max-width: 30%; margin: auto;"/>
 </div>
 
 ## Previous editions
 
-- [3rd KTH Workshop on the Software Supply Chain](/software-supply-chain-workshop-3.md) 
+- [3rd KTH Workshop on the Software Supply Chain](/software-supply-chain-workshop-3.md)
 - [2nd KTH Workshop on the Software Supply Chain](/software-supply-chain-workshop-2.md)
 - [1st KTH Workshop on the Software Supply Chain](/software-suppply-chain-workshop-1.md)
