@@ -68,6 +68,11 @@ On the OSS front, Hervé is an Apache Software Foundation member and Apache Mave
 Henrik Plate is the principal security researcher at Endor Labs. He formerly worked for SAP Security Research, where he established and led the focus topic “Open Source Security” starting 2014. He co-authored several academic papers on this topic, presented at academic and industry conferences like the RSA, is the project lead and core-developer of Eclipse Steady (an open source solution using program analysis techniques to assess the exploitability of vulnerabilities), and contributes to the Risk Explorer for Software Supply Chains (an open source solution to understand supply chain threats and safeguards).
 He earned his PhD in 2024 from the University of Rennes, France, with a thesis titled “On the Security Risks of Open Source Consumption: Vulnerabilities and Supply Chain Attacks in the Era of Open-Source-Based Software Development”. He received his MSc in Computer Science and Business Administration in 1999 from the University of Mannheim, Germany, and holds a CISSP certification.
 
+## Poster session
+
+List of posters:
+* [zkSBOM](workshop_4_assets/posters/zkSBOM.pdf) by Tom Sorger
+
 ## Sponsors
 
 <div style="display: flex; justify-content: center;">
