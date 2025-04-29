@@ -104,6 +104,7 @@ Chains alumni: [Arvid Siberov](https://siberov.se), [Linus Östlund](https://www
 
 
 ## Events & Talks
+- June 17 2025: [The Academic Nordic Blockchain Workshop 2025](https://chains.proj.kth.se/academic-nordic-blockchain-2025)
 - April 25 2025: [4th KTH Workshop on the Software Supply Chain](software-supply-chain-workshop-4.md)
 - April 27 2025: Talk: "Software supply chain attacks and defenses for Web3", Martin Monperrus, University of Zurich
 - Jan 30 2025 Consistent Hardening and Analysis of Software Supply Chains, Talk at Umeå University, Martin Monperrus
