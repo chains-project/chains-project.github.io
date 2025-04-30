@@ -38,7 +38,8 @@ This workshop is organized in the context of the [CHAINS](https://chains.proj.kt
 |       | * [observer](https://github.com/sbom-observer/observer-cli), Generating SBOMs for C/C++ (Andreas Bielk) ([slides](workshop_4_assets/slides/high-quality-sboms-cpp.pdf))       |
 |       | * [dirty-waters](https://github.com/chains-project/dirty-waters), Transparency checks for SSC (Raphina Liu)                           |
 |       | * [ghasum](https://github.com/chains-project/ghasum), GitHub Action Integrity (Eric Cornelissen) ([slides](workshop_4_assets/slides/ghasum-presentation.pdf))|
-| 1645 | Closing                                                                                     |
+| 1645 | Announcing the winner of the [CHAINS competition](https://chains.proj.kth.se/chains-repo-checklist.html)                                                                                      |
+| 1655 | Closing                                                                                     |
 
 ## Talks
 
