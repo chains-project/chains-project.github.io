@@ -22,7 +22,7 @@ This workshop is organized in the context of the [CHAINS](https://chains.proj.kt
 |-------|---------------------------------------------------------------------------------------------|
 | 0830  | Welcome coffee                                                                              |
 | 0900    | Opening (Martin Monperrus)                                                                |
-| 0915  | Keynote: Hervé Boutemy (Sonatype, Apache Software Foundation)                               |
+| 0915  | Keynote: Software Supply Chain: Signature vs Attestations vs [Reproducible Builds](https://github.com/jvm-repo-rebuild/reproducible-central), Hervé Boutemy (Sonatype, Apache Software Foundation)                               |
 | 1015 | Break + Poster session                                                                      |
 | 1100   | (duration 15+5 minutes each)                                                            |
 |       | * Julien Malka, [Does Functional Package Management Enable Reproducible Builds at Scale? Yes](https://hal.science/hal-04913007) |
@@ -30,7 +30,7 @@ This workshop is organized in the context of the [CHAINS](https://chains.proj.kt
 |       | * Tina Heidinger (Github), Fredrik Skogman (GitHub), [Github Attestations](https://docs.github.com/actions/security-guides/using-artifact-attestations-to-establish-provenance-for-builds)            |
 |       | * Frank Reyes, Fixing Breaking Dependency Updates Using LLMs                        |
 | 1230 | Lunch at Syster-o-bror                                                                      |
-| 1400   | Keynote: Henrik Plate (Endor Labs)                                                          |
+| 1400   | Keynote: [Two Steps Forward, One Step Back: The Slow March of Software Supply Chain Security](https://chains.proj.kth.se/workshop_4_assets/slides/20250425_Henrik_PLATE_Keynote_CHAINS_Workshop.pdf), Henrik Plate (Endor Labs)                                                          |
 | 1500  | Break                                                                                       |
 | 1530 | Tool session (duration 10+5 minutes each)
 |       | Chair: Frank Reyes
