@@ -8,6 +8,10 @@ title: 4th KTH Workshop on the Software Supply Chain 2025
 
 # 4th KTH Workshop on the Software Supply Chain 2025
 
+<p align="center">
+    <img src="workshop_4_assets/cover.jpg" alt="workshop cover image" width="1000px" />
+</p>
+
 Welcome to the 4th KTH Workshop on the Software Supply Chain in Stockholm, Sweden.
 This workshop is organized in the context of the [CHAINS](https://chains.proj.kth.se/) research project.
 
