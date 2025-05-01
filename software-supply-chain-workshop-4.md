@@ -71,6 +71,13 @@ He earned his PhD in 2024 from the University of Rennes, France, with a thesis t
 ## Poster session
 
 List of posters:
+* [Classport: Which dependency is currently running in your Java project?](workshop_4_assets/posters/classport.pdf) by Serena Cofano
+* [DDC4j: Diverse Double Compilation 4 Java](workshop_4_assets/posters/ddc4j.pdf) by Eskil Nyberg, Elias Lundell
+* [DepsRAG: Towards Agentic Reasoning and Planning for Software Dependency Management](workshop_4_assets/posters/DepsRAG.pdf) by Mohannad Alhanahnah
+* [Diverse Double-Compiling in a CI/CD environment](workshop_4_assets/posters/ddc4cd.pdf) by Ludvig Christensen
+* [Is Your Software Supply Chain Secure?](workshop_4_assets/posters/Is%20Your%20Software%20Supply%20Chain%20Secure.pdf) by Shivaswaroop N K
+* [Towards Reliable Dependency Management](workshop_4_assets/posters/towards_reliable_dependency_management.pdf) by Cathrine Paulsen
+* [Vexed by VEX tools: Consistency evaluation of container vulnerability scanners](workshop_4_assets/posters/vex.pdf) by Yekatierina Churakova
 * [zkSBOM](workshop_4_assets/posters/zkSBOM.pdf) by Tom Sorger
 
 ## Sponsors
