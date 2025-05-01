@@ -86,11 +86,9 @@ List of posters:
 
 ## Winner of [Software Supply Chain competition](chains-repo-checklist.md)
 
-<p align="center">
-  <strong>Martin Schwaighofer &#129321;</strong>
+<strong>Martin Schwaighofer &#129321;</strong>
   
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/lqH2lVe8Isc?si=SnYyDkyq4Esrmb30" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/lqH2lVe8Isc?si=SnYyDkyq4Esrmb30" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Sponsors
 
