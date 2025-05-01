@@ -26,7 +26,7 @@ This workshop is organized in the context of the [CHAINS](https://chains.proj.kt
 | 1015 | Break + Poster session                                                                      |
 | 1100   | (duration 15+5 minutes each)                                                            |
 |       | * Julien Malka, [Does Functional Package Management Enable Reproducible Builds at Scale? Yes](https://hal.science/hal-04913007) |
-|       | * Aman Sharma, Causes and Mitigations of Unreproducible Builds in Java [slides](https://algomaster99.github.io/talks/4th-chains-workshop/slides.pdf)                                                    |
+|       | * Aman Sharma, Causes and Mitigations of Unreproducible Builds in Java [(slides)](https://algomaster99.github.io/talks/4th-chains-workshop/slides.pdf)                                                    |
 |       | * Tina Heidinger (Github), Fredrik Skogman (GitHub), [Github Attestations](https://docs.github.com/actions/security-guides/using-artifact-attestations-to-establish-provenance-for-builds)            |
 |       | * Frank Reyes, Fixing Breaking Dependency Updates Using LLMs                        |
 | 1230 | Lunch at Syster-o-bror                                                                      |
