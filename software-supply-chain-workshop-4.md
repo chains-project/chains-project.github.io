@@ -30,9 +30,9 @@ This workshop is organized in the context of the [CHAINS](https://chains.proj.kt
 | 1015 | Break + Poster session                                                                      |
 | 1100   | (duration 15+5 minutes each)                                                            |
 |       | * Julien Malka, [Does Functional Package Management Enable Reproducible Builds at Scale? Yes](https://hal.science/hal-04913007) |
-|       | * Aman Sharma, Causes and Mitigations of Unreproducible Builds in Java [(slides)](https://algomaster99.github.io/talks/4th-chains-workshop/slides.pdf)                                                    |
+|       | * Aman Sharma, Causes and Mitigations of Unreproducible Builds in Java ([slides](https://algomaster99.github.io/talks/4th-chains-workshop/slides.pdf))                                                    |
 |       | * Tina Heidinger (Github), Fredrik Skogman (GitHub), [Github Attestations](https://docs.github.com/actions/security-guides/using-artifact-attestations-to-establish-provenance-for-builds) ([slides](workshop_4_assets/slides/github_update.pdf))            |
-|       | * Frank Reyes, Fixing Breaking Dependency Updates Using LLMs [(slides)](workshop_4_assets/slides/4th_KTH_Chain_2025_Frank_Reyes.pdf)                        |
+|       | * Frank Reyes, Fixing Breaking Dependency Updates Using LLMs ([slides](workshop_4_assets/slides/4th_KTH_Chain_2025_Frank_Reyes.pdf))                        |
 | 1230 | Lunch at Syster-o-bror                                                                      |
 | 1400   | Keynote: [Two Steps Forward, One Step Back: The Slow March of Software Supply Chain Security](https://chains.proj.kth.se/workshop_4_assets/slides/20250425_Henrik_PLATE_Keynote_CHAINS_Workshop.pdf), Henrik Plate (Endor Labs)                                                          |
 | 1500  | Break                                                                                       |
