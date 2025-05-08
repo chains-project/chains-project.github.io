@@ -1,14 +1,13 @@
 ---
-title: Software supply chain attacks on crypto
+title: Software supply chain attacks on crypto and web3
 ---
 
-# Software supply chain attacks on crypto
+# Software supply chain attacks on crypto and web3
 
-In this article, we discus attacks on cryptocurrency and digital assets infrastructures that are based on software supply chain attacks.
+In this post, we discus attacks on cryptocurrency and digital assets infrastructures that are based on software supply chain attacks.
 We aim to be the most comprehensive list, with all high-profile attacks that have been made public.
-We discuss possible mitigations.
 
-Authors: Martin Monperrus & the [CHAINS team](https://chains.proj.kth.se/)  
+Authors: [Martin Monperrus](mailto:monperrus@kth.se)  
 Creation date: Nov 30 2022  
 Status: updated over time, last update 2025 
 Ref URL: <https://chains.proj.kth.se/software-supply-chain-attacks-crypto.html>
