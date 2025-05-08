@@ -26,7 +26,7 @@ This workshop is organized in the context of the [CHAINS](https://chains.proj.kt
 |-------|---------------------------------------------------------------------------------------------|
 | 0830  | Welcome coffee                                                                              |
 | 0900    | Opening (Martin Monperrus)                                                                |
-| 0915  | Keynote: Software Supply Chain: Signature vs Attestations vs [Reproducible Builds](https://github.com/jvm-repo-rebuild/reproducible-central), Hervé Boutemy (Sonatype, Apache Software Foundation)                               |
+| 0915  | Keynote: Software Supply Chain: Signature vs Attestations vs [Reproducible Builds](https://github.com/jvm-repo-rebuild/reproducible-central) ([slides](workshop_4_assets/slides/Signature_Attestations_Reproducible Builds.pdf)), Hervé Boutemy (Sonatype, Apache Software Foundation)                               |
 | 1015 | Break + Poster session                                                                      |
 | 1100   | (duration 15+5 minutes each)                                                            |
 |       | * Julien Malka, [Does Functional Package Management Enable Reproducible Builds at Scale? Yes](https://hal.science/hal-04913007) |
