@@ -94,7 +94,6 @@ List of posters:
 
 <div style="display: flex; justify-content: center;">
 <img src="workshop_4_assets/ssf_logo.svg" alt="SSF" style="width: 200; margin: auto;"/>
-  <img src="workshop_4_assets/df_logo.png" alt="Digital Futures" style="max-width: 30%; margin: auto;"/>
 </div>
 
 ## Previous editions
