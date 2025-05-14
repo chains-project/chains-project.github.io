@@ -40,7 +40,7 @@ This workshop is organized in the context of the [CHAINS](https://chains.proj.kt
 |       | Chair: Frank Reyes
 |       | * [maven-lockfile](https://github.com/chains-project/maven-lockfile/), Lockfiles for Java and Maven (Elias Lundell) ([slides](workshop_4_assets/slides/maven-lockfile-presentation.pdf))     |
 |       | * [observer](https://github.com/sbom-observer/observer-cli), Generating SBOMs for C/C++ (Andreas Bielk) ([slides](workshop_4_assets/slides/high-quality-sboms-cpp.pdf))       |
-|       | * [dirty-waters](https://github.com/chains-project/dirty-waters), Transparency checks for SSC (Raphina Liu)                           |
+|       | * [dirty-waters](https://github.com/chains-project/dirty-waters), Transparency checks for SSC (Raphina Liu) ([slides](https://github.com/chains-project/chains-project.github.io/blob/main/workshop_4_assets/slides/CHAINS2025%20-%20Dirty-Waters-slides.pdf))                          |
 |       | * [ghasum](https://github.com/chains-project/ghasum), GitHub Action Integrity (Eric Cornelissen) ([slides](workshop_4_assets/slides/ghasum-presentation.pdf))|
 | 1645 | Announcing the winner of the [CHAINS competition](https://chains.proj.kth.se/chains-repo-checklist.html)                                                                                      |
 | 1655 | Closing                                                                                     |
