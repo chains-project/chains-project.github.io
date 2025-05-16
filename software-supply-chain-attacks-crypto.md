@@ -158,9 +158,9 @@ References:
 * <https://github.com/advisories/GHSA-66c6-q6m3-5pmx>
 * <https://security.snyk.io/vuln/SNYK-JS-WEB3PARSER-8660797>
 
-### 18. Bybit attack 8/ Safe Javascript compromised Feb 2025
+### 18. Bybit attack / Safe Javascript compromised - Feb 2025
 
-The AWS account of a Safe developer was compromise.r, the attacked uploaded m alicious Javascript targeting a single wallet. The multisig signers signed a compromised transaction involving an [exploit contract](https://etherscan.io/address/0xbdd077f651ebe7f7b3ce16fe5f2b025be2969516) called with DELEGATE_CALL. This resulted in a $1.5B (billion!) theft on the cold wallet of the Bybit crypto exchange.
+The AWS account of a Safe developer was first compromised, the attacked uploaded malicious Javascript targeting a single wallet. The multisig signers signed a compromised transaction involving an [exploit contract](https://etherscan.io/address/0xbdd077f651ebe7f7b3ce16fe5f2b025be2969516) called with DELEGATE_CALL. This resulted in a $1.5B (billion!) theft on the cold wallet of the Bybit crypto exchange.
 
 Notes:
 - This hack exploits a multisig cold wallet **without exploiting any smart contract vulnerability**. 
