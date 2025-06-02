@@ -22,7 +22,9 @@ The goal of the event is to provide a forum for researchers and practitioners wh
 
 ## Program
 
-* TBD
-* TBD
-* TBD
+* Visual analytics of smart contract transactions on Eclipse Trace Compass, [Xiaolin Liu](https://www.kth.se/profile/xiaolinl)
+* On-Chain Analysis of Smart Contract Dependency Risks on Ethereum, [Monica Jin](https://www.kth.se/profile/mjin?l=en)
+* Do Automated Fixes Truly Mitigate Smart Contract Exploits?, [Sofia Bobadilla](https://www.kth.se/profile/sofbob?l=en)
+* Proving and Rewarding Client Diversity to Strengthen Resilience of Blockchain Networks , [Javier Ron](https://www.kth.se/profile/javierro) , [Zheyuan He](https://hzysvilla.github.io/)
+
 * Drink and Mingle
