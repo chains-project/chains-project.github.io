@@ -44,8 +44,9 @@ To get notified about project news, subscribe to the [Chains mailing list](https
 (reverse chronological order, newest first)
 
 * 2025
+  - []
   - [Canonicalization for Unreproducible Builds in Java](https://arxiv.org/abs/2504.21679), Technical report 2504.21679, arXiv, 2025.
-  - [Implementing SBOM Attestations in an Enterprise Context](todo), Master's thesis Christofer Vikström, 2025
+  - [Implementing in-toto SBOM Attestations in an Enterprise Context](http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-363613), Master's thesis Christofer Vikström, 2025
   - [Software Bills of Materials in Maven Central](https://arxiv.org/abs/2501.13832), Proceedings of MSR 2025.
   - [On-Chain Analysis of Smart Contract Dependency Risks on Ethereum](https://arxiv.org/abs/2503.19548), Technical report 2503.19548, arXiv, 2025.
   - [Vexed by VEX tools: Consistency evaluation of container vulnerability scanners](https://arxiv.org/abs/2503.14388), Technical report 2503.14388, arXiv, 2025.
