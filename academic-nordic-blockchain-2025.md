@@ -19,7 +19,7 @@ The goal of the event is to provide a forum for researchers and practitioners wh
 * Date: June 17th, 2025
 * Time:17h-19h
 * Registration is free of charge but compulsory for the sake of fika planning. [Register Here 😄]( https://www.kth.se/form/683044a7abf5039dd6c4c525)
-* Luma event: https://lu.ma/draaxg97
+* Luma event: [https://lu.ma/draaxg97](https://lu.ma/draaxg97)
 
 ## Program
 
