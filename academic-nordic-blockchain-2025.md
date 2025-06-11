@@ -24,8 +24,9 @@ The goal of the event is to provide a forum for researchers and practitioners wh
 ## Program
 
 1. Welcome by [Martin Monperrus](https://www.monperrus.net/martin/)
-2. ["Visual analytics of smart contract transactions on Eclipse Trace Compass"](https://conf.researchr.org/details/saner-2025/saner-2025-tool-demo-track/4/ContractViz-Extending-Eclipse-Trace-Compass-for-Smart-Contract-Transaction-Analysis) by [Xiaolin Liu](https://www.kth.se/profile/xiaolinl). 
-3. ["On-Chain Analysis of Smart Contract Dependency Risks on Ethereum"](https://arxiv.org/abs/2503.19548)  by [Monica Jin](https://www.kth.se/profile/mjin?l=en)
+2. ["Visual analytics of smart contract transactions on Eclipse Trace Compass"](https://conf.researchr.org/details/saner-2025/saner-2025-tool-demo-track/4/ContractViz-Extending-Eclipse-Trace-Compass-for-Smart-Contract-Transaction-Analysis) by [Xiaolin Liu](https://www.kth.se/profile/xiaolinl) 
+3. ["On-Chain Analysis of Smart Contract Dependency Risks on Ethereum"](https://arxiv.org/abs/2503.19548) by [Monica Jin](https://www.kth.se/profile/mjin?l=en)
 4. ["Do Automated Fixes Truly Mitigate Smart Contract Exploits?"](https://arxiv.org/abs/2501.04600) by [Sofia Bobadilla](https://www.kth.se/profile/sofbob?l=en)
-5. ["Proving and Rewarding Client Diversity to Strengthen Resilience of Blockchain Networks"](https://arxiv.org/abs/2411.18401) by [Javier Ron](https://www.kth.se/profile/javierro), [Zheyuan He](https://hzysvilla.github.io/)
-6. Drink and Mingle
+5. ["On Exploiting DDoS Vulnerability within the Storj Decentralized Cloud Storage Environment"]( https://ieeexplore.ieee.org/abstract/document/10476188) by [Rohon Kundu](https://www.linkedin.com/in/rohon-kundu-94507915b/)
+6. ["Real Estate Tokens: Evaluating Long-Term Relationships with Major Asset Classes"](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5208400) by [Seyedeh Fatemeh](https://www.kth.se/profile/mottagh) and [Bertram Steininger](https://www.kth.se/profile/bertrams)
+7. Drink and Mingle
