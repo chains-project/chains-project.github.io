@@ -29,7 +29,7 @@ This workshop is organized in the context of the [CHAINS](https://chains.proj.kt
 | 0915  | Keynote: Software Supply Chain: Signature vs Attestations vs [Reproducible Builds](https://github.com/jvm-repo-rebuild/reproducible-central) ([slides](workshop_4_assets/slides/Signature_Attestations_Reproducible%20Builds.pdf)), Hervé Boutemy (Sonatype, Apache Software Foundation)                               |
 | 1015 | Break + Poster session                                                                      |
 | 1100   | (duration 15+5 minutes each)                                                            |
-|       | * Julien Malka, [Does Functional Package Management Enable Reproducible Builds at Scale? Yes](https://hal.science/hal-04913007) |
+|       | * Julien Malka, [Does Functional Package Management Enable Reproducible Builds at Scale? Yes](https://hal.science/hal-04913007) ([slides](https://static.luj.fr/slides/2025/chains-april-workshop/)) |
 |       | * Aman Sharma, Causes and Mitigations of Unreproducible Builds in Java ([slides](https://algomaster99.github.io/talks/4th-chains-workshop/slides.pdf))                                                    |
 |       | * Tina Heidinger (Github), Fredrik Skogman (GitHub), [Github Attestations](https://docs.github.com/actions/security-guides/using-artifact-attestations-to-establish-provenance-for-builds) ([slides](workshop_4_assets/slides/github_update.pdf))            |
 |       | * Frank Reyes, Fixing Breaking Dependency Updates Using LLMs ([slides](workshop_4_assets/slides/4th_KTH_Chain_2025_Frank_Reyes.pdf))                        |
