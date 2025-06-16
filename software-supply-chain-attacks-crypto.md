@@ -190,6 +190,13 @@ Sources:
 * <https://www.stepsecurity.io/blog/harden-runner-detection-tj-actions-changed-files-action-is-compromised>
 * <https://unit42.paloaltonetworks.com/github-actions-supply-chain-attack/>
 
+### 21.  semantic‑types to steal Solana keys
+
+The threat actor embedded a covert key‑stealing payload inside the Python package semantic‑types and made five other packages (solana-keypair, solana-publickey, solana‑mev‑agent‑py, solana‑trading‑bot, and soltrade) depend on it.  Once imported, the malware monkey-patches Solana key-generation methods by modifying functions at runtime without altering the original source code. Each time a keypair is generated, the malware captures the private key. It then encrypts the key using a hardcoded RSA‑2048 public key and encodes the result in Base64. The encrypted key is embedded in a spl.memo transaction and sent to Solana Devnet, where the threat actor can retrieve and decrypt it to gain full access to the stolen wallet.
+
+Source: <https://socket.dev/blog/monkey-patched-pypi-packages-steal-solana-private-keys>
+
+
 ## Hardware supply chain attacks
 
 It is possible to tamper with hardware devices used in crypto, typically a hardware wallet. Who would do that: an employee at the company that designed the wallet, the factory that produced it, and everyone involved in shipping it. Ref: <https://vitalik.ca/general/2021/01/11/recovery.html>. Such a real hardware supply chain attack has happened on Trezor wallets (2022): <https://www.kaspersky.com/blog/fake-trezor-hardware-crypto-wallet/48155/>
