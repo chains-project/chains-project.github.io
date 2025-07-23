@@ -36,45 +36,6 @@ Solidity development.</p>
 <li ><p><a href="https://sourcify.dev/">Sourcify</a></p>
 </li></ol>
 
-<h3 >Zero-knowledge software bills of materials</h3>
-
-Contact: Javier Ron
-
-<p>Description: Software bills of materials (SBOMs) are complete lists of software components [1], these can be helpful in tracing vulnerabilities, license compliance, etc. However, revealing an SBOM publicly also means revealing said vulnerabilities to malicious actors. Furthermore, some proprietary software developers advocate for access control for SBOM distribution [2].
-Zero-knowledge proofs allows a party to convey that a statement is true without disclosing any additional information. [3]
-You will design, develop, and evaluate a zero-knowledge SBOM system, which allows developers to disclose limited, but verifiable SBOM information to authorized users.</p>
-<ol>
-<li ><p>The Minimum Elements For a Software Bill of Materials https://www.ntia.doc.gov/files/ntia/publications/sbomminimumelementsreport.pdf</p>
-</li>
-<li ><p>An Empirical Study on Software Bill of Materials: Where We Stand and the Road Ahead http://arxiv.org/abs/2301.05362</p>
-</li>
-<li ><p>Zero-knowledge proof https://en.wikipedia.org/wiki/Zero-knowledgeproof</p>
-</li>
-<li ><p><a href="https://arxiv.org/abs/2307.02088">Trust in Software Supply Chains: Blockchain-Enabled SBOM and the AIBOM Future 2024</a></p>
-</li></ol>
-
-<h3 >Study of non-reproducible builds in the Java ecosystem</h3>
-<p>Description: Build Reproducibility means that a software build
-always results in a bit-by-bit identical output provided the source code
-and build environment is also the exact same [1]. This property is a
-good safeguard against compromised build process threat [2] and
-hence it is an important safeguard for software supply chain security.
-In Java
-ecosystem,&nbsp;<a href="https://github.com/jvm-repo-rebuild/reproducible-central">Reproducible
-Central</a>&nbsp;attempts to reproduce Maven/Gradle/sbt artifacts
-on&nbsp;<a href="https://mvnrepository.com/">Maven Central</a>. It does so&nbsp;by
-building the artifact from source and then comparing it with the
-artifact in Maven registry. If it is bit-by-bit identical, then the
-maven package is said to be reproducible, else the package is
-non-reproducible. In this thesis, you will create a taxonomy of reasons
-for non-reproducible builds of Maven packages.</p>
-<ol>
-<li ><p><a href="https://reproducible-builds.org/">https://reproducible-builds.org/</a></p>
-</li>
-<li ><p><a href="https://dl.acm.org/doi/10.1145/3643764">AROMA:
-Automatic Reproduction of Maven Artifacts</a></p>
-</li></ol>
-
 <h3 >Dynamic Integrity Verification &amp; Repair for Java Applications</h3>
 Contact: Martin Monperrus
 <p>Description:
@@ -123,8 +84,8 @@ captures and standardizes the JIT compilation process, enabling developers to re
 assess the impact of reproducible JIT compilation on software reliability, debugging, and performance, ultimately contributing to the development of more robust and 
 trustworthy software systems.</p>
 <ol>
-<li > [Recompilation for debugging support in a JIT-compiler](https://doi.org/10.1145/634636.586100) </li>
-<li > [https://github.com/rschwietzke/jmh-C2-compile](https://github.com/rschwietzke/jmh-C2-compile) </li>
+<li > <a href="https://doi.org/10.1145/634636.586100">Recompilation for debugging support in a JIT-compiler</a> </li>
+<li > <a href="https://github.com/rschwietzke/jmh-C2-compile">https://github.com/rschwietzke/jmh-C2-compile</a> </li>
 <ol>
 
 
