@@ -6,6 +6,11 @@ title: Open Master Thesis Topics in Project Chains
 
 Project Chains hosts master's students for their theses, here are available topics. See [main page](/) for completed theses.
 
+<h3 >Trust Assumptions and Threats in Build Attestation System</h3>
+Contact: Larissa Schmid
+<p>Description:
+Build attestations are cryptographically verifiable statements that describe how, when, and by whom a software artifact was produced. They are used for strengthening software supply chain security by ensuring that binaries and container images can be traced back to a documented build process. While standards like SLSA and tools such as Sigstore, Tekton Chains, and GitHub's native attestations promise to ensure trust in build outputs, there is no systematic assessment of their capabilities and limitations. This thesis will examine which trust assumptions different build attestation systems make, what attacker models they use, and how well current implementations satisfy their security goals. The work should evaluate potential attack vectors and propose recommendations for more robust, verifiable provenance. </p>
+
 ### Empirical study of vulnerability tracking processes in vulnerability reports
 Contact: Yekatierina Churakova
 <p>Description:
