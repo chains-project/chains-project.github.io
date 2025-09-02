@@ -6,6 +6,39 @@ title: Open Master Thesis Topics in Project Chains
 
 Project Chains hosts master's students for their theses, here are available topics. See [main page](/) for completed theses.
 
+### How prevalent is Maven Class Hijacking?
+Contact: Aman Sharma, Frank Reyes Garçia
+
+Maven Class Hijacking [1] is a supply chain attack where a legitimiate Java class deep in the dependency tree can act malicious by shadowing a legitimate Java class that one declares directly.
+We want to explore how prevalent the condition "infection dependency precedes the gadget dependency" is.
+In this thesis, we will construct a dataset of Maven projects to answer the above question.
+The two criteria of the dataset can be 1) duplication of fully qualified names of class across two different dependencies.
+2) dependencies that could become infectious by analyzing social engineering proxies such as no commits in the past 10 years.
+In the paper [1], we also recommend a mitigation for this attack.
+We would like to know how prevalent this mitigation is and in what cases it can break the build leading to a false-positive. 
+
+[1] [Maven-Hijack: Software Supply Chain Attack Exploiting Packaging Order](https://arxiv.org/abs/2407.18760)
+
+Related Work:
+
+[2] [Will Dependency Conflicts Affect My Program's Semantics?](https://ieeexplore.ieee.org/document/9350237)
+
+[3] [DevPhish: Exploring Social Engineering in Software Supply Chain Attacks on Developers](http://arxiv.org/abs/2402.18401)
+
+
+
+### Ahead of Time Compilation Cache Analysis
+Contact: Aman Sharma
+
+[JEP 483](https://openjdk.org/jeps/483) introduced a performance optimization technique to improve startup time.
+It allowed creating an "AOT" cache which stores the compiled versions of commonly loaded classfiles.
+In this thesis, we will explore the commonly loaded classfile by implementing an AOT Cache reader.
+Next, we can analyze how are synthetically generated classfiles handled.
+Another question to investigate is if this cache can be repurposed as an allowlist of classes similar to the concept of BOMI in SBOM.exe [1].
+
+[1] [SBOM.EXE: Countering Dynamic Code Injection based on Software Bill of Materials in Java](https://arxiv.org/abs/2407.00246)
+
+
 <h3 >Trust Assumptions and Threats in Build Attestation System</h3>
 Contact: Larissa Schmid
 <p>Description:
