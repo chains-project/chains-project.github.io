@@ -44,7 +44,8 @@ To get notified about project news, subscribe to the [Chains mailing list](https
 (reverse chronological order, newest first)
 
 * 2025
-* - [GoLeash: Mitigating Golang Software Supply Chain Attacks with Runtime Policy Enforcement](http://arxiv.org/pdf/2505.11016), Technical report 2505.11016, arXiv, 2025.
+  - [NodeShield: Runtime Enforcement of Security-Enhanced SBOMs for Node.js](https://arxiv.org/abs/2508.13750). ACM CCS 2025.
+  - [GoLeash: Mitigating Golang Software Supply Chain Attacks with Runtime Policy Enforcement](http://arxiv.org/pdf/2505.11016), Technical report 2505.11016, arXiv, 2025.
   - [The Design Space of Lockfiles Across Package Managers](http://arxiv.org/pdf/2505.04834). Technical report 2505.04834, arXiv, 2025.
   - [Canonicalization for Unreproducible Builds in Java](https://arxiv.org/abs/2504.21679), Technical report 2504.21679, arXiv, 2025.
   - [Implementing in-toto SBOM Attestations in an Enterprise Context](http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-363613), Master's thesis Christofer Vikström, 2025
@@ -64,7 +65,7 @@ To get notified about project news, subscribe to the [Chains mailing list](https
   - [Breaking-Good: Explaining Breaking Dependency Updates with Build Analysis](https://arxiv.org/abs/2407.03880), Proceedings of IEEE SCAM, 2024
   - [SBOM.EXE: Countering Dynamic Code Injection based on Software Bill of Materials in Java](https://arxiv.org/abs/2407.00246), arXiv  2024.
   - [Java-Class-Hijack: Software Supply Chain Attack for Java based on Maven Dependency Resolution and Java Classloading](https://arxiv.org/abs/2407.18760). arXiv 2024.
-  - [GHunter: Universal Prototype Pollution Gadgets in JavaScript Runtimes](https://arxiv.org/abs/2407.10812). Usenix Security 2024.
+  - [GHunter: Universal Prototype Pollution Gadgets in JavaScript Runtimes](https://www.usenix.org/conference/usenixsecurity24/presentation/cornelissen). Usenix Security 2024.
   - [Unveiling the Invisible: Detection and Evaluation of Prototype Pollution Gadgets with Dynamic Taint Analysis](https://arxiv.org/abs/2311.03919). Proceedings of WWW, 2024.
   - [Mitigating CI/CD threats through an extended access control model](https://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-346918), Master's thesis Arvid Siberov, 2024
   - [BUMP: A Benchmark of Reproducible Breaking Dependency Updates](https://arxiv.org/abs/2401.09906), Proceedings of IEEE SANER, 2024
