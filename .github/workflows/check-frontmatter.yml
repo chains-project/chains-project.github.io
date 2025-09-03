@@ -11,21 +11,21 @@ on:
 jobs:
   check-frontmatter:
     runs-on: ubuntu-latest
-    
+
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3
-        
+        uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # v5.0.0
+
       - name: Setup Node.js
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
         with:
           node-version: '16'
-          
+
       - name: Install dependencies
         run: |
           npm init -y
           npm install gray-matter
-          
+
       - name: Check frontmatter
         run: |
           npm install gray-matter
@@ -33,36 +33,36 @@ jobs:
           const fs = require("fs");
           const matter = require("gray-matter");
           const path = require("path");
-          
+
           function getAllMarkdownFiles(dir) {
             let results = [];
             const files = fs.readdirSync(dir);
-            
+
             for (const file of files) {
               if (file === "node_modules") {
                continue;
               }
               const filePath = path.join(dir, file);
               const stat = fs.statSync(filePath);
-              
+
               if (stat.isDirectory() && !file.startsWith(".")) {
                 results = results.concat(getAllMarkdownFiles(filePath));
               } else if (file.endsWith(".md")) {
                 results.push(filePath);
               }
             }
-            
+
             return results;
           }
-          
+
           let hasError = false;
           const mdFiles = getAllMarkdownFiles(".");
-          
+
           for (const file of mdFiles) {
             try {
               const content = fs.readFileSync(file, "utf8");
               const { data } = matter(content);
-              
+
               if (!data.title) {
                 console.error(`Error: ${file} is missing title in frontmatter`);
                 hasError = true;
@@ -72,7 +72,7 @@ jobs:
               hasError = true;
             }
           }
-          
+
           if (hasError) {
             process.exit(1);
           }
