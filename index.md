@@ -52,6 +52,7 @@ To get notified about project news, subscribe to the [Chains mailing list](https
   - [Software Bills of Materials in Maven Central](https://arxiv.org/abs/2501.13832), Proceedings of MSR 2025.
   - [On-Chain Analysis of Smart Contract Dependency Risks on Ethereum](https://arxiv.org/abs/2503.19548), Technical report 2503.19548, arXiv, 2025.
   - [Vexed by VEX tools: Consistency evaluation of container vulnerability scanners](https://arxiv.org/abs/2503.14388), Technical report 2503.14388, arXiv, 2025.
+  - [Maven-Hijack: Software Supply Chain Attack Exploiting Packaging Order](http://arxiv.org/pdf/2407.18760), In Proceedings of ACM Workshop on Software Supply Chain Offensive Research and Ecosystem Defenses (SCORED), 2025. ([webpage](https://chains.proj.kth.se/maven-hijack.html))
 * 2024
   - [Code-Reuse Attacks in Managed Programming Languages and Runtimes](https://www.diva-portal.org/smash/get/diva2:1905323/SUMMARY01.pdf), PhD Thesis Mikhail Shcherbakov, 2024
   - [Dirty-Waters: Detecting Software Supply Chain Smells](https://arxiv.org/abs/2410.16049), arXiv 2024.
