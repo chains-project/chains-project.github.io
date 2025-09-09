@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maven-Hijack: Supply Chain Attack</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .gradient-bg {
+            background: linear-gradient(135deg, #1e40af 0%, #3730a3 100%);
+        }
+        .card-hover {
+            transition: all 0.3s ease;
+        }
+        .card-hover:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
+        .step-number {
+            background: linear-gradient(135deg, #6366f1, #8b5cf6);
+            color: white;
+            width: 40px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            font-weight: 700;
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <!-- Header -->
+    <header class="gradient-bg text-white py-16">
+        <div class="container mx-auto px-6">
+            <div class="max-w-4xl mx-auto text-center">
+                <h1 class="text-5xl font-bold mb-6">Maven-Hijack</h1>
+                <p class="text-xl mb-8 opacity-90">A Novel Software Supply Chain Attack Exploiting Java Packaging Order</p>
+                <div class="flex justify-center space-x-4">
+                    <a href="#overview" class="bg-white text-indigo-600 px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition">Learn More</a>
+                    <a href="#mitigations" class="border border-white text-white px-6 py-3 rounded-lg font-semibold hover:bg-white hover:text-indigo-600 transition">Mitigations</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Overview Section -->
+    <section id="overview" class="py-20">
+        <div class="container mx-auto px-6">
+            <div class="max-w-4xl mx-auto">
+                <h2 class="text-3xl font-bold text-center mb-12">Attack Overview</h2>
+                <div class="bg-white rounded-xl shadow-lg p-8 mb-12">
+                    <p class="text-lg mb-6">Maven-Hijack is a sophisticated software supply chain attack that exploits the order in which Maven packages dependencies and how the Java Virtual Machine resolves classes at runtime. By injecting a malicious class with the same fully qualified name as a legitimate one into a dependency that is packaged earlier, an attacker can silently override core application behavior without modifying the main codebase or library names.</p>
+                    <div class="grid md:grid-cols-2 gap-8 mt-8">
+                        <div class="bg-red-50 border-l-4 border-red-500 p-6 rounded-r-lg">
+                            <h3 class="font-bold text-red-800 mb-2">Attack Vector</h3>
+                            <p class="text-red-700">Exploits Maven's depth-first search packaging order and Java's classpath resolution mechanism.</p>
+                        </div>
+                        <div class="bg-blue-50 border-l-4 border-blue-500 p-6 rounded-r-lg">
+                            <h3 class="font-bold text-blue-800 mb-2">Real-World Impact</h3>
+                            <p class="text-blue-700">Successfully demonstrated on the Corona-Warn-App, gaining control over database connection logic.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Attack Steps -->
+                <h3 class="text-2xl font-bold mb-8 text-center">How the Attack Works</h3>
+                <div class="space-y-8">
+                    <div class="flex items-start space-x-6">
+                        <div class="step-number">1</div>
+                        <div>
+                            <h4 class="text-xl font-semibold mb-2">Attack Preparation</h4>
+                            <p>Identify a target application with two key dependencies: a 'gadget' dependency (containing the class to be hijacked) and an 'infection' dependency (which can be compromised).</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start space-x-6">
+                        <div class="step-number">2</div>
+                        <div>
+                            <h4 class="text-xl font-semibold mb-2">Order Tampering</h4>
+                            <p>Inject a malicious class with the same fully qualified name as the legitimate class into the infection dependency. This dependency must appear earlier in Maven's packaging order.</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start space-x-6">
+                        <div class="step-number">3</div>
+                        <div>
+                            <h4 class="text-xl font-semibold mb-2">Hijacking Execution</h4>
+                            <p>At runtime, the Java class loader loads the first matching class it finds in the classpath. The malicious class from the infection dependency is loaded instead of the legitimate one from the gadget dependency.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Proof of Concept Section -->
+    <section class="py-20 bg-gray-100">
+        <div class="container mx-auto px-6">
+            <div class="max-w-4xl mx-auto">
+                <h2 class="text-3xl font-bold text-center mb-12">Proof of Concept</h2>
+                <div class="bg-white rounded-xl shadow-lg p-8">
+                    <div class="flex flex-col md:flex-row items-center gap-8">
+                        <div class="md:w-1/2">
+                            <img src="https://placehold.co/600x400/1e40af/white?text=Corona-Warn-App+Logo" alt="Corona-Warn-App" class="rounded-lg shadow-md">
+                        </div>
+                        <div class="md:w-1/2">
+                            <h3 class="text-2xl font-bold mb-4">Corona-Warn-App Compromise</h3>
+                            <p class="mb-4">The attack was successfully demonstrated on Germany's coronavirus tracking application, which uses Spring Boot for its backend services.</p>
+                            <ul class="space-y-2 mb-6">
+                                <li class="flex items-start">
+                                    <span class="text-green-500 mr-2">✓</span>
+                                    <span><strong>Infection Dependency:</strong> everit-json-schema</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <span class="text-green-500 mr-2">✓</span>
+                                    <span><strong>Gadget Dependency:</strong> PostgreSQL JDBC driver (org.postgresql:postgresql)</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <span class="text-green-500 mr-2">✓</span>
+                                    <span><strong>Outcome:</strong> Gained control over database connection logic</span>
+                                </li>
+                            </ul>
+                            <a href="https://github.com/chains-project/maven-class-hijack-poc/" target="_blank" class="inline-block bg-indigo-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-indigo-700 transition">View PoC on GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mitigations Section -->
+    <section id="mitigations" class="py-20">
+        <div class="container mx-auto px-6">
+            <div class="max-w-4xl mx-auto">
+                <h2 class="text-3xl font-bold text-center mb-12">Mitigation Strategies</h2>
+                <div class="grid md:grid-cols-3 gap-8">
+                    <!-- Sealed JARs -->
+                    <div class="bg-white rounded-xl shadow-lg p-6 card-hover">
+                        <div class="w-12 h-12 bg-yellow-100 rounded-lg flex items-center justify-center mb-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-yellow-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-bold mb-3">Sealed JARs</h3>
+                        <p class="mb-4">Enforces that all classes belonging to a specific Java package must be loaded from the same archive.</p>
+                        <div class="bg-yellow-50 p-3 rounded-lg mb-4">
+                            <p class="text-sm text-yellow-800"><strong>Limitation:</strong> Can be bypassed if attacker includes a fully self-contained copy of the original package.</p>
+                        </div>
+                        <span class="inline-block bg-yellow-100 text-yellow-800 text-xs px-2 py-1 rounded">Runtime Protection</span>
+                    </div>
+
+                    <!-- Java Modules -->
+                    <div class="bg-white rounded-xl shadow-lg p-6 card-hover">
+                        <div class="w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center mb-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-bold mb-3">Java Modules</h3>
+                        <p class="mb-4">Java 9+ module system detects package collisions and fails the build process with a compilation error.</p>
+                        <div class="bg-green-50 p-3 rounded-lg mb-4">
+                            <p class="text-sm text-green-800"><strong>Limitation:</strong> Low adoption rate (only ~1.7% of Maven Central artifacts use modules).</p>
+                        </div>
+                        <span class="inline-block bg-green-100 text-green-800 text-xs px-2 py-1 rounded">Build-time Protection</span>
+                    </div>
+
+                    <!-- Maven Enforcer Plugin -->
+                    <div class="bg-white rounded-xl shadow-lg p-6 card-hover border-2 border-indigo-500">
+                        <div class="w-12 h-12 bg-indigo-100 rounded-lg flex items-center justify-center mb-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-indigo-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-bold mb-3">Maven Enforcer Plugin</h3>
+                        <p class="mb-4">When configured with <code>banDuplicateClasses</code>, it stops the build if duplicate classes are found.</p>
+                        <div class="bg-indigo-50 p-3 rounded-lg mb-4">
+                            <p class="text-sm text-indigo-800"><strong>Recommendation:</strong> Most practical and effective defense for current Java projects.</p>
+                        </div>
+                        <span class="inline-block bg-indigo-100 text-indigo-800 text-xs px-2 py-1 rounded">Build-time Protection</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gradle Comparison Section -->
+    <section class="py-20 bg-gray-100">
+        <div class="container mx-auto px-6">
+            <div class="max-w-4xl mx-auto">
+                <h2 class="text-3xl font-bold text-center mb-12">Impact on Gradle</h2>
+                <div class="bg-white rounded-xl shadow-lg p-8">
+                    <p class="text-lg mb-6">While Maven-Hijack is primarily designed for Maven, similar attacks are possible on Gradle, though significantly more challenging:</p>
+                    <div class="grid md:grid-cols-2 gap-8">
+                        <div class="bg-blue-50 p-6 rounded-lg">
+                            <h4 class="font-bold text-blue-800 mb-3">Gradle Differences</h4>
+                            <ul class="space-y-2 text-blue-700">
+                                <li>• Uses breadth-first search for classpath generation</li>
+                                <li>• Direct dependencies are included first</li>
+                                <li>• Custom repositories for transitive dependencies are ignored</li>
+                            </ul>
+                        </div>
+                        <div class="bg-purple-50 p-6 rounded-lg">
+                            <h4 class="font-bold text-purple-800 mb-3">Attack Feasibility</h4>
+                            <p class="text-purple-700">The attack is still feasible but requires the infection dependency to be at the same level as the gadget dependency and appear before it in the classpath.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="gradient-bg text-white py-12">
+        <div class="container mx-auto px-6 text-center">
+            <p class="mb-4">Research by Frank Reyes, Federico Bono, Aman Sharma, Benoit Baudry, and Martin Monperrus</p>
+            <p class="text-sm opacity-75">KTH Royal Institute of Technology & Université de Montréal</p>
+            <div class="mt-6">
+                <a href="#" class="text-white hover:opacity-80 mx-2">Paper</a>
+                <a href="https://github.com/chains-project/maven-class-hijack-poc/" class="text-white hover:opacity-80 mx-2">GitHub</a>
+                <a href="#" class="text-white hover:opacity-80 mx-2">Contact</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
