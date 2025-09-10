@@ -6,8 +6,24 @@ title: Open Master Thesis Topics in Project Chains
 
 Project Chains hosts master's students for their theses, here are available topics. See [main page](/) for completed theses.
 
+### Empirical Study of API Difference Tools for Java Dependencies
+Contact: Frank Reyes Garcia
+
+Java applications rely extensively on external libraries, which are frequently updated and modified. As these libraries evolve, changes to their public APIs can introduce breaking changes, binary incompatibilities, or subtle behavioral issues that may impact client projects.
+Detecting and understanding these API changes is critical for maintaining software reliability and facilitating safe dependency updates.
+Several tools such as [roseau](https://github.com/alien-tools/roseau/tree/main?tab=readme-ov-file), [japicmp](https://siom79.github.io/japicmp/), [Revapi](https://revapi.org/), and [Clirr](https://clirr.sourceforge.net/) have been developed to analyze and report API differences between library versions.
+This thesis will conduct a comprehensive comparative study of leading API diff tools, applying them to a diverse set of real-world open-source Java projects.
+The evaluation will focus on each tool’s ability to detect and classify different types of API changes (e.g., breaking, non-breaking, additions, deprecations).
+The outcome will be a benchmark and critical analysis of existing API diff tools and a dataset of API changes in real-world Java libraries.
+
+Related Work:
+
+[1] [API evolution and compatibility: A data corpus and tool evaluation](https://www.jot.fm/issues/issue_2017_04/article2.pdf)
+
+[2] [Understanding the Impact of APIs Behavioral Breaking Changes on Client Applications](https://dl.acm.org/doi/10.1145/3643782)
+
 ### How prevalent is Maven Class Hijacking?
-Contact: Aman Sharma, Frank Reyes Garçia
+Contact: Aman Sharma, Frank Reyes Garcia
 
 Maven Class Hijacking [1] is a supply chain attack where a legitimiate Java class deep in the dependency tree can act malicious by shadowing a legitimate Java class that one declares directly.
 We want to explore how prevalent the condition "infection dependency precedes the gadget dependency" is.
