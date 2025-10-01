@@ -28,7 +28,10 @@ CHAINS recommendations are meant to be directly applicable, with state of the ar
   -  Do no use default "Read and write permissions" for token permissions
   -  Tokens should all have expiration dates
 - (pipeline) CHAINS recommends pinning pipelines, CHAINS recommends secrets in branch-restricted environments (instead of repository secrets)
-- (tags & releases) CHAINS recommends having Github tag rulesets to enforce immutable Git tags
+- (immutability)
+  - CHAINS recommends having Github tag rulesets to enforce immutable Git tags
+  - CHAINS recommends using immutable Github releases
+  - CHAINS recommends using immutable Dockerhub tags
  
 ## CHAINS Encourages
 
