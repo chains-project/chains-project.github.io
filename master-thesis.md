@@ -6,6 +6,15 @@ title: Open Master Thesis Topics in Project Chains
 
 Project Chains hosts master's students for their theses, here are available topics. See [main page](/) for completed theses.
 
+### Audit Trail of Contributors in Dependencies
+Contact: Larissa Schmid
+
+Open-source projects rely on a community of maintainers and contributors, which is a strength but also introduces potential security risks. New contributors, in particular, can represent a vector for vulnerabilities, as demonstrated by incidents such as the compromise of the event-stream package. For projects that depend on such packages, it is critical to monitor changes in maintainers and contributors to make informed decisions about whether to continue trusting a dependency. Audit trails provide verifiable records of who made changes, when they were made, and how they were reviewed and integrated. Maintaining such records helps verify the trustworthiness of new contributors and allows reconstruction of events if a package is compromised. In this master's thesis, you will design and implement a tool that automatically generates audit trails for new contributors in the dependencies of a project. The tool will track commit history, ownership changes of packages, the introduction of new dependencies, and the presence of release signatures along with their traceability to known maintainers. 
+
+Related Work:
+[1] [OpenSSF Scorecard: On the Path Toward Ecosystem-Wide Automated Security Metrics](ieeexplore.ieee.org/abstract/document/10163720)
+[2] [Decomposing and Measuring Trust in Open-Source Software Supply Chains](dl.acm.org/doi/abs/10.1145/3639476.3639775)
+
 ### Empirical Study of API Difference Tools for Java Dependencies
 Contact: Frank Reyes Garcia
 
