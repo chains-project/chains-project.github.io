@@ -20,7 +20,7 @@ Related Work:
 ### Comparative Analysis of Software Composition Analysis Tools
 Contact: Larissa Schmid
 
-Software Composition Analysis (SCA) tools scan a project's dependencies to identify known security vulnerabilities, thereby supporting software supply chain security. Although numerous SCA tools have been developed, they differ significantly in functionality, capabilities, and the ecosystems they support. To date, there is no comprehensive evaluation that systematically compares these tools. This Master’s thesis aims to collect a representative set of SCA tools, analyze and compare their features, and evaluate them on a shared dataset. The study will provide practical insights into how SCA tools perform across different ecosystems and their relative strengths and limitations. 
+Software Composition Analysis (SCA) tools scan a project's dependencies to identify known security vulnerabilities, thereby supporting software supply chain security. Although numerous SCA tools have been developed, they differ significantly in functionality, capabilities, and the ecosystems they support. However, there is no comparative analysis that systematically compares these tools. In this Master's thesis, you will collect a representative set of SCA tools, analyze and compare their features, and evaluate them on a shared dataset. The study will provide practical insights into how SCA tools perform across different ecosystems and their relative strengths and limitations. 
 
 Related Work: 
 
