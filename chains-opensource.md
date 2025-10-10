@@ -52,9 +52,10 @@ Applications:
 * Scorecard
   * [improve code review score](https://github.com/ossf/scorecard/issues/4500)
 * Renovate
-  * [add suport for dependency version pinning](https://github.com/renovatebot/renovate/discussions/34924) 
+  * [add suport for dependency version pinning](https://github.com/renovatebot/renovate/discussions/34924)
+  * [bug in displayed versions](https://github.com/renovatebot/renovate/discussions/38521)
 * JReleaser
-  * [add support for github immutable releases](https://github.com/jreleaser/jreleaser/pull/1979)
+  * [add support for github immutable releases (merged)](https://github.com/jreleaser/jreleaser/pull/1979)
 
 Under our radar (not opened by us but relevant)
 * [sandboxed build scripts at rust](https://github.com/rust-lang/rust-project-goals/issues/108)
