@@ -30,7 +30,7 @@ Related Work:
 
 [3] [Adversarial Analysis of Software Composition Analysis Tools](https://link.springer.com/chapter/10.1007/978-3-031-75764-8_9)
 
-### Empirical Study of API Difference Tools for Java Dependencies
+### Empirical Study of API Differencing Tools for Java Dependencies
 Contact: Frank Reyes Garcia
 
 Java applications rely extensively on external libraries, which are frequently updated and modified. As these libraries evolve, changes to their public APIs can introduce breaking changes, binary incompatibilities, or subtle behavioral issues that may impact client projects.
@@ -46,7 +46,7 @@ Related Work:
 
 [2] [Understanding the Impact of APIs Behavioral Breaking Changes on Client Applications](https://dl.acm.org/doi/10.1145/3643782)
 
-### How prevalent is Maven Class Hijacking?
+### How prevalent is Dependency Shadowing and Maven Class Hijacking?
 Contact: Aman Sharma, Frank Reyes Garcia
 
 Maven Class Hijacking [1] is a supply chain attack where a legitimiate Java class deep in the dependency tree can act malicious by shadowing a legitimate Java class that one declares directly.
@@ -79,7 +79,7 @@ Another question to investigate is if this cache can be repurposed as an allowli
 [1] [SBOM.EXE: Countering Dynamic Code Injection based on Software Bill of Materials in Java](https://arxiv.org/abs/2407.00246)
 
 
-<h3 >Trust Assumptions and Threats in Build Attestation System</h3>
+### Trust Assumptions and Threats in Build Attestation System
 Contact: Larissa Schmid
 <p>Description:
 Build attestations are cryptographically verifiable statements that describe how, when, and by whom a software artifact was produced. They are used for strengthening software supply chain security by ensuring that binaries and container images can be traced back to a documented build process. While standards like SLSA and tools such as Sigstore, Tekton Chains, and GitHub's native attestations promise to ensure trust in build outputs, there is no systematic assessment of their capabilities and limitations. This thesis will examine which trust assumptions different build attestation systems make, what attacker models they use, and how well current implementations satisfy their security goals. The work should evaluate potential attack vectors and propose recommendations for more robust, verifiable provenance. </p>
@@ -97,7 +97,7 @@ Related works:
 4. [Understanding the Quality of Container Security Vulnerability Detection Tools](https://arxiv.org/pdf/2101.03844)
 
 
-<h3 >Empirical Study of Compilation Reproducibility in Solidity</h3>
+### Empirical Study of Compilation Reproducibility in Solidity
 Contact: Aman Sharma
 <p>Description:
 The reproducibility of software builds is a critical aspect of secure software development This concept has been pushed forward in the context of Solidity, the programming language
@@ -114,46 +114,7 @@ Solidity development.</p>
 <li ><p><a href="https://sourcify.dev/">Sourcify</a></p>
 </li></ol>
 
-<h3 >Dynamic Integrity Verification &amp; Repair for Java Applications</h3>
-Contact: Martin Monperrus
-<p>Description:
-Attackers constantly try to tamper with the code of software applications in production.
-Chang and Attalah have proposed a technique to not only detect modifications and also repairing the code after attacks by a network of small security
-units called guards. These guards can be programmed to perform tasks such as checksumming the program code, and they work in concert to create mutual protection.
-In this thesis, you will devise, implement and evaluate such as an approach in the context of modern Java software with dependencies. An open question is how to set up guard inside or around dependency code.</p>
-<ol>
-<li ><p><a href="https://link.springer.com/chapter/10.1007/3-540-47870-1_10">Protecting Software Code by Guards</a></p>
-</li>
-<li ><p><a href="https://dl.acm.org/doi/abs/10.1145/353323.353383">Reflection as a mechanism for software integrity verification</a></p>
-</li>
-<li ><p><a href="https://dl.acm.org/doi/abs/10.1145/3274694.3274732">Practical integrity protection with oblivious hashing</a></p>
-</li></ol>
-
-<h3 >Dynamic Introspection of Dependencies in Java Applications</h3>
-<p>Contact: Aman Sharma</p>
-<p>Description: We aim to design and develop a prototype for dynamic introspection of dependencies in Java applications. This would enable real-time tracking and decision based on the dependency execution context. By leveraging Java's instrumentation capabilities, the proposed system will monitor and identify the active dependencies at any given
-point during program execution. The focus will be on minimizing performance
-overhead to ensure that the introspection process does not significantly impact the application's responsiveness or efficiency, while integrating seamlessly with any existing Java application.
-Rigorous evaluation against various benchmarks will be one to assess its accuracy,
-performance, and usability.</p>
-
-<h3 >Automatic Backporting of Java Libraries to Older Bytecode Versions</h3>
-Contact: Aman Sharma
-<p>Description:
-With the rapid evolution of Java, libraries often get updated to new bytecode versions. This causes compatibility issues and breakages for
-applications that are still running on older versions of Java. To address this, a possible solution is to automatically backport Java libraries to older bytecode
-versions. This thesis will focus on designing and implementing an automated tool for backporting Java libraries. The tool should be capable of translating new bytecode
-instructions to their older equivalents, maintaining the functional behavior of the library while ensuring compatibility with older Java versions. An open question is
-how to handle new language features and APIs that do not have direct equivalents in older versions.</p>
-<ol>
-<li ><p><a href="https://ieeexplore.ieee.org/abstract/document/9540328/">Back to the past–analysing backporting practices in package dependency networks</a></p>
-</li>
-<li ><p><a href="https://inria.hal.science/hal-01355859/file/icsme_hal.pdf">Recommending code changes for automatic backporting of Linux device drivers</a></p>
-</li>
-<li ><p><a href="https://arxiv.org/abs/2405.07204">Transforming C++11 Code to C++03 to Support Legacy Compilation Environments</a></p>
-</li></ol>
-
-<h3 > Reproducible Just-in-Time (JIT) Compilation</h3>
+### Reproducible Just-in-Time (JIT) Compilation
 <p>Contact: Martin Monperrus</p>
 <p>This thesis will explore the concept of reproducible JIT compilation, focusing on the challenges and solutions for ensuring consistent and repeatable execution of 
 program compilation across different runs. By analyzing the factors that contribute to variability in JIT compilation, such as optimization heuristics, runtime conditions,
