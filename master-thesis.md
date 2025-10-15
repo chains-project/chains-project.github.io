@@ -114,7 +114,7 @@ Solidity development.</p>
 <li ><p><a href="https://sourcify.dev/">Sourcify</a></p>
 </li></ol>
 
-### Reproducible Just-in-Time (JIT) Compilation
+<h3>Reproducible Just-in-Time (JIT) Compilation</h3>
 <p>Contact: Martin Monperrus</p>
 <p>This thesis will explore the concept of reproducible JIT compilation, focusing on the challenges and solutions for ensuring consistent and repeatable execution of 
 program compilation across different runs. By analyzing the factors that contribute to variability in JIT compilation, such as optimization heuristics, runtime conditions,
