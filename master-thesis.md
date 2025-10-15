@@ -13,9 +13,9 @@ Open-source projects rely on a community of maintainers and contributors, which 
 
 Related Work:
 
-[1] [OpenSSF Scorecard: On the Path Toward Ecosystem-Wide Automated Security Metrics](ieeexplore.ieee.org/abstract/document/10163720)
+[1] [OpenSSF Scorecard: On the Path Toward Ecosystem-Wide Automated Security Metrics](https://ieeexplore.ieee.org/abstract/document/10163720)
 
-[2] [Decomposing and Measuring Trust in Open-Source Software Supply Chains](dl.acm.org/doi/abs/10.1145/3639476.3639775)
+[2] [Decomposing and Measuring Trust in Open-Source Software Supply Chains](https://dl.acm.org/doi/abs/10.1145/3639476.3639775)
 
 ### Comparative Analysis of Software Composition Analysis Tools
 Contact: Larissa Schmid
