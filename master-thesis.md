@@ -24,9 +24,9 @@ Software Composition Analysis (SCA) tools scan a project's dependencies to ident
 
 Related Work: 
 
-[1] [Software composition analysis for vulnerability detection: An empirical study on Java projects](dl.acm.org/doi/abs/10.1145/3611643.3616299)
+[1] [Software composition analysis for vulnerability detection: An empirical study on Java projects](https://dl.acm.org/doi/abs/10.1145/3611643.3616299)
 
-[2] [Understanding Similarities and Differences Between Software Composition Analysis Tools](ieeexplore.ieee.org/abstract/document/10645968)
+[2] [Understanding Similarities and Differences Between Software Composition Analysis Tools](https://ieeexplore.ieee.org/abstract/document/10645968)
 
 [3] [Adversarial Analysis of Software Composition Analysis Tools](https://link.springer.com/chapter/10.1007/978-3-031-75764-8_9)
 
