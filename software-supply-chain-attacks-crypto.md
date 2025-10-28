@@ -202,6 +202,10 @@ The attacked Python package is bitcoinlib, a popular Python library that contain
 
 Source: <https://www.reversinglabs.com/blog/malicious-python-packages-target-popular-bitcoin-library>
 
+### 23. Malicious NuGet Packages 
+
+[Malicious NuGet Packages Typosquat Nethereum to Exfiltrate Wallet Keys](https://socket.dev/blog/malicious-nuget-packages-typosquat-nethereum-to-exfiltrate-wallet-keys) by Kirill Boychenko (Socket).
+
 ## Hardware supply chain attacks
 
 It is possible to tamper with hardware devices used in crypto, typically a hardware wallet. Who would do that: an employee at the company that designed the wallet, the factory that produced it, and everyone involved in shipping it. Ref: <https://vitalik.ca/general/2021/01/11/recovery.html>. Such a real hardware supply chain attack has happened on Trezor wallets (2022): <https://www.kaspersky.com/blog/fake-trezor-hardware-crypto-wallet/48155/>
