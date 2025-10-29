@@ -94,6 +94,7 @@ See [https://github.com/chains-project/](https://github.com/orgs/chains-project/
 - [Software supply chain attacks on crypto infrastructure](software-supply-chain-attacks-crypto.md)
 - [NIX and the supply chain, debrief of NixCon 2022](nixcon-2022.md)
 - [SBOMs for your GitHub Releases](sbom-github.md)
+- [Sigstore Attestations for your GitHub Releases](maven-sigstore.md)
 - [Software suply chain CWEs](cwe-software-supplu-chain.md)
 - [CHAINS checklist](chains-repo-checklist.md)
 
