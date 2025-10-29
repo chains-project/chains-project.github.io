@@ -69,9 +69,9 @@ By the end of this post, you will clearly understand how to add SBOMs to your so
 
    ```yml
      - name: Run JReleaser
-       uses: jreleaser/release-action@f69e545b05f149483cecb2fb81866247992694b8
+       uses: jreleaser/release-action@ad73772277e63d9f2bbf4f24a7bb1300388334d7 # 2.4.3
        with:
-         version: 1.15.0
+         version: 1.20.0
          arguments: full-release 
        env:
          JRELEASER_GITHUB_TOKEN: ${{ secrets.JRELEASER_GITHUB_TOKEN }}
@@ -79,7 +79,7 @@ By the end of this post, you will clearly understand how to add SBOMs to your so
    ```
 
 4. Make a release  :)
-   The final result looks like this on GitHub: https://github.com/chains-project/maven-lockfile/releases/tag/v5.3.5 and like this on Maven Central: https://repo1.maven.org/maven2/io/github/chains-project/maven-lockfile/5.3.5/.
+   The final result looks like this on GitHub: https://github.com/chains-project/maven-lockfile/releases/tag/v5.8.2 and like this on Maven Central: https://repo1.maven.org/maven2/io/github/chains-project/maven-lockfile/5.8.2/.
 
 ## Conclusion
 In conclusion, adding SBOMs to your GitHub and Maven Central releases is a simple and effective way to improve the security and integrity of your software products. Following the steps outlined in this blog post, you can easily generate and add an SBOM to your GitHub and Maven Central release using Maven and JReleaser. With an SBOM, you can identify and remediate vulnerabilities in your software products on time, reducing the risk of security breaches and ensuring the trust of your users. We hope this post has helped guide you through adding SBOMs to your GitHub and Maven Central releases, and we encourage you to continue exploring ways to improve the security and quality of your software products.
