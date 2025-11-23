@@ -25,6 +25,7 @@ The project's contributions to the open-source infrastructure.
   * [Search docker images by checksums sha256](https://github.com/docker/roadmap/issues/663)
 * npm
   * [[RRFC] Locally computed integrity values in the lockfile](https://github.com/npm/rfcs/issues/757)
+  * [[RRFC] Disallow external dependencies on the npm registry](https://github.com/npm/rfcs/issues/843)
 
 Applications:
 * Key contributions to make [go-ethereum / geth reproducible](https://github.com/ethereum/go-ethereum/issues/28987)

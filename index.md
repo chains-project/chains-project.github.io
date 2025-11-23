@@ -44,7 +44,7 @@ To get notified about project news, subscribe to the [Chains mailing list](https
 (reverse chronological order, newest first)
 
 * 2025
-  - [NodeShield: Runtime Enforcement of Security-Enhanced SBOMs for Node.js](https://arxiv.org/abs/2508.13750), ACM CCS, 2025.
+  - [NodeShield: Runtime Enforcement of Security-Enhanced SBOMs for Node.js](https://doi.org/10.1145/3719027.3765136), ACM CCS, 2025.
   - [GoLeash: Mitigating Golang Software Supply Chain Attacks with Runtime Policy Enforcement](http://arxiv.org/pdf/2505.11016), Technical report 2505.11016, arXiv, 2025.
   - [The Design Space of Lockfiles Across Package Managers](http://arxiv.org/pdf/2505.04834), Technical report 2505.04834, arXiv, 2025.
   - [Canonicalization for Unreproducible Builds in Java](https://arxiv.org/abs/2504.21679), Technical report 2504.21679, arXiv, 2025.
