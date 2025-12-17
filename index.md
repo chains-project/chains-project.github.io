@@ -110,7 +110,7 @@ Chains alumni: [Deepika Tiwari](https://deee92.github.io/), [Arvid Siberov](http
 
 ## Events & Talks
 
-- Dec 17 2025, Konflux Secure Software Factory and Hermeto [[slides](https://drive.google.com/file/d/1mzbVse8GUr51OzQ4xDE5ol80nqg8HTHK/view)], Adam Kaplan (Red Hat)
+- Dec 17 2025, [Konflux Secure Software Factory and Hermeto](https://www.meetup.com/kth-software-research-meetup/events/312366391/?eventOrigin=group_upcoming_events) [[slides](https://drive.google.com/file/d/1mzbVse8GUr51OzQ4xDE5ol80nqg8HTHK/view)], Adam Kaplan (Red Hat)
 - June 17 2025: [The Academic Nordic Blockchain Workshop 2025](academic-nordic-blockchain-2025.md)
 - April 25 2025: [4th KTH Workshop on the Software Supply Chain](software-supply-chain-workshop-4.md)
 - April 27 2025: Talk: "Software supply chain attacks and defenses for Web3", Martin Monperrus, University of Zurich
