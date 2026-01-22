@@ -44,7 +44,7 @@ To get notified about project news, subscribe to the [Chains mailing list](https
 (reverse chronological order, newest first)
 
 * 2025
-  - [DIRTY-WATERS-ACTION : Automated Feedback toward Cleaning Software Supply Chains](http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-373821) Master's thesis Diogo Gaspar, 2026
+  - [Dirty-Waters-Action: Automated Feedback toward Cleaning Software Supply Chains](http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-373821) Master's thesis Diogo Gaspar, 2026
   - [NodeShield: Runtime Enforcement of Security-Enhanced SBOMs for Node.js](https://doi.org/10.1145/3719027.3765136), ACM CCS, 2025.
   - [GoLeash: Mitigating Golang Software Supply Chain Attacks with Runtime Policy Enforcement](http://arxiv.org/pdf/2505.11016), Technical report 2505.11016, arXiv, 2025.
   - [The Design Space of Lockfiles Across Package Managers](http://arxiv.org/pdf/2505.04834), Empirical Software Engineering, 2026.
