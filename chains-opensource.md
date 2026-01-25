@@ -20,7 +20,8 @@ The project's contributions to the open-source infrastructure.
   * [fix outdated Github workflow template](https://github.com/actions/starter-workflows/pull/2347)
   * [keep github action logs forever for transparency and auditability of published software packages](https://github.com/orgs/community/discussions/123969)
   * [link to attestation in NPM automated notification emails](https://github.com/orgs/community/discussions/122114)
-  * [Github SBOMs are not compatible with Grype](https://github.com/orgs/community/discussions/131104)   
+  * [Github SBOMs are not compatible with Grype](https://github.com/orgs/community/discussions/131104)
+  * [Add expiration date support for SSH keys](https://github.com/orgs/community/discussions/185279)   
 * Docker
   * [Search docker images by checksums sha256](https://github.com/docker/roadmap/issues/663)
 * npm
