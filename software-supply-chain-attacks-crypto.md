@@ -206,6 +206,14 @@ Source: <https://www.reversinglabs.com/blog/malicious-python-packages-target-pop
 
 [Malicious NuGet Packages Typosquat Nethereum to Exfiltrate Wallet Keys](https://socket.dev/blog/malicious-nuget-packages-typosquat-nethereum-to-exfiltrate-wallet-keys) by Kirill Boychenko (Socket).
 
+### 24. TrustWallet incident
+
+[Trust Wallet users lose at least $6 million in security breach][https://www.theblock.co/post/383735/trust-wallet-extension-incident). "On December 24, 2025, an unauthorized and malicious version of the Trust Wallet Browser Extension (version 2.68) was published to the Chrome Web Store outside of our standard release process"
+
+### 25. SymPy incident
+
+[PyPI Package Impersonates SymPy to Deliver Cryptomining Malware](https://socket.dev/blog/pypi-package-impersonates-sympy-to-deliver-cryptomining-malware) (Socket).
+
 ## Hardware supply chain attacks
 
 It is possible to tamper with hardware devices used in crypto, typically a hardware wallet. Who would do that: an employee at the company that designed the wallet, the factory that produced it, and everyone involved in shipping it. Ref: <https://vitalik.ca/general/2021/01/11/recovery.html>. Such a real hardware supply chain attack has happened on Trezor wallets (2022): <https://www.kaspersky.com/blog/fake-trezor-hardware-crypto-wallet/48155/>
