@@ -43,17 +43,22 @@ To get notified about project news, subscribe to the [Chains mailing list](https
 
 (reverse chronological order, newest first)
 
+* 2026
+  - abc
 * 2025
   - [Dirty-Waters-Action: Automated Feedback toward Cleaning Software Supply Chains](http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-373821) Master's thesis Diogo Gaspar, 2026
   - [NodeShield: Runtime Enforcement of Security-Enhanced SBOMs for Node.js](https://doi.org/10.1145/3719027.3765136), ACM CCS, 2025.
   - [GoLeash: Mitigating Golang Software Supply Chain Attacks with Runtime Policy Enforcement](http://arxiv.org/pdf/2505.11016), Technical report 2505.11016, arXiv, 2025.
   - [The Design Space of Lockfiles Across Package Managers](http://arxiv.org/pdf/2505.04834), Empirical Software Engineering, 2026.
-  - [Canonicalization for Unreproducible Builds in Java](https://arxiv.org/abs/2504.21679), Technical report 2504.21679, arXiv, 2025.
+  - [Canonicalization for Unreproducible Builds in Java](https://arxiv.org/abs/2504.21679), IEEE Transactions on Software Engineering, 2025.
   - [Implementing in-toto SBOM Attestations in an Enterprise Context](http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-363613), Master's thesis Christofer Vikström, 2025.
   - [Software Bills of Materials in Maven Central](https://arxiv.org/abs/2501.13832), Proceedings of MSR, 2025.
   - [On-Chain Analysis of Smart Contract Dependency Risks on Ethereum](https://arxiv.org/abs/2503.19548), Technical report 2503.19548, arXiv, 2025.
-  - [Vexed by VEX tools: Consistency evaluation of container vulnerability scanners](https://arxiv.org/abs/2503.14388), Technical report 2503.14388, arXiv, 2025.
+  - [Vexed by VEX tools: Consistency evaluation of container vulnerability scanners](https://arxiv.org/abs/2503.14388), 18th International Symposium on Foundations & Practice of Security, 2025.
   - [Maven-Hijack: Software Supply Chain Attack Exploiting Packaging Order](http://arxiv.org/pdf/2407.18760), In Proceedings of ACM Workshop on Software Supply Chain Offensive Research and Ecosystem Defenses (SCORED), 2025. ([webpage](https://chains.proj.kth.se/maven-hijack.html))
+  - [Towards Zero-Knowledge Software Bill of Materials](http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-369919) Master’s thesis Tom Sorger (2025)
+  - [Diverse Double-Compiling in a CI/CD Pipeline](http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-369921) Master’s thesis Ludvig Christensen (2025)
+  - [Detecting Semantic Changes in Dependency Updates Using Dynamic Analysis](http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-367525) Leonard Sebastian Husmann (2025)
 * 2024
   - [Code-Reuse Attacks in Managed Programming Languages and Runtimes](https://www.diva-portal.org/smash/get/diva2:1905323/SUMMARY01.pdf), PhD Thesis Mikhail Shcherbakov, 2024.
   - [Dirty-Waters: Detecting Software Supply Chain Smells](https://arxiv.org/abs/2410.16049), arXiv, 2024.
