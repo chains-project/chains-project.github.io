@@ -44,45 +44,44 @@ To get notified about project news, subscribe to the [Chains mailing list](https
 (reverse chronological order, newest first)
 
 * 2026
-  - abc
+  - [The Design Space of Lockfiles Across Package Managers](https://link.springer.com/article/10.1007/s10664-025-10789-w), Empirical Software Engineering, 2026.
 * 2025
-  - [Dirty-Waters-Action: Automated Feedback toward Cleaning Software Supply Chains](http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-373821) Master's thesis Diogo Gaspar, 2026
+  - [Dirty-Waters-Action: Automated Feedback toward Cleaning Software Supply Chains](http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-373821), Master's thesis Diogo Gaspar, 2026
   - [NodeShield: Runtime Enforcement of Security-Enhanced SBOMs for Node.js](https://doi.org/10.1145/3719027.3765136), ACM CCS, 2025.
   - [GoLeash: Mitigating Golang Software Supply Chain Attacks with Runtime Policy Enforcement](http://arxiv.org/pdf/2505.11016), Technical report 2505.11016, arXiv, 2025.
-  - [The Design Space of Lockfiles Across Package Managers](http://arxiv.org/pdf/2505.04834), Empirical Software Engineering, 2026.
-  - [Canonicalization for Unreproducible Builds in Java](https://arxiv.org/abs/2504.21679), IEEE Transactions on Software Engineering, 2025.
+  - [Canonicalization for Unreproducible Builds in Java](https://ieeexplore.ieee.org/abstract/document/11223991/), IEEE Transactions on Software Engineering, 2025.
   - [Implementing in-toto SBOM Attestations in an Enterprise Context](http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-363613), Master's thesis Christofer Vikström, 2025.
-  - [Software Bills of Materials in Maven Central](https://arxiv.org/abs/2501.13832), Proceedings of MSR, 2025.
+  - [Dirty-Waters: Detecting Software Supply Chain Smells](https://dl.acm.org/doi/abs/10.1145/3696630.3728578), ACM FSE Companion, 2025.
+  - [Software Bills of Materials in Maven Central](https://ieeexplore.ieee.org/abstract/document/11025737), Proceedings of MSR, 2025.
   - [On-Chain Analysis of Smart Contract Dependency Risks on Ethereum](https://arxiv.org/abs/2503.19548), Technical report 2503.19548, arXiv, 2025.
   - [Vexed by VEX tools: Consistency evaluation of container vulnerability scanners](https://arxiv.org/abs/2503.14388), 18th International Symposium on Foundations & Practice of Security, 2025.
   - [Maven-Hijack: Software Supply Chain Attack Exploiting Packaging Order](http://arxiv.org/pdf/2407.18760), In Proceedings of ACM Workshop on Software Supply Chain Offensive Research and Ecosystem Defenses (SCORED), 2025. ([webpage](https://chains.proj.kth.se/maven-hijack.html))
-  - [Towards Zero-Knowledge Software Bill of Materials](http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-369919) Master’s thesis Tom Sorger (2025)
-  - [Diverse Double-Compiling in a CI/CD Pipeline](http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-369921) Master’s thesis Ludvig Christensen (2025)
-  - [Detecting Semantic Changes in Dependency Updates Using Dynamic Analysis](http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-367525) Leonard Sebastian Husmann (2025)
+  - [Towards Zero-Knowledge Software Bill of Materials](http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-369919), Master’s thesis Tom Sorger, 2025.
+  - [Diverse Double-Compiling in a CI/CD Pipeline](http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-369921), Master’s thesis Ludvig Christensen, 2025.
+  - [Detecting Semantic Changes in Dependency Updates Using Dynamic Analysis](http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-367525), Master’s thesis Leonard Sebastian Husmann, 2025.
 * 2024
-  - [Code-Reuse Attacks in Managed Programming Languages and Runtimes](https://www.diva-portal.org/smash/get/diva2:1905323/SUMMARY01.pdf), PhD Thesis Mikhail Shcherbakov, 2024.
-  - [Dirty-Waters: Detecting Software Supply Chain Smells](https://arxiv.org/abs/2410.16049), arXiv, 2024.
+  - [Code-Reuse Attacks in Managed Programming Languages and Runtimes](https://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-354771), PhD Thesis Mikhail Shcherbakov, 2024.
   - [Automatic Program Repair For Breaking Dependency Updates With Large Language Models](https://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-354835), Master's thesis Federico Bonno, 2024.
   - [Investigation of the Software Supply Chain of JavaScript Cryptocurrency Wallets](https://daisy.dsv.su.se/divaexport/fil?id=282465), Master's thesis Raphina Yi Liu, 2024.
   - [Geth Rebuild: Strengthening Ethereum Client Integrity through Reproducible Builds](https://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-355285), Master's thesis Vivi Andersson, 2024.
-  - [From Blueprint to Reality: Evaluating the Feasibility of Air-gapped Maven Builds](https://www.diva-portal.org/smash/get/diva2:1932196/FULLTEXT02), Master's thesis Oliver Schwalbe Lehtihet, 2024.
+  - [From Blueprint to Reality: Evaluating the Feasibility of Air-gapped Maven Builds](https://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-359186), Master's thesis Oliver Schwalbe Lehtihet, 2024.
   - [The Embedding and Retrieval of Software Supply Chain Information in Java Applications](https://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-354837), Master's thesis Daniel Williams, 2024.
   - [Measuring the Vulnerability Lifecycle in the Software Supply Chain via SBOM Scans](https://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-354504), Master's thesis Felix Qvarfordt, 2024.
-  - [GoSurf: Identifying Software Supply Chain Attack Vectors in Go](https://arxiv.org/abs/2407.04442), Proceedings of ACM Workshop on Software Supply Chain Offensive Research and Ecosystem Defenses (SCORED), 2024.
-  - [Breaking-Good: Explaining Breaking Dependency Updates with Build Analysis](https://arxiv.org/abs/2407.03880), Proceedings of IEEE SCAM, 2024.
+  - [GoSurf: Identifying Software Supply Chain Attack Vectors in Go](https://dl.acm.org/doi/abs/10.1145/3689944.3696166), Proceedings of ACM Workshop on Software Supply Chain Offensive Research and Ecosystem Defenses (SCORED), 2024.
+  - [Breaking-Good: Explaining Breaking Dependency Updates with Build Analysis](https://ieeexplore.ieee.org/abstract/document/10795312), Proceedings of IEEE SCAM, 2024.
   - [SBOM.EXE: Countering Dynamic Code Injection based on Software Bill of Materials in Java](https://arxiv.org/abs/2407.00246), arXiv, 2024.
   - [GHunter: Universal Prototype Pollution Gadgets in JavaScript Runtimes](https://www.usenix.org/conference/usenixsecurity24/presentation/cornelissen), Usenix Security, 2024.
-  - [Unveiling the Invisible: Detection and Evaluation of Prototype Pollution Gadgets with Dynamic Taint Analysis](https://arxiv.org/abs/2311.03919), Proceedings of WWW, 2024.
+  - [Unveiling the Invisible: Detection and Evaluation of Prototype Pollution Gadgets with Dynamic Taint Analysis](https://dl.acm.org/doi/abs/10.1145/3589334.3645579), Proceedings of WWW, 2024.
   - [Mitigating CI/CD threats through an extended access control model](https://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-346918), Master's thesis Arvid Siberov, 2024.
-  - [BUMP: A Benchmark of Reproducible Breaking Dependency Updates](https://arxiv.org/abs/2401.09906), Proceedings of IEEE SANER, 2024.
-  - [Highly Available Blockchain Nodes With N-Version Design](https://arxiv.org/abs/2303.14438), IEEE Transactions on Dependable and Secure Computing, 2024.
-* 2023 
+  - [BUMP: A Benchmark of Reproducible Breaking Dependency Updates](https://ieeexplore.ieee.org/abstract/document/10589737), Proceedings of IEEE SANER, 2024.
+  - [Highly Available Blockchain Nodes With N-Version Design](https://ieeexplore.ieee.org/abstract/document/10372117/), IEEE Transactions on Dependable and Secure Computing, 2024.
+* 2023
   - [GitBark: A Rule-Based Framework for Maintaining Integrity in Source Code Repositories](https://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-340648), Master's thesis Elias Bonnici, 2023.
-  - [Challenges of Producing Software Bill Of Materials for Java](https://arxiv.org/abs/2303.11102), IEEE Security & Privacy, 2023.
-  - [Silent Spring: Prototype Pollution Leads to Remote Code Execution in Node.js](https://arxiv.org/abs/2207.11171), Usenix Security, 2023.
+  - [Challenges of Producing Software Bill Of Materials for Java](https://www.computer.org/csdl/magazine/sp/2023/06/10235318/1Q41lK4HmYU), IEEE Security & Privacy, 2023.
+  - [Silent Spring: Prototype Pollution Leads to Remote Code Execution in Node.js](https://www.usenix.org/conference/usenixsecurity23/presentation/shcherbakov), Usenix Security, 2023.
   - [Diverse Double-Compiling to Harden Cryptocurrency Software](https://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-323901), Master's thesis Niklas Rosencrantz, 2023.
 * 2022
-  - [The Multibillion Dollar Software Supply Chain of Ethereum](https://arxiv.org/abs/2202.07029), IEEE Computer, 2022.
+  - [The Multibillion Dollar Software Supply Chain of Ethereum](https://ieeexplore.ieee.org/abstract/document/9903894), IEEE Computer, 2022.
 
 
 ## Repositories
