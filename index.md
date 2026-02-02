@@ -117,18 +117,18 @@ Chains alumni: [Deepika Tiwari](https://deee92.github.io/), [Arvid Siberov](http
 
 - Jan 13 2026: Talk: "[Software supply chain attacks and defenses for Web3](http://arxiv.org/pdf/2511.12274)", Martin Monperrus, Nanyang Technological University
 - Dec 17 2025, [Konflux Secure Software Factory and Hermeto](https://www.meetup.com/kth-software-research-meetup/events/312366391/?eventOrigin=group_upcoming_events) [[slides](https://drive.google.com/file/d/1mzbVse8GUr51OzQ4xDE5ol80nqg8HTHK/view)], Adam Kaplan (Red Hat)
-- June 17 2025: [The Academic Nordic Blockchain Workshop 2025](academic-nordic-blockchain-2025.md)
-- April 25 2025: [4th KTH Workshop on the Software Supply Chain](software-supply-chain-workshop-4.md)
-- April 27 2025: Talk: "[Software supply chain attacks and defenses for Web3](http://arxiv.org/pdf/2511.12274)", Martin Monperrus, University of Zurich
+- Jun 17 2025: [The Academic Nordic Blockchain Workshop 2025](academic-nordic-blockchain-2025.md)
+- Apr 25 2025: [4th KTH Workshop on the Software Supply Chain](software-supply-chain-workshop-4.md)
+- Apr 27 2025: Talk: "[Software supply chain attacks and defenses for Web3](http://arxiv.org/pdf/2511.12274)", Martin Monperrus, University of Zurich
 - Jan 30 2025 Consistent Hardening and Analysis of Software Supply Chains, Talk at Umeå University, Martin Monperrus
 - Jan 8 2025, OSS Remediation Ops: From Project-Centric Strategies to Ecosystem-wide Analysis, [Lyuye Zhang](https://lyuyezhang.github.io/), Nanyang Technological University, Singapore
 - Oct 18 2024 GoSurf: Identifying Software Supply Chain Attack Vectors in Go, Talk at SCORED, Carmine Cesarano and Vivi Andersson
 - May 23 2024: [Chains talk at Dataföreningen](https://dfs.se/pa_gang/prata-eu-cyber-resilience-act-med-oss-16-2/)
-- April 26 2024: [3rd KTH Workshop on the Software Supply Chain](software-supply-chain-workshop-3.md)
+- Apr 26 2024: [3rd KTH Workshop on the Software Supply Chain](software-supply-chain-workshop-3.md)
 - Nov 26 2023: [The Chains SBOM orchestra at SCORED](https://github.com/chains-project/sbom-orchestra/), Chains Team, [SCORED 2023](https://scored.dev), Copenhagen
-- October 2023: A Runtime Integrity Tool for Java Dependencies (Aman Sharma et al.). Poster at [SecDev 2023](https://secdev.ieee.org/2023/accepted-posters/)
-- August 18 2023: The Software Supply Chain and its Security Implications. Benoit Baudry at [CTF Midnight sun](https://conf.midnightsunctf.com/speakers/benoit-bauldry)
-- June 5 2023: Keynote "The Software Supply Chain". Benoit Baudry at the [French Conference for Software Research](https://gdrgpl2023.sciencesconf.org/resource/page/id/4). Speaker: Benoit Baudry
+- Oct 2023: A Runtime Integrity Tool for Java Dependencies (Aman Sharma et al.). Poster at [SecDev 2023](https://secdev.ieee.org/2023/accepted-posters/)
+- Aug 18 2023: The Software Supply Chain and its Security Implications. Benoit Baudry at [CTF Midnight sun](https://conf.midnightsunctf.com/speakers/benoit-bauldry)
+- Jun 5 2023: Keynote "The Software Supply Chain". Benoit Baudry at the [French Conference for Software Research](https://gdrgpl2023.sciencesconf.org/resource/page/id/4). Speaker: Benoit Baudry
 - May 25 2023: [The Security Implications of the Software Supply Chain](https://youtu.be/EsUGeWnGZfg). Keynote at the [CDIS Spring Conference](https://www.kth.se/cdis/events/conferences). Speaker: Benoit Baudry
 - Apr 21 2023: [2nd Workshop on the Software Supply Chain @ KTH](https://chains.proj.kth.se/software-supply-chain-workshop-2). Keynote Speakers: [Christian Collberg](https://collberg.cs.arizona.edu/), [Stefano Zacchiroli](https://upsilon.cc/~zack/)
 - Apr 18 2023: [Highly Available Blockchain Nodes With N-Version Design](https://www.meetup.com/kth-software-research-meetup/events/292824632/). Speaker: Javier Ron
