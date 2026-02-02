@@ -115,7 +115,8 @@ Chains alumni: [Deepika Tiwari](https://deee92.github.io/), [Arvid Siberov](http
 
 ## Events & Talks
 
-- Jan 13 2026: Talk: "[Software supply chain attacks and defenses for Web3](http://arxiv.org/pdf/2511.12274)", Martin Monperrus, Nanyang Technological University
+- Apr 24 2026: [5th KTH Workshop on the Software Supply Chain](software-supply-chain-workshop-5.md)
+-  Jan 13 2026: Talk: "[Software supply chain attacks and defenses for Web3](http://arxiv.org/pdf/2511.12274)", Martin Monperrus, Nanyang Technological University
 - Dec 17 2025, [Konflux Secure Software Factory and Hermeto](https://www.meetup.com/kth-software-research-meetup/events/312366391/?eventOrigin=group_upcoming_events) [[slides](https://drive.google.com/file/d/1mzbVse8GUr51OzQ4xDE5ol80nqg8HTHK/view)], Adam Kaplan (Red Hat)
 - Jun 17 2025: [The Academic Nordic Blockchain Workshop 2025](academic-nordic-blockchain-2025.md)
 - Apr 25 2025: [4th KTH Workshop on the Software Supply Chain](software-supply-chain-workshop-4.md)
