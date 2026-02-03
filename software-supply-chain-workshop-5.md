@@ -15,6 +15,7 @@ This workshop is organized in the context of the [CHAINS](https://chains.proj.kt
 * Location: KTH, Stockholm, Sweden, (Exact Room TBA)
 * Date: Friday 24th April, 2026
 * Time: 9h-17h
+* Registration is free and compulsory for sake of lunch/fika planning: [Registration form](https://www.kth.se/form/698077d8a336ea0c04afe556).
 
 ## Program
 
