@@ -23,7 +23,13 @@ This workshop is organized in the context of the [CHAINS](https://chains.proj.kt
 |-------|---------------------------------------------------------------------------------------------|
 | TBD   | TBD                                                                                         |
 
-## Talks
+## Keynote
+
+### TBD, [Justin Cappos](https://engineering.nyu.edu/faculty/justin-cappos), New York University
+
+<img src="workshop_5_assets/justin_cappos.jpg" alt="Justin Cappos" width=100px />
+
+Abstract: TBD
 
 ## Poster session
 
