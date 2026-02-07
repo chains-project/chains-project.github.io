@@ -25,11 +25,16 @@ This workshop is organized in the context of the [CHAINS](https://chains.proj.kt
 
 ## Keynote
 
-### TBD, [Justin Cappos](https://engineering.nyu.edu/faculty/justin-cappos), New York University
+### "SBOMs Are No Longer Mandatory Which Is A Good Thing" and Other Opinionated Software Supply Chain Observations, _by_ [Justin Cappos](https://engineering.nyu.edu/faculty/justin-cappos), New York University
 
 <img src="workshop_5_assets/justin_cappos.jpg" alt="Justin Cappos" width=100px />
 
-Abstract: TBD
+Abstract: Software supply chain security has moved from a niche problem to a critical part of modern software infrastructure.  However, that does not mean that it is well understood overall.  This keynote focuses on a number of common misconceptions about security in the software supply chain.  I will take a position on topics such as "Security might improve now that SBOMs are no longer mandated", "Integrating Sigstore provides less protection against compromise than you might expect", "Signing software updates with Notation or similar technologies provides little security benefit", "Signing Git commits provides only small security value in practice", and "Reproducible builds are a religion (not a science), but you should join!".  Pointed questions / rebuttals from the audience are welcome!
+
+<ins>Speaker Bio</ins>
+
+
+Justin Cappos is a professor in the Computer Science and Engineering Department at New York University. He is a creator of a variety of widely used software supply chain technologies, including TUF, Uptane, gittuf, and in-toto. Working with his collaborators, he has also contributed to security architectures used in Git, reproducible builds, major Linux package managers, popular programming language ecosystems, legal repositories, automobiles, and more. Due to the depth and breadth of these contributions — along with, perhaps, a few gray hairs — he is, to his surprise, sometimes given the moniker “father of software supply chain security".
 
 ## Poster session
 
