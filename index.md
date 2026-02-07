@@ -59,6 +59,7 @@ To get notified about project news, subscribe to the [Chains mailing list](https
   - [Towards Zero-Knowledge Software Bill of Materials](http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-369919), Master’s thesis Tom Sorger, 2025.
   - [Diverse Double-Compiling in a CI/CD Pipeline](http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-369921), Master’s thesis Ludvig Christensen, 2025.
   - [Detecting Semantic Changes in Dependency Updates Using Dynamic Analysis](http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-367525), Master’s thesis Leonard Sebastian Husmann, 2025.
+  - [Automatically Analyzing Reproducibility Issues in Java Maven](http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-376049), Master's thesis Christian Stjernberg (2026)
 * 2024
   - [Code-Reuse Attacks in Managed Programming Languages and Runtimes](https://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-354771), PhD Thesis Mikhail Shcherbakov, 2024.
   - [Automatic Program Repair For Breaking Dependency Updates With Large Language Models](https://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-354835), Master's thesis Federico Bonno, 2024.
