@@ -21,7 +21,8 @@ This workshop is organized in the context of the [CHAINS](https://chains.proj.kt
 
 | Time  | Event                                                                                       |
 |-------|---------------------------------------------------------------------------------------------|
-| TBD   | TBD                                                                                         |
+| TBD   | Olle E. Johansson, The Open Source community prepares for the CRA. Where’s the industry?, Edvina |
+| TBD   | Niels Möller, TBA. Glasklar Teknik AB                                                       |
 
 ## Keynote
 
