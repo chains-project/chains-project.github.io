@@ -21,8 +21,9 @@ This workshop is organized in the context of the [CHAINS](https://chains.proj.kt
 
 | Time  | Event                                                                                       |
 |-------|---------------------------------------------------------------------------------------------|
-| TBD   | Olle E. Johansson, The Open Source community prepares for the CRA. Where’s the industry?, Edvina |
-| TBD   | Niels Möller, The Sigsum transparency system, Glasklar Teknik AB                                                       |
+| TBD   | Olle E. Johansson, "The Open Source community prepares for the CRA. Where’s the industry?", Edvina |
+| TBD   | Niels Möller, "The Sigsum transparency system", Glasklar Teknik AB                                                       |
+| TBD   | Peter Andersson, "Chainguard, the safe source for open source", Chainguard |
 
 ## Keynote
 
