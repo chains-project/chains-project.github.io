@@ -44,6 +44,7 @@ To get notified about project news, subscribe to the [Chains mailing list](https
 (reverse chronological order, newest first)
 
 * 2026
+  - [Verifiable Provenance of Software Artifacts with Zero-Knowledge Compilation](https://arxiv.org/pdf/2602.11887), arXiv 2602.11887, 2026
   - [The Design Space of Lockfiles Across Package Managers](https://link.springer.com/article/10.1007/s10664-025-10789-w), Empirical Software Engineering, 2026.
 * 2025
   - [Dirty-Waters-Action: Automated Feedback toward Cleaning Software Supply Chains](http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-373821), Master's thesis Diogo Gaspar, 2026
