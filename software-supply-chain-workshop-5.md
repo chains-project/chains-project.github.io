@@ -21,9 +21,12 @@ This workshop is organized in the context of the [CHAINS](https://chains.proj.kt
 
 | Time  | Event                                                                                       |
 |-------|---------------------------------------------------------------------------------------------|
-| TBD   | Olle E. Johansson, "The Open Source community prepares for the CRA. Where’s the industry?", Edvina |
-| TBD   | Niels Möller, "The Sigsum transparency system", Glasklar Teknik AB                                                       |
 | TBD   | Peter Andersson, "Chainguard, the safe source for open source", Chainguard |
+| TBD   | Olle E. Johansson, "The Open Source community prepares for the CRA. Where’s the industry?", Edvina |
+| TBD   | Musard Balliu, "TBD", KTH Royal Institute of Technology |
+| TBD   | Niels Möller, "The Sigsum transparency system", Glasklar Teknik AB                                                       |
+| TBD   | Cesar Soto-Valero, "TBD", SEB Group |
+| TBD   | Mojtaba Moazen, "TBD", KTH Royal Institute of Technology |
 | TBD   | Andrew Nesbitt, "TBD", Ecosyste.ms |
 
 ## Keynote
