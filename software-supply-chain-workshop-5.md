@@ -21,13 +21,21 @@ This workshop is organized in the context of the [CHAINS](https://chains.proj.kt
 
 | Time  | Event                                                                                       |
 |-------|---------------------------------------------------------------------------------------------|
-| TBD   | Peter Andersson, "Chainguard, the safe source for open source", Chainguard |
-| TBD   | Olle E. Johansson, "The Open Source community prepares for the CRA. Where’s the industry?", Edvina |
-| TBD   | Musard Balliu, "TBD", KTH Royal Institute of Technology |
-| TBD   | Niels Möller, "The Sigsum transparency system", Glasklar Teknik AB                                                       |
-| TBD   | Cesar Soto-Valero, "TBD", SEB Group |
-| TBD   | Mojtaba Moazen, "TBD", KTH Royal Institute of Technology |
-| TBD   | Andrew Nesbitt, "TBD", Ecosyste.ms |
+| 8h30   | Welcome coffee |
+| 9h   | Opening (XX) |
+| 9h15 | Justin Cappos, SBOMs Are No Longer Mandatory Which Is A Good Thing" and Other Opinionated Software Supply Chain Observations |
+|10h15 | break + poster |
+| 10h45   | Peter Andersson, "Chainguard, the safe source for open source", Chainguard |
+| 11h15   | Olle E. Johansson, "The Open Source community prepares for the CRA. Where’s the industry?", Edvina |
+| 11h45   | Niels Möller, "The Sigsum transparency system", Glasklar Teknik AB  |
+| 12h15   | Lunch |
+| 14h   | Andrew Nesbitt, "TBD", Ecosyste.ms |
+| 14h30   | Cesar Soto-Valero, "TBD", SEB Group |
+| 14h45   | Mojtaba Moazen, "TBD", KTH Royal Institute of Technology |
+| 15h15   | Break + poster |
+| 15h45   | XXX
+| 16h15   |  Musard Balliu, "TBD", KTH Royal Institute of Technology |
+| 17h   |  Closing (XX)  |
 
 ## Keynote
 
