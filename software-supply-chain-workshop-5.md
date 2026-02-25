@@ -33,7 +33,7 @@ This workshop is organized in the context of the [CHAINS](https://chains.proj.kt
 | 14h30   | Cesar Soto-Valero, "TBD", SEB Group |
 | 14h45   | Mojtaba Moazen, "TBD", KTH Royal Institute of Technology |
 | 15h15   | Break + poster |
-| 15h45   | XXX
+| 15h45   | Chains PhD Festival (5min per Chains PhD student)
 | 16h15   |  Musard Balliu, "TBD", KTH Royal Institute of Technology |
 | 17h   |  Closing (XX)  |
 
