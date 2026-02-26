@@ -58,6 +58,7 @@ TBD
 
 <div style="display: flex; justify-content: center;">
 <img src="workshop_5_assets/ssf_logo.svg" alt="SSF" style="width: 200; margin: auto;"/>
+  <img src="workshop_5_assets/df_logo.png" alt="DF" style="max-width: 30%; margin: auto;"/> 
 </div>
 
 ## Previous editions
