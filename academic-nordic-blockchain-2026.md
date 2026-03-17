@@ -25,3 +25,15 @@ The goal of the event is to provide a forum for researchers and practitioners wh
 TBD
 
 **Would you like to speak?** Please reach out to sofbob@kth.se 
+
+
+## Sponsors
+
+<div style="display: flex; justify-content: center;">
+<img src="workshop_5_assets/ssf_logo.svg" alt="SSF" style="width: 200; margin: auto;"/>
+  <img src="workshop_5_assets/df_logo.png" alt="DF" style="max-width: 30%; margin: auto;"/> 
+</div>
+
+
+## Previous editions
+- [The Academic Nordic Blockchain Workshop KTH 2025](https://chains.proj.kth.se/academic-nordic-blockchain-2025)
