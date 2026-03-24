@@ -214,8 +214,12 @@ Source: <https://www.reversinglabs.com/blog/malicious-python-packages-target-pop
 
 [PyPI Package Impersonates SymPy to Deliver Cryptomining Malware](https://socket.dev/blog/pypi-package-impersonates-sympy-to-deliver-cryptomining-malware) (Socket).
 
+### 26. Resolv hack (compromised privileged key), 2026
+
+The Resolv DeFi protocol was attacked after an attacker compromised the AWS KMS environment holding a privileged signing key used for USR minting. The attacker used the key to authorize oversized `completeSwap` mints, creating about 80 million unbacked USR and extracting roughly $23 million in value.
+
+Reference: <https://www.chainalysis.com/blog/lessons-from-the-resolv-hack/>
+
 ## Hardware supply chain attacks
 
 It is possible to tamper with hardware devices used in crypto, typically a hardware wallet. Who would do that: an employee at the company that designed the wallet, the factory that produced it, and everyone involved in shipping it. Ref: <https://vitalik.ca/general/2021/01/11/recovery.html>. Such a real hardware supply chain attack has happened on Trezor wallets (2022): <https://www.kaspersky.com/blog/fake-trezor-hardware-crypto-wallet/48155/>
-
-
