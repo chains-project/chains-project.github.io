@@ -4,7 +4,7 @@ title: CHAINS Software Supply Chain Checklist
 
 This is a checklist for best practices in software supply chain security.
 
-## Basic Security Requirements
+## Apps with Basic Security Requirements
 
 | Rule | Check ✅|
 |----------|----------|
@@ -13,8 +13,9 @@ This is a checklist for best practices in software supply chain security.
 | run security scanners in CI (CodeQL, Snyk, etc.) |          |
 | use branch / tag protection rules |          |
 | have 2FA enabled for all project members |          |
+| disable code execution at package installation time (in NPM `--dignore-scripts`)|          |
 
-## Medium Security Requirements
+## Apps with Medium Security Requirements
 
 | Rule | Check ✅|
 |----------|----------|
@@ -25,7 +26,7 @@ This is a checklist for best practices in software supply chain security.
 | automated creation of release tag |          |
 | automated creation of SBOMs for releases |          |
 
-## High Security Requirements
+## Apps with High Security Requirements
 
 | Rule | Check ✅|
 |----------|----------|
