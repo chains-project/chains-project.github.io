@@ -127,6 +127,16 @@ trustworthy software systems.</p>
 <li > <a href="https://github.com/rschwietzke/jmh-C2-compile">https://github.com/rschwietzke/jmh-C2-compile</a> </li>
 <ol>
 
+### Dependency Fingerprinting: Reconstructing Full Dependency Trees from Partial Observations
+Contact: Aman Sharma, Eric Cornelissen
+
+Package registries expose rich dependency metadata, but in some settings (e.g., private registries, zero-knowledge SBOMs, or obfuscated build manifests) only a subset of a package's dependencies is known.
+This thesis investigates how much of a package's full dependency tree can be inferred from a partial observation of its dependencies.
+Given a set of seed dependencies — a few known direct or transitive packages — the goal is to reconstruct the remaining dependency graph using statistical co-occurrence patterns mined from public registries.
+The study will evaluate inference accuracy as a function of the number and "uniqueness" of seed packages, and compare reconstruction fidelity across ecosystems (Maven, NPM, Go, Rust).
+The results have direct implications for the privacy guarantees of partial SBOM disclosures and zero-knowledge proofs over dependency sets.
+
+
 
 
 
