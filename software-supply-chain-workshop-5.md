@@ -22,7 +22,7 @@ This workshop is organized in the context of the [CHAINS](https://chains.proj.kt
 | Time  | Event                                                                                       |
 |-------|---------------------------------------------------------------------------------------------|
 | 8h30   | Welcome coffee |
-| 9h   | Opening (XX) |
+| 9h   | Opening  |
 | 9h15 | Justin Cappos, SBOMs Are No Longer Mandatory Which Is A Good Thing" and Other Opinionated Software Supply Chain Observations |
 |10h15 | break + poster |
 | 10h45   | Peter Andersson, "Chainguard, the safe source for open source", Chainguard |
@@ -35,7 +35,7 @@ This workshop is organized in the context of the [CHAINS](https://chains.proj.kt
 | 15h15   | Break + poster |
 | 15h45   |  Tom Sorger, "Zero Knowledge SBOM", KTH Royal Institute of Technology |
 | 16h15   | Chains PhD Festival (5min per Chains PhD student)
-| 17h   |  Closing (XX)  |
+| 17h   |  Closing   |
 
 ## Keynote
 
