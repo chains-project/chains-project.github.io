@@ -21,6 +21,7 @@ The project's contributions to the open-source infrastructure.
   * [keep github action logs forever for transparency and auditability of published software packages](https://github.com/orgs/community/discussions/123969)
   * [link to attestation in NPM automated notification emails](https://github.com/orgs/community/discussions/122114)
   * [Github SBOMs are not compatible with Grype](https://github.com/orgs/community/discussions/131104)
+  * [Hide Dependabot/Renovate notifications in GitHub Android app inbox](https://github.com/orgs/community/discussions/192363)
   * [Add expiration date support for SSH keys](https://github.com/orgs/community/discussions/185279)
   * [Inconsistent job labels across different workflow triggers](https://github.com/orgs/community/discussions/186500)
   * [Cron-triggered workflows don't update commit check statuses](https://github.com/orgs/community/discussions/186501)
