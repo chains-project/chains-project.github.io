@@ -30,7 +30,7 @@ This workshop is organized in the context of the [CHAINS](https://chains.proj.kt
 | 11h45   | Niels Möller, "The Sigsum transparency system", Glasklar Teknik AB  |
 | 12h15   | Lunch |
 | 14h   | Andrew Nesbitt, "AI vs Package Management", Ecosyste.ms |
-| 14h30   | Cesar Soto-Valero, "TBD", SEB Group |
+| 14h30   | César Soto Valero, "Moving Fast and Importing Things: The Software Supply Chain of Agentic AI", SEB Group |
 | 14h45   | Mojtaba Moazen, "TBD", KTH Royal Institute of Technology |
 | 15h15   | Break + poster |
 | 15h45   |  Tom Sorger, "Zero Knowledge SBOM", KTH Royal Institute of Technology |
