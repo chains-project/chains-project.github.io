@@ -31,7 +31,7 @@ This workshop is organized in the context of the [CHAINS](https://chains.proj.kt
 | 12h15   | Lunch |
 | 14h   | Andrew Nesbitt, "AI vs Package Management", Ecosyste.ms |
 | 14h30   | César Soto Valero, "Moving Fast and Importing Things: The Software Supply Chain of Agentic AI", SEB Group |
-| 14h45   | Mojtaba Moazen, "TBD", KTH Royal Institute of Technology |
+| 14h45   | Mojtaba Moazen, "Revisiting the GitHub Actions Permission Model", KTH Royal Institute of Technology |
 | 15h15   | Break + poster |
 | 15h45   |  Tom Sorger, "Zero Knowledge SBOM", KTH Royal Institute of Technology |
 | 16h15   | Chains PhD Festival (5min per Chains PhD student)
