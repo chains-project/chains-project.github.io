@@ -52,6 +52,9 @@ This workshop is organized in the context of the [CHAINS](https://chains.proj.kt
 
 <ins>Speaker Bio</ins>: Justin Cappos is a professor in the Computer Science and Engineering Department at New York University. He is a creator of a variety of widely used software supply chain technologies, including TUF, Uptane, gittuf, and in-toto. Working with his collaborators, he has also contributed to security architectures used in Git, reproducible builds, major Linux package managers, popular programming language ecosystems, legal repositories, automobiles, and more. Due to the depth and breadth of these contributions — along with, perhaps, a few gray hairs — he is, to his surprise, sometimes given the moniker “father of software supply chain security".
 
+## PhD Festival
+[Slides](workshop_5_assets/Chains PhD Festival.pdf)
+
 ## Poster session
 
 List of posters:
