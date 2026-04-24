@@ -8,6 +8,10 @@ title: 5th KTH Workshop on the Software Supply Chain 2026
 
 # 5th KTH Workshop on the Software Supply Chain 2026
 
+<p align="center">
+    <img src="workshop_5_assets/cover.jpg" alt="workshop cover image" width="1000px" />
+</p>
+
 Welcome to the 5th KTH Workshop on the Software Supply Chain in Stockholm, Sweden.
 This workshop is organized in the context of the [CHAINS](https://chains.proj.kth.se/) research project.
 
