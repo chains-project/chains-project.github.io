@@ -37,7 +37,7 @@ This workshop is organized in the context of the [CHAINS](https://chains.proj.kt
 | 14h30   | César Soto Valero, "Moving Fast and Importing Things: The Software Supply Chain of Agentic AI", SEB Group |
 | 14h45   | Mojtaba Moazen, "Revisiting the GitHub Actions Permission Model", KTH Royal Institute of Technology |
 | 15h15   | Break + poster |
-| 15h45   |  Tom Sorger, "zkSBOM: Privacy-Preserving SBOM Sharing with Zero-Knowledge Sets" ([slides](workshop_5_assets/slides/zkbom.pdf)), KTH Royal Institute of Technology |
+| 15h45   |  Tom Sorger, "zkSBOM: Privacy-Preserving SBOM Sharing with Zero-Knowledge Sets" ([slides](workshop_5_assets/slides/zksbom.pdf)), KTH Royal Institute of Technology |
 | 16h15   | Chains PhD Festival (5min per Chains PhD student)
 | 17h   |  Closing   |
 
