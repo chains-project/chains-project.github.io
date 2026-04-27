@@ -58,8 +58,12 @@ This workshop is organized in the context of the [CHAINS](https://chains.proj.kt
 ## Poster session
 
 List of posters:
-
-TBD
+* [Automated Audit Trail Generation for Trust Assessment in Open-Source Dependencies](workshop_5_assets/posters/audit_trail.pdf) by Adrian Thees
+* [Evaluating the state of provenance verification in Maven](workshop_5_assets/posters/provenance_maven.pdf) by Johan Nilsson
+* [ReSolVer: Resolution Integrity for npm](workshop_5_assets/posters/resolver.pdf) by Timothy Lindquist
+* [SBOMAudit: A framework for verification of SBOMs using binary analysis](workshop_5_assets/posters/sbom_audit.pdf) by Oscar Bergström
+* [Securing the AI Supply Chain: A Runtime Interceptor for Safe AI Execution](workshop_5_assets/posters/AI_runtime.pdf) by Shannie Chekani
+* [Sigsum: Transparency for signing keys](workshop_5_assets/posters/sisgsum.pdf) by Niels Möller
 
 ## Sponsors
 
