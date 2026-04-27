@@ -31,7 +31,7 @@ This workshop is organized in the context of the [CHAINS](https://chains.proj.kt
 |10h15 | break + poster |
 | 10h45   | Peter Andersson, "Chainguard, the safe source for open source", Chainguard |
 | 11h15   | Olle E. Johansson, "The Open Source community prepares for the CRA. Where’s the industry?", Edvina |
-| 11h45   | Niels Möller, "The Sigsum transparency system", Glasklar Teknik AB  |
+| 11h45   | Niels Möller, "The Sigsum transparency system" ([slides](workshop_5_assets/slides/sigsum.pdf)), Glasklar Teknik AB  |
 | 12h15   | Lunch |
 | 14h   | Andrew Nesbitt, "AI vs Package Management", Ecosyste.ms |
 | 14h30   | César Soto Valero, "Moving Fast and Importing Things: The Software Supply Chain of Agentic AI", SEB Group |
