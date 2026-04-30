@@ -26,7 +26,7 @@ This workshop is organized in the context of the [CHAINS](https://chains.proj.kt
 |-------|---------------------------------------------------------------------------------------------|
 | 8h30   | Welcome coffee |
 | 9h   | Opening  |
-| 9h15 | Justin Cappos, SBOMs Are No Longer Mandatory Which Is A Good Thing" and Other Opinionated Software Supply Chain Observations |
+| 9h15 | Justin Cappos, "SBOMs Are No Longer Mandatory Which Is A Good Thing" and Other Opinionated Software Supply Chain Observations" ([slides](workshop_5_assets/slides/keynote.pdf)), New York University |
 |10h15 | break + poster |
 | 10h45   | Peter Andersson, "Chainguard, the safe source for open source" ([slides](workshop_5_assets/slides/chainguard.pdf)), Chainguard |
 | 11h15   | Olle E. Johansson, "The Open Source community prepares for the CRA. Where’s the industry?", Edvina |
