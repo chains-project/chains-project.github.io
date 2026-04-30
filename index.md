@@ -123,6 +123,7 @@ Chains alumni:
 
 - March 13 2026, Consistent Hardening and Analysis of Software Supply Chains, Talk at University College London, Martin Monperrus
 - Apr 24 2026: [5th KTH Workshop on the Software Supply Chain](software-supply-chain-workshop-5.md)
+- March 23 2026, Figuring Third-Party Software Dependencies Out, Talk at Vrije Universiteit Amsterdam, Benoit Baudry
 -  Jan 13 2026: Talk: "[Software supply chain attacks and defenses for Web3](http://arxiv.org/pdf/2511.12274)", Martin Monperrus, Nanyang Technological University
 - Dec 17 2025, [Konflux Secure Software Factory and Hermeto](https://www.meetup.com/kth-software-research-meetup/events/312366391/?eventOrigin=group_upcoming_events) [[slides](https://drive.google.com/file/d/1mzbVse8GUr51OzQ4xDE5ol80nqg8HTHK/view)], Adam Kaplan (Red Hat)
 - Jun 17 2025: [The Academic Nordic Blockchain Workshop 2025](academic-nordic-blockchain-2025.md)
