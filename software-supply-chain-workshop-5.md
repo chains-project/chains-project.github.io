@@ -28,7 +28,7 @@ This workshop is organized in the context of the [CHAINS](https://chains.proj.kt
 | 9h   | Opening  |
 | 9h15 | Justin Cappos, SBOMs Are No Longer Mandatory Which Is A Good Thing" and Other Opinionated Software Supply Chain Observations |
 |10h15 | break + poster |
-| 10h45   | Peter Andersson, "Chainguard, the safe source for open source", Chainguard |
+| 10h45   | Peter Andersson, "Chainguard, the safe source for open source" ([slides](workshop_5_assets/slides/chainguard.pdf)), Chainguard |
 | 11h15   | Olle E. Johansson, "The Open Source community prepares for the CRA. Where’s the industry?", Edvina |
 | 11h45   | Niels Möller, "The Sigsum transparency system" ([slides](workshop_5_assets/slides/sigsum.pdf)), Glasklar Teknik AB  |
 | 12h15   | Lunch |
