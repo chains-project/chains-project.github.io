@@ -15,9 +15,9 @@ The goal of the event is to provide a forum for researchers and practitioners wh
 
 
 
-* Location: KTH, room TBD
+* Location: [KTH, Room: Sahara,Teknikringen 10B](https://www.kth.se/places/room/id/45951974-aa9f-451f-bb54-11f84dbb1f2b)
 * Date: May 25th, 2026
-* Time:16h-19h
+* Time: 16h-19h
 * Registration is free of charge but compulsory for the sake of fika planning. [Register Here 😄](https://www.kth.se/form/69b14228fa8f3c4d8d2cd18e)
 * Luma event: [https://luma.com/tl38svz5](https://luma.com/tl38svz5)
 
