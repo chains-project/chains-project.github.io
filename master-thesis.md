@@ -153,6 +153,8 @@ Related Work:
 [3] [ecosyste-ms/package-manager-resolvers — A reference for dependency resolution algorithms and strategies across different package managers](https://github.com/ecosyste-ms/package-manager-resolvers)
 [4] [Dependency Solving Is Still Hard, but We Are Getting Better at It](https://arxiv.org/abs/2011.07851)
 [5] [PubGrub: Next-Generation Version Solving](https://nex3.medium.com/pubgrub-2fb6470504f)
+[6] [Package Managers à la Carte: A Formal Model of Dependency Resolution](https://arxiv.org/abs/2602.18602)
+[7] [The stages of package installation](https://nesbitt.io/2026/04/27/the-stages-of-package-installation.html)
 
 
 ---
