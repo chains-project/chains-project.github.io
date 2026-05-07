@@ -130,31 +130,117 @@ trustworthy software systems.</p>
 ### Cross-Ecosystem Dependency Resolution: Applying Foreign Resolver Algorithms Across Build Toolchains
 Contact: Aman Sharma
 
-Every major build ecosystem ships its own dependency resolution algorithm tightly coupled to its build toolchain [1].
+<p>
+Every major build ecosystem ships its own dependency resolution algorithm tightly coupled to its build toolchain
+<a href="#ref1">[1]</a>.
 Maven uses a nearest-wins strategy over a dependency tree.
-Go modules pioneered Minimal Version Selection (MVS) [2].
+Go modules pioneered Minimal Version Selection (MVS)
+<a href="#ref2">[2]</a>.
 Despite the fact that all of these systems ultimately solve the same abstract problem — selecting a consistent, compatible set of package versions from a version graph — dependency resolution is conceptually separable from the build tool itself.
-Given a manifest (e.g., `package.json`, `pom.xml`, `Cargo.toml`), a registry, and an algorithm, the output is a resolved lock set that can in principle be handed to any native build tool for fetching and building.
+Given a manifest (e.g., <code>package.json</code>, <code>pom.xml</code>, <code>Cargo.toml</code>), a registry, and an algorithm, the output is a resolved lock set that can in principle be handed to any native build tool for fetching and building.
+</p>
 
+<p>
 This thesis investigates what happens when you decouple the resolver from the build tool: applying the resolution algorithm of ecosystem A to the dependency manifest of ecosystem B, then using the native build tool of B to build from the foreign-resolved lock set.
-For example, using Maven's nearest-wins strategy to resolve an npm project's `package.json`, then invoking `npm install` against those resolved versions. The study will cover multiple cross-pairings across npm, Maven, Cargo, Go, and PyPI.
+For example, using Maven's nearest-wins strategy to resolve an npm project's <code>package.json</code>, then invoking <code>npm install</code> against those resolved versions.
+The study will cover multiple cross-pairings across npm, Maven, Cargo, Go, and PyPI.
+</p>
 
-Some ideas for research questions can be:
+<p>Some ideas for research questions can be:</p>
 
-- RQ1 (Build Correctness): In what fraction of real-world projects does applying a foreign resolver produce a build that compiles and passes tests, compared to the native resolver?
-- RQ2 (Dependency Minimality): Which resolver algorithm produces the fewest transitive dependencies when applied cross-ecosystem? Does MVS — known to be conservative — consistently produce leaner dependency graphs?
-- RQ3 (Failure Taxonomy): When builds fail under a foreign resolver, what is the root cause? (Missing peer dependency, API breakage, ABI mismatch, missing native module, version underspecification?)
-- RQ4 (Security Trade-offs): Conservative algorithms like MVS may select older versions. Do they select more CVE-affected package versions than the native resolver, as measured against OSV.dev?
+<ul>
+<li>
+<p>
+<strong>RQ1 (Build Correctness):</strong>
+In what fraction of real-world projects does applying a foreign resolver produce a build that compiles and passes tests, compared to the native resolver?
+</p>
+</li>
 
-Related Work:
+<li>
+<p>
+<strong>RQ2 (Dependency Minimality):</strong>
+Which resolver algorithm produces the fewest transitive dependencies when applied cross-ecosystem?
+Does MVS — known to be conservative — consistently produce leaner dependency graphs?
+</p>
+</li>
 
-[1] [Dependency Resolution Algorithms in Different Ecosystems](dependency-resolution/index.md)
-[2] [Minimal Version Selection](https://research.swtch.com/vgo-mvs)
-[3] [ecosyste-ms/package-manager-resolvers — A reference for dependency resolution algorithms and strategies across different package managers](https://github.com/ecosyste-ms/package-manager-resolvers)
-[4] [Dependency Solving Is Still Hard, but We Are Getting Better at It](https://arxiv.org/abs/2011.07851)
-[5] [PubGrub: Next-Generation Version Solving](https://nex3.medium.com/pubgrub-2fb6470504f)
-[6] [Package Managers à la Carte: A Formal Model of Dependency Resolution](https://arxiv.org/abs/2602.18602)
-[7] [The stages of package installation](https://nesbitt.io/2026/04/27/the-stages-of-package-installation.html)
+<li>
+<p>
+<strong>RQ3 (Failure Taxonomy):</strong>
+When builds fail under a foreign resolver, what is the root cause?
+(Missing peer dependency, API breakage, ABI mismatch, missing native module, version underspecification?)
+</p>
+</li>
+
+<li>
+<p>
+<strong>RQ4 (Security Trade-offs):</strong>
+Conservative algorithms like MVS may select older versions.
+Do they select more CVE-affected package versions than the native resolver, as measured against
+<a href="https://osv.dev/">OSV.dev</a>?
+</p>
+</li>
+</ul>
+
+<p><strong>Related Work:</strong></p>
+
+<ol>
+<li id="ref1">
+<p>
+<a href="dependency-resolution/index.md">
+Dependency Resolution Algorithms in Different Ecosystems
+</a>
+</p>
+</li>
+
+<li id="ref2">
+<p>
+<a href="https://research.swtch.com/vgo-mvs">
+Minimal Version Selection
+</a>
+</p>
+</li>
+
+<li id="ref3">
+<p>
+<a href="https://github.com/ecosyste-ms/package-manager-resolvers">
+ecosyste-ms/package-manager-resolvers — A reference for dependency resolution algorithms and strategies across different package managers
+</a>
+</p>
+</li>
+
+<li id="ref4">
+<p>
+<a href="https://arxiv.org/abs/2011.07851">
+Dependency Solving Is Still Hard, but We Are Getting Better at It
+</a>
+</p>
+</li>
+
+<li id="ref5">
+<p>
+<a href="https://nex3.medium.com/pubgrub-2fb6470504f">
+PubGrub: Next-Generation Version Solving
+</a>
+</p>
+</li>
+
+<li id="ref6">
+<p>
+<a href="https://arxiv.org/abs/2602.18602">
+Package Managers à la Carte: A Formal Model of Dependency Resolution
+</a>
+</p>
+</li>
+
+<li id="ref7">
+<p>
+<a href="https://nesbitt.io/2026/04/27/the-stages-of-package-installation.html">
+The stages of package installation
+</a>
+</p>
+</li>
+</ol>
 
 
 ### Dependency Fingerprinting: Reconstructing Full Dependency Trees from Partial Observations
