@@ -125,7 +125,7 @@ trustworthy software systems.</p>
 <ol>
 <li > <a href="https://doi.org/10.1145/634636.586100">Recompilation for debugging support in a JIT-compiler</a> </li>
 <li > <a href="https://github.com/rschwietzke/jmh-C2-compile">https://github.com/rschwietzke/jmh-C2-compile</a> </li>
-<ol>
+</ol>
 
 ### Cross-Ecosystem Dependency Resolution: Applying Foreign Resolver Algorithms Across Build Toolchains
 Contact: Aman Sharma
@@ -156,8 +156,6 @@ Related Work:
 [6] [Package Managers à la Carte: A Formal Model of Dependency Resolution](https://arxiv.org/abs/2602.18602)
 [7] [The stages of package installation](https://nesbitt.io/2026/04/27/the-stages-of-package-installation.html)
 
-
----
 
 ### Dependency Fingerprinting: Reconstructing Full Dependency Trees from Partial Observations
 Contact: Aman Sharma, Eric Cornelissen
