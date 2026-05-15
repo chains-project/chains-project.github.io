@@ -12,17 +12,26 @@ Welcome to the KTH Academic Nordic Blockchain Workshop, a side event of [Nordic 
 
 The goal of the event is to provide a forum for researchers and practitioners who are advancing blockchain technology. 
 
-
-
-
 * Location: [KTH, Room: Sahara,Teknikringen 10B](https://www.kth.se/places/room/id/45951974-aa9f-451f-bb54-11f84dbb1f2b)
 * Date: May 25th, 2026
 * Time: 16h-19h
 * Registration is free of charge but compulsory for the sake of fika planning. [Register Here 😄](https://www.kth.se/form/69b14228fa8f3c4d8d2cd18e)
 * Luma event: [https://luma.com/tl38svz5](https://luma.com/tl38svz5)
 
-## Program
-TBD
+# Event Program 
+ 
+| Time  | Activity | Details |
+|-------|----------|---------|
+| 16:05 | **Welcome** | |
+| 16:10 | **Introduction** | Everyone shares their name, University/company, and a one-sentence description of their research area |
+| 16:20 | **1st Keynote — TBA** | 20 min talk + 5 min Q&A |
+| 16:50 | **PhD & Postdoc Pitches** *(7 min + 3 min Q&A each)* | 1. Javier Ron — KTH<br>2. Raphina Liu — KTH<br>3. Sofia Bobadilla — KTH<br>4. Gabriella Aranciu — Jönköping |
+| 17:30 | **Break** | |
+| 17:50 | **2nd Keynote — Martin Monperrus** | Web3 Security — 20 min talk + 5 min Q&A |
+| 18:20 | **Master Student Pitches** *(5 min each)* | 1. Rong Jin — KTH<br>2. Humaira Afrin — KTH<br>3. Angela Novelli — KTH |
+| 18:35 | **Open Discussion & Mingle** | |
+| 19:00 | **Closing** | |
+
 
 **Would you like to speak?** Please reach out to sofbob@kth.se 
 
