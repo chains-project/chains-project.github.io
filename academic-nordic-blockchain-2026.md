@@ -24,12 +24,13 @@ The goal of the event is to provide a forum for researchers and practitioners wh
 |-------|----------|---------|
 | 16:05 | **Welcome** | |
 | 16:10 | **Introduction** | Everyone shares their name, University/company, and a one-sentence description of their research area |
-| 16:20 | **1st Keynote - Bertram Steininger** | Tokenization in Capital Markets: Status and Outlook - 20 min talk + 5 min Q&A |
-| 16:50 | **PhD & Postdoc Pitches** *(7 min + 3 min Q&A each)* | 1. Javier Ron - KTH<br>2. Raphina Liu - KTH<br>3. Sofia Bobadilla - KTH<br>4. Gabriella Aranciu - Jönköping |
-| 17:30 | **Break** | |
-| 17:50 | **2nd Keynote - Martin Monperrus** | Software Supply Chain Security of Web3 - 20 min talk + 5 min Q&A |
-| 18:20 | **Master Student Pitches** *(5 min each)* | 1. Rong Jin - KTH<br>2. Humaira Afrin - KTH<br>3. Angela Novelli - KTH |
-| 18:35 | **Open Discussion & Mingle** | |
+| 16:20 | **1st Keynote - Bertram Steininger (KTH)** | Tokenization in Capital Markets: Status and Outlook - 15 min talk + 5 min Q&A |
+| 16:40 | **PhD & Postdoc Pitches** *(5 min + 3 min Q&A each)* | 1. Javier Ron - KTH<br>2. Raphina Liu - KTH<br>3. Sofia Bobadilla - KTH<br>4. Gabriella Aranciu - Jönköping |
+| 17:15 | **Break** | |
+| 17:35 | **2nd Keynote - Martin Monperrus (KTH)** | Software Supply Chain Security of Web3 - 20 min talk + 5 min Q&A |
+| 18:00 | **Industry Talk** *(10 min each)* | 1. Gustav Hartz (Cecuro) - State of AI Smart Contract Security<br>2. Henrik Westerberg (Sapio Network)- Design of a multi-asset-backed stablecoin and a multilateral order matching system |
+| 18:20 | **Master Student Pitches** *(5 min each)* | 1. Rong Jin - KTH<br>2. Humaira Afrin - KTH |
+| 18:30 | **Open Discussion & Mingle** | |
 | 19:00 | **Closing** | |
 
 
