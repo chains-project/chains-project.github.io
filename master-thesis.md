@@ -243,6 +243,84 @@ The stages of package installation
 </ol>
 
 
+### Escaping the Hermetic Boundary: What Automated Dependency Prefetch Tools Miss Across Software Ecosystems
+Contact: Aman Sharma
+
+<p>
+Tools like Hermeto
+<a href="#herm1">[1]</a>
+promise hermetic container builds by prefetching all declared dependencies before network isolation kicks in.
+In theory, the build then runs against a closed, auditable set of inputs.
+In practice, the hermetic guarantee is partial: Hermeto addresses the <em>declared dependency layer</em> — what appears in lockfiles like <code>package-lock.json</code>, <code>Cargo.lock</code>, or <code>requirements.txt</code> — but leaves the <em>toolchain and native dependency layer</em> to the user.
+Meanwhile, Nix
+<a href="#herm2">[2]</a>
+offers a theoretically stronger model: content-addressed derivations, sandboxed builds, and a store that captures the full dependency closure including compilers and system libraries.
+An ecosystem of automated translation tools — <code>dream2nix</code>, <code>poetry2nix</code>, <code>cargo2nix</code>
+<a href="#herm3">[3]</a>
+— attempts to generate these derivations from standard lockfiles, but their actual hermetic coverage has never been systematically measured.
+</p>
+
+<p>
+This thesis investigates the <em>hermetic gap</em>: the delta between what automated hermetic build tools declare as the dependency set and what the build actually consumes at runtime.
+Using syscall tracing (following the methodology of Zheng et al.
+<a href="#herm4">[4]</a>),
+the study will instrument builds of real-world projects across npm, pip, Cargo, Go, and Maven — first through Hermeto+container, then through auto-generated Nix derivations — and compare observed file accesses against declared inputs.
+The goal is not to build a new tool but to characterize where and why existing hermetic build approaches fail, and whether Nix's stronger model actually delivers on its theoretical advantage in practice.
+</p>
+
+<ul>
+<li>
+<p>
+<strong>RQ1 (Hermetic Coverage):</strong>
+What fraction of actual build-time and runtime dependencies are captured by automated hermetic build tools versus observed via syscall tracing, and how does this fraction vary across ecosystems?
+</p>
+</li>
+
+<li>
+<p>
+<strong>RQ2 (Escape Taxonomy):</strong>
+When dependencies escape the hermetic boundary, what classes do they fall into — undeclared system libraries, build toolchain leakage, native extension bindings, or implicit platform assumptions — and which classes are addressable by the tool vs. inherent to the ecosystem?
+</p>
+</li>
+</ul>
+
+<p><strong>Related Work:</strong></p>
+
+<ol>
+<li id="herm1">
+<p><a href="https://github.com/hermetoproject/hermeto">Hermeto — prefetch CLI for hermetic container builds</a></p>
+</li>
+
+<li id="herm2">
+<p><a href="https://nixos.org/">Nix — purely functional package manager with content-addressed builds</a></p>
+</li>
+
+<li id="herm3">
+<p><a href="https://github.com/nix-community/dream2nix">dream2nix — automated Nix derivation generation from package manager metadata</a></p>
+</li>
+
+<li id="herm4">
+<p><a href="https://ieeexplore.ieee.org/document/10703127">Zheng, Adams, Hassan — On Build Hermeticity in Bazel-Based Build Systems, IEEE Software 2025</a></p>
+</li>
+
+<li>
+<p><a href="https://arxiv.org/pdf/2104.06020">Lamb &amp; Zacchiroli — Reproducible Builds: Increasing the Integrity of Software Supply Chains, IEEE Software 2021</a></p>
+</li>
+
+<li>
+<p><a href="https://slsa.dev/">SLSA — Supply-chain Levels for Software Artifacts framework</a></p>
+</li>
+
+<li>
+<p><a href="https://arxiv.org/abs/2505.04834">The Design Space of Lockfiles Across Package Managers, Empirical Software Engineering 2025</a></p>
+</li>
+
+<li>
+<p><a href="https://www.nature.com/articles/s41598-025-29762-0">SBOM Generation Based on Code-Level External Component Trees, Scientific Reports 2025</a></p>
+</li>
+</ol>
+
+
 ### Dependency Fingerprinting: Reconstructing Full Dependency Trees from Partial Observations
 Contact: Aman Sharma, Eric Cornelissen
 
