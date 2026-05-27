@@ -260,7 +260,7 @@ Related Work:
 
 [2] [dream2nix — automated Nix derivation generation from package manager metadata](https://github.com/nix-community/dream2nix)
 
-[3] [Zheng, Adams, Hassan — On Build Hermeticity in Bazel-Based Build Systems, IEEE Software 2025](https://ieeexplore.ieee.org/document/10703127)
+[3] [Zheng, Adams, Hassan — On Build Hermeticity in Bazel-Based Build Systems, IEEE Software 2025](https://mcislab.github.io/publications/2025/ieeesw-shenyu.pdf)
 
 [4] [Lamb & Zacchiroli — Reproducible Builds: Increasing the Integrity of Software Supply Chains, IEEE Software 2021](https://arxiv.org/pdf/2104.06020)
 
