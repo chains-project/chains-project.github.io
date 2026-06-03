@@ -243,7 +243,7 @@ The stages of package installation
 </ol>
 
 
-### Escaping the Hermetic Boundary
+### Beyond Declared Dependencies: The Limits of Hermetic Build Tools
 Contact: Aman Sharma
 
 Tools like [Hermeto][herm1] promise hermetic container builds by prefetching all declared dependencies before network isolation kicks in. In theory, the build runs against a closed, auditable set of inputs. In practice, the hermetic guarantee is layered and partial: Hermeto addresses the *declared dependency layer* — what appears in lockfiles like `package-lock.json`, `Cargo.lock`, or `requirements.txt` — but leaves the *toolchain and native dependency layer* to the user. Nix offers a theoretically stronger model: content-addressed derivations, sandboxed builds, and a store that captures the full dependency closure including compilers and system libraries. An ecosystem of automated translation tools — `dream2nix`, `poetry2nix`, `cargo2nix` [2] — attempts to generate these derivations from standard lockfiles, but the two models rest on different assumptions about what a hermetic boundary even means.
