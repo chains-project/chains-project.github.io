@@ -243,16 +243,12 @@ The stages of package installation
 </ol>
 
 
-### Escaping the Hermetic Boundary: What Automated Dependency Prefetch Tools Miss Across Software Ecosystems
+### Escaping the Hermetic Boundary
 Contact: Aman Sharma
 
-Tools like [Hermeto][herm1] promise hermetic container builds by prefetching all declared dependencies before network isolation kicks in. In theory, the build then runs against a closed, auditable set of inputs. In practice, the hermetic guarantee is partial: Hermeto addresses the *declared dependency layer* — what appears in lockfiles like `package-lock.json`, `Cargo.lock`, or `requirements.txt` — but leaves the *toolchain and native dependency layer* to the user. Meanwhile, Nix offers a theoretically stronger model: content-addressed derivations, sandboxed builds, and a store that captures the full dependency closure including compilers and system libraries. An ecosystem of automated translation tools — `dream2nix`, `poetry2nix`, `cargo2nix` [2] — attempts to generate these derivations from standard lockfiles, but their actual hermetic coverage has never been systematically measured.
+Tools like [Hermeto][herm1] promise hermetic container builds by prefetching all declared dependencies before network isolation kicks in. In theory, the build runs against a closed, auditable set of inputs. In practice, the hermetic guarantee is layered and partial: Hermeto addresses the *declared dependency layer* — what appears in lockfiles like `package-lock.json`, `Cargo.lock`, or `requirements.txt` — but leaves the *toolchain and native dependency layer* to the user. Nix offers a theoretically stronger model: content-addressed derivations, sandboxed builds, and a store that captures the full dependency closure including compilers and system libraries. An ecosystem of automated translation tools — `dream2nix`, `poetry2nix`, `cargo2nix` [2] — attempts to generate these derivations from standard lockfiles, but the two models rest on different assumptions about what a hermetic boundary even means.
 
-This thesis investigates the *hermetic gap*: the delta between what automated hermetic build tools declare as the dependency set and what the build actually consumes at runtime. Using syscall tracing (following the methodology of Zheng et al. [3]), the study will instrument builds of real-world projects across npm, pip, Cargo, Go, and Maven — first through Hermeto+container, then through auto-generated Nix derivations — and compare observed file accesses against declared inputs. The goal is not to build a new tool but to characterize where and why existing hermetic build approaches fail, and whether Nix's stronger model actually delivers on its theoretical advantage in practice.
-
-**RQ1 (Hermetic Coverage):** What fraction of actual build-time and runtime dependencies are captured by automated hermetic build tools versus observed via syscall tracing, and how does this fraction vary across ecosystems?
-
-**RQ2 (Escape Taxonomy):** When dependencies escape the hermetic boundary, what classes do they fall into — undeclared system libraries, build toolchain leakage, native extension bindings, or implicit platform assumptions — and which classes are addressable by the tool vs. inherent to the ecosystem?
+This thesis investigates the *hermetic gap*: the delta between what a tool declares as its dependency set and what a build actually consumes. The central question is whether Nix's stronger closure model translates into a meaningfully tighter boundary in practice, and what classes of dependencies — undeclared system libraries, toolchain leakage, native extension bindings, implicit platform assumptions — fall outside the boundary regardless of which model is used.
 
 Related Work:
 
