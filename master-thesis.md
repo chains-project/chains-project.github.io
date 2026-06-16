@@ -81,12 +81,14 @@ Another question to investigate is if this cache can be repurposed as an allowli
 
 ### Trust Assumptions and Threats in Build Attestation System
 Contact: Larissa Schmid
-<p>Description:
-Build attestations are cryptographically verifiable statements that describe how, when, and by whom a software artifact was produced. They are used for strengthening software supply chain security by ensuring that binaries and container images can be traced back to a documented build process. While standards like SLSA and tools such as Sigstore, Tekton Chains, and GitHub's native attestations promise to ensure trust in build outputs, there is no systematic assessment of their capabilities and limitations. This thesis will examine which trust assumptions different build attestation systems make, what attacker models they use, and how well current implementations satisfy their security goals. The work should evaluate potential attack vectors and propose recommendations for more robust, verifiable provenance. </p>
+
+Description:
+Build attestations are cryptographically verifiable statements that describe how, when, and by whom a software artifact was produced. They are used for strengthening software supply chain security by ensuring that binaries and container images can be traced back to a documented build process. While standards like SLSA and tools such as Sigstore, Tekton Chains, and GitHub's native attestations promise to ensure trust in build outputs, there is no systematic assessment of their capabilities and limitations. This thesis will examine which trust assumptions different build attestation systems make, what attacker models they use, and how well current implementations satisfy their security goals. The work should evaluate potential attack vectors and propose recommendations for more robust, verifiable provenance.
 
 ### Empirical study of vulnerability tracking processes in vulnerability reports
 Contact: Yekatierina Churakova
-<p>Description:
+
+Description:
 Vulnerability scanning tools play a crucial role in the identification and collection of vulnerabilities across different systems and platforms. Having reliable and accurate report, which lists all associated vulnerabilities for the dependencies list, is crucial for supply-chain security. [SBOM](https://cyclonedx.org/capabilities/sbom/) and [VEX](https://cyclonedx.org/capabilities/vex/) productions tools (e.g. [Trivy](https://trivy.dev/), [Grype](https://github.com/anchore/grype), [DepScan](https://github.com/owasp-dep-scan/dep-scan) etc.) are used for this purpose. Every tool has a number of vulnerability database integrations to provide the most distinct report. However, vulnerability databases often use diverse naming conventions, IDs, and tracking systems, making it difficult to reveal information about a specific vulnerability. The inconsistency and fragmentation in vulnerability reporting is hapening, where different references to different vulnerability databases may use different identifiers for the same vulnerability, making it difficult to trace and assess risks consistently.
 In this project we will explore the area of vulnerability tracking and aims to address the vulnerability naming problems. The thesis will be focused on studying the approach for mapping various vulnerability identifiers across different databases to their corresponding Common Vulnerabilities and Exposures (CVE) IDs. The aim is to improve vulnerability tracking, propose a way to solve the naming problem, and enhance the accuracy of vulnerability reports.
 
@@ -99,33 +101,31 @@ Related works:
 
 ### Empirical Study of Compilation Reproducibility in Solidity
 Contact: Aman Sharma
-<p>Description:
+
+Description:
 The reproducibility of software builds is a critical aspect of secure software development This concept has been pushed forward in the context of Solidity, the programming language
 used for writing smart contracts on the Ethereum blockchain, with the notion of "verified contracts".
 In this thesis, you will conduct an empirical study on the reproducibility of compilation in Solidity. You will recompile verified Solidity contracts and analyze the
 consistency of the results. The datasets for this study will be sourced from Etherscan and Sourcify.
 This research will contribute to the understanding of software integrity in the growing field of technology and could potentially inform best practices for
-Solidity development.</p>
-<ol>
-<li ><p><a href="http://arxiv.org/pdf/2104.06020">Reproducible Builds: Increasing the Integrity of Software Supply Chains</a></p>
-</li>
-<li ><p><a href="https://etherscan.io/">Etherscan</a></p>
-</li>
-<li ><p><a href="https://sourcify.dev/">Sourcify</a></p>
-</li></ol>
+Solidity development.
 
-<h3>Reproducible Just-in-Time (JIT) Compilation</h3>
-<p>Contact: Martin Monperrus</p>
-<p>This thesis will explore the concept of reproducible JIT compilation, focusing on the challenges and solutions for ensuring consistent and repeatable execution of 
+1. [Reproducible Builds: Increasing the Integrity of Software Supply Chains](http://arxiv.org/pdf/2104.06020)
+2. [Etherscan](https://etherscan.io/)
+3. [Sourcify](https://sourcify.dev/)
+
+### Reproducible Just-in-Time (JIT) Compilation
+Contact: Martin Monperrus
+
+This thesis will explore the concept of reproducible JIT compilation, focusing on the challenges and solutions for ensuring consistent and repeatable execution of 
 program compilation across different runs. By analyzing the factors that contribute to variability in JIT compilation, such as optimization heuristics, runtime conditions,
 and system configurations, you will propose methodologies to achieve reproducibility. The study will involve the design and implementation of a framework that 
 captures and standardizes the JIT compilation process, enabling developers to reproduce the same JIT compilation results reliably. Through empirical evaluation, the thesis will 
 assess the impact of reproducible JIT compilation on software reliability, debugging, and performance, ultimately contributing to the development of more robust and 
-trustworthy software systems.</p>
-<ol>
-<li > <a href="https://doi.org/10.1145/634636.586100">Recompilation for debugging support in a JIT-compiler</a> </li>
-<li > <a href="https://github.com/rschwietzke/jmh-C2-compile">https://github.com/rschwietzke/jmh-C2-compile</a> </li>
-</ol>
+trustworthy software systems.
+
+1. [Recompilation for debugging support in a JIT-compiler](https://doi.org/10.1145/634636.586100)
+2. [https://github.com/rschwietzke/jmh-C2-compile](https://github.com/rschwietzke/jmh-C2-compile)
 
 ### Beyond Declared Dependencies: The Limits of Hermetic Build Tools
 Contact: Aman Sharma
@@ -149,7 +149,6 @@ Related Work:
 [6] [The Design Space of Lockfiles Across Package Managers, Empirical Software Engineering 2025](https://arxiv.org/abs/2505.04834)
 
 [herm1]: https://github.com/hermetoproject/hermeto
-
 
 ### Dependency Fingerprinting: Reconstructing Full Dependency Trees from Partial Observations
 Contact: Aman Sharma, Eric Cornelissen
