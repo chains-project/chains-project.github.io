@@ -46,6 +46,8 @@ To get notified about project news, subscribe to the [Chains mailing list](https
 * 2026
   - [Verifiable Provenance of Software Artifacts with Zero-Knowledge Compilation](https://arxiv.org/pdf/2602.11887), arXiv 2602.11887, 2026
   - [The Design Space of Lockfiles Across Package Managers](https://link.springer.com/article/10.1007/s10664-025-10789-w), Empirical Software Engineering, 2026.
+  - Ensuring Software Bill of Materials Integrity: A Framework for Automated Validation of SBOMs, Master thesis Oscar Bergström, 2026
+  - Evaluation of SBOM Generation Tools in the Rust Ecosystem: An Empirical Study of Dependency Reconstruction, Metadata Completeness, and BSI Compliance, Master thesis Trang Nguyen, 2026
 * 2025
   - [Dirty-Waters-Action: Automated Feedback toward Cleaning Software Supply Chains](http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-373821), Master's thesis Diogo Gaspar, 2026
   - [NodeShield: Runtime Enforcement of Security-Enhanced SBOMs for Node.js](https://doi.org/10.1145/3719027.3765136), ACM CCS, 2025.
