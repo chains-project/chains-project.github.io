@@ -17,19 +17,6 @@ Related Work:
 
 [2] [Decomposing and Measuring Trust in Open-Source Software Supply Chains](https://dl.acm.org/doi/abs/10.1145/3639476.3639775)
 
-### Comparative Analysis of Software Composition Analysis Tools
-Contact: Larissa Schmid
-
-Software Composition Analysis (SCA) tools scan a project's dependencies to identify known security vulnerabilities, thereby supporting software supply chain security. Although numerous SCA tools have been developed, they differ significantly in functionality, capabilities, and the ecosystems they support. However, there is no comparative analysis that systematically compares these tools. In this Master's thesis, you will collect a representative set of SCA tools, analyze and compare their features, and evaluate them on a shared dataset. The study will provide practical insights into how SCA tools perform across different ecosystems and their relative strengths and limitations. 
-
-Related Work: 
-
-[1] [Software composition analysis for vulnerability detection: An empirical study on Java projects](https://dl.acm.org/doi/abs/10.1145/3611643.3616299)
-
-[2] [Understanding Similarities and Differences Between Software Composition Analysis Tools](https://ieeexplore.ieee.org/abstract/document/10645968)
-
-[3] [Adversarial Analysis of Software Composition Analysis Tools](https://link.springer.com/chapter/10.1007/978-3-031-75764-8_9)
-
 ### Empirical Study of API Differencing Tools for Java Dependencies
 Contact: Frank Reyes Garcia
 
