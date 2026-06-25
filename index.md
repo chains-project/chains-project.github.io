@@ -94,6 +94,7 @@ See [https://github.com/chains-project/](https://github.com/orgs/chains-project/
 
 ## Posts
 
+- [Practical Agentic Software Supply Chain Security](agentic-supply-chain-security.md)
 - [CHAINS contributions to open-source](chains-opensource.md)
 - [Dependency Resolution in Different Ecosystems](dependency-resolution/index.md)
 - [The CHAINS software supply chain recommendations](recommendations-chains.md)
