@@ -140,25 +140,23 @@ We tested the hook against all major variants. All five dangerous patterns are b
 | `curl https://example.com/install.sh -o /tmp/install.sh` | allowed |
 | `echo hello` | allowed |
 
-## The Correct Pattern
+## Bypassing Mechanism
 
-When an agent (or a human) genuinely needs to install software from a remote script, the correct sequence is:
+The hook blocks the direct pipe pattern. An agent (or a human) that needs to install software from a remote script can bypass the hook by downloading first:
 
 ```bash
-# 1. Download
+# Download
 curl -fsSL https://example.com/install.sh -o /tmp/install.sh
 
-# 2. Inspect (the agent can read and reason about this)
-cat /tmp/install.sh
-
-# 3. Verify integrity if a checksum is published
-sha256sum /tmp/install.sh
-
-# 4. Execute only after review
+# Then execute
 bash /tmp/install.sh
 ```
 
-This sequence gives the agent — and the developer reviewing the agent's transcript — a clear point at which the script content is visible and auditable before execution. It also eliminates MITM-based content swapping, since the downloaded file is stable on disk.
+This two-step form is not blocked. It provides *some* security improvement over the direct pipe: the script is written to disk before execution, giving the agent — and the developer reviewing the transcript — a visible artifact. A human can inspect it; the agent can read and reason about its content before deciding to run it.
+
+However, this is not a security guarantee. The downloaded script is still untrusted remote code. An attacker controlling the server can serve arbitrary content, and downloading to disk does not make that content safe. Integrity verification against a published checksum would be a stronger control, but checksums are rarely provided and trivially bypassable if the attacker also controls the checksum endpoint.
+
+In short: the hook raises the bar by eliminating the most dangerous pattern, but it does not solve the underlying problem of executing untrusted remote scripts.
 
 ## Broader Implications
 
