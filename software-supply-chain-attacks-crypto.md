@@ -220,6 +220,16 @@ The Resolv DeFi protocol was attacked after an attacker compromised the AWS KMS 
 
 Reference: <https://www.chainalysis.com/blog/lessons-from-the-resolv-hack/>
 
+### 27. AFI Protocol attack (malicious PoC in fake vulnerability disclosure), 2026
+
+An attacker posing as a white-hat security researcher submitted a fake vulnerability disclosure to AFI Protocol, complete with a Foundry proof-of-concept test suite. Hidden inside was a modified OpenZeppelin ERC20.sol with malicious code in the constructor, and a `foundry.toml` config with `ffi = true`, which allows Foundry to execute arbitrary system-level commands during test runs.
+
+When the developer ran the PoC to verify the reported vulnerability, the malicious constructor triggered, compromised the developer's machine, and the attacker used that access to drain approximately $480k from their afiUSD vault.
+
+References:
+- <https://x.com/afiprotocol_xyz/status/2072324266679259356>
+- [Prevention discussion by Recon](https://x.com/getreconxyz/status/2072670707985629582)
+
 ## Hardware supply chain attacks
 
 It is possible to tamper with hardware devices used in crypto, typically a hardware wallet. Who would do that: an employee at the company that designed the wallet, the factory that produced it, and everyone involved in shipping it. Ref: <https://vitalik.ca/general/2021/01/11/recovery.html>. Such a real hardware supply chain attack has happened on Trezor wallets (2022): <https://www.kaspersky.com/blog/fake-trezor-hardware-crypto-wallet/48155/>
