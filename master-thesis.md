@@ -6,17 +6,6 @@ title: Open Master Thesis Topics in Project Chains
 
 Project Chains hosts master's students for their theses, here are available topics. See [main page](/) for completed theses.
 
-### Audit Trail of Contributors in Dependencies
-Contact: Larissa Schmid
-
-Open-source projects rely on a community of maintainers and contributors, which is a strength but also introduces potential security risks. New contributors, in particular, can represent a vector for vulnerabilities, as demonstrated by incidents such as the compromise of the event-stream package. For projects that depend on such packages, it is critical to monitor changes in maintainers and contributors to make informed decisions about whether to continue trusting a dependency. Audit trails provide verifiable records of who made changes, when they were made, and how they were reviewed and integrated. Maintaining such records helps verify the trustworthiness of new contributors and allows reconstruction of events if a package is compromised. In this master's thesis, you will design and implement a tool that automatically generates audit trails for new contributors in the dependencies of a project. The tool will track commit history, ownership changes of packages, the introduction of new dependencies, and the presence of release signatures along with their traceability to known maintainers. 
-
-Related Work:
-
-[1] [OpenSSF Scorecard: On the Path Toward Ecosystem-Wide Automated Security Metrics](https://ieeexplore.ieee.org/abstract/document/10163720)
-
-[2] [Decomposing and Measuring Trust in Open-Source Software Supply Chains](https://dl.acm.org/doi/abs/10.1145/3639476.3639775)
-
 ### Empirical Study of API Differencing Tools for Java Dependencies
 Contact: Frank Reyes Garcia
 
@@ -65,12 +54,6 @@ Another question to investigate is if this cache can be repurposed as an allowli
 
 [1] [SBOM.EXE: Countering Dynamic Code Injection based on Software Bill of Materials in Java](https://arxiv.org/abs/2407.00246)
 
-
-### Trust Assumptions and Threats in Build Attestation System
-Contact: Larissa Schmid
-
-Description:
-Build attestations are cryptographically verifiable statements that describe how, when, and by whom a software artifact was produced. They are used for strengthening software supply chain security by ensuring that binaries and container images can be traced back to a documented build process. While standards like SLSA and tools such as Sigstore, Tekton Chains, and GitHub's native attestations promise to ensure trust in build outputs, there is no systematic assessment of their capabilities and limitations. This thesis will examine which trust assumptions different build attestation systems make, what attacker models they use, and how well current implementations satisfy their security goals. The work should evaluate potential attack vectors and propose recommendations for more robust, verifiable provenance.
 
 ### Empirical study of vulnerability tracking processes in vulnerability reports
 Contact: Yekatierina Churakova
