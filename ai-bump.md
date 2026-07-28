@@ -44,7 +44,8 @@ Reason codes, for cases where nothing was updated:
 
 - `range-pin` — dependency was written as a range/caret, not an exact pin; `yul` only checks exact pins by design.
 - `cli-install` — Claude ran the package manager's own install command (e.g. `npm install`) instead of writing the manifest itself, so nothing reached `yul` to check.
-- `rate-limited` — an exact stale pin *was* written, but the registry lookup itself failed (Maven Central `429`) and `yul` fails open on resolver errors.
+
+Registry lookups reflect what was current as of July 28, 2026; "latest" versions cited throughout this post are relative to that date.
 
 | Case | Ecosystem | Via | Version update | Reason |
 |---|---|---|---|---|
