@@ -70,20 +70,27 @@ That's the root cause, and it's why every tool that only walks the *declared* PO
 
 ## None of the native mechanisms see it
 
-We checked, directly, against this exact reproduction:
+We checked, directly, against this exact reproduction — each command against its own throwaway local repo, via `-Dmaven.repo.local`, so nothing pre-cached from an earlier step hides the gap:
 
-- **`mvn dependency:tree`** — 0 matches for any of the 8 artifacts above.
-- **`mvn dependency:resolve-plugins`** — 0 matches. It resolves the plugin's own *declared* dependencies (`surefire-api`, `surefire-logger-api`, ...), but the provider isn't among them.
-- **`mvn dependency:go-offline`** — 0 matches. Its own documentation promises "resolve everything needed to build offline." Then, using the exact repo it just populated:
+```
+mvn -B org.apache.maven.plugins:maven-dependency-plugin:3.10.0:tree           -Dmaven.repo.local=sandbox
+mvn -B org.apache.maven.plugins:maven-dependency-plugin:3.10.0:resolve-plugins -Dmaven.repo.local=sandbox
+mvn -B org.apache.maven.plugins:maven-dependency-plugin:3.10.0:go-offline     -Dmaven.repo.local=sandbox
+mvn -B --offline test -Dmaven.repo.local=sandbox   # using the repo go-offline just populated
+```
+
+- **`dependency:tree`** — 0 matches for any of the 8 artifacts above.
+- **`dependency:resolve-plugins`** — 0 matches. It resolves the plugin's own *declared* dependencies (`surefire-api`, `surefire-logger-api`, ...), but the provider isn't among them.
+- **`dependency:go-offline`** — 0 matches. Its own documentation promises "resolve everything needed to build offline." Then, `mvn --offline test` against the exact repo it just populated:
   ```
-  mvn --offline test
-  ...
   [ERROR] The following artifacts could not be resolved:
   org.apache.maven.surefire:surefire-junit-platform:jar:3.2.5 (absent):
   Cannot access central in offline mode and the artifact has not been
   downloaded from it before.
   ```
   A tool whose entire job is "make this buildable offline" ships a repo that isn't.
+
+For comparison, an actual `mvn test -Dmaven.repo.local=sandbox2` run resolves all 8 — inspect `sandbox2/` afterward and every artifact from the diagram is there, `surefire-providers` POM included.
 
 This isn't a Surefire-specific quirk, either. `maven-failsafe-plugin` shares the same provider-selection code and shows the identical blind spot. `maven-compiler-plugin`'s `annotationProcessorPaths` (how tools like Error Prone get attached) resolves outside the main dependency graph too — [MCOMPILER-503](https://issues.apache.org/jira/browse/MCOMPILER-503) is the upstream ticket. `quarkus-maven-plugin` resolves "deployment" extension JARs the same way. `protobuf-maven-plugin`, combined with `os-maven-plugin`, resolves an OS-specific `protoc` binary whose exact coordinate can't even be known without evaluating a Maven extension first. The pattern — a plugin that calls straight into the resolver from its own Mojo code instead of declaring what it needs — is common enough that it has its own [maven-lockfile issue](https://github.com/chains-project/maven-lockfile/issues/1568).
 
