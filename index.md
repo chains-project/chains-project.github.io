@@ -94,6 +94,7 @@ See [https://github.com/chains-project/](https://github.com/orgs/chains-project/
 
 ## Posts
 
+- [The Dependency Your Build Downloads That No Maven Tool Will Show You](maven-hermetic-builds-blind-spot.md)
 - [Avoiding stale dependency declarations via Claude's hook](ai-bump.md)
 - [Practical Agentic Software Supply Chain Security](agentic-supply-chain-security.md)
 - [CHAINS contributions to open-source](chains-opensource.md)
