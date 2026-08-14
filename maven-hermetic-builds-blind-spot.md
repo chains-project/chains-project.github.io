@@ -106,6 +106,27 @@ This isn't a Surefire-specific quirk, either:
 - **`quarkus-maven-plugin`**: resolves "deployment" extension JARs the same way.
 - **`protobuf-maven-plugin`**: combined with `os-maven-plugin`, resolves an OS-specific `protoc` binary whose exact coordinate can't even be known without evaluating a Maven extension first.
 
+## An existing extension gets close, but isn't built for this
+
+[mimir](https://github.com/maveniverse/mimir) is a Maven session-scoped caching extension, and it sits at a lower layer than any of the tools above: it wraps the resolver's connector-to-transport call, so every artifact resolution in the session passes through it — declared or dynamic, it doesn't distinguish. That's a different vantage point than reading the POM graph, so we checked it against the same reproduction, same fresh `-Dmaven.repo.local` sandbox, with mimir's (opt-in, off by default) resolving log turned on:
+
+```
+mvn -B verify -Dmaven.repo.local=sandbox3 \
+  -Dmimir.resolvingLog.enabled=true \
+  -Dmimir.resolvingLog.projectPath=mimir-resolving-log.csv \
+  -Dmimir.resolvingLog.format=csv
+```
+
+All 8 GAVs from the diagram above show up in `mimir-resolving-log.csv`. Mimir does see them — it can't help but see them, since its interception point sits below the declared graph entirely, catching every resolution regardless of what triggered it.
+
+That's not a working substitute for what a lockfile needs, though:
+
+- **No trigger attribution.** The log has no field for "which plugin caused this resolution." A lockfile-focused observer needs to record the triggering Mojo's groupId/artifactId per event, so it can nest each dynamic artifact under `maven-surefire-plugin`; mimir's CSV can't answer "who asked for this."
+- **No static/dynamic split.** Mimir logs everything indiscriminately — 239 rows for this two-dependency reproduction, declared and dynamic alike. Finding the 8 that matter means diffing the log against the declared graph yourself.
+- **Not a lockfile.** The columns are cache/download bookkeeping (URL, repository, cache-hit-or-download status), not integrity data — no checksums, no `generate`/`validate` workflow, and the resolving log itself has to be explicitly turned on.
+
+The mechanism that can actually see the gap already exists in the ecosystem, just aimed at a different job: making resolution fast and cacheable, not making it verifiable and reproducible.
+
 ## [maven-lockfile](https://github.com/chains-project/maven-lockfile)
 
 [maven-lockfile](https://github.com/chains-project/maven-lockfile) is a Maven plugin that pins every dependency of a build to an exact version and checksum in a `lockfile.json`, so the same build always resolves the same artifacts.
