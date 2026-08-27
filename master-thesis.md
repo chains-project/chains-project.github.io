@@ -110,3 +110,25 @@ Related Work:
 [6] [Package Managers à la Carte: A Formal Model of Dependency Resolution](https://arxiv.org/abs/2602.18602)
 
 [7] [The stages of package installation](https://nesbitt.io/2026/04/27/the-stages-of-package-installation.html)
+
+### Beyond Declared Dependencies: The Limits of Hermetic Build Tools
+
+Tools like [Hermeto](https://github.com/hermetoproject/hermeto) promise hermetic container builds by prefetching all declared dependencies before network isolation kicks in. In theory, the build runs against a closed, auditable set of inputs. In practice, the hermetic guarantee is layered and partial: Hermeto addresses the *declared dependency layer* — what appears in lockfiles like `package-lock.json`, `Cargo.lock`, or `requirements.txt` — but leaves the *toolchain and native dependency layer* to the user. Nix offers a theoretically stronger model: content-addressed derivations, sandboxed builds, and a store that captures the full dependency closure including compilers and system libraries. An ecosystem of automated translation tools — `dream2nix`, `poetry2nix`, `cargo2nix` [2] — attempts to generate these derivations from standard lockfiles, but the two models rest on different assumptions about what a hermetic boundary even means.
+
+This thesis investigates the *hermetic gap*: the delta between what a tool declares as its dependency set and what a build actually consumes. The central question is whether Nix's stronger closure model translates into a meaningfully tighter boundary in practice, and what classes of dependencies — undeclared system libraries, toolchain leakage, native extension bindings, implicit platform assumptions — fall outside the boundary regardless of which model is used.
+
+Related Work:
+
+[1] [Hermeto — prefetch CLI for hermetic container builds](https://github.com/hermetoproject/hermeto)
+
+[2] [dream2nix — automated Nix derivation generation from package manager metadata](https://github.com/nix-community/dream2nix)
+
+[3] [Zheng, Adams, Hassan — On Build Hermeticity in Bazel-Based Build Systems, IEEE Software 2025](https://mcislab.github.io/publications/2025/ieeesw-shenyu.pdf)
+
+[4] [Lamb & Zacchiroli — Reproducible Builds: Increasing the Integrity of Software Supply Chains, IEEE Software 2021](https://arxiv.org/pdf/2104.06020)
+
+[5] [SLSA — Supply-chain Levels for Software Artifacts framework](https://slsa.dev/)
+
+[6] [The Design Space of Lockfiles Across Package Managers, Empirical Software Engineering 2025](https://arxiv.org/abs/2505.04834)
+
+[7] [The Dependency Your Build Downloads That No Maven Tool Will Show You](https://chains.proj.kth.se/maven-hermetic-builds-blind-spot.html)
