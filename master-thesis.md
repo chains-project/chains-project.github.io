@@ -17,17 +17,13 @@ The evaluation will measure security-test coverage, vulnerability detection accu
 
 **Related Work:**
 
-1. **OWASP Mobile Application Security Verification Standard (MASVS)**  
-   https://mas.owasp.org/MASVS/
+1. [OWASP Mobile Application Security Verification Standard (MASVS)](https://mas.owasp.org/MASVS/) 
 
-2. **OWASP Mobile Application Security Testing Guide (MASTG)**  
-   https://mas.owasp.org/MASTG/
+2. [OWASP Mobile Application Security Testing Guide (MASTG)](https://mas.owasp.org/MASTG/)
 
-3. **OWASP Mobile Application Security Weakness Enumeration (MASWE)**  
-   https://mas.owasp.org/MASWE/
+3. [OWASP Mobile Application Security Weakness Enumeration (MASWE)](https://mas.owasp.org/MASWE/)
 
-4. Xie, Y., Boström, H., & Chen, Y. (2024). *Large Language Models for Software Security: A Survey*. arXiv:2407.09387.  
-   https://arxiv.org/abs/2407.09387
+4. [Large Language Models for Software Security: A Survey](https://arxiv.org/abs/2407.09387)
 
 ### Verifiable Testing of Software
 
