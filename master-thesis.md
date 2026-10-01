@@ -6,6 +6,29 @@ title: Open Master Thesis Topics in Project Chains
 
 Project Chains hosts master's students for their theses, here are available topics. See [main page](/) for completed theses.
 
+### Agentic-Based Automated Mobile Application Security Assessment
+
+**Description:** This thesis investigates the design and evaluation of an agentic-based framework for automating mobile application security assessment using the OWASP Mobile Application Security Verification Standard (MASVS), Mobile Application Security Weakness Enumeration (MASWE), and Mobile Application Security Testing Guide (MASTG). The OWASP MAS project provides a structured security model consisting of verification requirements, security weaknesses, and corresponding testing procedures, making it suitable for AI-assisted security assessment. The research will involve: 
+- Designing a machine-readable representation of OWASP MASVS controls, MASWE weaknesses, and MASTG test cases.
+- Implementing an agentic framework capable of planning, prioritizing, and orchestrating static and dynamic mobile security analysis tools.
+- Developing an evidence-based mechanism that maps tool outputs to OWASP security requirements and generates traceable security assessment reports.
+- Evaluating the proposed framework using mobile applications with known security properties to assess its effectiveness and reliability.
+The evaluation will measure security-test coverage, vulnerability detection accuracy, false-positive rate, execution time, and reproducibility of findings. The expected scientific contribution is an experimentally validated methodology for evidence-based autonomous mobile application security assessment that improves the automation, traceability, and reliability of OWASP-compliant security testing.
+
+**Related Work:**
+
+1. **OWASP Mobile Application Security Verification Standard (MASVS)**  
+   https://mas.owasp.org/MASVS/
+
+2. **OWASP Mobile Application Security Testing Guide (MASTG)**  
+   https://mas.owasp.org/MASTG/
+
+3. **OWASP Mobile Application Security Weakness Enumeration (MASWE)**  
+   https://mas.owasp.org/MASWE/
+
+4. Xie, Y., Boström, H., & Chen, Y. (2024). *Large Language Models for Software Security: A Survey*. arXiv:2407.09387.  
+   https://arxiv.org/abs/2407.09387
+
 ### Verifiable Testing of Software
 
 Description: This thesis investigates the application of zero-knowledge virtual machines (zkVMs) to create cryptographically verifiable proofs of test execution for software systems. Traditional software testing provides confidence in program correctness, but offers no cryptographic guarantees that tests were actually executed or passed. By leveraging zkVM technology, it becomes possible to generate succinct proofs that specific test cases were run against particular code versions and produced passing results, without revealing sensitive test data or execution traces. The research will involve: (1) implementing a testing framework integrated with zkVM platforms such as RISC Zero or SP1, (2) evaluating the computational overhead and proof generation time for various test suites, (3) designing efficient proof aggregation schemes to handle large test suites, and (4) exploring use cases such as CI/CD pipelines where verifiable test evidence could replace trust in build servers. The work will assess the practicality of zkVM-based testing for real-world software projects, measuring the trade-offs between proof size, generation cost, and verification speed.
