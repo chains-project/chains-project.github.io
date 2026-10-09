@@ -132,3 +132,39 @@ Related Work:
 [6] [The Design Space of Lockfiles Across Package Managers, Empirical Software Engineering 2025](https://arxiv.org/abs/2505.04834)
 
 [7] [The Dependency Your Build Downloads That No Maven Tool Will Show You](https://chains.proj.kth.se/maven-hermetic-builds-blind-spot.html)
+
+### AI Agent Trajectories Faithfulness Verification
+
+AI agents such as Claude Code, Codex and Gemini CLI record their own work as a trajectory. Users, auditors and safety monitors trust this log, but it is a self-report. A compromised, deceived or buggy agent can leave out actions, claim actions it never took, or misdescribe what a command did. In this Master's thesis, you will design and implement a trajectory faithfulness verifier. An observer outside the agent, built with eBPF in the Linux kernel, records file, process and network activity. The verifier then checks each claim in the trajectory against this independent ground truth and reports fabricated, omitted and substituted actions. You will then use the verifier for an empirical study. It will measure how often real trajectories from different agents are unfaithful, how much activity hides beneath the commands agents report, and how reliably manipulated trajectories are detected, including by adaptive attackers.
+
+Related Work:
+
+[1] [LLM Agents Can Easily Tamper With Their Own Traces](https://arxiv.org/pdf/2609.30266)
+
+[2] [Self-Reports Are Not Verification: Environment-Grounded Auditing of LLM Operators](https://arxiv.org/abs/2609.00652)
+
+[3] [AgentSight: System-Level Observability for AI Agents Using eBPF](https://dl.acm.org/doi/10.1145/3766882.3767169)
+
+### Agentic Bill of Materials Generation and Verification
+
+Agentic AI systems are built from software dependencies, models, tools, MCP servers, sub-agents, memory components and external AI services. Current SBOM and AIBOM generators list these components by scanning source code. They do not capture how the components are connected, which model is actually served behind an endpoint, or where a model came from. In this thesis, you will design an Agentic Bill of Materials (ABOM) with three layers: software dependencies, a typed composition graph of agentic components, and the lineage of AI artifacts. You will also implement a generator for it. The generator combines static analysis of manifests, MCP registrations, A2A configurations and model routing definitions with dynamic probing of deployed interfaces. It records both configured and observed component identities and flags any inconsistency between them. You will build a benchmark of agentic applications with known ground-truth composition, and use it to compare your generator against existing ones on completeness and accuracy.
+
+Related Work:
+
+[1] [OWASP CycloneDX Authoritative Guide to AI/ML-BOM](https://cyclonedx.org/guides/OWASP_CycloneDX-Authoritative-Guide-to-AI-ML-BOM-en.pdf)
+
+[2] [Snyk AI-BOM with MCP detection](https://labs.snyk.io/resources/mcps-snyk-ai-bom/)
+
+[3] [SBOMs into Agentic AIBOMs: Schema Extensions, Agentic Orchestration, and Reproducibility Evaluation](https://arxiv.org/abs/2603.10057)
+
+### Verifying Declared Derivations of Open-Weight Models
+
+Open-weight models on Hugging Face declare their lineage in model cards and AIBOMs, for example "LoRA fine-tune of Llama-3.1-8B" or "4-bit quantization of Qwen3". These declarations are never verified. Existing lineage tests can tell whether two models are related, but not whether the declared derivation is complete. For example, a model truthfully declared as a fine-tune may also contain an undeclared backdoor or have its safety alignment removed. In this thesis, you will design and implement a verifier that takes a trusted base model as the reference point. It will check whether the weight differences of a derived model match the declared transformation and localize modifications that no declared step explains. You will run the verifier on a large sample of Hugging Face models to measure how often declarations are wrong or incomplete. You will also evaluate it on a benchmark of models with planted undeclared modifications, including adaptive evasion attempts.
+
+Related Work:
+
+[1] [Independence Tests for Language Models](https://arxiv.org/abs/2502.12292)
+
+[2] [Training Leaves Traces: Centered Residual Signatures for Language Model Lineage Verification](https://arxiv.org/abs/2608.14929)
+
+[3] [Are You Getting What You Pay For? Auditing Model Substitution in LLM APIs](https://arxiv.org/abs/2504.04715)
