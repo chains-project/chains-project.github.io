@@ -168,3 +168,33 @@ Related Work:
 [2] [Training Leaves Traces: Centered Residual Signatures for Language Model Lineage Verification](https://arxiv.org/abs/2608.14929)
 
 [3] [Are You Getting What You Pay For? Auditing Model Substitution in LLM APIs](https://arxiv.org/abs/2504.04715)
+
+### Which Model Wrote This? Robust Attribution of LLM-Generated Text
+
+Text written by large language models is everywhere: in news, reviews, essays, commit messages and source code. Knowing which model produced a given text matters for accountability, for enforcing terms of use, for detecting unauthorized distillation, and for regulation. With the transparency obligations of the EU AI Act taking effect in 2026, providers such as Google and Anthropic have started to embed statistical watermarks in the text their models generate. Watermarks alone do not answer the question, however. Mainstream open-weight models ship without a watermark, and whoever runs one decides whether to add it. Checking a watermark requires the provider's secret key, and providers open their detectors at best to vetted organizations, not to the public. A thorough rewrite by another model can erase a watermark, as providers themselves acknowledge, and free tools now automate such rewriting. Worse, some watermarking schemes can be learned from a model's outputs and then forged, so that a text appears to come from a model that never generated it. At the same time, models leave unintentional fingerprints, such as word choices, formatting habits and code structure, that a classifier can often use to tell them apart, even after the text has been rewritten.
+
+In this thesis, you will design and implement an attribution system that, given a text, identifies which model produced it by combining both kinds of evidence. Since the detectors of deployed watermarks are not public, you will watermark open-weight models yourself with open-source schemes, such as the SynthID-Text implementation in Hugging Face Transformers, and study fingerprints on both open-weight and proprietary models. You will build a benchmark of texts from current proprietary and open-weight models, covering natural-language prose as well as code and commit messages written by coding agents. You will then evaluate attribution under adversarial conditions: watermark scrubbing, paraphrasing by a second model, human editing, mixed authorship and watermark spoofing. Research questions include: Does scrubbing a watermark also remove the model fingerprint, or does the laundered text carry the fingerprint of the rewriting model instead? Can a mismatch between watermark and fingerprint expose a spoofed watermark? How does attribution degrade for models of the same family, for fine-tuned and distilled models, and for short texts?
+
+Related Work:
+
+[1] [A Watermark for Large Language Models](https://arxiv.org/abs/2301.10226)
+
+[2] [Scalable Watermarking for Identifying Large Language Model Outputs (SynthID-Text, Nature 2024)](https://doi.org/10.1038/s41586-024-08025-4)
+
+[3] [Introducing SynthID Text (open-source implementation in Hugging Face Transformers)](https://huggingface.co/blog/synthid-text)
+
+[4] [Unbiased Watermark for Large Language Models](https://arxiv.org/abs/2310.10669)
+
+[5] [Watermark Stealing in Large Language Models](https://arxiv.org/abs/2402.19361)
+
+[6] [Paraphrasing Evades Detectors of AI-Generated Text, but Retrieval is an Effective Defense](https://arxiv.org/abs/2303.13408)
+
+[7] [watermarks-remover: a tool to strip AI watermarks from text and files](https://github.com/guillaumemeyer/watermarks-remover)
+
+[8] [Idiosyncrasies in Large Language Models](https://arxiv.org/abs/2502.12150)
+
+[9] [Authorship Attribution in the Era of LLMs: Problems, Methodologies, and Challenges](https://arxiv.org/abs/2408.08946)
+
+[10] [I Know Which LLM Wrote Your Code Last Summer: LLM Generated Code Stylometry for Authorship Attribution](https://arxiv.org/abs/2506.17323)
+
+[11] [Fingerprinting AI Coding Agents on GitHub](https://arxiv.org/abs/2601.17406)
