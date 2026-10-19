@@ -1,0 +1,42 @@
+{
+  "round": 1,
+  "total_samples": 199,
+  "c2_defaults": {"MaxInlineSize": 35, "FreqInlineSize": 325, "InlineSmallCode": 2500, "MaxInlineLevel": 15, "LoopUnrollLimit": 60, "LoopMaxUnroll": 32},
+  "applied_hints": [],
+  "methods": [
+    {"name": "Simulation::runSumArray", "signature": "()V", "samples": 100, "bytecode_size": 20,
+     "has_loops": true, "osr": true, "c2_code_bytes": 720, "invocations": 1, "backedges": 118896,
+     "calls": [
+       {"caller": "Simulation::runSumArray", "callee": "Simulation::sumArray", "count": 57343, "callee_bytecode_size": 25, "callee_has_loops": true, "callee_c2_code_bytes": 592, "inlined": true},
+       {"caller": "Simulation::runSumArray", "callee": "Simulation::record", "count": 57343, "callee_bytecode_size": 25, "callee_has_loops": false, "callee_c2_code_bytes": 288, "inlined": true},
+       {"caller": "Simulation::record", "callee": "java.util.concurrent.atomic.LongAdder::increment", "count": 112269, "callee_bytecode_size": 6, "callee_has_loops": false, "callee_c2_code_bytes": 0, "inlined": true},
+       {"caller": "java.util.concurrent.atomic.LongAdder::increment", "callee": "java.util.concurrent.atomic.LongAdder::add", "count": 112270, "callee_bytecode_size": 96, "callee_has_loops": false, "callee_c2_code_bytes": 208, "inlined": true},
+       {"caller": "java.util.concurrent.atomic.LongAdder::add", "callee": "java.util.concurrent.atomic.Striped64::casBase", "count": 7819, "callee_bytecode_size": 10, "callee_has_loops": false, "callee_c2_code_bytes": 128, "inlined": true},
+       {"caller": "java.lang.invoke.VarHandleGuards::guard_LJJ_Z", "callee": "java.lang.invoke.VarHandle::checkAccessModeThenIsDirect", "count": 7770, "callee_bytecode_size": 29, "callee_has_loops": false, "callee_c2_code_bytes": 0, "inlined": true},
+       {"caller": "java.lang.invoke.VarHandleGuards::guard_LJJ_Z", "callee": "java.lang.invoke.VarForm::getMemberName", "count": 7770, "callee_bytecode_size": 38, "callee_has_loops": false, "callee_c2_code_bytes": 0, "inlined": true},
+       {"caller": "java.lang.invoke.VarHandleLongs$FieldInstanceReadWrite::weakCompareAndSetRelease", "callee": "java.util.Objects::requireNonNull", "count": 7598, "callee_bytecode_size": 14, "callee_has_loops": false, "callee_c2_code_bytes": 104, "inlined": true}]},
+    {"name": "Simulation::step", "signature": "(LSimulation$Vec;D)LSimulation$Vec;", "samples": 57, "bytecode_size": 481,
+     "has_loops": false, "osr": false, "c2_code_bytes": 368, "invocations": 14690, "backedges": 0,
+     "calls": [
+       {"caller": "Simulation::step", "callee": "Simulation$Vec::x", "count": 14179, "callee_bytecode_size": 5, "callee_has_loops": false, "callee_c2_code_bytes": 0, "inlined": true},
+       {"caller": "Simulation::step", "callee": "Simulation$Vec::y", "count": 14179, "callee_bytecode_size": 5, "callee_has_loops": false, "callee_c2_code_bytes": 0, "inlined": true},
+       {"caller": "Simulation::step", "callee": "Simulation$Vec::z", "count": 14179, "callee_bytecode_size": 5, "callee_has_loops": false, "callee_c2_code_bytes": 0, "inlined": true},
+       {"caller": "Simulation::step", "callee": "Simulation$Vec::<init>", "count": 14179, "callee_bytecode_size": 21, "callee_has_loops": false, "callee_c2_code_bytes": 0, "inlined": true},
+       {"caller": "Simulation$Vec::<init>", "callee": "java.lang.Record::<init>", "count": 14180, "callee_bytecode_size": 5, "callee_has_loops": false, "callee_c2_code_bytes": 0, "inlined": true}]},
+    {"name": "Simulation::runTrajectory", "signature": "()V", "samples": 42, "bytecode_size": 26,
+     "has_loops": true, "osr": true, "c2_code_bytes": 488, "invocations": 1, "backedges": 110599,
+     "calls": [
+       {"caller": "Simulation::runTrajectory", "callee": "Simulation::trajectory", "count": 49151, "callee_bytecode_size": 60, "callee_has_loops": true, "callee_c2_code_bytes": 240, "inlined": true},
+       {"caller": "Simulation::runTrajectory", "callee": "Simulation::record", "count": 49151, "callee_bytecode_size": 25, "callee_has_loops": false, "callee_c2_code_bytes": 288, "inlined": true},
+       {"caller": "Simulation::trajectory", "callee": "Simulation::step", "count": 193976, "callee_bytecode_size": 481, "callee_has_loops": false, "callee_c2_code_bytes": 368, "inlined": false},
+       {"caller": "Simulation::trajectory", "callee": "Simulation$Vec::x", "count": 193976, "callee_bytecode_size": 5, "callee_has_loops": false, "callee_c2_code_bytes": 0, "inlined": true},
+       {"caller": "Simulation::trajectory", "callee": "Simulation$Vec::y", "count": 193976, "callee_bytecode_size": 5, "callee_has_loops": false, "callee_c2_code_bytes": 0, "inlined": true},
+       {"caller": "Simulation::trajectory", "callee": "Simulation$Vec::z", "count": 193976, "callee_bytecode_size": 5, "callee_has_loops": false, "callee_c2_code_bytes": 0, "inlined": true},
+       {"caller": "Simulation::record", "callee": "java.util.concurrent.atomic.LongAdder::increment", "count": 112269, "callee_bytecode_size": 6, "callee_has_loops": false, "callee_c2_code_bytes": 0, "inlined": true},
+       {"caller": "java.util.concurrent.atomic.LongAdder::increment", "callee": "java.util.concurrent.atomic.LongAdder::add", "count": 112270, "callee_bytecode_size": 96, "callee_has_loops": false, "callee_c2_code_bytes": 208, "inlined": true},
+       {"caller": "java.util.concurrent.atomic.LongAdder::add", "callee": "java.util.concurrent.atomic.Striped64::casBase", "count": 7819, "callee_bytecode_size": 10, "callee_has_loops": false, "callee_c2_code_bytes": 128, "inlined": true},
+       {"caller": "java.lang.invoke.VarHandleGuards::guard_LJJ_Z", "callee": "java.lang.invoke.VarHandle::checkAccessModeThenIsDirect", "count": 7770, "callee_bytecode_size": 29, "callee_has_loops": false, "callee_c2_code_bytes": 0, "inlined": true},
+       {"caller": "java.lang.invoke.VarHandleGuards::guard_LJJ_Z", "callee": "java.lang.invoke.VarForm::getMemberName", "count": 7770, "callee_bytecode_size": 38, "callee_has_loops": false, "callee_c2_code_bytes": 0, "inlined": true},
+       {"caller": "java.lang.invoke.VarHandleLongs$FieldInstanceReadWrite::weakCompareAndSetRelease", "callee": "java.util.Objects::requireNonNull", "count": 7598, "callee_bytecode_size": 14, "callee_has_loops": false, "callee_c2_code_bytes": 104, "inlined": true}]}
+  ]
+}

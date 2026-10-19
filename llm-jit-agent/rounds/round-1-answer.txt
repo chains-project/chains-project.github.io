@@ -1,0 +1,2 @@
+# Simulation::step (481 bytes, above FreqInlineSize 325) is not inlined into trajectory despite 193976 calls; inlining it lets escape analysis remove the Simulation$Vec it allocates and returns
+inline Simulation::runTrajectory Simulation::step
