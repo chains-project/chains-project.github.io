@@ -1,8 +1,8 @@
 ---
-title: "JIT Tuning at Runtime with LLM Agent"
+title: "JIT Tuning at Runtime using LLM Agent"
 ---
 
-# JIT Tuning at Runtime with LLM Agent
+# JIT Tuning at Runtime using LLM Agent
 
 HotSpot's optimizing JIT compiler, C2, decides performance improvements using fixed thresholds.
 These thresholds suit Java programs in general.
