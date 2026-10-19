@@ -1,0 +1,1 @@
+# All hot call sites are already inlined, and no hot loop has a concrete reason for an unroll hint, so no hints this round.

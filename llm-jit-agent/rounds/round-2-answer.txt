@@ -1,0 +1,1 @@
+# No hints: every hot call site is already inlined, and the remaining loops are either vectorizable (sumArray) or too large for unrolling to help (trajectory with step inlined).

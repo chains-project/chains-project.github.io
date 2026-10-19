@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 262" width="1000" height="262" role="img" aria-label="Share of running time per compiled method in each round">
+<title>Share of running time per compiled method in each round</title>
+<defs>
+<marker id="arrow-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0969da"/></marker>
+<marker id="arrow-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#bc4c00"/></marker>
+<marker id="arrow-green" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1a7f37"/></marker>
+<marker id="arrow-gray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#6e7781"/></marker>
+</defs>
+<rect width="1000" height="262" fill="#ffffff"/>
+<text x="16" y="28" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" fill="#1f2328" font-weight="bold" text-anchor="start" xml:space="preserve">Share of running time per compiled method</text>
+<text x="16" y="48" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#59636e" font-weight="normal" text-anchor="start" xml:space="preserve">how often each thread was found running that method's code</text>
+<path d="M102.0,88 V82 H456.0 V88" fill="none" stroke="#59636e" stroke-width="1.2"/>
+<text x="279.0" y="76" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#1f2328" font-weight="bold" text-anchor="middle" xml:space="preserve">inline benchmark method</text>
+<path d="M462.0,88 V82 H816.0 V88" fill="none" stroke="#59636e" stroke-width="1.2"/>
+<text x="639.0" y="76" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#1f2328" font-weight="bold" text-anchor="middle" xml:space="preserve">control benchmark method</text>
+<text x="86" y="116.0" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" fill="#1f2328" font-weight="bold" text-anchor="end" xml:space="preserve">Round 1</text>
+<rect x="100" y="94" width="149.20000000000002" height="34" fill="#0969da" rx="3"/>
+<text x="108" y="115.5" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#ffffff" font-weight="bold" text-anchor="start" xml:space="preserve">runTrajectory 21%</text>
+<rect x="251.20000000000002" y="94" width="206.8" height="34" fill="#bc4c00" rx="3"/>
+<text x="259.20000000000005" y="115.5" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#ffffff" font-weight="bold" text-anchor="start" xml:space="preserve">step 29%</text>
+<rect x="460.0" y="94" width="358.0" height="34" fill="#6e7781" rx="3"/>
+<text x="468.0" y="115.5" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#ffffff" font-weight="bold" text-anchor="start" xml:space="preserve">runSumArray 50%</text>
+<text x="832.0" y="108" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#59636e" font-weight="normal" text-anchor="start" xml:space="preserve">step is called, not inlined,</text>
+<text x="832.0" y="124" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#59636e" font-weight="normal" text-anchor="start" xml:space="preserve">so it runs as its own code</text>
+<text x="100" y="150" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#0969da" font-weight="bold" text-anchor="start" xml:space="preserve">↓ hint applied: inline Simulation::runTrajectory Simulation::step</text>
+<text x="86" y="184.0" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" fill="#1f2328" font-weight="bold" text-anchor="end" xml:space="preserve">Round 2</text>
+<rect x="100" y="162" width="358.0" height="34" fill="#0969da" rx="3"/>
+<text x="108" y="183.5" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#ffffff" font-weight="bold" text-anchor="start" xml:space="preserve">runTrajectory 50%</text>
+<rect x="460.0" y="162" width="358.0" height="34" fill="#6e7781" rx="3"/>
+<text x="468.0" y="183.5" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#ffffff" font-weight="bold" text-anchor="start" xml:space="preserve">runSumArray 50%</text>
+<text x="832.0" y="176" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#59636e" font-weight="normal" text-anchor="start" xml:space="preserve">step is inlined, so its time</text>
+<text x="832.0" y="192" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#59636e" font-weight="normal" text-anchor="start" xml:space="preserve">now counts for runTrajectory</text>
+<text x="86" y="236.0" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" fill="#1f2328" font-weight="bold" text-anchor="end" xml:space="preserve">Round 3</text>
+<rect x="100" y="214" width="358.0" height="34" fill="#0969da" rx="3"/>
+<text x="108" y="235.5" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#ffffff" font-weight="bold" text-anchor="start" xml:space="preserve">runTrajectory 50%</text>
+<rect x="460.0" y="214" width="358.0" height="34" fill="#6e7781" rx="3"/>
+<text x="468.0" y="235.5" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#ffffff" font-weight="bold" text-anchor="start" xml:space="preserve">runSumArray 50%</text>
+</svg>
