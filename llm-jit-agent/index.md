@@ -177,7 +177,7 @@ We publish each transcript and redact only the account email.
 
 Running the benchmark produces three rounds of agent suggestions, which the JVM accepts and applies.
 
-All the outputs can be found in the [rounds](rounds/) directory.
+All the outputs can be found in the [rounds](https://github.com/chains-project/chains-project.github.io/tree/main/llm-jit-agent/rounds) directory.
 
 
 The table links each round's session transcript, and the prompt and answer on their own.
