@@ -48,7 +48,7 @@ But someone has to know, at runtime, which method needs which exception.
 
 ## Solution
 
-We propose an LLM agent that watches a running JVM, reads a profile of its hottest compiled code, and suggests compiler directives to improve performance.
+We propose a proof of concept, an LLM agent that watches a running JVM, reads a profile of its hottest compiled code, and suggests compiler directives to improve performance.
 
 C2 then recompiles the affected methods with these directives.
 Since C2 still generates all the code, correctness is guaranteed.
