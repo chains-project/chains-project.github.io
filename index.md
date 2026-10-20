@@ -131,7 +131,7 @@ Chains alumni:
 - Oct 8 2026: ["Maven-Lockfile: Locking Down the JVM Supply Chain for Hermetic Builds"](https://osselceu2026.sched.com/event/2RadG/maven-lockfile-locking-down-the-jvm-supply-chain-for-hermetic-builds-aman-sharma-kth-royal-institute-of-technology-bruno-pimentel-red-hat) [[slides](https://algomaster99.github.io/talks/oss-summit/slides.pdf)], Aman Sharma and Bruno Pimentel (Red Hat), Open Source Summit Europe 2026
 - Oct 6 2026: ["Trusting-Trust Attack against an Entire Linux Distribution through Binary Manipulation"](https://scored.dev/2026/program/) [[slides](https://algomaster99.github.io/talks/scored-2026/slides.pdf)], Aman Sharma, SCORED 2026
 - Sep 18 2026, Consistent Hardening and Analysis of Software Supply Chains, Talk at VTT Technical Research Centre of Finland, Martin Monperrus
-- Oct 2026: ["Making a Lockfile for Maven"](https://openssfcdna2026.sched.com/event/2I45N/making-a-lockfile-for-maven-adam-kaplan-red-hat?iframe=yes&w=100%&sidebar=yes&bg=no), Adam Kaplan, Red Hat, Open Source Summit
+- May 21 2026: ["Making a Lockfile for Maven"](https://openssfcdna2026.sched.com/event/2I45N/making-a-lockfile-for-maven-adam-kaplan-red-hat?iframe=yes&w=100%&sidebar=yes&bg=no), Adam Kaplan, Red Hat, Open Source Summit
 - Apr 24 2026: [5th KTH Workshop on the Software Supply Chain](software-supply-chain-workshop-5.md)
 - March 23 2026, Figuring Third-Party Software Dependencies Out, Talk at Vrije Universiteit Amsterdam, Benoit Baudry
 - March 13 2026, Consistent Hardening and Analysis of Software Supply Chains, Talk at University College London, Martin Monperrus
