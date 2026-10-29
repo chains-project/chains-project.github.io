@@ -52,8 +52,12 @@ To get notified about project news, subscribe to the [Chains mailing list](https
   - [Dirty-Waters-Action: Automated Feedback toward Cleaning Software Supply Chains](http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-373821), Master's thesis Diogo Gaspar, 2026
   - [NodeShield: Runtime Enforcement of Security-Enhanced SBOMs for Node.js](https://doi.org/10.1145/3719027.3765136), ACM CCS,
   - [ProtoDasty - Multi-label taint detection of prototype pollution](http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-378468) Master's thesis Mateus Marinheiro, 2026
-  - [GoLeash: Mitigating Golang Software Supply Chain Attacks with Runtime Policy Enforcement](http://arxiv.org/pdf/2505.11016), Technical report 2505.11016, arXiv, 2025.
-  - [Canonicalization for Unreproducible Builds in Java](https://ieeexplore.ieee.org/abstract/document/11223991/), IEEE Transactions on Software Engineering, 2025.
+  - [GoLeash: Mitigating Golang Software Supply Chain Attacks with Runtime Policy Enforcement](http://arxiv.org/pdf/2505.11016), IEEE Transactions for Software Engineering, 2026.
+  - [Canonicalization for Unreproducible Builds in Java](https://ieeexplore.ieee.org/abstract/document/11223991/), IEEE Transactions on Software Engineering,
+  - [Automatically Analyzing Reproducibility Issues in Java Maven](http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-376049), Master's thesis Christian Stjernberg (2026)
+  - [Automatic Vulnerability Fixes for Securing GitHub Actions](http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-390841), Master's thesis Quang Minh Nguyen (2026)
+    
+2025.
   - [Implementing in-toto SBOM Attestations in an Enterprise Context](http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-363613), Master's thesis Christofer Vikström, 2025.
   - [Dirty-Waters: Detecting Software Supply Chain Smells](https://dl.acm.org/doi/abs/10.1145/3696630.3728578), ACM FSE Companion, 2025.
   - [Software Bills of Materials in Maven Central](https://ieeexplore.ieee.org/abstract/document/11025737), Proceedings of MSR, 2025.
@@ -63,7 +67,7 @@ To get notified about project news, subscribe to the [Chains mailing list](https
   - [Towards Zero-Knowledge Software Bill of Materials](http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-369919), Master’s thesis Tom Sorger, 2025.
   - [Diverse Double-Compiling in a CI/CD Pipeline](http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-369921), Master’s thesis Ludvig Christensen, 2025.
   - [Detecting Semantic Changes in Dependency Updates Using Dynamic Analysis](http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-367525), Master’s thesis Leonard Sebastian Husmann, 2025.
-  - [Automatically Analyzing Reproducibility Issues in Java Maven](http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-376049), Master's thesis Christian Stjernberg (2026)
+
 * 2024
   - [Code-Reuse Attacks in Managed Programming Languages and Runtimes](https://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-354771), PhD Thesis Mikhail Shcherbakov, 2024.
   - [Automatic Program Repair For Breaking Dependency Updates With Large Language Models](https://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-354835), Master's thesis Federico Bonno, 2024.
