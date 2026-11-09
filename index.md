@@ -132,6 +132,7 @@ Chains alumni:
 
 ## Events & Talks
 
+- Apr 23 2027: [6th KTH Workshop on the Software Supply Chain](software-supply-chain-workshop-6.md)
 - Oct 8 2026: ["Maven-Lockfile: Locking Down the JVM Supply Chain for Hermetic Builds"](https://osselceu2026.sched.com/event/2RadG/maven-lockfile-locking-down-the-jvm-supply-chain-for-hermetic-builds-aman-sharma-kth-royal-institute-of-technology-bruno-pimentel-red-hat) [[slides](https://algomaster99.github.io/talks/oss-summit/slides.pdf)], Aman Sharma and Bruno Pimentel (Red Hat), Open Source Summit Europe 2026
 - Oct 6 2026: ["Trusting-Trust Attack against an Entire Linux Distribution through Binary Manipulation"](https://scored.dev/2026/program/) [[slides](https://algomaster99.github.io/talks/scored-2026/slides.pdf)], Aman Sharma, SCORED 2026
 - Sep 18 2026, Consistent Hardening and Analysis of Software Supply Chains, Talk at VTT Technical Research Centre of Finland, Martin Monperrus
