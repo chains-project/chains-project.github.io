@@ -66,17 +66,6 @@ Related Work:
 
 [3] [Datasheets for datasets](https://dl.acm.org/doi/10.1145/3458723)
 
-### Automatic Hardening of Agentic Skills
-
-Description: AI coding agents like Claude Code are extended through "skills": markdown instruction files distributed via open registries such as skills.sh. Skills play the same role as packages in ecosystems like npm or PyPI, but with key differences. By default, skills often execute with broad user privileges and can access the local filesystem and network. Recent studies report widespread vulnerabilities across public skill registries, with confirmed malicious skills performing credential theft, exfiltration, and ransomware delivery. Existing defenses such as community "skill scanners" have been reported to be brittle, failing on simple obfuscated payloads. A core challenge is that skills use natural language to instruct agents to execute code, allowing dynamic interpretation and resolution at runtime. This makes traditional static analysis insufficient and deny-list approaches ineffective. 
-In this thesis, you will investigate security properties of agent skills as a supply chain artifact and design techniques for automatic hardening of skill configurations. This may include capability-based permission models restricting what skills can access, evaluation of sandboxing approaches at different granularities, or detection methods combining static analysis with semantic understanding of skill intent.
-
-Related Work:
-
-[1] [Agent Skills in the Wild: An Empirical Study of Security Vulnerabilities at Scale](https://arxiv.org/pdf/2601.10338)
-
-[2] [Socket Brings Supply Chain Security to skills.sh (blog post)](https://socket.dev/blog/socket-brings-supply-chain-security-to-skills)
-
 ### Privacy-Preserving Transparency for Open-Source Funding with Zero-Knowledge Proofs
 
 Description: Open-source software is increasingly funded by companies and foundations, yet the funding landscape lacks transparency: who funds whom is rarely disclosed, and existing donation platforms reveal either everything or nothing. Companies often prefer not to advertise which projects they fund—whether for competitive reasons, to avoid influencing maintainer decisions, or simply for internal policy. At the same time, the broader community benefits from knowing that a project is sustainably funded and that funding is diversified. This thesis explores how zero-knowledge (ZK) proofs can reconcile these conflicting goals. The core idea is to make funders and recipients publicly visible (i.e., a company funds some open-source project, a maintainer receives funds) while keeping the individual funding edges private (i.e., which company funds which project is not revealed). A ZK proof would allow any party to verify global properties of the funding graph—such as total funding for a project, number of distinct funders, or that no single funder exceeds a dominance threshold—without learning any individual edge. The research will involve: (1) formalizing the privacy and transparency requirements for open-source funding as a graph property problem, (2) designing ZK circuits for relevant aggregate statements (e.g., sum, set membership, graph connectivity), (3) prototyping a system using existing ZK toolkits (e.g., circom, gnark, or SP1) and evaluating its practicality for realistic funding graphs, and (4) analyzing what disclosure policies are achievable and what trade-offs exist between privacy, verifiability, and usability. This is a software engineering and cryptography topic, not a blockchain or cryptocurrency topic: the system would be usable with traditional payment infrastructure and no on-chain settlement is required.
@@ -198,3 +187,15 @@ Related Work:
 [10] [I Know Which LLM Wrote Your Code Last Summer: LLM Generated Code Stylometry for Authorship Attribution](https://arxiv.org/abs/2506.17323)
 
 [11] [Fingerprinting AI Coding Agents on GitHub](https://arxiv.org/abs/2601.17406)
+
+### Monitor-Aware AI Agents: Detecting and Evading Kernel-Level Monitoring
+
+Security tools for AI agents increasingly use eBPF to observe and constrain agents from inside the Linux kernel, tracing system calls, intercepting TLS traffic and enforcing policies. These tools assume that the monitored agent cannot perceive the monitor and therefore cannot adapt to it. This assumption was made for traditional software, and it has never been tested against agents that can explore their environment and change their behavior. In this Master's thesis, you will test whether it holds. You will build a taxonomy of channels through which an unprivileged process can detect eBPF monitoring, such as breakpoints left by probes in memory, timing side effects and system-visible traces. You will then run an empirical study with agents such as Claude Code, Codex and Gemini CLI against open-source monitors such as AgentSight, Tetragon and Falco. It will measure how reliably agents detect monitoring, whether they look for it and behave differently without being instructed to, and whether they can evade it when instructed to. Finally, you will derive design principles for monitors that stay robust against monitor-aware agents and evaluate their cost.
+
+Related Work:
+
+[1] [Evasive Intelligence: Lessons from Malware Analysis for Evaluating AI Agents](https://arxiv.org/abs/2603.15457)
+
+[2] [AgentSight: System-Level Observability for AI Agents Using eBPF](https://dl.acm.org/doi/10.1145/3766882.3767169)
+
+[3] [On Bypassing eBPF Security Monitoring](https://blog.doyensec.com/2022/10/11/ebpf-bypass-security-monitoring.html)
