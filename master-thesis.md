@@ -199,3 +199,15 @@ Related Work:
 [2] [AgentSight: System-Level Observability for AI Agents Using eBPF](https://dl.acm.org/doi/10.1145/3766882.3767169)
 
 [3] [On Bypassing eBPF Security Monitoring](https://blog.doyensec.com/2022/10/11/ebpf-bypass-security-monitoring.html)
+
+### Differential Testing for Formal Solidity: Finding Bugs by Comparing Lean Semantics
+
+Formal verification of smart contracts is only as trustworthy as the formal semantics it rests on. Several projects now give Solidity an executable formal semantics in Lean: Solidity Spec, the Solidity interpreter solidity-lean, and Verity, which targets formally verified contracts with agents. These models describe the same language, so on the same program they must agree. If they do not, at least one of them is wrong, and proofs built on it hold for a language that does not exist. In this Master's thesis, you will find bugs by comparing the Lean models with each other. You will generate Solidity programs (from existing test suites, by grammar-based fuzzing and with LLMs), run each of them in every model, and report every divergence in results, reverts and state changes. You will cover arithmetic and overflow checks, storage layout, inheritance and modifiers, error handling and the fragment of the language each model supports. Each divergence will be triaged as a bug in one model, a difference of supported fragment, or an under-specified corner of Solidity, and reduced to a minimal test case. solc and an EVM implementation serve as a tie-breaker, not as the primary oracle. You will evaluate the approach by the number of confirmed bugs, the language coverage reached, and whether the reports are accepted by the maintainers of the models.
+
+Related Work:
+
+[1] [Solidity Spec: an executable formal model of Solidity in Lean](https://github.com/okcontract/solidity-spec)
+
+[2] [Verity: formally verified smart contracts](https://github.com/lfglabs-dev/verity)
+
+[3] [solidity-lean: a Solidity interpreter in Lean 4](https://github.com/ASSERT-KTH/solidity-lean)
