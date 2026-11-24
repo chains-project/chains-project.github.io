@@ -5,10 +5,11 @@ title: "A Look at Lean's Package Manager, Lake and Reservoir"
 # A Look at Lean's Package Manager, Lake and Reservoir
 
 [Lean 4](https://lean-lang.org/) is a programming language and theorem prover.
-Its packages are handled by three tools.
+Four pieces are involved in getting and building its packages.
 
+- The [Lean toolchain](https://github.com/leanprover/lean4/releases) is one release of Lean. It bundles the `lean` compiler, Lake and the core libraries, and is named by a GitHub repository and release tag, such as `leanprover/lean4:v4.36.0`.
 - [Lake](https://github.com/leanprover/lean4/tree/master/src/lake) is the build tool and package manager that ships with every toolchain.
-- [Reservoir](https://reservoir.lean-lang.org/) is the package registry, run by the Lean FRO.
+- [Reservoir](https://reservoir.lean-lang.org/) is the package registry.
 - [elan](https://github.com/leanprover/elan) is the toolchain manager. It installs the compiler version named in a project's `lean-toolchain` file.
 
 This post goes through the quirks we found in Lake and Reservoir and what they mean for supply chain security.
