@@ -16,20 +16,20 @@ This post goes through the quirks we found in Lake and Reservoir and what they m
 
 ## TL;DR
 
-- **The manifest is `lakefile.toml`, the lockfile is `lake-manifest.json`.** The manifest can also be written as a Lean program, `lakefile.lean`. Despite its name, `lake-manifest.json` is the lockfile.
-- **Packages are Git repositories, built from source.** There is no uploaded archive. Lake clones each dependency's repository into `.lake/packages`, similar to `node_modules`, and builds it locally. Prebuilt binaries are opt-in.
-- **Two ways to name a version.** A package can declare a `version` in its lakefile, but consumers pin Git revisions (a tag, branch or commit). In practice the `version` field is unused.
-- **Mutable references, locked commits.** Branches and tags are allowed in lakefile, but `lake-manifest.json` pins every dependency to a commit SHA.
+- **The manifest is `lakefile.toml` and the lockfile is `lake-manifest.json`.** The manifest can be declarative because TOML is a declarative configuration language. It can also be imperative when written as a Lean program in `lakefile.lean`.
+- **Packages are Git repositories built from source.** There is no uploaded *compiled* archive. Lake clones each dependency's repository into `.lake/packages` and builds it locally. This is similar to `node_modules`. Prebuilt binaries are opt-in.
+- **Conflicting versions.** A package can be referred to by its Git commit or by a Git reference such as a tag or branch. It can also be referred to by the `version` in its manifest. These can conflict.
+- **Mutable references and locked commits.** The manifest allows branches and tags. The lockfile still pins every dependency to a commit SHA.
 - **The lockfile is compulsory.** `lake build` only reads the lockfile. A new dependency needs a `lake update` before it builds.
 - **The commit SHA is the only integrity check.** Lake keeps no checksum of package contents.
-- **The lockfile is flat.** It says whether a dependency is direct or inherited, but not how deep it sits or who pulled it in.
-- **Code runs on update.** Every package in the workspace can run a `post_update` hook, much like npm's `postinstall`.
-- **The registry builds what it lists.** Reservoir crawls GitHub instead of accepting uploads, then builds each package against recent Lean toolchains and reports whether it compiles.
-- **No version solving.** Lake reads dependencies from last to first, and the first entry it sees for a name wins and is copied into `lake-manifest.json`. Conflicts are not detected, they show up as compile errors in the dependency that broke.
+- **The lockfile is flat.** It says whether a dependency is direct or inherited. It does not say how deep it sits or who pulled it in.
+- **Post-install hooks exist.** Every package in the workspace can run a `post_update` hook much like npm's `postinstall`.
+- **The registry builds what it lists.** Reservoir crawls GitHub instead of accepting uploads. It builds each package against recent Lean toolchains and reports whether it compiles.
+- **No dependency conflict resolution.** Two dependencies can depend on different versions of the same package. Lake has no way to resolve a version that works for both. A conflict is only reported as a compile error when it breaks an API.
 
-## Two ways to name a version
+## Conflicting versions
 
-A package can declare its own version in its lakefile.
+A package can declare its own version in its manifest.
 
 ```toml
 name = "foo"
@@ -61,7 +61,7 @@ The real version is the Git tag, and mathlib's tags follow Lean releases (`v4.36
 Requirements may point at branches and tags, both of which can be moved or force-pushed.
 Mathlib itself requires most of its own dependencies at `main` or `master`.
 What keeps this safe is the lockfile.
-Each entry in `lake-manifest.json` stores the requested revision (`inputRev`) next to the commit it resolved to (`rev`).
+Each entry in the lockfile stores the requested revision (`inputRev`) next to the commit it resolved to (`rev`).
 
 ```json
 {"name": "mathlib",
@@ -73,7 +73,7 @@ Each entry in `lake-manifest.json` stores the requested revision (`inputRev`) ne
 ```
 
 Watch the naming.
-`rev` in the lakefile is the request, while `rev` in the manifest is the locked commit.
+`rev` in the manifest is the request, while `rev` in the lockfile is the locked commit.
 
 A moved tag changes nothing until someone runs `lake update`.
 The commit SHA is also the only integrity check.
@@ -83,7 +83,7 @@ On GitHub those SHAs are SHA-1, hardened against known collision attacks but wea
 ## The lockfile is compulsory
 
 `lake build` never resolves dependencies on its own.
-It creates `lake-manifest.json` on the very first build, and after that it only reads it.
+It creates the lockfile on the very first build, and after that it only reads it.
 Add a `require` and the build stops.
 
 ```
@@ -91,12 +91,12 @@ $ lake build
 error: dependency 'foo' not in manifest; use `lake update foo` to add it
 ```
 
-Change the `rev` of an existing dependency and Lake only warns that the manifest is out of date, then keeps building the locked commit.
+Change the `rev` of an existing dependency and Lake only warns that the lockfile is out of date, then keeps building the locked commit.
 Only `lake update` moves pins, so builds are reproducible by default.
 
 ## A flat lockfile
 
-The manifest lists every package in the workspace in one array.
+The lockfile lists every package in the workspace in one array.
 Transitive entries carry `"inherited": true`, and that is all the structure there is.
 
 ```json
@@ -109,9 +109,9 @@ Transitive entries carry `"inherited": true`, and that is all the structure ther
 You cannot tell whether `batteries` sits at depth 2 or depth 5, or which dependency brought it in, and Lake has no `cargo tree` or `npm ls`.
 Reservoir's API does list the dependencies of each indexed revision, but only per package.
 
-## Code runs on update
+## Post-install hooks exist
 
-A `lakefile.lean` is a Lean program, so loading a dependency's configuration already runs its code.
+A manifest written in Lean is a program, so loading a dependency's manifest already runs its code.
 Packages can also register `post_update` hooks.
 
 ```lean
@@ -121,7 +121,7 @@ post_update pkg do
 ```
 
 `lake update` runs the hooks of every package in the workspace, not only the root, and nothing is sandboxed.
-The Lean kernel checks your proofs, but not what a lakefile, a hook or a native `extern_lib` build does on your machine.
+The Lean kernel checks your proofs, but not what a manifest, a hook or a native `extern_lib` build does on your machine.
 
 ## Source by default, binaries on request
 
@@ -137,7 +137,7 @@ Neither download carries a signature or build provenance.
 ## The registry builds what it lists
 
 Reservoir has no publish step.
-It crawls GitHub daily and lists every repository that meets its [inclusion criteria](https://reservoir.lean-lang.org/inclusion-criteria), which are a public non-fork repository, a root `lake-manifest.json`, an OSI-approved license and at least two stars.
+It crawls GitHub daily and lists every repository that meets its [inclusion criteria](https://reservoir.lean-lang.org/inclusion-criteria), which are a public non-fork repository, a lockfile at the repository root, an OSI-approved license and at least two stars.
 Packages are named `@owner/name`, so the namespace and access control are GitHub's.
 There is no trusted publishing because there is no publishing, and there is no advisory database or malware scanning.
 
@@ -148,12 +148,12 @@ Lake enforces the same contract locally.
 
 ## Dependency resolution
 
-Lake does no version solving.
+Lake does no dependency conflict resolution.
 It keeps one copy per package name, never compares two versions of the same package and never backtracks.
 `lake update` works in three steps, described in a doc comment in [`Lake/Load/Resolve.lean`](https://github.com/leanprover/lean4/blob/master/src/lake/Lake/Load/Resolve.lean).
 
 1. Each `require` of the root is resolved to a commit and stored first, so the root's own pins always win.
-2. The `lake-manifest.json` of each direct dependency is read, from the **last declared to the first**. Each entry is copied into the root manifest as `inherited`, unless a package with that name is already there.
+2. The lockfile of each direct dependency is read, from the **last declared to the first**. Each entry is copied into the root's lockfile as `inherited`, unless a package with that name is already there.
 3. Anything still missing is loaded breadth-first, siblings again in reverse order.
 
 The source gives two reasons for the reverse order.
@@ -173,7 +173,7 @@ flowchart TD
   D2 --> Dx2["Dx v1.2.0"]
   D3 --> D31 --> D311 --> Dx3["Dx v1.3.0"]
   D4 --> Dx4["Dx v1.5.0"]
-  Dx4 -.->|"first seen, copied"| M[("lake-manifest.json pins Dx v1.5.0")]
+  Dx4 -.->|"first seen, copied"| M[("lockfile pins Dx v1.5.0")]
   classDef win fill:#d4edda,stroke:#2e7d32,stroke-width:2px
   class Dx4,M win
 </pre>
@@ -183,9 +183,9 @@ flowchart TD
   mermaid.initialize({ startOnLoad: true });
 </script>
 
-Lake reads `D4`'s manifest first, finds `Dx v1.5.0` there and keeps it.
+Lake reads `D4`'s lockfile first, finds `Dx v1.5.0` there and keeps it.
 The copies under `D3`, `D2` and `D1` are ignored.
-Depth plays no role, because every dependency's manifest is already flat.
+Depth plays no role, because every dependency's lockfile is already flat.
 
 | Ecosystem | Rule                                                              | `Dx`     |
 |-----------|-------------------------------------------------------------------|----------|
@@ -195,7 +195,7 @@ Depth plays no role, because every dependency's manifest is already flat.
 
 Lake agrees with Go here, but for a different reason.
 Go picks `v1.5.0` because it is the highest, Lake picks it because `D4` is declared last.
-Move `D4` to the top of the `require` list and Lake reads `D3`'s manifest first and picks `v1.3.0`, the deepest copy in the tree.
+Move `D4` to the top of the `require` list and Lake reads `D3`'s lockfile first and picks `v1.3.0`, the deepest copy in the tree.
 
 Because no versions are compared, conflicts are never reported during resolution.
 If `D2` was tested against `Dx v1.2.0` and uses an API that `v1.5.0` removed, `lake update` succeeds and the error appears later as a compile error inside `D2`.
