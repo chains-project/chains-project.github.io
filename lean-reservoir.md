@@ -95,17 +95,18 @@ Thus, compromising the Lean project.
 
 ## The lockfile is compulsory
 
-`lake build` never resolves dependencies on its own.
-It creates the lockfile on the very first build, and after that it only reads it.
-Add a `require` and the build stops.
+Lake has two commands that matter here.
 
-```
-$ lake build
-error: dependency 'foo' not in manifest; use `lake update foo` to add it
-```
+- `lake update` resolves dependencies. It turns every Git reference in the manifest into a commit SHA and writes those pins to the lockfile.
+- `lake build` compiles the project and all its dependencies. It uses the pinned commits and never resolves anything itself.
 
-Change the `rev` of an existing dependency and Lake only warns that the lockfile is out of date, then keeps building the locked commit.
-Only `lake update` moves pins, so builds are reproducible by default.
+Here is what `lake build` does in each case.
+
+1. **No lockfile yet.** This is the one exception. The first build runs an update and creates the lockfile.
+2. **A new dependency.** The build stops and asks you to run `lake update`.
+3. **A changed `rev`.** The build warns that the lockfile is out of date and keeps using the pinned commit.
+
+Dependencies only move when you run `lake update`.
 
 ## A flat lockfile
 
