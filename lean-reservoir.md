@@ -13,19 +13,26 @@ Four pieces are involved in getting and building its packages.
 - [elan](https://github.com/leanprover/elan) is the toolchain manager. It installs the compiler version named in a project's `lean-toolchain` file.
 
 This post goes through the quirks we found in Lake and Reservoir and what they mean for supply chain security.
+As Lean is increasingly used to verify software, the supply chain that delivers those proofs deserves the same scrutiny as any other.
 
 ## TL;DR
 
-1. **[The manifest is `lakefile.toml` and the lockfile is `lake-manifest.json`](#1-the-manifest-is-lakefiletoml-and-the-lockfile-is-lake-manifestjson).** The manifest can be declarative because TOML is a declarative configuration language. It can also be imperative when written as a Lean program in `lakefile.lean`.
-2. **[Source by default and binaries decided upstream](#2-source-by-default-and-binaries-decided-upstream).** Packages are Git repositories. Lake clones each one into `.lake/packages` and builds it locally. This is similar to `node_modules`. Some packages still arrive as prebuilt binaries. Their developer or Lake decides this and not the downstream user.
-3. **[Conflicting versions](#3-conflicting-versions).** A package can be referred to by its Git commit or by a Git reference such as a tag or branch. It can also be referred to by the `version` in its manifest. These can conflict.
-4. **[Mutable references and locked commits](#4-mutable-references-and-locked-commits).** The manifest allows branches and tags. The lockfile still pins every dependency to a commit SHA.
-5. **[The commit SHA is the only integrity check](#5-the-commit-sha-is-the-only-integrity-check).** Lake keeps no checksum of package contents.
-6. **[The lockfile is compulsory](#6-the-lockfile-is-compulsory).** `lake build` only reads the lockfile. A new dependency needs a `lake update` before it builds.
-7. **[The lockfile is flat](#7-the-lockfile-is-flat).** It says whether a dependency is direct or inherited. It does not say how deep it sits or who pulled it in.
-8. **[Post-install hooks exist](#8-post-install-hooks-exist).** Every package in the workspace can run a `post_update` hook much like npm's `postinstall`.
-9. **[The registry indexes source but hosts binaries](#9-the-registry-indexes-source-but-hosts-binaries).** Reservoir does not store source code. It indexes GitHub repositories and builds each one with its own toolchain and the latest Lean releases. It keeps those builds and serves them as prebuilt binaries.
-10. **[No dependency conflict resolution](#10-no-dependency-conflict-resolution).** Two dependencies can depend on different versions of the same package. Lake has no way to resolve a version that works for both. A conflict is only reported as a compile error when it breaks an API.
+**Pros**
+
+- The lockfile pins every direct and transitive dependency to a commit SHA ([§4](#4-mutable-references-and-locked-commits)).
+- `lake build` only reads the lockfile. Dependencies only move on `lake update` ([§6](#6-the-lockfile-is-compulsory)).
+- Resolution is deterministic ([§10](#10-no-dependency-conflict-resolution)).
+- Reservoir builds every package with its own toolchain and the latest Lean releases. It shows whether each one compiles ([§9](#9-the-registry-indexes-source-but-hosts-binaries)).
+
+**Cons**
+
+- Manifests written in Lean are imperative and run arbitrary code on your machine ([§1](#1-the-manifest-is-lakefiletoml-and-the-lockfile-is-lake-manifestjson)).
+- Packages are distributed as source yet prebuilt binaries arrive by default for some of them. Lake or the package developer decides this and not the user. Lake does not verify the binaries it downloads ([§2](#2-source-by-default-and-binaries-decided-upstream)).
+- A package can be referred to by a Git commit or a Git reference or the `version` in its manifest. These can conflict ([§3](#3-conflicting-versions)).
+- The commit SHA is the only integrity check. A moved tag goes unnoticed on the next `lake update` ([§5](#5-the-commit-sha-is-the-only-integrity-check)).
+- The lockfile is flat. It does not show how deep a dependency sits or who pulled it in ([§7](#7-the-lockfile-is-flat)).
+- `post_update` hooks run arbitrary code on every `lake update`. This includes the hooks of every dependency ([§8](#8-post-install-hooks-exist)).
+- Two dependencies can depend on different versions of the same package. Lake has no way to resolve a version that works for both. A conflict only shows up as a compile error when it breaks an API ([§10](#10-no-dependency-conflict-resolution)).
 
 ## 1. The manifest is `lakefile.toml` and the lockfile is `lake-manifest.json`
 
@@ -216,13 +223,3 @@ Because no versions are compared, conflicts are never reported during resolution
 If `D2` was tested against `Dx v1.2.0` and uses an API that `v1.5.0` removed, `lake update` succeeds and the error appears later as a compile error inside `D2`.
 The dependencies check compatibility for themselves by compiling.
 The fix is a direct `require` for `Dx` in the root, which always wins.
-
-## Takeaway
-
-Lake gets the basics right.
-It has a mandatory lockfile, pins transitive dependencies to commits and makes builds reproducible.
-Its resolution is deterministic but order sensitive and silent on conflicts, which works because the community lines up around mathlib and the Lean toolchain instead of version ranges.
-The weaker side is everything around it.
-Integrity rests on Git SHAs, dependencies run code on update, and prebuilt binaries arrive by default without Lake checking them.
-Reservoir indexes source on GitHub rather than owning its packages, yet it serves its own builds.
-As Lean is increasingly used to verify software, the supply chain that delivers those proofs deserves the same scrutiny as any other.
