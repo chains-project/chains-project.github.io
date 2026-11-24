@@ -111,7 +111,8 @@ Dependencies only move when you run `lake update`.
 ## A flat lockfile
 
 The lockfile lists every package in the workspace in one array.
-Transitive entries carry `"inherited": true`, and that is all the structure there is.
+Direct (the declared) dependencies are listed with `"inherited": false` while
+transitive dependencies carry `"inherited": true`,
 
 ```json
 {"name": "batteries",
@@ -121,7 +122,6 @@ Transitive entries carry `"inherited": true`, and that is all the structure ther
 ```
 
 You cannot tell whether `batteries` sits at depth 2 or depth 5, or which dependency brought it in, and Lake has no `cargo tree` or `npm ls`.
-Reservoir's API does list the dependencies of each indexed revision, but only per package.
 
 ## Post-install hooks exist
 
