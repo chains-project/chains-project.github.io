@@ -135,7 +135,6 @@ post_update pkg do
 ```
 
 `lake update` runs the hooks of every package in the workspace, not only the root, and nothing is sandboxed.
-The Lean kernel checks your proofs, but not what a manifest, a hook or a native `extern_lib` build does on your machine.
 
 ## Source by default, binaries on request
 
