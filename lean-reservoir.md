@@ -1,8 +1,8 @@
 ---
-title: "A Look at Lean's Package Manager, Lake and Reservoir"
+title: "A Look at Lean's Package Manager Lake and Registry Reservoir"
 ---
 
-# A Look at Lean's Package Manager, Lake and Reservoir
+# A Look at Lean's Package Manager Lake and Registry Reservoir
 
 [Lean 4](https://lean-lang.org/) is a programming language and theorem prover.
 Four pieces are involved in getting and building its packages.
