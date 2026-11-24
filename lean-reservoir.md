@@ -66,7 +66,7 @@ Running `lake update` resolves either form into the lockfile.
 Every dependency source is cloned into `.lake/packages` inside the project and compiled from source.
 However, building from source can take hours, so Lake also downloads prebuilt binaries in three cases.
 
-- **Reservoir builds.** Since Lean v4.13.0, Lake downloads a prebuilt archive from Reservoir for every package in the `leanprover` and `leanprover-community` scopes, such as batteries. Nobody opts in. Reservoir lists a hash for each archive, but Lake does not check it before unpacking.
+- **Reservoir builds.** Since Lean v4.13.0, Lake downloads a prebuilt archive from Reservoir for every package in the `leanprover` and `leanprover-community` scopes, such as batteries. Reservoir lists a hash for each archive, but Lake does not check it before unpacking.
 - **mathlib's cache.** `lake exe cache get` is mathlib's own tool. It downloads prebuilt `.olean` files for the locked mathlib commit. Mathlib runs it through its own `post_update` hook, so every project that depends on mathlib downloads these files on `lake update` by default.
 - **GitHub releases.** `preferReleaseBuild := true` makes Lake download a package's build archive from its GitHub release, uploaded with `lake upload`. The package's developer sets this in their own manifest.
 
@@ -148,11 +148,9 @@ Lake has two commands that matter here.
 
 Here is what `lake build` does in each case.
 
-1. **No lockfile yet.** This is the one exception. The first build runs an update and creates the lockfile.
+1. **No lockfile yet.** The first build runs an update and creates the lockfile.
 2. **A new dependency.** The build stops and asks you to run `lake update`.
 3. **A changed `rev`.** The build warns that the lockfile is out of date and keeps using the pinned commit.
-
-Dependencies only move when you run `lake update`.
 
 ## 7. The lockfile is flat
 
@@ -180,7 +178,7 @@ post_update pkg do
   let _ ← child.wait
 ```
 
-`lake update` runs the hooks of every package in the workspace, not only the root, and nothing is sandboxed.
+`lake update` runs the hooks of every package in the workspace without a sandbox.
 
 ## 9. The registry indexes source but hosts binaries
 
@@ -189,12 +187,12 @@ Reservoir has no publish step and only indexes sources, but it runs a build farm
 It crawls GitHub daily and lists every repository that meets its [inclusion criteria](https://reservoir.lean-lang.org/inclusion-criteria), which are a public non-fork repository, a lockfile at the repository root, an OSI-approved license and at least two stars.
 
 It builds each package with the toolchain named in its own `lean-toolchain` file, and also with the latest stable and release-candidate Lean releases.
-The package page then shows "builds on Lean v4.36.0" or "fails to build", a compatibility signal most registries lack.
+The package page then shows "builds on Lean v4.36.0" or "fails to build".
 
 ## 10. No dependency conflict resolution
 
 Lake does no dependency conflict resolution.
-It keeps one copy per package name, never compares two versions of the same package and never backtracks.
+It keeps one copy per package name and does not compare versions.
 `lake update` works in three steps, described in a doc comment in [`Lake/Load/Resolve.lean`](https://github.com/leanprover/lean4/blob/611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9/src/lake/Lake/Load/Resolve.lean#L446-L470).
 
 1. Each `require` of the root is resolved to a commit and stored first, so the root's own pins always win.
@@ -221,5 +219,4 @@ Depth plays no role here, because each direct dependency's lockfile already list
 
 Because no versions are compared, conflicts are never reported during resolution.
 If `D2` was tested against `Dx v1.2.0` and uses an API that `v1.5.0` removed, `lake update` succeeds and the error appears later as a compile error inside `D2`.
-The dependencies check compatibility for themselves by compiling.
-The fix is a direct `require` for `Dx` in the root, which always wins.
+Adding a direct `require` for `Dx` in the root avoids this, since the root's pins always win.
