@@ -17,15 +17,54 @@ This post goes through the quirks we found in Lake and Reservoir and what they m
 ## TL;DR
 
 - **The manifest is `lakefile.toml` and the lockfile is `lake-manifest.json`.** The manifest can be declarative because TOML is a declarative configuration language. It can also be imperative when written as a Lean program in `lakefile.lean`.
-- **Packages are Git repositories built from source.** There is no uploaded *compiled* archive. Lake clones each dependency's repository into `.lake/packages` and builds it locally. This is similar to `node_modules`. Prebuilt binaries are opt-in.
+- **Source by default and binaries decided upstream.** Packages are Git repositories. Lake clones each one into `.lake/packages` and builds it locally. This is similar to `node_modules`. Some packages still arrive as prebuilt binaries. Their developer or Lake decides this and not the downstream user.
 - **Conflicting versions.** A package can be referred to by its Git commit or by a Git reference such as a tag or branch. It can also be referred to by the `version` in its manifest. These can conflict.
 - **Mutable references and locked commits.** The manifest allows branches and tags. The lockfile still pins every dependency to a commit SHA.
 - **The commit SHA is the only integrity check.** Lake keeps no checksum of package contents.
 - **The lockfile is compulsory.** `lake build` only reads the lockfile. A new dependency needs a `lake update` before it builds.
 - **The lockfile is flat.** It says whether a dependency is direct or inherited. It does not say how deep it sits or who pulled it in.
 - **Post-install hooks exist.** Every package in the workspace can run a `post_update` hook much like npm's `postinstall`.
-- **The registry is an indexer.** Reservoir does not store packages. It indexes GitHub repositories and builds each one against recent Lean toolchains to report whether it compiles.
+- **The registry indexes source but hosts binaries.** Reservoir does not store source code. It indexes GitHub repositories and builds each one with its own toolchain and the latest Lean releases. It keeps those builds and serves them as prebuilt binaries.
 - **No dependency conflict resolution.** Two dependencies can depend on different versions of the same package. Lake has no way to resolve a version that works for both. A conflict is only reported as a compile error when it breaks an API.
+
+## The manifest is `lakefile.toml` and the lockfile is `lake-manifest.json`
+
+The manifest comes in two forms.
+The TOML form is declarative.
+
+```toml
+name = "hello"
+
+[[require]]
+name = "mathlib"
+scope = "leanprover-community"
+rev = "v4.36.0"
+```
+
+The Lean form is imperative, because it is a Lean program.
+
+```lean
+import Lake
+open Lake DSL
+
+package hello
+
+require "leanprover-community" / "mathlib" @ git "v4.36.0"
+```
+
+Running `lake update` resolves either form into the lockfile.
+
+## Source by default and binaries decided upstream
+
+Every dependency source is cloned into `.lake/packages` inside the project and compiled from source.
+However, building from source can take hours, so Lake also downloads prebuilt binaries in three cases.
+
+- **Reservoir builds.** Since Lean v4.13.0, Lake downloads a prebuilt archive from Reservoir for every package in the `leanprover` and `leanprover-community` scopes, such as batteries. Nobody opts in. Reservoir lists a hash for each archive, but Lake does not check it before unpacking.
+- **mathlib's cache.** `lake exe cache get` is mathlib's own tool. It downloads prebuilt `.olean` files for the locked mathlib commit. Mathlib runs it through its own `post_update` hook, so every project that depends on mathlib downloads these files on `lake update` by default.
+- **GitHub releases.** `preferReleaseBuild := true` makes Lake download a package's build archive from its GitHub release, uploaded with `lake upload`. The package's developer sets this in their own manifest.
+
+In every case the choice is made upstream, by Lake or by the package's developer, not by the downstream user.
+The user can only opt out, with `lake build --no-cache` or `MATHLIB_NO_CACHE_ON_UPDATE=1`.
 
 ## Conflicting versions
 
@@ -108,7 +147,7 @@ Here is what `lake build` does in each case.
 
 Dependencies only move when you run `lake update`.
 
-## A flat lockfile
+## The lockfile is flat
 
 The lockfile lists every package in the workspace in one array.
 Direct (the declared) dependencies are listed with `"inherited": false` while
@@ -136,34 +175,20 @@ post_update pkg do
 
 `lake update` runs the hooks of every package in the workspace, not only the root, and nothing is sandboxed.
 
-## Source by default, binaries on request
+## The registry indexes source but hosts binaries
 
-Lake works like npm's `node_modules`.
-Every dependency is cloned into `.lake/packages` inside the project and built from source.
-Building mathlib from source takes hours, so there are two shortcuts.
+Reservoir has no publish step and only indexes sources, but it runs a build farm and hosts the resulting binaries.
 
-- `lake exe cache get` is mathlib's own tool. It downloads prebuilt `.olean` files for the locked mathlib commit.
-- `preferReleaseBuild := true` makes Lake download a package's build archive from its GitHub release, uploaded with `lake upload`.
-
-Neither download carries a signature or build provenance.
-
-## The registry is an indexer
-
-Reservoir has no publish step.
 It crawls GitHub daily and lists every repository that meets its [inclusion criteria](https://reservoir.lean-lang.org/inclusion-criteria), which are a public non-fork repository, a lockfile at the repository root, an OSI-approved license and at least two stars.
-Packages are named `@owner/name`, so the namespace and access control are GitHub's.
-There is no trusted publishing because there is no publishing, and there is no advisory database or malware scanning.
 
-What Reservoir does add is a build farm.
-It builds each package against recent Lean toolchains and shows "builds on v4.36.0" or "fails to build" on the package page, a compatibility signal most registries lack.
-Lake enforces the same contract locally.
-`lake update` bumps the root `lean-toolchain` to the newest toolchain compatible with the direct dependencies and restarts itself through elan.
+It builds each package with the toolchain named in its own `lean-toolchain` file, and also with the latest stable and release-candidate Lean releases.
+The package page then shows "builds on Lean v4.36.0" or "fails to build", a compatibility signal most registries lack.
 
-## Dependency resolution
+## No dependency conflict resolution
 
 Lake does no dependency conflict resolution.
 It keeps one copy per package name, never compares two versions of the same package and never backtracks.
-`lake update` works in three steps, described in a doc comment in [`Lake/Load/Resolve.lean`](https://github.com/leanprover/lean4/blob/master/src/lake/Lake/Load/Resolve.lean).
+`lake update` works in three steps, described in a doc comment in [`Lake/Load/Resolve.lean`](https://github.com/leanprover/lean4/blob/611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9/src/lake/Lake/Load/Resolve.lean#L446-L470).
 
 1. Each `require` of the root is resolved to a commit and stored first, so the root's own pins always win.
 2. The lockfile of each direct dependency is read, from the **last declared to the first**. Each entry is copied into the root's lockfile as `inherited`, unless a package with that name is already there.
@@ -175,40 +200,17 @@ Later `require`s should shadow earlier ones, like later definitions in a file, a
 Take the graph from our [earlier post](dependency-resolution/index.md).
 The root requires `D1`, `D2`, `D3` and `D4` in that order, and each pulls in a different version of `Dx`.
 
-<pre class="mermaid">
-flowchart TD
-  R[Project]
-  R -->|"read 4th"| D1
-  R -->|"read 3rd"| D2
-  R -->|"read 2nd"| D3
-  R -->|"read 1st"| D4
-  D1 --> D11 --> Dx1["Dx v1.0.0"]
-  D2 --> Dx2["Dx v1.2.0"]
-  D3 --> D31 --> D311 --> Dx3["Dx v1.3.0"]
-  D4 --> Dx4["Dx v1.5.0"]
-  Dx4 -.->|"first seen, copied"| M[("lockfile pins Dx v1.5.0")]
-  classDef win fill:#d4edda,stroke:#2e7d32,stroke-width:2px
-  class Dx4,M win
-</pre>
+![Lake reads D4 first, so the lockfile pins Dx v1.5.0](lean_reservoir_assets/lake-resolution.png)
 
-<script type="module">
-  import mermaid from "https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs";
-  mermaid.initialize({ startOnLoad: true });
-</script>
-
-Lake reads `D4`'s lockfile first, finds `Dx v1.5.0` there and keeps it.
+Lake reads `D4`'s lockfile first, finds `Dx v1.5.0` there and copies it into the root lockfile.
 The copies under `D3`, `D2` and `D1` are ignored.
-Depth plays no role, because every dependency's lockfile is already flat.
+Depth plays no role here, because each direct dependency's lockfile already lists its whole subtree, and Lake copies those lockfiles before the breadth-first walk starts.
 
 | Ecosystem | Rule                                                              | `Dx`     |
 |-----------|-------------------------------------------------------------------|----------|
 | Maven     | Nearest to the root, then first declared                          | `v1.2.0` |
 | Go        | Highest of the required minimums (MVS)                            | `v1.5.0` |
 | Lake      | Root's own pin, then the lockfile of the last declared dependency | `v1.5.0` |
-
-Lake agrees with Go here, but for a different reason.
-Go picks `v1.5.0` because it is the highest, Lake picks it because `D4` is declared last.
-Move `D4` to the top of the `require` list and Lake reads `D3`'s lockfile first and picks `v1.3.0`, the deepest copy in the tree.
 
 Because no versions are compared, conflicts are never reported during resolution.
 If `D2` was tested against `Dx v1.2.0` and uses an API that `v1.5.0` removed, `lake update` succeeds and the error appears later as a compile error inside `D2`.
@@ -221,5 +223,6 @@ Lake gets the basics right.
 It has a mandatory lockfile, pins transitive dependencies to commits and makes builds reproducible.
 Its resolution is deterministic but order sensitive and silent on conflicts, which works because the community lines up around mathlib and the Lean toolchain instead of version ranges.
 The weaker side is everything around it.
-Integrity rests on Git SHAs, dependencies run code on update, prebuilt binaries are unsigned, and Reservoir is an index over GitHub rather than a registry that owns its packages.
+Integrity rests on Git SHAs, dependencies run code on update, and prebuilt binaries arrive by default without Lake checking them.
+Reservoir indexes source on GitHub rather than owning its packages, yet it serves its own builds.
 As Lean is increasingly used to verify software, the supply chain that delivers those proofs deserves the same scrutiny as any other.
