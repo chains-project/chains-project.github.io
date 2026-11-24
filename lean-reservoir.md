@@ -20,8 +20,8 @@ This post goes through the quirks we found in Lake and Reservoir and what they m
 - **Packages are Git repositories built from source.** There is no uploaded *compiled* archive. Lake clones each dependency's repository into `.lake/packages` and builds it locally. This is similar to `node_modules`. Prebuilt binaries are opt-in.
 - **Conflicting versions.** A package can be referred to by its Git commit or by a Git reference such as a tag or branch. It can also be referred to by the `version` in its manifest. These can conflict.
 - **Mutable references and locked commits.** The manifest allows branches and tags. The lockfile still pins every dependency to a commit SHA.
-- **The lockfile is compulsory.** `lake build` only reads the lockfile. A new dependency needs a `lake update` before it builds.
 - **The commit SHA is the only integrity check.** Lake keeps no checksum of package contents.
+- **The lockfile is compulsory.** `lake build` only reads the lockfile. A new dependency needs a `lake update` before it builds.
 - **The lockfile is flat.** It says whether a dependency is direct or inherited. It does not say how deep it sits or who pulled it in.
 - **Post-install hooks exist.** Every package in the workspace can run a `post_update` hook much like npm's `postinstall`.
 - **The registry is an indexer.** Reservoir does not store packages. It indexes GitHub repositories and builds each one against recent Lean toolchains to report whether it compiles.
@@ -62,29 +62,36 @@ Nothing keeps the two in sync.
 All 123 mathlib revisions indexed by Reservoir report version `0.0.0`, while their Git tags follow Lean releases (`v4.36.0`, `v4.37.0-rc1`).
 This is probably done intentionally to ensure there is only one source of truth for the version.
 
-## Mutable references, locked commits
+## Mutable references and locked commits
 
 Requirements may point at branches and tags, both of which can be moved or force-pushed.
-Mathlib itself requires most of its own dependencies at `main` or `master`.
-What keeps this safe is the lockfile.
-Each entry in the lockfile stores the requested revision (`inputRev`) next to the commit it resolved to (`rev`).
+
+```toml
+[[require]]
+name = "mathlib"
+scope = "leanprover-community"
+rev = "v4.36.0"
+```
+
+The lockfile stores that request (`inputRev`) next to the commit it resolved to (`rev`).
+This keeps the version pinned even if the tag is moved.
 
 ```json
 {"name": "mathlib",
  "scope": "leanprover-community",
  "url": "https://github.com/leanprover-community/mathlib4",
  "inputRev": "v4.36.0",
- "rev": "66ff77cf0c4c8987...",
+ "rev": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
  "inherited": false}
 ```
 
-Watch the naming.
-`rev` in the manifest is the request, while `rev` in the lockfile is the locked commit.
+## The commit SHA is the only integrity check
 
-A moved tag changes nothing until someone runs `lake update`.
-The commit SHA is also the only integrity check.
-Lake stores no hash of the fetched sources, and there is nothing like Go's checksum database.
-On GitHub those SHAs are SHA-1, hardened against known collision attacks but weaker than the SHA-256 and SHA-512 digests that Cargo and npm record.
+Lake stores no checksum of the fetched sources, and there is nothing like Go's checksum database.
+This matters because references are mutable in the manifest.
+A tag can be moved to a different commit (`v4.36.0` can be moved to a different commit).
+If this commit is malicious, `lake update` will happily fetch it and record the new commit in the lockfile.
+Thus, compromising the Lean project.
 
 ## The lockfile is compulsory
 
@@ -108,7 +115,7 @@ Transitive entries carry `"inherited": true`, and that is all the structure ther
 ```json
 {"name": "batteries",
  "inputRev": "main",
- "rev": "1804c8a02e64fdd55b24db6de5738ffa128d1ec1",
+ "rev": "b4b25a3886a16daacaf6615c2eea7170a6e8f458",
  "inherited": true}
 ```
 
