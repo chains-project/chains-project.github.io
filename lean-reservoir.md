@@ -29,32 +29,38 @@ This post goes through the quirks we found in Lake and Reservoir and what they m
 
 ## Conflicting versions
 
-A package can declare its own version in its manifest.
+There are two ways to declare a package's version.
+
+### The `version` field in the manifest
 
 ```toml
+# foo's manifest (lakefile.toml)
 name = "foo"
 version = "1.2.0"
-```
 
-A consumer can ask Reservoir for that version, or point at a Git revision directly.
-
-```toml
-# a Reservoir version
+# consumer's manifest (lakefile.toml)
 [[require]]
 name = "foo"
 scope = "alice"
 version = "1.2.0"
-
-# a Git revision (tag, branch or commit)
-[[require]]
-name = "mathlib"
-scope = "leanprover-community"
-rev = "v4.36.0"
 ```
 
-The ecosystem uses the second form.
-All 123 mathlib revisions indexed by Reservoir report version `0.0.0`.
-The real version is the Git tag, and mathlib's tags follow Lean releases (`v4.36.0`, `v4.37.0-rc1`).
+### A Git revision
+
+```toml
+# foo's GitHub repository
+# release tagged v1.2.0
+
+# consumer's manifest (lakefile.toml)
+[[require]]
+name = "foo"
+scope = "alice"
+rev = "v1.2.0"  # a tag, branch or commit
+```
+
+Nothing keeps the two in sync.
+All 123 mathlib revisions indexed by Reservoir report version `0.0.0`, while their Git tags follow Lean releases (`v4.36.0`, `v4.37.0-rc1`).
+This is probably done intentionally to ensure there is only one source of truth for the version.
 
 ## Mutable references, locked commits
 
