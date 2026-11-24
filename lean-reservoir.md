@@ -24,7 +24,7 @@ This post goes through the quirks we found in Lake and Reservoir and what they m
 - **The commit SHA is the only integrity check.** Lake keeps no checksum of package contents.
 - **The lockfile is flat.** It says whether a dependency is direct or inherited. It does not say how deep it sits or who pulled it in.
 - **Post-install hooks exist.** Every package in the workspace can run a `post_update` hook much like npm's `postinstall`.
-- **The registry builds what it lists.** Reservoir crawls GitHub instead of accepting uploads. It builds each package against recent Lean toolchains and reports whether it compiles.
+- **The registry is an indexer.** Reservoir does not store packages. It indexes GitHub repositories and builds each one against recent Lean toolchains to report whether it compiles.
 - **No dependency conflict resolution.** Two dependencies can depend on different versions of the same package. Lake has no way to resolve a version that works for both. A conflict is only reported as a compile error when it breaks an API.
 
 ## Conflicting versions
@@ -134,7 +134,7 @@ Building mathlib from source takes hours, so there are two shortcuts.
 
 Neither download carries a signature or build provenance.
 
-## The registry builds what it lists
+## The registry is an indexer
 
 Reservoir has no publish step.
 It crawls GitHub daily and lists every repository that meets its [inclusion criteria](https://reservoir.lean-lang.org/inclusion-criteria), which are a public non-fork repository, a lockfile at the repository root, an OSI-approved license and at least two stars.
