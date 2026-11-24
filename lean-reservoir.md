@@ -16,16 +16,16 @@ This post goes through the quirks we found in Lake and Reservoir and what they m
 
 ## TL;DR
 
-- **The manifest is `lakefile.toml` and the lockfile is `lake-manifest.json`.** The manifest can be declarative because TOML is a declarative configuration language. It can also be imperative when written as a Lean program in `lakefile.lean`.
-- **Source by default and binaries decided upstream.** Packages are Git repositories. Lake clones each one into `.lake/packages` and builds it locally. This is similar to `node_modules`. Some packages still arrive as prebuilt binaries. Their developer or Lake decides this and not the downstream user.
-- **Conflicting versions.** A package can be referred to by its Git commit or by a Git reference such as a tag or branch. It can also be referred to by the `version` in its manifest. These can conflict.
-- **Mutable references and locked commits.** The manifest allows branches and tags. The lockfile still pins every dependency to a commit SHA.
-- **The commit SHA is the only integrity check.** Lake keeps no checksum of package contents.
-- **The lockfile is compulsory.** `lake build` only reads the lockfile. A new dependency needs a `lake update` before it builds.
-- **The lockfile is flat.** It says whether a dependency is direct or inherited. It does not say how deep it sits or who pulled it in.
-- **Post-install hooks exist.** Every package in the workspace can run a `post_update` hook much like npm's `postinstall`.
-- **The registry indexes source but hosts binaries.** Reservoir does not store source code. It indexes GitHub repositories and builds each one with its own toolchain and the latest Lean releases. It keeps those builds and serves them as prebuilt binaries.
-- **No dependency conflict resolution.** Two dependencies can depend on different versions of the same package. Lake has no way to resolve a version that works for both. A conflict is only reported as a compile error when it breaks an API.
+1. **[The manifest is `lakefile.toml` and the lockfile is `lake-manifest.json`](#the-manifest-is-lakefiletoml-and-the-lockfile-is-lake-manifestjson).** The manifest can be declarative because TOML is a declarative configuration language. It can also be imperative when written as a Lean program in `lakefile.lean`.
+2. **[Source by default and binaries decided upstream](#source-by-default-and-binaries-decided-upstream).** Packages are Git repositories. Lake clones each one into `.lake/packages` and builds it locally. This is similar to `node_modules`. Some packages still arrive as prebuilt binaries. Their developer or Lake decides this and not the downstream user.
+3. **[Conflicting versions](#conflicting-versions).** A package can be referred to by its Git commit or by a Git reference such as a tag or branch. It can also be referred to by the `version` in its manifest. These can conflict.
+4. **[Mutable references and locked commits](#mutable-references-and-locked-commits).** The manifest allows branches and tags. The lockfile still pins every dependency to a commit SHA.
+5. **[The commit SHA is the only integrity check](#the-commit-sha-is-the-only-integrity-check).** Lake keeps no checksum of package contents.
+6. **[The lockfile is compulsory](#the-lockfile-is-compulsory).** `lake build` only reads the lockfile. A new dependency needs a `lake update` before it builds.
+7. **[The lockfile is flat](#the-lockfile-is-flat).** It says whether a dependency is direct or inherited. It does not say how deep it sits or who pulled it in.
+8. **[Post-install hooks exist](#post-install-hooks-exist).** Every package in the workspace can run a `post_update` hook much like npm's `postinstall`.
+9. **[The registry indexes source but hosts binaries](#the-registry-indexes-source-but-hosts-binaries).** Reservoir does not store source code. It indexes GitHub repositories and builds each one with its own toolchain and the latest Lean releases. It keeps those builds and serves them as prebuilt binaries.
+10. **[No dependency conflict resolution](#no-dependency-conflict-resolution).** Two dependencies can depend on different versions of the same package. Lake has no way to resolve a version that works for both. A conflict is only reported as a compile error when it breaks an API.
 
 ## The manifest is `lakefile.toml` and the lockfile is `lake-manifest.json`
 
