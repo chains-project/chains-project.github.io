@@ -99,7 +99,7 @@ See [https://github.com/chains-project/](https://github.com/orgs/chains-project/
 
 ## Posts
 
-- [A Look at Lean's Package Manager Lake and Registry Reservoir](lean-reservoir.md)
+- [A Look at Lean's Package Manager (Lake) and Registry (Reservoir)](lean-reservoir.md)
 - [JIT Tuning at Runtime using LLM Agent](llm-jit-agent/index.md)
 - [The Dependency Your Build Downloads That No Maven Tool Will Show You](maven-hermetic-builds-blind-spot.md)
 - [Avoiding stale dependency declarations via Claude's hook](ai-bump.md)
