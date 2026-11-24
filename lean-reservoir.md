@@ -20,18 +20,18 @@ As Lean is increasingly used to verify software, the supply chain that delivers 
 **Pros**
 
 - The lockfile pins every direct and transitive dependency to a commit SHA ([§4](#4-mutable-references-and-locked-commits)).
-- `lake build` only reads the lockfile. Dependencies only move on `lake update` ([§6](#6-the-lockfile-is-compulsory)).
+- Compilation only respects the lockfile and its pinned commit SHAs ([§6](#6-the-lockfile-is-compulsory)).
 - Resolution is deterministic ([§10](#10-no-dependency-conflict-resolution)).
 - Reservoir builds every package with its own toolchain and the latest Lean releases. It shows whether each one compiles ([§9](#9-the-registry-indexes-source-but-hosts-binaries)).
 
 **Cons**
 
-- Manifests written in Lean are imperative and run arbitrary code on your machine ([§1](#1-the-manifest-is-lakefiletoml-and-the-lockfile-is-lake-manifestjson)).
+- Manifests written in Lean are imperative and can run arbitrary code on your machine ([§1](#1-the-manifest-is-lakefiletoml-and-the-lockfile-is-lake-manifestjson)).
 - Packages are distributed as source yet prebuilt binaries arrive by default for some of them. Lake or the package developer decides this and not the user. Lake does not verify the binaries it downloads ([§2](#2-source-by-default-and-binaries-decided-upstream)).
 - A package can be referred to by a Git commit or a Git reference or the `version` in its manifest. These can conflict ([§3](#3-conflicting-versions)).
-- The commit SHA is the only integrity check. A moved tag goes unnoticed on the next `lake update` ([§5](#5-the-commit-sha-is-the-only-integrity-check)).
+- The commit SHA is the only integrity check. There is no checksum of the package contents ([§5](#5-the-commit-sha-is-the-only-integrity-check)).
 - The lockfile is flat. It does not show how deep a dependency sits or who pulled it in ([§7](#7-the-lockfile-is-flat)).
-- `post_update` hooks run arbitrary code on every `lake update`. This includes the hooks of every dependency ([§8](#8-post-install-hooks-exist)).
+- Post-install hooks run arbitrary code on every dependency update. This includes the hooks of every dependency ([§8](#8-post-install-hooks-exist)).
 - Two dependencies can depend on different versions of the same package. Lake has no way to resolve a version that works for both. A conflict only shows up as a compile error when it breaks an API ([§10](#10-no-dependency-conflict-resolution)).
 
 ## 1. The manifest is `lakefile.toml` and the lockfile is `lake-manifest.json`
