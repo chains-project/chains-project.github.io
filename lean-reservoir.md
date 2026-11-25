@@ -223,3 +223,7 @@ Depth plays no role here, because each direct dependency's lockfile already list
 Because no versions are compared, conflicts are never reported during resolution.
 If `D2` was tested against `Dx v1.2.0` and uses an API that `v1.5.0` removed, `lake update` succeeds and the error appears later as a compile error inside `D2`.
 Adding a direct `require` for `Dx` in the root avoids this, since the root's pins always win.
+
+## Related work
+
+- Andrew Nesbitt, [GitHub Actions Has a Package Manager, and It Might Be the Worst](https://nesbitt.io/2025/12/06/github-actions-package-manager.html), 2025.
