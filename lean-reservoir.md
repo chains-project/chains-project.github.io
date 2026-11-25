@@ -21,7 +21,6 @@ As Lean is increasingly used to verify software, the supply chain that delivers 
 
 - The lockfile pins every direct and transitive dependency to a commit SHA ([§4](#4-mutable-references-and-locked-commits)).
 - Compilation only respects the lockfile and its pinned commit SHAs ([§6](#6-the-lockfile-is-compulsory)).
-- Resolution is deterministic ([§10](#10-no-dependency-conflict-resolution)).
 - Reservoir builds every package with its own toolchain and the latest Lean releases. It shows whether each one compiles ([§9](#9-the-registry-indexes-source-but-hosts-binaries)).
 
 **Cons**
@@ -29,6 +28,7 @@ As Lean is increasingly used to verify software, the supply chain that delivers 
 - Manifests written in Lean are imperative and can run arbitrary code on your machine ([§1](#1-the-manifest-is-lakefiletoml-and-the-lockfile-is-lake-manifestjson)).
 - Packages are distributed as source yet prebuilt binaries arrive by default for some of them. Lake or the package developer decides this and not the user. Lake does not verify the binaries it downloads ([§2](#2-source-by-default-and-binaries-decided-upstream)).
 - A package can be referred to by a Git commit or a Git reference or the `version` in its manifest. These can conflict ([§3](#3-conflicting-versions)).
+- Resolving the same manifest on a different day can pin different commits. Version ranges take the newest match on Reservoir. Branches and tags take whatever commit they point to in Git ([§3](#3-conflicting-versions) and [§4](#4-mutable-references-and-locked-commits)).
 - The commit SHA is the only integrity check. There is no checksum of the package contents ([§5](#5-the-commit-sha-is-the-only-integrity-check)).
 - The lockfile is flat. It does not show how deep a dependency sits or who pulled it in ([§7](#7-the-lockfile-is-flat)).
 - Post-install hooks run arbitrary code on every dependency update. This includes the hooks of every dependency ([§8](#8-post-install-hooks-exist)).
@@ -90,6 +90,9 @@ name = "foo"
 scope = "alice"
 version = "1.2.0"
 ```
+
+The `version` in a `require` can also be a range such as `>=1.0.0`.
+`lake update` then fetches the package's versions from Reservoir and takes the first one that matches.
 
 ### A Git revision
 
