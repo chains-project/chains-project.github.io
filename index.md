@@ -56,6 +56,7 @@ To get notified about project news, subscribe to the [Chains mailing list](https
   - [Canonicalization for Unreproducible Builds in Java](https://ieeexplore.ieee.org/abstract/document/11223991/), IEEE Transactions on Software Engineering,
   - [Automatically Analyzing Reproducibility Issues in Java Maven](http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-376049), Master's thesis Christian Stjernberg (2026)
   - [Automatic Vulnerability Fixes for Securing GitHub Actions](http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-390841), Master's thesis Quang Minh Nguyen (2026)
+  - [Automated Validation of Software Bills of Materials for Go Binaries Through Binary Analysis](http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-392893) Master thesis Oscar Bergström (2026)
     
 2025.
   - [Implementing in-toto SBOM Attestations in an Enterprise Context](http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-363613), Master's thesis Christofer Vikström, 2025.
